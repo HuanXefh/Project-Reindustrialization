@@ -1,0 +1,78 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: Router
+  category: distribution
+  requirements: [
+    loveclab-item0bio-timber/25
+    loveclab-item0chem-copper/15
+  ]
+  buildCostMultiplier: 6.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: dis0conv-primitive-conveyor
+    objectives: []
+  }
+  researchCostMultiplier: 0.1
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 40.0
+  armor: 0.0
+  size: 1
+  hasItems: true
+  itemCapacity: 0
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 16
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: true
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  capacity: 2
+  speed: 13.0
+  displayedSpeed: 9.0

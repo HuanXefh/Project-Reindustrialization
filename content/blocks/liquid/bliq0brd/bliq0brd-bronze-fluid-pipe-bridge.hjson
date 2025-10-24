@@ -1,0 +1,86 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: LiquidBridge
+  category: liquid
+  requirements: [
+    loveclab-item0chem-lead/20
+    loveclab-item0chem-graphite/10
+    loveclab-item0chem-tin-bronze/15
+  ]
+  buildCostMultiplier: 5.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: bliq0cond-wooden-liquid-pipe
+    objectives: []
+  }
+  researchCostMultiplier: 0.15
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 40.0
+  armor: 0.0
+  size: 1
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: true
+  liquidCapacity: 15.0
+  hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 20
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  fadeIn: false
+  moveArrows: true
+  pulse: false
+  arrowSpacing: 6.0
+  arrowOffset: 2.0
+  arrowPeriod: 0.4
+  arrowTimeScl: 6.0
+  bridgeWidth: 8.0
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  transportTime: 5.0
+  range: 9

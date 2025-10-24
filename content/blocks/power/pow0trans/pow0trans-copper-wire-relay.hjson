@@ -1,0 +1,90 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: BeamNode
+  category: power
+  requirements: [
+    loveclab-item0chem-copper/20
+    loveclab-item0chem-lead/15
+  ]
+  buildCostMultiplier: 3.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: pow0trans-copper-cable
+    objectives: []
+  }
+  researchCostMultiplier: 0.15
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 40.0
+  armor: 0.0
+  size: 1
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 20
+  fogRadius: 1
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  laserWidth: 1.0
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  range: 12
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  consumes: {
+    power: 0.41666667
+  }

@@ -1,0 +1,47 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  alwaysUnlocked: true
+  research: {
+    parent: loveclab-eff0core-ash
+    objectives: []
+  }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  planet: loveclab-pla0ter-anthimyst
+  sector: 0
+  difficulty: 1
+
+
+/*
+  ========================================
+  Section: Gameplay
+  ========================================
+*/
+
+
+  captureWave: 2
+  overrideLaunchDefaults: true
+  allowLaunchSchematics: true
+  allowLaunchLoadout: false
+
+
+/*
+  ========================================
+  Section: Gameplay (First)
+  ========================================
+*/
+
+
+  addStartingItems: true

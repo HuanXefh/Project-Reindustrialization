@@ -1,0 +1,86 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: ItemBridge
+  category: distribution
+  requirements: [
+    loveclab-item0chem-copper/15
+    loveclab-item0chem-lead/15
+    loveclab-item0chem-graphite/5
+  ]
+  buildCostMultiplier: 5.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: dis0conv-primitive-conveyor
+    objectives: []
+  }
+  researchCostMultiplier: 0.25
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 1
+  hasItems: true
+  itemCapacity: 10
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 16
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  fadeIn: false
+  moveArrows: true
+  pulse: false
+  arrowSpacing: 6.0
+  arrowOffset: 2.0
+  arrowPeriod: 0.4
+  arrowTimeScl: 6.0
+  bridgeWidth: 8.0
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  transportTime: 5.0
+  range: 9

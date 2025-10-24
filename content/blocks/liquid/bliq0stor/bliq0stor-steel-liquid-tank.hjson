@@ -1,0 +1,68 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: LiquidRouter
+  category: liquid
+  requirements: [
+    loveclab-item0chem-graphite/30
+    loveclab-item0chem-tin-bronze/30
+    loveclab-item0chem-steel/20
+  ]
+  buildCostMultiplier: 3.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: bliq0stor-bronze-liquid-router
+    objectives: []
+  }
+  researchCostMultiplier: 0.4
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 2
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: true
+  liquidCapacity: 1200.0
+  hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 16
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  liquidPadding: 1.5

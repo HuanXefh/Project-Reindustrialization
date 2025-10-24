@@ -1,0 +1,103 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: Drill
+  category: production
+  requirements: [
+    loveclab-item0chem-lead/35
+    loveclab-item0chem-graphite/15
+    loveclab-item0chem-tin-bronze/25
+  ]
+  buildCostMultiplier: 5.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: min0drl-progress-class-drill
+    objectives: []
+  }
+  researchCostMultiplier: 0.2
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 50.0
+  armor: 6.0
+  size: 2
+  hasItems: true
+  itemCapacity: 5
+  hasLiquids: true
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 1
+  envDisabled: 22
+  fogRadius: 4
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  ambientSound: se-amb-drill
+  ambientSoundVolume: 0.2
+  drawRim: false
+  rotateSpeed: 6.0
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  tier: 0
+  hardnessDrillMultiplier: 50.0
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  drillTime: 600.0
+  liquidBoostIntensity: 1.22474487
+  consumes: {
+    power: 0.33333333
+    liquid: {
+      liquid: loveclab-liq0ore-water
+      amount: 0.025
+      optional: true
+      booster: true
+    }
+  }

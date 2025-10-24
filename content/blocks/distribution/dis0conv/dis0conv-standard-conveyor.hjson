@@ -1,0 +1,68 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: ArmoredConveyor
+  category: distribution
+  requirements: [
+    loveclab-item0bio-timber/2
+    loveclab-item0chem-brass/1
+    loveclab-item0chem-steel/1
+  ]
+  buildCostMultiplier: 4.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: dis0conv-primitive-conveyor
+    objectives: []
+  }
+  buildCostMultiplier: 5.0
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 50.0
+  armor: 6.0
+  size: 1
+  hasItems: true
+  itemCapacity: 3
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 1
+  envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  speed: 0.067
+  displayedSpeed: 9.0

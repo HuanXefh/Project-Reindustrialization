@@ -1,0 +1,75 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: StorageBlock
+  category: effect
+  requirements: [
+    loveclab-item0bio-timber/50
+  ]
+  buildCostMultiplier: 5.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: dis0conv-primitive-conveyor
+    objectives: []
+  }
+  researchCostMultiplier: 0.1
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 40.0
+  armor: 0.0
+  size: 2
+  hasItems: true
+  itemCapacity: 150
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: true
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  coreMerge: false

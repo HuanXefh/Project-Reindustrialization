@@ -1,0 +1,57 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: LiquidJunction
+  category: liquid
+  requirements: [
+    loveclab-item0chem-lead/30
+    loveclab-item0chem-graphite/15
+    loveclab-item0chem-tin-bronze/15
+  ]
+  buildCostMultiplier: 5.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: bliq0cond-wooden-liquid-pipe
+    objectives: []
+  }
+  researchCostMultiplier: 0.25
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 40.0
+  armor: 0.0
+  size: 1
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: true
+  liquidCapacity: 5.0
+  hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 18

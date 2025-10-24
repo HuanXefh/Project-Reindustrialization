@@ -1,0 +1,129 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: AttributeCrafter
+  category: production
+  requirements: [
+    loveclab-item0bio-timber/20
+    loveclab-item0chem-copper/30
+    loveclab-item0chem-graphite/20
+  ]
+  buildCostMultiplier: 6.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: min0harv-lumberjack
+    objectives: []
+  }
+  researchCostMultiplier: 0.3
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 50.0
+  armor: 6.0
+  size: 2
+  hasItems: true
+  itemCapacity: 10
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 16
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawRegion
+      }
+
+
+      {
+        type: DrawFlame
+        flameColor: ffc999
+        flameRadius: 0.0
+        flameRadiusIn: 0.0
+        flameRadiusScl: 0.0
+        flameRadiusMag: 0.0
+        flameRadiusInMag: 0.0
+        lightRadius: 16.0
+        lightAlpha: 0.65
+        lightSinScl: 16.0
+        lightSinMag: 6.0
+      }
+
+
+      {
+        type: DrawSideRegion
+      }
+
+
+    ]
+  }
+  ambientSound: none
+  ambientSoundVolume: 0.2
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  rotate: true
+  ignoreLiquidFullness: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  attribute: lovec-attr0blk-fungi
+  craftTime: 750.0
+  consumes: {
+    power: 0.33333333
+  }
+  outputItems: [
+    loveclab-item0bio-hypha-rod/1
+  ]

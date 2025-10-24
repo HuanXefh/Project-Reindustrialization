@@ -1,0 +1,101 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: Drill
+  category: production
+  requirements: [
+    loveclab-item0chem-copper/150
+    loveclab-item0chem-lead/100
+  ]
+  buildCostMultiplier: 5.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  alwaysUnlocked: true
+  research: {
+    parent: loveclab-eff0core-ash
+    objectives: []
+  }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 3
+  hasItems: true
+  itemCapacity: 10
+  hasLiquids: true
+  liquidCapacity: 5.0
+  hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 1
+  envDisabled: 22
+  fogRadius: 4
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  ambientSound: se-amb-drill
+  ambientSoundVolume: 0.2
+  drawRim: false
+  rotateSpeed: 3.0
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  tier: 6
+  hardnessDrillMultiplier: 25.0
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  drillTime: 720.0
+  liquidBoostIntensity: 1.29099445
+  consumes: {
+    liquid: {
+      liquid: loveclab-liq0ore-water
+      amount: 0.05
+      optional: true
+      booster: true
+    }
+  }

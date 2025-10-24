@@ -1,0 +1,169 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: ThermalGenerator
+  category: power
+  requirements: [
+    loveclab-item0bio-timber/80
+    loveclab-item0chem-lead/60
+    loveclab-item0chem-graphite/30
+    loveclab-item0chem-tin-bronze/40
+    loveclab-item0ore-magnetite/60
+  ]
+  buildCostMultiplier: 2.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: pow0gen-vent-generator
+    objectives: []
+  }
+  researchCostMultiplier: 0.2
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 3
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: true
+  liquidCapacity: 90.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 20
+  fogRadius: 5
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawRegion
+        suffix: "-bottom"
+      }
+
+
+      {
+        type: DrawParticles
+        color: cce4ff
+        alpha: 0.2
+        particles: 12
+        particleLife: 45.0
+        particleRad: 6.0
+        particleSize: 0.1
+        rotateScl: 8.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawRegion
+        suffix: "-rotator"
+        spinSprite: true
+        rotateSpeed: 11.0
+      }
+
+
+      {
+        type: DrawLiquidTile
+        drawLiquid: loveclab-gas0misc-steam
+        padding: 1.25
+      }
+
+
+      {
+        type: DrawDefault
+      }
+
+
+      {
+        type: DrawGlowRegion
+        color: ffffff
+        suffix: "-glow"
+        alpha: 0.6
+        glowScale: 5.0
+        glowIntensity: 0.6
+      }
+
+
+    ]
+  }
+  ambientSound: se-amb-turbine
+  ambientSoundVolume: 0.3
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  group: liquids
+
+
+/*
+  ========================================
+  Section: Specific (Explosion)
+  ========================================
+*/
+
+
+  explosionShake: 8.0
+  explosionShakeDuration: 6.0
+  explodeSound: se-shot-explosion
+  explosionMinWarmup: 0.5
+  explosionPuddleLiquid: loveclab-liq0ore-water
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  attribute: lovec-attr0vent-steam
+  consumes: {
+    liquids: [
+      loveclab-aux0aux-pressure/0.08333333
+    ]
+  }
+  powerProduction: 10.66666667
+  outputLiquid: loveclab-gas0misc-steam/0.5

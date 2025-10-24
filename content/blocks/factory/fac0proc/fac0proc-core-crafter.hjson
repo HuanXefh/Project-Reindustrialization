@@ -1,0 +1,154 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: GenericCrafter
+  category: crafting
+  requirements: [
+    loveclab-item0chem-copper/50
+    loveclab-item0chem-lead/40
+    loveclab-item0chem-graphite/20
+  ]
+  buildCostMultiplier: 3.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: min0drl-survivor-drill
+    objectives: []
+  }
+  researchCostMultiplier: 0.05
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 2
+  hasItems: true
+  itemCapacity: 80
+  hasLiquids: true
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawRegion
+        suffix: "-bottom"
+      }
+
+
+      {
+        type: DrawParticles
+        color: eab678
+        alpha: 1.0
+        particles: 24
+        particleLife: 60.0
+        particleRad: 6.0
+        particleSize: 1.0
+        rotateScl: 4.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawParticles
+        color: bfbfbf
+        alpha: 1.0
+        particles: 36
+        particleLife: 40.0
+        particleRad: 6.5
+        particleSize: 0.5
+        rotateScl: 2.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawWeave
+      }
+
+
+      {
+        type: DrawDefault
+      }
+
+
+      {
+        type: DrawFade
+        suffix: "-fade"
+      }
+
+
+      {
+        type: DrawGlowRegion
+        color: ff3838
+        suffix: "-glow"
+      }
+
+
+    ]
+  }
+  ambientSound: se-amb-hum-computer
+  ambientSoundVolume: 0.2
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  ignoreLiquidFullness: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  craftTime: 600.0
+  consumes: {
+    power: 1.33333333
+  }

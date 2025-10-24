@@ -1,0 +1,105 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: BurstDrill
+  category: production
+  requirements: [
+    loveclab-item0bio-timber/40
+    loveclab-item0chem-lead/65
+    loveclab-item0chem-graphite/30
+    loveclab-item0chem-brass/40
+    loveclab-item0chem-leaded-tin-bronze/30
+  ]
+  buildCostMultiplier: 3.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: min0drl-progress-class-drill
+    objectives: []
+  }
+  researchCostMultiplier: 0.35
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 2
+  hasItems: true
+  itemCapacity: 30
+  hasLiquids: true
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 1
+  envDisabled: 22
+  fogRadius: 4
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  shake: 1.0
+  invertedTime: 90.0
+  arrowSpacing: 1.5
+  arrowOffset: 0.0
+  arrows: 4
+  drillSound: se-craft-impact-drill
+  drillSoundVolume: 0.5
+  drillSoundPitchRand: 0.1
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  tier: 8
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  drillTime: 192.0
+  liquidBoostIntensity: 1.0
+  consumes: {
+    power: 1.25
+    liquids: [
+      loveclab-liq0ore-water/0.25
+    ]
+  }

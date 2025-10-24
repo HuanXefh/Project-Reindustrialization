@@ -1,0 +1,92 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: DirectionalUnloader
+  category: distribution
+  requirements: [
+    loveclab-item0bio-timber/65
+    loveclab-item0chem-graphite/40
+    loveclab-item0buil-glass/30
+    loveclab-item0chem-brass/40
+    loveclab-item0chem-steel/40
+  ]
+  buildCostMultiplier: 1.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: dis0aux-primitive-directional-unloader
+    objectives: []
+  }
+  researchCostMultiplier: 0.4
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 1
+  hasItems: true
+  itemCapacity: 0
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 16
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  speed: 5.0
+  allowCoreUnload: true
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  consumes: {
+    power: 1.5
+  }

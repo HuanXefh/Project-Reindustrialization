@@ -1,0 +1,154 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: GenericCrafter
+  category: crafting
+  requirements: [
+    loveclab-item0chem-copper/15
+    loveclab-item0chem-lead/10
+    loveclab-item0chem-graphite/5
+  ]
+  buildCostMultiplier: 4.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: fac0proc-core-crafter
+    objectives: []
+  }
+  researchCostMultiplier: 0.1
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 40.0
+  armor: 0.0
+  size: 1
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: true
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 129
+  envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawRegion
+        suffix: "-bottom"
+      }
+
+
+      {
+        type: DrawLiquidTile
+        drawLiquid: loveclab-gas0misc-air
+        padding: 1.25
+      }
+
+
+      {
+        type: DrawParticles
+        color: eff8fb
+        alpha: 0.3
+        particles: 6
+        particleLife: 60.0
+        particleRad: 4.0
+        particleSize: 0.75
+        rotateScl: 4.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawRegion
+        suffix: "-rotator"
+        spinSprite: true
+        rotateSpeed: 4.0
+      }
+
+
+      {
+        type: DrawDefault
+      }
+
+
+      {
+        type: DrawParticles
+        color: eff8fb
+        alpha: 0.6
+        particles: 3
+        particleLife: 30.0
+        particleRad: 4.0
+        particleSize: 1.5
+        rotateScl: 2.0
+        reverse: false
+      }
+
+
+    ]
+  }
+  ambientSound: wind
+  ambientSoundVolume: 0.1
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  ignoreLiquidFullness: true
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  craftTime: 60.0
+  consumes: {
+    power: 0.66666667
+  }
+  outputLiquids: [
+    loveclab-gas0misc-air/0.1
+  ]

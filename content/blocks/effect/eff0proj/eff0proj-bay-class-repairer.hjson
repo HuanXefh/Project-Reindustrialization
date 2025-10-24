@@ -1,0 +1,104 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: MendProjector
+  category: effect
+  requirements: [
+    loveclab-item0bio-timber/50
+    loveclab-item0chem-brass/40
+    loveclab-item0chem-tin-bronze/25
+    loveclab-item0chem-steel/10
+  ]
+  buildCostMultiplier: 4.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: eff0proj-local-repairer
+    objectives: []
+  }
+  researchCostMultiplier: 0.2
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 3
+  hasItems: true
+  itemCapacity: 10
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 18
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  baseColor: 84f491
+  phaseColor: 84f491
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  range: 104.0
+  reload: 120.0
+  healPercent: 1.25
+  phaseBoost: 6.25
+  phaseRangeBoost: 0.0
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  useTime: 240.0
+  consumes: {
+    power: 1.83333333
+    items: {
+      items: [
+        loveclab-item0chem-solder/1
+      ]
+      optional: true
+      booster: true
+    }
+  }

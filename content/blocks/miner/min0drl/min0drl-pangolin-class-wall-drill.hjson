@@ -1,0 +1,104 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: BeamDrill
+  category: production
+  requirements: [
+    loveclab-item0chem-copper/40
+    loveclab-item0chem-lead/20
+  ]
+  buildCostMultiplier: 4.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: min0drl-progress-class-drill
+    objectives: []
+  }
+  researchCostMultiplier: 0.1
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 40.0
+  armor: 0.0
+  size: 2
+  hasItems: true
+  itemCapacity: 10
+  hasLiquids: true
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 1
+  envDisabled: 22
+  fogRadius: 4
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  laserWidth: 0.0
+  glowColor: 8ca9e8
+  sparkColor: 8ca9e8
+  heatColor: 8ca9e8
+  boostHeatColor: 8ca9e8
+  ambientSound: se-amb-drill
+  ambientSoundVolume: 0.3
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  tier: 4
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  drillTime: 300.0
+  optionalBoostIntensity: 1.875
+  consumes: {
+    power: 0.5
+    liquid: {
+      liquid: loveclab-liq0ore-water
+      amount: 0.075
+      optional: true
+      booster: true
+    }
+  }

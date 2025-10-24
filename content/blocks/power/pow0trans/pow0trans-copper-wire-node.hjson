@@ -1,0 +1,93 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: PowerNode
+  category: power
+  requirements: [
+    loveclab-item0chem-lead/30
+    loveclab-item0chem-brass/15
+    loveclab-item0chem-tin-bronze/25
+  ]
+  buildCostMultiplier: 3.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: pow0trans-copper-wire-relay
+    objectives: []
+  }
+  researchCostMultiplier: 0.3
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 40.0
+  armor: 0.0
+  size: 1
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 20
+  fogRadius: 1
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawRange: true
+  laserScale: 1.0
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  laserRange: 12
+  maxNodes: 5
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  consumes: {
+    power: 0.66666667
+  }

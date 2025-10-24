@@ -1,0 +1,25 @@
+name: projreind
+displayName: Project Reindustrialization
+subtitle: "V101: Another Origin"
+
+
+author: MaboroshiX
+repo: HuanXefh/Project-Reindustrialization
+minGameVersion: 151
+dependencies: [
+  lovec
+  loveclab
+]
+softDependencies: []
+
+
+description:
+'''
+OBJECT: Retrieve the forgotten technology.
+
+A mod inspired by Greg's Tech that makes manufacturing realistic and even harder.
+Part of Lovecraftian series, you will need Lovecraftian Library and Lovecraftian Laboratory to load the mod correctly.
+Warning: recipe hell ahead!
+'''
+
+version: 100.25102401

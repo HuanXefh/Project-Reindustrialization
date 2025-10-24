@@ -1,0 +1,78 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: Conduit
+  category: liquid
+  requirements: [
+    loveclab-item0chem-tin-bronze/2
+  ]
+  buildCostMultiplier: 5.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: bliq0cond-wooden-liquid-pipe
+    objectives: []
+  }
+  researchCostMultiplier: 1.75
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 50.0
+  armor: 6.0
+  size: 1
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: true
+  liquidCapacity: 15.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 20
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  botColor: 916a59
+  padCorners: true
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  leaks: true
+  junctionReplacement: bliq0aux-fluid-junction
+  bridgeReplacement: bliq0brd-bronze-fluid-pipe-bridge

@@ -1,0 +1,177 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: GenericCrafter
+  category: crafting
+  requirements: [
+    loveclab-item0chem-copper/40
+    loveclab-item0chem-lead/20
+    loveclab-item0chem-graphite/10
+    loveclab-item0chem-brass/10
+  ]
+  buildCostMultiplier: 3.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: min0harv-lumberjack
+    objectives: []
+  }
+  researchCostMultiplier: 0.25
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 4
+  hasItems: true
+  itemCapacity: 80
+  hasLiquids: true
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 1
+  envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawRegion
+        suffix: "-bottom"
+      }
+
+
+      {
+        type: DrawParticles
+        color: eff8fb
+        alpha: 0.3
+        particles: 48
+        particleLife: 30.0
+        particleRad: 13.0
+        particleSize: 2.0
+        rotateScl: 8.0
+        reverse: false
+      }
+
+
+      {
+        type: DrawRegion
+        suffix: "-rotator"
+        spinSprite: true
+        rotateSpeed: 6.0
+        rotation: 45.0
+      }
+
+
+      {
+        type: DrawParticles
+        color: dccdb1
+        alpha: 1.0
+        particles: 24
+        particleLife: 60.0
+        particleRad: 13.0
+        particleSize: 2.0
+        rotateScl: 4.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawParticles
+        color: eff8fb
+        alpha: 0.3
+        particles: 48
+        particleLife: 30.0
+        particleRad: 13.0
+        particleSize: 2.0
+        rotateScl: 8.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawDefault
+      }
+
+
+      {
+        type: DrawGlowRegion
+        color: ff3838
+        suffix: "-glow"
+      }
+
+
+    ]
+  }
+  ambientSound: se-amb-saw
+  ambientSoundVolume: 0.3
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  ignoreLiquidFullness: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  craftTime: 600.0
+  consumes: {
+    power: 1.66666667
+    items: [
+      loveclab-item0bio-log/15
+    ]
+    liquids: [
+      loveclab-gas0int-air-clean/0.2
+      loveclab-aux0aux-dust-recycling/0.03333333
+    ]
+  }
+  outputItems: [
+    loveclab-item0bio-timber/10
+    loveclab-item0bio-sawdust/5
+  ]

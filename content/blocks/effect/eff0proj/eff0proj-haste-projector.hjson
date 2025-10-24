@@ -1,0 +1,93 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: Block
+  category: effect
+  requirements: [
+    loveclab-item0bio-timber/60
+    loveclab-item0chem-graphite/40
+    loveclab-item0chem-brass/60
+    loveclab-item0chem-steel/25
+  ]
+  buildCostMultiplier: 4.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: eff0proj-bay-class-repairer
+    objectives: []
+  }
+  researchCostMultiplier: 0.3
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 2
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: true
+  liquidCapacity: 5.0
+  hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 20
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  baseColor: ffd37f
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  range: 400.0
+  reload: 720.0
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  useTime: 300.0
+  consumes: {
+    liquid: loveclab-liq0ore-water/0.25
+  }

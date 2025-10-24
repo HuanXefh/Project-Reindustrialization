@@ -1,0 +1,69 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: WallCrafter
+  category: production
+  requirements: [
+    loveclab-item0bio-timber/15
+    loveclab-item0chem-copper/10
+  ]
+  buildCostMultiplier: 8.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: min0harv-mycelial-harvester
+    objectives: []
+  }
+  researchCostMultiplier: 0.3
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 40.0
+  armor: 0.0
+  size: 1
+  hasItems: true
+  itemCapacity: 0
+  hasLiquids: true
+  liquidCapacity: 5.0
+  hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 1
+  envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  rotateSpeed: 0.0
+  ambientSound: none
+  ambientSoundVolume: 0.2
