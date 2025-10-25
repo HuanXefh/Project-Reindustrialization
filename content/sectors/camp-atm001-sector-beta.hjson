@@ -33,7 +33,7 @@
 
   captureWave: 2
   overrideLaunchDefaults: true
-  allowLaunchSchematics: true
+  allowLaunchSchematics: false
   allowLaunchLoadout: false
 
 

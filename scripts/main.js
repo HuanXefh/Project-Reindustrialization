@@ -6,7 +6,7 @@
 
 
   if(require("lovec/run/RUN_version").checkVersion("projreind", [
-    "lovec", 100.25102401,
+    "lovec", 100.25102501,
     "loveclab", 100.25102401,
   ])) return;
 
@@ -35,6 +35,7 @@
   const CT_BLK_itemJunction = require("projreind/ct/CT_BLK_itemJunction");
   const CT_BLK_conveyorBridge = require("projreind/ct/CT_BLK_conveyorBridge");
   const CT_BLK_router = require("projreind/ct/CT_BLK_router");
+  const CT_BLK_directionalRouter = require("projreind/ct/CT_BLK_directionalRouter");
   const CT_BLK_filterGate = require("projreind/ct/CT_BLK_filterGate");
   const CT_BLK_multiFilterGate = require("projreind/ct/CT_BLK_multiFilterGate");
   const CT_BLK_overflowGate = require("projreind/ct/CT_BLK_overflowGate");
@@ -44,6 +45,7 @@
   const CT_BLK_incinerator = require("projreind/ct/CT_BLK_incinerator");
   const CT_BLK_container = require("projreind/ct/CT_BLK_container");
   const CT_BLK_lootHopper = require("projreind/ct/CT_BLK_lootHopper");
+  const CT_BLK_lootPullerHopper = require("projreind/ct/CT_BLK_lootPullerHopper");
 
 
   const CT_BLK_manualTimerPump = require("projreind/ct/CT_BLK_manualTimerPump");

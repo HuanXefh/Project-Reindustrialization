@@ -19,6 +19,7 @@ const db = {
       "base": [
 
         "projreind-dis0loot-item-hopper", 15,
+        "projreind-dis0loot-item-collector", 18,
 
       ],
 
@@ -80,6 +81,7 @@ const db = {
       "base": [
 
         "projreind-dis0loot-item-hopper", 5.0 * 60.0,
+        "projreind-dis0loot-item-collector", 3.0 * 60.0,
 
         "projreind-bliq0pump-portable-manual-pump", 3.0 * 60.0 * 60.0,
 
