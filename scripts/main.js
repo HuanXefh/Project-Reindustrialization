@@ -6,8 +6,8 @@
 
 
   if(require("lovec/run/RUN_version").checkVersion("projreind", [
-    "lovec", 100.25102501,
-    "loveclab", 100.25102401,
+    "lovec", 100.25102901,
+    "loveclab", 100.25102901,
   ])) return;
 
 
