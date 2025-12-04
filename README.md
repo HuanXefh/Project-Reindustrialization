@@ -6,4 +6,4 @@ ProjReind is the improved version of my previous mod [Reindustrialization](https
 
 ProjReind requires [Lovecraftian Library](https://github.com/HuanXefh/Lovecraftian-Library) and [Lovecraftian Laboratory](https://github.com/HuanXefh/Lovecraftian-Laboratory) to function normally. The mod is always unfinished and there's no end-game stage.
 
-If you'd like to report bugs or share some ideas, please submit issues at [Lovecraftian Library](https://github.com/HuanXefh/Lovecraftian-Library) where the majority of the scripts are written.
+If you'd like to report bugs or share some ideas, please submit issues at [Lovecraftian Library](https://github.com/HuanXefh/Lovecraftian-Library) where majority of the scripts are written.

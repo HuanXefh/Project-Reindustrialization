@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_fluidPipeBridge");
+  const TEMPLATE = require("lovec/temp/blk/BLK_fluidPipeBridge");
 
 
 /*
@@ -21,6 +21,10 @@
   /* <---------- bliq0brd ----------> */
 
 
-  const bliq0brd_bronzeFluidPipeBridge = extend(LiquidBridge, "bliq0brd-bronze-fluid-pipe-bridge", TEMPLATE._std("both", 1));
-  bliq0brd_bronzeFluidPipeBridge.buildType = () => extend(LiquidBridge.LiquidBridgeBuild, bliq0brd_bronzeFluidPipeBridge, TEMPLATE._std_b());
+  const bliq0brd_bronzeFluidPipeBridge = extendBlock(
+    TEMPLATE, "bliq0brd-bronze-fluid-pipe-bridge",
+    TEMPLATE[0].build({
+      presThr: 1.0,
+    }),
+  );
   exports.bliq0brd_bronzeFluidPipeBridge = bliq0brd_bronzeFluidPipeBridge;

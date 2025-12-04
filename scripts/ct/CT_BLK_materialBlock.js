@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_materialBlock");
+  const TEMPLATE = require("lovec/temp/blk/BLK_materialBlock");
 
 
 /*
@@ -21,21 +21,25 @@
   /* <---------- pay0mat ----------> */
 
 
-  const pay0mat_woodenBlock = extend(Wall, "pay0mat-wooden-block", TEMPLATE._std());
-  pay0mat_woodenBlock.buildType = () => extend(Wall.WallBuild, pay0mat_woodenBlock, TEMPLATE._std_b());
+  const pay0mat_woodenBlock = extendBlock(
+    TEMPLATE, "pay0mat-wooden-block",
+  );
   exports.pay0mat_woodenBlock = pay0mat_woodenBlock;
 
 
-  const pay0mat_copperBlock = extend(Wall, "pay0mat-copper-block", TEMPLATE._std());
-  pay0mat_copperBlock.buildType = () => extend(Wall.WallBuild, pay0mat_copperBlock, TEMPLATE._std_b());
+  const pay0mat_copperBlock = extendBlock(
+    TEMPLATE, "pay0mat-copper-block",
+  );
   exports.pay0mat_copperBlock = pay0mat_copperBlock;
 
 
-  const pay0mat_leadBlock = extend(Wall, "pay0mat-lead-block", TEMPLATE._std());
-  pay0mat_leadBlock.buildType = () => extend(Wall.WallBuild, pay0mat_leadBlock, TEMPLATE._std_b());
+  const pay0mat_leadBlock = extendBlock(
+    TEMPLATE, "pay0mat-lead-block",
+  );
   exports.pay0mat_leadBlock = pay0mat_leadBlock;
 
 
-  const pay0mat_rubberBlock = extend(Wall, "pay0mat-rubber-block", TEMPLATE._std());
-  pay0mat_rubberBlock.buildType = () => extend(Wall.WallBuild, pay0mat_rubberBlock, TEMPLATE._std_b());
+  const pay0mat_rubberBlock = extendBlock(
+    TEMPLATE, "pay0mat-rubber-block",
+  );
   exports.pay0mat_rubberBlock = pay0mat_rubberBlock;

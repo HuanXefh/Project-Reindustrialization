@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_cogwheel");
+  const TEMPLATE = require("lovec/temp/blk/BLK_cogwheel");
 
 
 /*
@@ -21,11 +21,13 @@
   /* <---------- pow0tor ----------> */
 
 
-  const pow0tor_brassCogwheel = extend(Wall, "pow0tor-brass-cogwheel", TEMPLATE._std());
-  pow0tor_brassCogwheel.buildType = () => extend(Wall.WallBuild, pow0tor_brassCogwheel, TEMPLATE._std_b());
+  const pow0tor_brassCogwheel = extendBlock(
+    TEMPLATE, "pow0tor-brass-cogwheel",
+  );
   exports.pow0tor_brassCogwheel = pow0tor_brassCogwheel;
 
 
-  const pow0tor_largeBrassCogwheel = extend(Wall, "pow0tor-large-brass-cogwheel", TEMPLATE._std());
-  pow0tor_largeBrassCogwheel.buildType = () => extend(Wall.WallBuild, pow0tor_largeBrassCogwheel, TEMPLATE._std_b());
+  const pow0tor_largeBrassCogwheel = extendBlock(
+    TEMPLATE, "pow0tor-large-brass-cogwheel",
+  );
   exports.pow0tor_largeBrassCogwheel = pow0tor_largeBrassCogwheel;

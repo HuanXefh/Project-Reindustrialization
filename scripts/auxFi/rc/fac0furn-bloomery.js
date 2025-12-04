@@ -1,5 +1,5 @@
 const MDL_content = require("lovec/mdl/MDL_content");
-const MDL_recipeGen = require("lovec/mdl/MDL_recipeGen");
+const TP_recipeGen = require("lovec/tp/TP_recipeGen");
 
 
 const rc = {
@@ -8,10 +8,10 @@ const rc = {
   // craftTime: 20s
 
 
-  "base": {},
+  base: {},
 
 
-  "recipe": [
+  recipe: [
 
 
     /* <---------- steelmaking ----------> */
@@ -22,22 +22,22 @@ const rc = {
 
     "STEELMAKING: wrought iron", {
 
-      "icon": "loveclab-item0chem-wrought-iron",
-      "category": "steelmaking",
-      "lockedBy": [
+      icon: "loveclab-item0chem-wrought-iron",
+      category: "steelmaking",
+      lockedBy: [
         "loveclab-item0chem-brass",
         "loveclab-item0chem-tin-bronze",
       ],
-      "tempReq": 1200.0,
+      tempReq: 1200.0,
 
-      "bi": [
+      bi: [
         [
           "loveclab-item0chem-pig-iron", 10, 1.0,
           "loveclab-item0ore-meteoric-iron", 15, 1.0,
         ], -1.0, -1.0,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-wrought-iron", 10, 1.0,
       ],
 
@@ -46,26 +46,25 @@ const rc = {
 
     "STEELMAKING: steel", {
 
-      "icon": "loveclab-item0chem-steel",
-      "category": "steelmaking",
-      "lockedBy": [
+      icon: "loveclab-item0chem-steel",
+      category: "steelmaking",
+      lockedBy: [
         "loveclab-item0chem-brass",
         "loveclab-item0chem-tin-bronze",
       ],
-      "timeScl": 3.0,
-      "tempReq": 1600.0,
+      timeScl: 3.0,
+      tempReq: 1600.0,
 
-      "bi": [
+      bi: [
         "loveclab-item0chem-wrought-iron", 30, 1.0,
       ],
-
-      "reqOpt": true,
-      "opt": [
+      reqOpt: true,
+      opt: [
         "loveclab-item0ore-limestone", 60, 0.5, 1.0,
         "loveclab-item0chem-lime", 30, 0.5, 1.5,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-steel", 30, 0.5,
         "loveclab-item0was-slag", 30, 0.5,
       ],
@@ -75,22 +74,21 @@ const rc = {
 
     "STEELMAKING: steel; FROM: scrap steel", {
 
-      "icon": "loveclab-item0was-scrap-steel",
-      "category": "steelmaking",
-      "timeScl": 3.0,
-      "tempReq": 1400.0,
+      icon: "loveclab-item0was-scrap-steel",
+      category: "steelmaking",
+      timeScl: 3.0,
+      tempReq: 1400.0,
 
-      "bi": [
+      bi: [
         "loveclab-item0was-scrap-steel", 45, 1.0,
       ],
-
-      "reqOpt": true,
-      "opt": [
+      reqOpt: true,
+      opt: [
         "loveclab-item0ore-limestone", 90, 0.5, 1.0,
         "loveclab-item0chem-lime", 45, 0.5, 1.5,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-steel", 30, 0.5,
         "loveclab-item0was-slag", 30, 0.75,
       ],
@@ -103,15 +101,15 @@ const rc = {
 
     "STEELMAKING: ferromanganese", {
 
-      "icon": "loveclab-item0chem-ferromanganese",
-      "category": "steelmaking",
-      "lockedBy": [
+      icon: "loveclab-item0chem-ferromanganese",
+      category: "steelmaking",
+      lockedBy: [
         "loveclab-item0chem-steel",
       ],
-      "timeScl": 3.0,
-      "tempReq": 1600.0,
+      timeScl: 3.0,
+      tempReq: 1600.0,
 
-      "bi": [
+      bi: [
         [
           "loveclab-item0ore-psilomelane", 30, 1.0,
           "loveclab-item0ore-pyrolusite", 30, 1.0,
@@ -128,7 +126,7 @@ const rc = {
         ], -1.0, -1.0,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-ferromanganese", 30, 0.5,
         "loveclab-item0was-slag", 45, 0.5,
       ],
@@ -138,25 +136,24 @@ const rc = {
 
     "STEELMAKING: mangalloy", {
 
-      "icon": "loveclab-item0chem-mangalloy",
-      "category": "steelmaking",
-      "lockedBy": [
+      icon: "loveclab-item0chem-mangalloy",
+      category: "steelmaking",
+      lockedBy: [
         "loveclab-item0chem-steel",
       ],
-      "timeScl": 3.0,
-      "tempReq": 1600.0,
+      timeScl: 3.0,
+      tempReq: 1600.0,
 
-      "bi": [
+      bi: [
         "loveclab-item0chem-ferromanganese", 15, 1.0,
       ],
-
-      "reqOpt": true,
-      "opt": [
+      reqOpt: true,
+      opt: [
         "loveclab-item0ore-limestone", 90, 0.5, 1.0,
         "loveclab-item0chem-lime", 45, 0.5, 1.5,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-mangalloy", 30, 0.5,
         "loveclab-item0was-slag", 30, 0.75,
       ],
@@ -169,19 +166,19 @@ const rc = {
 
     "STEELMAKING: hematite", {
 
-      "icon": "loveclab-item0ore-hematite",
-      "category": "steelmaking",
-      "lockedBy": [
+      icon: "loveclab-item0ore-hematite",
+      category: "steelmaking",
+      lockedBy: [
         "loveclab-item0chem-brass",
         "loveclab-item0chem-tin-bronze",
       ],
-      "tempReq": MDL_content._sintTemp("loveclab-item0ore-hematite"),
+      tempReq: MDL_content._sintTemp("loveclab-item0ore-hematite"),
 
-      "bi": [
+      bi: [
         "loveclab-item0ore-hematite", 20, 0.5,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-pig-iron", 20, 0.5,
         "loveclab-item0was-slag", 10, 0.5,
       ],
@@ -191,19 +188,19 @@ const rc = {
 
     "STEELMAKING: limonite", {
 
-      "icon": "loveclab-item0ore-limonite",
-      "category": "steelmaking",
-      "lockedBy": [
+      icon: "loveclab-item0ore-limonite",
+      category: "steelmaking",
+      lockedBy: [
         "loveclab-item0chem-brass",
         "loveclab-item0chem-tin-bronze",
       ],
-      "tempReq": MDL_content._sintTemp("loveclab-item0ore-limonite"),
+      tempReq: MDL_content._sintTemp("loveclab-item0ore-limonite"),
 
-      "bi": [
+      bi: [
         "loveclab-item0ore-limonite", 40, 0.5,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-pig-iron", 20, 0.5,
         "loveclab-item0was-slag", 15, 0.5,
       ],
@@ -213,19 +210,19 @@ const rc = {
 
     "STEELMAKING: magnetite", {
 
-      "icon": "loveclab-item0ore-magnetite",
-      "category": "steelmaking",
-      "lockedBy": [
+      icon: "loveclab-item0ore-magnetite",
+      category: "steelmaking",
+      lockedBy: [
         "loveclab-item0chem-brass",
         "loveclab-item0chem-tin-bronze",
       ],
-      "tempReq": MDL_content._sintTemp("loveclab-item0ore-magnetite"),
+      tempReq: MDL_content._sintTemp("loveclab-item0ore-magnetite"),
 
-      "bi": [
+      bi: [
         "loveclab-item0ore-magnetite", 20, 0.5,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-pig-iron", 20, 0.5,
         "loveclab-item0was-slag", 10, 0.5,
       ],
@@ -235,19 +232,19 @@ const rc = {
 
     "STEELMAKING: pyrite", {
 
-      "icon": "loveclab-item0ore-pyrite",
-      "category": "steelmaking",
-      "lockedBy": [
+      icon: "loveclab-item0ore-pyrite",
+      category: "steelmaking",
+      lockedBy: [
         "loveclab-item0chem-brass",
         "loveclab-item0chem-tin-bronze",
       ],
-      "tempReq": MDL_content._sintTemp("loveclab-item0ore-pyrite"),
+      tempReq: MDL_content._sintTemp("loveclab-item0ore-pyrite"),
 
-      "bi": [
+      bi: [
         "loveclab-item0ore-pyrite", 30, 0.5,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-pig-iron", 20, 0.5,
         "loveclab-item0was-slag", 15, 0.5,
       ],
@@ -263,19 +260,19 @@ const rc = {
 
     "SMELTING: crude graphite", {
 
-      "icon": "loveclab-item0ore-crude-graphite",
-      "category": "smelting",
-      "lockedBy": [
+      icon: "loveclab-item0ore-crude-graphite",
+      category: "smelting",
+      lockedBy: [
         "loveclab-item0bio-timber",
         "loveclab-item0chem-lead",
       ],
-      "tempReq": 900.0,
+      tempReq: 900.0,
 
-      "bi": [
+      bi: [
         "loveclab-item0ore-crude-graphite", 20, 0.5,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-graphite", 10, 0.5,
       ],
 
@@ -287,18 +284,18 @@ const rc = {
 
     "SMELTING: azurite", {
 
-      "icon": "loveclab-item0ore-azurite",
-      "category": "smelting",
-      "lockedBy": [
+      icon: "loveclab-item0ore-azurite",
+      category: "smelting",
+      lockedBy: [
         "loveclab-item0bio-timber",
       ],
-      "tempReq": MDL_content._sintTemp("loveclab-item0ore-azurite"),
+      tempReq: MDL_content._sintTemp("loveclab-item0ore-azurite"),
 
-      "bi": [
+      bi: [
         "loveclab-item0ore-azurite", 20, 0.5,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-copper", 15, 0.5,
       ],
 
@@ -307,18 +304,18 @@ const rc = {
 
     "SMELTING: chalcopyrite", {
 
-      "icon": "loveclab-item0ore-chalcopyrite",
-      "category": "smelting",
-      "lockedBy": [
+      icon: "loveclab-item0ore-chalcopyrite",
+      category: "smelting",
+      lockedBy: [
         "loveclab-item0bio-timber",
       ],
-      "tempReq": MDL_content._sintTemp("loveclab-item0ore-chalcopyrite"),
+      tempReq: MDL_content._sintTemp("loveclab-item0ore-chalcopyrite"),
 
-      "bi": [
+      bi: [
         "loveclab-item0ore-chalcopyrite", 20, 0.5,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-copper", 10, 0.5,
       ],
 
@@ -327,18 +324,18 @@ const rc = {
 
     "SMELTING: malachite", {
 
-      "icon": "loveclab-item0ore-malachite",
-      "category": "smelting",
-      "lockedBy": [
+      icon: "loveclab-item0ore-malachite",
+      category: "smelting",
+      lockedBy: [
         "loveclab-item0bio-timber",
       ],
-      "tempReq": MDL_content._sintTemp("loveclab-item0ore-malachite"),
+      tempReq: MDL_content._sintTemp("loveclab-item0ore-malachite"),
 
-      "bi": [
+      bi: [
         "loveclab-item0ore-malachite", 20, 0.5,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-copper", 15, 0.5,
       ],
 
@@ -347,18 +344,18 @@ const rc = {
 
     "SMELTING: native copper", {
 
-      "icon": "loveclab-item0ore-native-copper",
-      "category": "smelting",
-      "lockedBy": [
+      icon: "loveclab-item0ore-native-copper",
+      category: "smelting",
+      lockedBy: [
         "loveclab-item0bio-timber",
       ],
-      "tempReq": MDL_content._sintTemp("loveclab-item0ore-native-copper"),
+      tempReq: MDL_content._sintTemp("loveclab-item0ore-native-copper"),
 
-      "bi": [
+      bi: [
         "loveclab-item0ore-native-copper", 20, 0.5,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-copper", 20, 0.5,
       ],
 
@@ -370,18 +367,18 @@ const rc = {
 
     "SMELTING: galena", {
 
-      "icon": "loveclab-item0ore-galena",
-      "category": "smelting",
-      "lockedBy": [
+      icon: "loveclab-item0ore-galena",
+      category: "smelting",
+      lockedBy: [
         "loveclab-item0bio-timber",
       ],
-      "tempReq": MDL_content._sintTemp("loveclab-item0ore-galena"),
+      tempReq: MDL_content._sintTemp("loveclab-item0ore-galena"),
 
-      "bi": [
+      bi: [
         "loveclab-item0ore-galena", 20, 0.5,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-lead", 15, 0.5,
       ],
 
@@ -393,18 +390,18 @@ const rc = {
 
     "SMELTING: cassiterite", {
 
-      "icon": "loveclab-item0ore-cassiterite",
-      "category": "smelting",
-      "lockedBy": [
+      icon: "loveclab-item0ore-cassiterite",
+      category: "smelting",
+      lockedBy: [
         "loveclab-item0chem-graphite",
       ],
-      "tempReq": MDL_content._sintTemp("loveclab-item0ore-cassiterite"),
+      tempReq: MDL_content._sintTemp("loveclab-item0ore-cassiterite"),
 
-      "bi": [
+      bi: [
         "loveclab-item0ore-cassiterite", 20, 0.5,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-tin", 15, 0.5,
       ],
 
@@ -416,18 +413,18 @@ const rc = {
 
     "SMELTING: sphalerite", {
 
-      "icon": "loveclab-item0ore-sphalerite",
-      "category": "smelting",
-      "lockedBy": [
+      icon: "loveclab-item0ore-sphalerite",
+      category: "smelting",
+      lockedBy: [
         "loveclab-item0chem-graphite",
       ],
-      "tempReq": MDL_content._sintTemp("loveclab-item0ore-sphalerite"),
+      tempReq: MDL_content._sintTemp("loveclab-item0ore-sphalerite"),
 
-      "bi": [
+      bi: [
         "loveclab-item0ore-sphalerite", 20, 0.5,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0chem-zinc", 15, 0.5,
       ],
 
@@ -440,8 +437,15 @@ const rc = {
 };
 
 
-Events.run(ClientLoadEvent, () => {
-  MDL_recipeGen._gen_sinteringFurnace(rc, obj => obj["timeScl"] = 3.0, null, true, 60, 0.5, 30, 1.0, 1800.0, 0.0);
-
-  exports.rc = rc;
+TP_recipeGen._g_sinteringFurnace.run(rc, {
+  objF: obj => obj.timeScl = 3.0,
+  isConcentrate: true,
+  amtI: 60,
+  pI: 0.5,
+  amtO: 30,
+  maxTemp: 1800.0,
+  maxFlam: 0.0,
 });
+
+
+exports.rc = rc;

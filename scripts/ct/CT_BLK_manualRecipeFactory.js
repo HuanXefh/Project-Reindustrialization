@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_pumpFactory");
+  const TEMPLATE = require("lovec/temp/blk/BLK_manualRecipeFactory");
   const EFF = require("lovec/glb/GLB_eff");
 
 
@@ -19,7 +19,14 @@
 */
 
 
-  /* <---------- fac0mill ----------> */
+  /* <---------- pow0tor ----------> */
 
 
-  // TODO: Pump multi-crafters
+  const pow0tor_crank = extendBlock(
+    TEMPLATE, "pow0tor-crank",
+    TEMPLATE[0].build({
+      rcMdl: "pow0tor-crank",
+      rcSourceMod: "projreind",
+    }),
+  );
+  exports.pow0tor_crank = pow0tor_crank;

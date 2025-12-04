@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_depthPump");
+  const TEMPLATE = require("lovec/temp/blk/BLK_depthPump");
 
 
 /*
@@ -21,6 +21,11 @@
   /* <---------- bliq0pump ----------> */
 
 
-  const bliq0pump_pistonDepthPump = extend(AttributeCrafter, "bliq0pump-piston-depth-pump", TEMPLATE._std("liquid", 0.03333333, 0.5));
-  bliq0pump_pistonDepthPump.buildType = () => extend(AttributeCrafter.AttributeCrafterBuild, bliq0pump_pistonDepthPump, TEMPLATE._std_b(false, 1, null));
+  const bliq0pump_pistonDepthPump = extendBlock(
+    TEMPLATE, "bliq0pump-piston-depth-pump",
+    TEMPLATE[0].build({
+      presProd: 0.03333333,
+      liqProdRate: 0.5,
+    }),
+  );
   exports.bliq0pump_pistonDepthPump = bliq0pump_pistonDepthPump;

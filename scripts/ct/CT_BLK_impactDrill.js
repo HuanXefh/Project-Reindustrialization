@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_impactDrill");
+  const TEMPLATE = require("lovec/temp/blk/BLK_impactDrill");
 
 
   const TP_effect = require("lovec/tp/TP_effect");
@@ -24,6 +24,15 @@
   /* <---------- min0drl ----------> */
 
 
-  const min0drl_boulderClassImpactDrill = extend(BurstDrill, "min0drl-boulder-class-impact-drill", TEMPLATE._std(6, 0.5, TP_effect._impactDrillCraft(2, 48.0), 1.0));
-  min0drl_boulderClassImpactDrill.buildType = () => extend(BurstDrill.BurstDrillBuild, min0drl_boulderClassImpactDrill, TEMPLATE._std_b(false));
+  const min0drl_boulderClassImpactDrill = extendBlock(
+    TEMPLATE, "min0drl-boulder-class-impact-drill",
+    TEMPLATE[0].build({
+      depthTierMtp: 0.5,
+      impactRad: 6.0 * Vars.tilesize,
+      drillEff: TP_effect._impactDrillCraft({
+        blkSize: 2,
+        rad: 6.0 * Vars.tilesize,
+      }),
+    }),
+  );
   exports.min0drl_boulderClassImpactDrill = min0drl_boulderClassImpactDrill;

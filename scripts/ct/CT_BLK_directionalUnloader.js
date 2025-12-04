@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_directionalUnloader");
+  const TEMPLATE = require("lovec/temp/blk/BLK_directionalUnloader");
 
 
 /*
@@ -21,6 +21,7 @@
   /* <---------- dis0aux ----------> */
 
 
-  const dis0aux_primitiveDirectionalUnloader = extend(DirectionalUnloader, "dis0aux-primitive-directional-unloader", TEMPLATE._std());
-  dis0aux_primitiveDirectionalUnloader.buildType = () => extend(DirectionalUnloader.DirectionalUnloaderBuild, dis0aux_primitiveDirectionalUnloader, TEMPLATE._std_b());
+  const dis0aux_primitiveDirectionalUnloader = extendBlock(
+    TEMPLATE, "dis0aux-primitive-directional-unloader",
+  );
   exports.dis0aux_primitiveDirectionalUnloader = dis0aux_primitiveDirectionalUnloader;

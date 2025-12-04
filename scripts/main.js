@@ -5,9 +5,9 @@
 */
 
 
-  if(require("lovec/run/RUN_version").checkVersion("projreind", [
-    "lovec", 100.25102901,
-    "loveclab", 100.25102901,
+  if(!checkVersion("projreind", [
+    "lovec", "100.25120401",
+    "loveclab", "100.25120401",
   ])) return;
 
 
@@ -16,6 +16,9 @@
 
   const MDL_event = require("lovec/mdl/MDL_event");
   const MDL_util = require("lovec/mdl/MDL_util");
+
+
+  const TP_achievement = require("projreind/tp/TP_achievement");
 
 
   /* <---------- load ----------> */
@@ -50,7 +53,6 @@
 
   const CT_BLK_manualTimerPump = require("projreind/ct/CT_BLK_manualTimerPump");
   const CT_BLK_liquidPump = require("projreind/ct/CT_BLK_liquidPump");
-  const CT_BLK_manualStartPump = require("projreind/ct/CT_BLK_manualStartPump");
   const CT_BLK_depthPump = require("projreind/ct/CT_BLK_depthPump");
   const CT_BLK_fluidPipe = require("projreind/ct/CT_BLK_fluidPipe");
   const CT_BLK_fluidJunction = require("projreind/ct/CT_BLK_fluidJunction");
@@ -66,15 +68,16 @@
 
 
   const CT_BLK_cogwheel = require("projreind/ct/CT_BLK_cogwheel");
+  const CT_BLK_gearBox = require("projreind/ct/CT_BLK_gearBox");
   const CT_BLK_cogwheelStack = require("projreind/ct/CT_BLK_cogwheelStack");
 
 
   const CT_BLK_baseFactory = require("projreind/ct/CT_BLK_baseFactory");
+  const CT_BLK_terrainFactory = require("projreind/ct/CT_BLK_terrainFactory");
   const CT_BLK_recipeFactory = require("projreind/ct/CT_BLK_recipeFactory");
-  const CT_BLK_furnaceFactory = require("projreind/ct/CT_BLK_furnaceFactory");
-  const CT_BLK_durabilityFactory = require("projreind/ct/CT_BLK_durabilityFactory");
-  const CT_BLK_pumpFactory = require("projreind/ct/CT_BLK_pumpFactory");
-  const CT_BLK_manualFactory = require("projreind/ct/CT_BLK_manualFactory");
+  const CT_BLK_furnaceRecipeFactory = require("projreind/ct/CT_BLK_furnaceRecipeFactory");
+  const CT_BLK_durabilityRecipeFactory = require("projreind/ct/CT_BLK_durabilityRecipeFactory");
+  const CT_BLK_manualRecipeFactory = require("projreind/ct/CT_BLK_manualRecipeFactory");
 
 
   const CT_BLK_materialBlock = require("projreind/ct/CT_BLK_materialBlock");
@@ -99,19 +102,23 @@
 */
 
 
+
+
   MDL_util.localizeModMeta("projreind");
+
+
 
 
   MDL_event._c_onLoad(() => {
 
 
     // Why are you here?
-    if(Mathf.chance(0.2)) {
+    if(!Vars.headless && Mathf.chance(0.2)) {
       let tmpSeq = Vars.ui.database.getChildren();
       tmpSeq.get(tmpSeq.size - 1).button("@info.projreind-info-dont-click-me.name", () => Core.app.openURI(
-        Core.settings.getString("locale") === "zh_CN" ?
-        "https://www.bilibili.com/video/BV1GJ411x7h7" :
-        "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        global.lovecUtil.prop.locale === "zh_CN" ?
+          "https://www.bilibili.com/video/BV1GJ411x7h7" :
+          "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       )).size(210.0, 64.0);
     };
 

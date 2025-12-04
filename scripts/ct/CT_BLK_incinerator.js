@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_incinerator");
+  const TEMPLATE = require("lovec/temp/blk/BLK_incinerator");
   const EFF = require("lovec/glb/GLB_eff");
 
 
@@ -22,6 +22,12 @@
   /* <---------- dis0aux ----------> */
 
 
-  const dis0aux_itemIncinerator = extend(GenericCrafter, "dis0aux-item-incinerator", TEMPLATE._std(EFF.furnaceSmog, EFF.furnaceCrack, 0.02));
-  dis0aux_itemIncinerator.buildType = () => extend(GenericCrafter.GenericCrafterBuild, dis0aux_itemIncinerator, TEMPLATE._std_b(null));
+  const dis0aux_itemIncinerator = extendBlock(
+    TEMPLATE, "dis0aux-item-incinerator",
+    TEMPLATE[0].build({
+      craftEff: EFF.furnaceSmog,
+      updateEff: EFF.furnaceCrack,
+      updateEffP: 0.02,
+    }),
+  );
   exports.dis0aux_itemIncinerator = dis0aux_itemIncinerator;

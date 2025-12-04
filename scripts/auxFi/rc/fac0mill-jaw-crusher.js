@@ -1,4 +1,4 @@
-const MDL_recipeGen = require("lovec/mdl/MDL_recipeGen");
+const TP_recipeGen = require("lovec/tp/TP_recipeGen");
 
 
 const rc = {
@@ -7,10 +7,10 @@ const rc = {
   // craftTime: 4s
 
 
-  "base": {
+  base: {
 
 
-    "baseAux": [
+    baseAux: [
       "loveclab-aux0aux-vibration-screen", 0.01666667,
     ],
 
@@ -18,15 +18,23 @@ const rc = {
   },
 
 
-  "recipe": [],
+  recipe: [],
 
 
 };
 
 
-Events.run(ClientLoadEvent, () => {
-  MDL_recipeGen._gen_rockCrusher(rc, null, null, 2, 1.0, 2, 1.0, 0, 7, 1.0);
-  MDL_recipeGen._gen_rockCrusher_aggregate(rc, null, null, 2, 1.0, 2, 1.0, 0, 7, 1.25);
-
-  exports.rc = rc;
+TP_recipeGen._g_rockCrusher.run(rc, {
+  amtI: 2,
+  amtO: 2,
+  maxHardness: 7,
 });
+TP_recipeGen._g_rockCrusherAggregate.run(rc, {
+  amtI: 2,
+  amtO: 2,
+  maxHardness: 7,
+  abrasionFactor: 1.25,
+});
+
+
+exports.rc = rc;

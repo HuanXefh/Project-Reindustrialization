@@ -1,4 +1,4 @@
-const MDL_recipeGen = require("lovec/mdl/MDL_recipeGen");
+const TP_recipeGen = require("lovec/tp/TP_recipeGen");
 
 
 const rc = {
@@ -7,17 +7,19 @@ const rc = {
   // craftTime: 6s
 
 
-  "base": {},
+  base: {},
 
 
-  "recipe": [],
+  recipe: [],
 
 
 };
 
 
-Events.run(ClientLoadEvent, () => {
-  MDL_recipeGen._gen_mixer(rc, null, null, 6, 0.5, false);
-
-  exports.rc = rc;
+TP_recipeGen._g_mixer.run(rc, {
+  amtO: 6,
+  pO: 0.5,
 });
+
+
+exports.rc = rc;

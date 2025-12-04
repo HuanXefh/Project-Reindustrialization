@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_fluidValve");
+  const TEMPLATE = require("lovec/temp/blk/BLK_fluidValve");
 
 
 /*
@@ -21,6 +21,7 @@
   /* <---------- bliq0aux ----------> */
 
 
-  const bliq0aux_fluidValve = extend(LiquidJunction, "bliq0aux-fluid-valve", TEMPLATE._std());
-  bliq0aux_fluidValve.buildType = () => extend(LiquidJunction.LiquidJunctionBuild, bliq0aux_fluidValve, TEMPLATE._std_b());
+  const bliq0aux_fluidValve = extendBlock(
+    TEMPLATE, "bliq0aux-fluid-valve",
+  );
   exports.bliq0aux_fluidValve = bliq0aux_fluidValve;

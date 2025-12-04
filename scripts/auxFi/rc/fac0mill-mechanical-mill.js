@@ -1,4 +1,4 @@
-const MDL_recipeGen = require("lovec/mdl/MDL_recipeGen");
+const TP_recipeGen = require("lovec/tp/TP_recipeGen");
 
 
 const rc = {
@@ -7,10 +7,10 @@ const rc = {
   // craftTime: 3s
 
 
-  "base": {
+  base: {
 
 
-    "baseAux": [
+    baseAux: [
       "loveclab-aux0aux-torque", 0.05,
     ],
 
@@ -18,14 +18,20 @@ const rc = {
   },
 
 
-  "recipe": [],
+  recipe: [],
 
 
 };
 
 
-Events.run(ClientLoadEvent, () => {
-  MDL_recipeGen._gen_pulverizer(rc, null, null, 3, 0.5, 3, 0.5, 0, 5, 1.2);
-
-  exports.rc = rc;
+TP_recipeGen._g_pulverizer.run(rc, {
+  amtI: 3,
+  pI: 0.5,
+  amtO: 3,
+  pO: 0.5,
+  maxHardness: 5,
+  abrasionFactor: 1.2,
 });
+
+
+exports.rc = rc;

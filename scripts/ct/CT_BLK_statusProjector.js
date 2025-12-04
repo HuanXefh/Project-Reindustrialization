@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_statusProjector");
+  const TEMPLATE = require("lovec/temp/blk/BLK_statusProjector");
 
 
   const MDL_effect = require("lovec/mdl/MDL_effect");
@@ -24,11 +24,19 @@
   /* <---------- eff0proj ----------> */
 
 
-  const eff0proj_hasteProjector = extend(MendProjector, "eff0proj-haste-projector", TEMPLATE._std("loveclab-sta-haste", (b, unit) => {
-    if(unit.team !== b.team) return false;
-    MDL_effect.showBetween_line(b.x, b.y, null, unit, Pal.accent);
-    MDL_effect.showAt(unit.x, unit.y, Fx.dynamicWave, unit.hitSize * 1.5, Pal.accent);
-    return true;
-  }));
-  eff0proj_hasteProjector.buildType = () => extend(MendProjector.MendBuild, eff0proj_hasteProjector, TEMPLATE._std_b(true));
+  const eff0proj_hasteProjector = extendBlock(
+    TEMPLATE, "eff0proj-haste-projector",
+    TEMPLATE[0].build({
+      staTg: "loveclab-sta-haste",
+      staDur: 15.0 * 60.0,
+      filterScrTup: [
+        (b, ounit) => {
+          if(ounit.team !== b.team) return false;
+          MDL_effect.showBetween_line(b.x, b.y, null, ounit, Pal.accent);
+          MDL_effect.showAt(ounit.x, ounit.y, Fx.dynamicWave, ounit.hitSize * 1.5, Pal.accent);
+          return true;
+        },
+      ],
+    }),
+  );
   exports.eff0proj_hasteProjector = eff0proj_hasteProjector;

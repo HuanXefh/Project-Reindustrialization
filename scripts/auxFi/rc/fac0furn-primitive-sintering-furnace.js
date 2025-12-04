@@ -1,4 +1,4 @@
-const MDL_recipeGen = require("lovec/mdl/MDL_recipeGen");
+const TP_recipeGen = require("lovec/tp/TP_recipeGen");
 
 
 const rc = {
@@ -7,10 +7,10 @@ const rc = {
   // craftTime: 20s
 
 
-  "base": {
+  base: {
 
 
-    "baseAux": [
+    baseAux: [
       "loveclab-aux0aux-heat-exchange", 0.01666667,
     ],
 
@@ -18,15 +18,26 @@ const rc = {
   },
 
 
-  "recipe": [],
+  recipe: [],
 
 
 };
 
 
-Events.run(ClientLoadEvent, () => {
-  MDL_recipeGen._gen_roastingFurnace(rc, null, null, 20, 0.5, 10, 1.0, 1800.0, 0.0);
-  MDL_recipeGen._gen_sinteringFurnace(rc, null, null, false, 20, 0.5, 10, 1.0, 1800.0, 0.0);
-
-  exports.rc = rc;
+TP_recipeGen._g_roastingFurnace.run(rc, {
+  amtI: 20,
+  pI: 0.5,
+  amtO: 10,
+  maxTemp: 1800.0,
+  maxFlam: 0.0,
 });
+TP_recipeGen._g_sinteringFurnace.run(rc, {
+  amtI: 20,
+  pI: 0.5,
+  amtO: 10,
+  maxTemp: 1800.0,
+  maxFlam: 0.0,
+});
+
+
+exports.rc = rc;

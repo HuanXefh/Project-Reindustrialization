@@ -5,12 +5,12 @@
 */
 
 
-  # type: MendProjector
-  category: effect
+  # type: Wall
+  category: power
   requirements: [
-    loveclab-item0bio-timber/25
-    loveclab-item0chem-lead/25
-    loveclab-item0chem-brass/15
+    loveclab-item0bio-timber/40
+    loveclab-item0chem-brass/20
+    loveclab-item0chem-steel/5
   ]
   buildCostMultiplier: 5.0
 
@@ -23,10 +23,10 @@
 
 
   research: {
-    parent: eff0stor-crate
+    parent: pow0tor-brass-cogwheel
     objectives: []
   }
-  researchCostMultiplier: 0.2
+  researchCostMultiplier: 0.4
 
 
 /*
@@ -36,14 +36,14 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
+  scaledHealth: 50.0
+  armor: 6.0
   size: 1
   hasItems: false
   itemCapacity: 20
   hasLiquids: false
   liquidCapacity: 5.0
-  hasPower: true
+  hasPower: false
 
 
 /*
@@ -54,7 +54,7 @@
 
 
   envRequired: 0
-  envDisabled: 18
+  envDisabled: 16
 
 
 /*
@@ -65,27 +65,3 @@
 
 
   squareSprite: false
-  baseColor: 84f491
-
-
-/*
-  ========================================
-  Section: Specific
-  ========================================
-*/
-
-
-  reload: 60.0
-
-
-/*
-  ========================================
-  Section: I/O
-  ========================================
-*/
-
-
-  useTime: 60.0
-  consumes: {
-    power: 0.66666667
-  }

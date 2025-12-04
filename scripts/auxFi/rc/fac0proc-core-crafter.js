@@ -4,10 +4,10 @@ const rc = {
   // craftTime: 10s
 
 
-  "base": {},
+  base: {},
 
 
-  "recipe": [
+  recipe: [
 
 
     /* <---------- misc ----------> */
@@ -15,19 +15,18 @@ const rc = {
 
     "MISC: timber", {
 
-      "icon": "loveclab-item0bio-timber",
-      "category": "misc",
+      icon: "loveclab-item0bio-timber",
+      category: "misc",
 
-      "bi": [
+      bi: [
         "loveclab-item0bio-log", 10, 1.0,
       ],
 
-      "bo": [
+      bo: [
         "loveclab-item0bio-timber", 5, 1.0,
       ],
-
-      "failP": 0.1,
-      "fo": [],
+      failP: 0.1,
+      fo: [],
 
     },
 
@@ -38,6 +37,4 @@ const rc = {
 };
 
 
-Events.run(ClientLoadEvent, () => {
-  exports.rc = rc;
-});
+exports.rc = rc;

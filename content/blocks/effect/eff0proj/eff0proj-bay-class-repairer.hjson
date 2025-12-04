@@ -79,7 +79,6 @@
 
   range: 104.0
   reload: 120.0
-  healPercent: 1.25
   phaseBoost: 6.25
   phaseRangeBoost: 0.0
 

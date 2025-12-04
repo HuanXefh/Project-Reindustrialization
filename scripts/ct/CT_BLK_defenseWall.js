@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_defenseWall");
+  const TEMPLATE = require("lovec/temp/blk/BLK_defenseWall");
 
 
 /*
@@ -21,6 +21,7 @@
   /* <---------- pay0mat ----------> */
 
 
-  const def0wall_woodenBarricade = extend(Wall, "def0wall-wooden-barricade", TEMPLATE._std());
-  def0wall_woodenBarricade.buildType = () => extend(Wall.WallBuild, def0wall_woodenBarricade, TEMPLATE._std_b());
+  const def0wall_woodenBarricade = extendBlock(
+    TEMPLATE, "def0wall-wooden-barricade",
+  );
   exports.def0wall_woodenBarricade = def0wall_woodenBarricade;

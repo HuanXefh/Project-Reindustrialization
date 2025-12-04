@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_rangeHarvester");
+  const TEMPLATE = require("lovec/temp/blk/BLK_rangeHarvester");
   const EFF = require("lovec/glb/GLB_eff");
 
 
@@ -22,6 +22,13 @@
   /* <---------- min0harv ----------> */
 
 
-  const min0harv_mycelialHarvester = extend(AttributeCrafter, "min0harv-mycelial-harvester", TEMPLATE._std("blk", 5, null, EFF.harvesterParticle, 0.02));
-  min0harv_mycelialHarvester.buildType = () => extend(AttributeCrafter.AttributeCrafterBuild, min0harv_mycelialHarvester, TEMPLATE._std_b(true));
+  const min0harv_mycelialHarvester = extendBlock(
+    TEMPLATE, "min0harv-mycelial-harvester",
+    TEMPLATE[0].build({
+      attrR: 5,
+      attrMode: "block",
+      updateEff: EFF.harvesterParticle,
+      updateEffP: 0.02,
+    }),
+  );
   exports.min0harv_mycelialHarvester = min0harv_mycelialHarvester;

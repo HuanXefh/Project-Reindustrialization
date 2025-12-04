@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_manualStartPump");
+  const TEMPLATE = require("lovec/temp/blk/BLK_gearBox");
 
 
 /*
@@ -18,7 +18,10 @@
 */
 
 
-  /* <---------- bliq0pump ----------> */
+  /* <---------- pow0tor ----------> */
 
 
-  // TODO: Centrifugal pump here
+  const pow0tor_brassGearBox = extendBlock(
+    TEMPLATE, "pow0tor-brass-gear-box",
+  );
+  exports.pow0tor_brassGearBox = pow0tor_brassGearBox;

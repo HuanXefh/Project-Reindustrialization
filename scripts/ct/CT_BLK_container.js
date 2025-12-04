@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_container");
+  const TEMPLATE = require("lovec/temp/blk/BLK_container");
 
 
 /*
@@ -21,6 +21,7 @@
   /* <---------- eff0stor ----------> */
 
 
-  const eff0stor_crate = extend(StorageBlock, "eff0stor-crate", TEMPLATE._std());
-  eff0stor_crate.buildType = () => extend(StorageBlock.StorageBuild, eff0stor_crate, TEMPLATE._std_b());
+  const eff0stor_crate = extendBlock(
+    TEMPLATE, "eff0stor-crate",
+  );
   exports.eff0stor_crate = eff0stor_crate;

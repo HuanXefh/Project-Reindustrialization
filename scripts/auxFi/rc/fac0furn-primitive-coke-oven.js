@@ -4,15 +4,13 @@ const rc = {
   // craftTime: 20s
 
 
-  "base": {
+  base: {
 
 
-    "baseCi": [
+    baseCi: [
       "loveclab-liq0ore-water", 0.1,
     ],
-
-
-    "baseCo": [
+    baseCo: [
       "loveclab-liq0was-waste-water", 0.1,
     ],
 
@@ -20,7 +18,7 @@ const rc = {
   },
 
 
-  "recipe": [
+  recipe: [
 
 
     /* <---------- coking ----------> */
@@ -28,19 +26,18 @@ const rc = {
 
     "COKING: coke; FROM: coal", {
 
-      "icon": "loveclab-item0chem-coal",
-      "category": "coking",
-      "tempReq": 900.0,
+      icon: "loveclab-item0chem-coal",
+      category: "coking",
+      tempReq: 900.0,
 
-      "bi": [
+      bi: [
         "loveclab-item0chem-coal", 10, 1.0,
       ],
 
-      "co": [
+      co: [
         "loveclab-gas0was-coke-oven-gas", 0.05,
       ],
-
-      "bo": [
+      bo: [
         "loveclab-item0chem-coke", 10, 0.75,
       ],
 
@@ -49,19 +46,18 @@ const rc = {
 
     "COKING: coke; FROM: anthracite", {
 
-      "icon": "loveclab-item0chem-anthracite",
-      "category": "coking",
-      "tempReq": 900.0,
+      icon: "loveclab-item0chem-anthracite",
+      category: "coking",
+      tempReq: 900.0,
 
-      "bi": [
+      bi: [
         "loveclab-item0chem-anthracite", 10, 1.0,
       ],
 
-      "co": [
+      co: [
         "loveclab-gas0was-coke-oven-gas", 0.05,
       ],
-
-      "bo": [
+      bo: [
         "loveclab-item0chem-coke", 10, 1.0,
       ],
 
@@ -70,19 +66,18 @@ const rc = {
 
     "COKING: semicoke; FROM: peat", {
 
-      "icon": "loveclab-item0chem-peat",
-      "category": "coking",
-      "tempReq": 900.0,
+      icon: "loveclab-item0chem-peat",
+      category: "coking",
+      tempReq: 900.0,
 
-      "bi": [
+      bi: [
         "loveclab-item0chem-peat", 10, 1.0,
       ],
 
-      "co": [
+      co: [
         "loveclab-gas0was-coke-oven-gas", 0.05,
       ],
-
-      "bo": [
+      bo: [
         "loveclab-item0chem-semicoke", 10, 0.5,
       ],
 
@@ -91,19 +86,18 @@ const rc = {
 
     "COKING: semicoke; FROM: lignite", {
 
-      "icon": "loveclab-item0chem-lignite",
-      "category": "coking",
-      "tempReq": 900.0,
+      icon: "loveclab-item0chem-lignite",
+      category: "coking",
+      tempReq: 900.0,
 
-      "bi": [
+      bi: [
         "loveclab-item0chem-lignite", 10, 1.0,
       ],
 
-      "co": [
+      co: [
         "loveclab-gas0was-coke-oven-gas", 0.05,
       ],
-
-      "bo": [
+      bo: [
         "loveclab-item0chem-semicoke", 10, 0.75,
       ],
 
@@ -116,6 +110,4 @@ const rc = {
 };
 
 
-Events.run(ClientLoadEvent, () => {
-  exports.rc = rc;
-});
+exports.rc = rc;

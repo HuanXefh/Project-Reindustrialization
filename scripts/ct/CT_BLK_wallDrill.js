@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_wallDrill");
+  const TEMPLATE = require("lovec/temp/blk/BLK_wallDrill");
 
 
 /*
@@ -21,6 +21,7 @@
   /* <---------- min0drl ----------> */
 
 
-  const min0drl_pangolinClassWallDrill = extend(BeamDrill, "min0drl-pangolin-class-wall-drill", TEMPLATE._std());
-  min0drl_pangolinClassWallDrill.buildType = () => extend(BeamDrill.BeamDrillBuild, min0drl_pangolinClassWallDrill, TEMPLATE._std_b(false));
+  const min0drl_pangolinClassWallDrill = extendBlock(
+    TEMPLATE, "min0drl-pangolin-class-wall-drill",
+  );
   exports.min0drl_pangolinClassWallDrill = min0drl_pangolinClassWallDrill;

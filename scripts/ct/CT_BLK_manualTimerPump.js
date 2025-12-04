@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_manualTimerPump");
+  const TEMPLATE = require("lovec/temp/blk/BLK_manualTimerPump");
 
 
 /*
@@ -21,6 +21,11 @@
   /* <---------- bliq0pump ----------> */
 
 
-  const bliq0pump_portableManualPump = extend(Pump, "bliq0pump-portable-manual-pump", TEMPLATE._std(0.0, 300.0));
-  bliq0pump_portableManualPump.buildType = () => extend(Pump.PumpBuild, bliq0pump_portableManualPump, TEMPLATE._std_b(false, 1));
+  const bliq0pump_portableManualPump = extendBlock(
+    TEMPLATE, "bliq0pump-portable-manual-pump",
+    TEMPLATE[0].build({
+      timeClickCap: 2.5 * 60.0 * 60.0,
+      timeClickInc: 180.0,
+    }),
+  );
   exports.bliq0pump_portableManualPump = bliq0pump_portableManualPump;

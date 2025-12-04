@@ -4,10 +4,10 @@ const rc = {
   // craftTime: 2s
 
 
-  "base": {},
+  base: {},
 
 
-  "recipe": [
+  recipe: [
 
 
     /* <---------- aux ----------> */
@@ -15,10 +15,10 @@ const rc = {
 
     "AUX: dust recycling", {
 
-      "icon": "loveclab-aux0aux-dust-recycling",
-      "category": "aux",
+      icon: "loveclab-aux0aux-dust-recycling",
+      category: "aux",
 
-      "co": [
+      co: [
         "loveclab-aux0aux-dust-recycling", 0.01666667,
       ],
 
@@ -30,16 +30,16 @@ const rc = {
 
     "MISC: sand", {
 
-      "icon": "loveclab-item0ore-sand",
-      "category": "misc",
-      "ignoreItemFullness": true,
+      icon: "loveclab-item0ore-sand",
+      category: "misc",
+      ignoreItemFullness: true,
 
-      "ci": [
+      ci: [
         "loveclab-gas0misc-air", 0.1,
       ],
 
-      "bo": [
-        "loveclab-item0ore-sand", 1, 0.25,
+      bo: [
+        "loveclab-item0ore-sand", 1, 0.125,
       ],
 
     },
@@ -51,6 +51,4 @@ const rc = {
 };
 
 
-Events.run(ClientLoadEvent, () => {
-  exports.rc = rc;
-});
+exports.rc = rc;

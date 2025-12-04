@@ -1,148 +1,22 @@
 const db = {
 
 
-  "param": {
+  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
 
 
-    "color": {
+  param: {
 
 
-      "base": [],
+    presRes: [],
 
 
-    },
+    vacRes: [],
 
 
-    "amount": {
+    corRes: [],
 
 
-      "base": [
-
-        "projreind-dis0loot-item-hopper", 15,
-        "projreind-dis0loot-item-collector", 18,
-
-      ],
-
-
-    },
-
-
-    "range": {
-
-
-      "base": [],
-
-
-      "impact": [],
-
-
-      "ep": [],
-
-
-    },
-
-
-    "speed": {
-
-
-      "base": [],
-
-
-    },
-
-
-    "multiplier": {
-
-
-      "fuelCons": [
-
-        "projreind-fac0furn-primitive-smelter", 0.1,
-        "projreind-fac0furn-bloomery", 0.75,
-        "projreind-fac0furn-primitive-sintering-furnace", 0.75,
-
-      ],
-
-
-      "fuelLvl": [
-
-        "projreind-fac0furn-bloomery", 1.35,
-        "projreind-fac0furn-primitive-crucible", 1.35,
-        "projreind-fac0furn-primitive-sintering-furnace", 1.25,
-
-      ],
-
-
-    },
-
-
-    "time": {
-
-
-      "base": [
-
-        "projreind-dis0loot-item-hopper", 5.0 * 60.0,
-        "projreind-dis0loot-item-collector", 3.0 * 60.0,
-
-        "projreind-bliq0pump-portable-manual-pump", 3.0 * 60.0 * 60.0,
-
-        "projreind-fac0mill-jaw-crusher", 5.0 * 60.0 * 60.0,
-        "projreind-fac0mill-mechanical-mill", 3.0 * 60.0 * 60.0,
-
-        "projreind-fac0mix-v-mixer", 8.0 * 60.0 * 60.0,
-
-      ],
-
-
-      "dur": [
-
-        "projreind-eff0proj-haste-projector", 15.0 * 60.0,
-
-      ],
-
-
-    },
-
-
-    "heal": {
-
-
-      "amount": [
-
-        "projreind-eff0proj-bay-class-repairer", 20.0,
-
-      ],
-
-
-      "percent": [],
-
-
-    },
-
-
-    "pipeDiam": [
-
-      "projreind-bliq0cond-wooden-liquid-pipe", 60.0,
-      "projreind-bliq0cond-bronze-liquid-pipe", 90.0,
-      "projreind-bliq0cond-lead-liquid-pipe", 110.0,
-      "projreind-bliq0cond-steel-liquid-pipe", 100.0,
-
-      "projreind-bliq0cond-wooden-gas-pipe", 15.0,
-      "projreind-bliq0cond-bronze-gas-pipe", 20.0,
-      "projreind-bliq0cond-steel-gas-pipe", 30.0,
-
-    ],
-
-
-    "presRes": [],
-
-
-    "vacRes": [],
-
-
-    "corRes": [],
-
-
-    "heatRes": [
+    heatRes: [
 
       "projreind-fac0furn-kiln", 1400.0,
       "projreind-fac0furn-primitive-smelter", 1600.0,
@@ -154,7 +28,7 @@ const db = {
     ],
 
 
-    "pol": [
+    pol: [
 
       "projreind-min0drl-survivor-drill", 6.0,
       "projreind-min0drl-progress-class-drill", 2.0,
@@ -182,16 +56,16 @@ const db = {
     ],
 
 
-    "polTol": [],
+    polTol: [],
 
 
-    "cep": {
+    cep: {
 
 
-      "prov": [],
+      prov: [],
 
 
-      "use": [
+      use: [
 
         "projreind-min0drl-survivor-drill", 1.5,
 
@@ -210,10 +84,13 @@ const db = {
   },
 
 
-  "map": {
+  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
 
 
-    "faction": [
+  map: {
+
+
+    faction: [
 
       "projreind-min0drl-survivor-drill", "emerald-tide",
       "projreind-min0drl-progress-class-drill", "emerald-tide",
@@ -229,7 +106,7 @@ const db = {
     ],
 
 
-    "facFami": [
+    facFami: [
 
       "projreind-fac0air-air-collector", "air-collector",
 
@@ -267,13 +144,13 @@ const db = {
   },
 
 
-  "group": {
+  group: {
 
 
-    "material": {
+    material: {
 
 
-      "wood": [
+      wood: [
 
         "projreind-bliq0cond-wooden-liquid-pipe",
 
@@ -282,7 +159,7 @@ const db = {
       ],
 
 
-      "copper": [
+      copper: [
 
         "projreind-bliq0pump-portable-manual-pump",
         "projreind-bliq0pump-piston-liquid-pump",
@@ -299,17 +176,17 @@ const db = {
       ],
 
 
-      "lead": [
+      lead: [
 
         "projreind-bliq0cond-lead-liquid-pipe",
 
       ],
 
 
-      "iron": [],
+      iron: [],
 
 
-      "steel": [
+      steel: [
 
         "projreind-bliq0cond-steel-liquid-pipe",
 
@@ -322,35 +199,25 @@ const db = {
       ],
 
 
-      "galvanized": [],
+      galvanized: [],
 
 
-      "stainless": [],
+      stainless: [],
 
 
-      "glass": [],
+      glass: [],
 
 
-      "cement": [],
+      cement: [],
 
 
-      "rubber": [],
+      rubber: [],
 
 
     },
 
 
-    "nonSandMiner": [
-
-      "projreind-min0drl-survivor-drill",
-      "projreind-min0drl-progress-class-drill",
-      "projreind-min0drl-pangolin-class-wall-drill",
-      "projreind-min0drl-boulder-class-impact-drill",
-
-    ],
-
-
-    "exposed": [
+    exposed: [
 
       "projreind-dis0conv-primitive-conveyor",
 
@@ -359,14 +226,14 @@ const db = {
     ],
 
 
-    "cloggable": [
+    cloggable: [
 
       "projreind-bliq0cond-wooden-liquid-pipe",
 
     ],
 
 
-    "shortCircuit": [
+    shortCircuit: [
 
       "projreind-pow0trans-copper-cable",
       "projreind-pow0trans-copper-wire-relay",
@@ -377,26 +244,10 @@ const db = {
     ],
 
 
-    "shortCircuitPipe": [
-
-      "projreind-bliq0cond-bronze-liquid-pipe",
-      "projreind-bliq0cond-lead-liquid-pipe",
-      "projreind-bliq0cond-steel-liquid-pipe",
-
-      "projreind-bliq0cond-bronze-gas-pipe",
-      "projreind-bliq0cond-steel-gas-pipe",
-
-    ],
-
-
-    "showReload": [
-
-      "projreind-min0scan-alpha-class-ore-scanner",
-
-    ],
-
-
   },
+
+
+  /* <------------------------------ CHUNK SPLITTER ------------------------------ */
 
 
 };

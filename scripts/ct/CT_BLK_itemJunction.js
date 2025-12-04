@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_itemJunction");
+  const TEMPLATE = require("lovec/temp/blk/BLK_itemJunction");
 
 
 /*
@@ -21,6 +21,7 @@
   /* <---------- dis0aux ----------> */
 
 
-  const dis0aux_itemJunction = extend(Junction, "dis0aux-item-junction", TEMPLATE._std());
-  dis0aux_itemJunction.buildType = () => extend(Junction.JunctionBuild, dis0aux_itemJunction, TEMPLATE._std_b());
+  const dis0aux_itemJunction = extendBlock(
+    TEMPLATE, "dis0aux-item-junction",
+  );
   exports.dis0aux_itemJunction = dis0aux_itemJunction;

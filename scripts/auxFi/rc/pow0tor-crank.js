@@ -4,18 +4,19 @@ const rc = {
   // craftTime: 1s
 
 
-  "base": {
+  base: {
 
 
-    "baseUpdateScr": b => {
-      if(b.manualCharge < 0.0001) b.liquids.clear();
+    baseUpdateScr: b => {
+      // Crank should not store torque
+      if(b.manualClickFrac < 0.01) b.liquids.clear();
     },
 
 
   },
 
 
-  "recipe": [
+  recipe: [
 
 
     /* <---------- misc ----------> */
@@ -23,10 +24,10 @@ const rc = {
 
     "MISC: torque", {
 
-      "icon": "loveclab-aux0aux-torque",
-      "category": "misc",
+      icon: "loveclab-aux0aux-torque",
+      category: "misc",
 
-      "co": [
+      co: [
         "loveclab-aux0aux-torque", 0.33333333,
       ],
 
@@ -39,6 +40,4 @@ const rc = {
 };
 
 
-Events.run(ClientLoadEvent, () => {
-  exports.rc = rc;
-});
+exports.rc = rc;

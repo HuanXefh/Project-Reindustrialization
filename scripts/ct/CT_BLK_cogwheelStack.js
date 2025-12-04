@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_cogwheelStack");
+  const TEMPLATE = require("lovec/temp/blk/BLK_cogwheelStack");
 
 
 /*
@@ -21,11 +21,21 @@
   /* <---------- pow0tor ----------> */
 
 
-  const pow0tor_brassCogwheelStack1to3 = extend(Wall, "pow0tor-brass-cogwheel-stack-1to3", TEMPLATE._std(3, "projreind-pow0tor-brass-cogwheel", "projreind-pow0tor-large-brass-cogwheel"));
-  pow0tor_brassCogwheelStack1to3.buildType = () => extend(Wall.WallBuild, pow0tor_brassCogwheelStack1to3, TEMPLATE._std_b());
+  const pow0tor_brassCogwheelStack1to3 = extendBlock(
+    TEMPLATE, "pow0tor-brass-cogwheel-stack-1to3",
+    TEMPLATE[0].build({
+      undCog: "projreind-pow0tor-brass-cogwheel",
+      ovCog: "projreind-pow0tor-large-brass-cogwheel",
+    }),
+  );
   exports.pow0tor_brassCogwheelStack1to3 = pow0tor_brassCogwheelStack1to3;
 
 
-  const pow0tor_brassCogwheelStack3to1 = extend(Wall, "pow0tor-brass-cogwheel-stack-3to1", TEMPLATE._std(1, "projreind-pow0tor-large-brass-cogwheel", "projreind-pow0tor-brass-cogwheel"));
-  pow0tor_brassCogwheelStack3to1.buildType = () => extend(Wall.WallBuild, pow0tor_brassCogwheelStack3to1, TEMPLATE._std_b());
+  const pow0tor_brassCogwheelStack3to1 = extendBlock(
+    TEMPLATE, "pow0tor-brass-cogwheel-stack-3to1",
+    TEMPLATE[0].build({
+      undCog: "projreind-pow0tor-large-brass-cogwheel",
+      ovCog: "projreind-pow0tor-brass-cogwheel",
+    }),
+  );
   exports.pow0tor_brassCogwheelStack3to1 = pow0tor_brassCogwheelStack3to1;

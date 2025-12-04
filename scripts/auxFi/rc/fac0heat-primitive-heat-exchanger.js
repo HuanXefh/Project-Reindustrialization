@@ -4,10 +4,10 @@ const rc = {
   // craftTime: 1s
 
 
-  "base": {},
+  base: {},
 
 
-  "recipe": [
+  recipe: [
 
 
     /* <---------- aux ----------> */
@@ -15,18 +15,17 @@ const rc = {
 
     "AUX: heat exchange; FROM: air", {
 
-      "icon": "loveclab-gas0misc-air",
-      "category": "aux",
+      icon: "loveclab-gas0misc-air",
+      category: "aux",
 
-      "ci": [
+      ci: [
         "loveclab-gas0misc-air", 0.1,
       ],
-
-      "aux": [
+      aux: [
         "loveclab-aux0aux-pressure", 0.05,
       ],
 
-      "co": [
+      co: [
         "loveclab-aux0aux-heat-exchange", 0.01666667,
       ],
 
@@ -35,14 +34,14 @@ const rc = {
 
     "AUX: heat exchange; FROM: water", {
 
-      "icon": "loveclab-liq0ore-water",
-      "category": "aux",
+      icon: "loveclab-liq0ore-water",
+      category: "aux",
 
-      "ci": [
+      ci: [
         "loveclab-liq0ore-water", 0.1,
       ],
 
-      "co": [
+      co: [
         "loveclab-aux0aux-heat-exchange", 0.01666667,
         "loveclab-gas0misc-steam", 0.1,
       ],
@@ -56,6 +55,4 @@ const rc = {
 };
 
 
-Events.run(ClientLoadEvent, () => {
-  exports.rc = rc;
-});
+exports.rc = rc;

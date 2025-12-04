@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_router");
+  const TEMPLATE = require("lovec/temp/blk/BLK_router");
 
 
 /*
@@ -21,6 +21,7 @@
   /* <---------- dis0aux ----------> */
 
 
-  const dis0aux_router = extend(Router, "dis0aux-router", TEMPLATE._std());
-  dis0aux_router.buildType = () => extend(Router.RouterBuild, dis0aux_router, TEMPLATE._std_b());
+  const dis0aux_router = extendBlock(
+    TEMPLATE, "dis0aux-router",
+  );
   exports.dis0aux_router = dis0aux_router;

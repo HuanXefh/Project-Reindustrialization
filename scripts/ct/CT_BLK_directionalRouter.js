@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_directionalRouter");
+  const TEMPLATE = require("lovec/temp/blk/BLK_directionalRouter");
 
 
 /*
@@ -21,6 +21,7 @@
   /* <---------- dis0aux ----------> */
 
 
-  const dis0aux_primitiveDirectionalRouter = extend(DuctRouter, "dis0aux-primitive-directional-router", TEMPLATE._std());
-  dis0aux_primitiveDirectionalRouter.buildType = () => extend(DuctRouter.DuctRouterBuild, dis0aux_primitiveDirectionalRouter, TEMPLATE._std_b());
+  const dis0aux_primitiveDirectionalRouter = extendBlock(
+    TEMPLATE, "dis0aux-primitive-directional-router",
+  );
   exports.dis0aux_primitiveDirectionalRouter = dis0aux_primitiveDirectionalRouter;

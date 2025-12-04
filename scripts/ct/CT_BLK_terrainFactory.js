@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/temp/blk/BLK_baseFactory");
+  const TEMPLATE = require("lovec/temp/blk/BLK_terrainFactory");
   const EFF = require("lovec/glb/GLB_eff");
 
 
@@ -19,14 +19,14 @@
 */
 
 
-  /* <---------- fac0proc ----------> */
+  /* <---------- fac0air ----------> */
 
 
-  const fac0proc_sawmill = extendBlock(
-    TEMPLATE, "fac0proc-sawmill",
+  const fac0air_airCollector = extendBlock(
+    TEMPLATE, "fac0air-air-collector",
     TEMPLATE[0].build({
-      updateEff: EFF.sawmillCrack,
-      updateEffP: 0.02,
+      ters: ["sand"],
+      terMode: "disable",
     }),
   );
-  exports.fac0proc_sawmill = fac0proc_sawmill;
+  exports.fac0air_airCollector = fac0air_airCollector;

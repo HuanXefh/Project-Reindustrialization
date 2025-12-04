@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/blk/BLK_ventGenerator");
+  const TEMPLATE = require("lovec/temp/blk/BLK_ventGenerator");
   const EFF = require("lovec/glb/GLB_eff");
 
 
@@ -22,11 +22,23 @@
   /* <---------- pow0gen ----------> */
 
 
-  const pow0gen_ventGenerator = extend(ThermalGenerator, "pow0gen-vent-generator", TEMPLATE._std(true, EFF.powerParticle, 0.02, EFF.explosion));
-  pow0gen_ventGenerator.buildType = () => extend(ThermalGenerator.ThermalGeneratorBuild, pow0gen_ventGenerator, TEMPLATE._std_b());
+  const pow0gen_ventGenerator = extendBlock(
+    TEMPLATE, "pow0gen-vent-generator",
+    TEMPLATE[0].build({
+      genEff: EFF.powerParticle,
+      genEffP: 0.02,
+      exploEff: EFF.explosion,
+    }),
+  );
   exports.pow0gen_ventGenerator = pow0gen_ventGenerator;
 
 
-  const pow0gen_hpsvGenerator = extend(ThermalGenerator, "pow0gen-hpsv-generator", TEMPLATE._std(true, EFF.powerParticle, 0.04, EFF.explosion));
-  pow0gen_hpsvGenerator.buildType = () => extend(ThermalGenerator.ThermalGeneratorBuild, pow0gen_hpsvGenerator, TEMPLATE._std_b());
+  const pow0gen_hpsvGenerator = extendBlock(
+    TEMPLATE, "pow0gen-hpsv-generator",
+    TEMPLATE[0].build({
+      genEff: EFF.powerParticle,
+      genEffP: 0.04,
+      exploEff: EFF.explosion,
+    }),
+  );
   exports.pow0gen_hpsvGenerator = pow0gen_hpsvGenerator;

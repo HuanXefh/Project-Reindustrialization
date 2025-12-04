@@ -4,10 +4,10 @@ const rc = {
   // craftTime: 5s
 
 
-  "base": {
+  base: {
 
 
-    "baseOpt": [
+    baseOpt: [
       "loveclab-item0bio-charcoal", 1, 0.6, 1.0,
     ],
 
@@ -15,7 +15,7 @@ const rc = {
   },
 
 
-  "recipe": [
+  recipe: [
 
 
     /* <---------- misc ----------> */
@@ -23,21 +23,19 @@ const rc = {
 
     "MISC: air (clean)", {
 
-      "icon": "loveclab-gas0int-air-clean",
-      "category": "misc",
-      "ignoreItemFullness": true,
+      icon: "loveclab-gas0int-air-clean",
+      category: "misc",
+      ignoreItemFullness: true,
 
-      "ci": [
+      ci: [
         "loveclab-gas0misc-air", 0.2,
       ],
-
-      "reqOpt": true,
-
-      "co": [
+      reqOpt: true,
+      
+      co: [
         "loveclab-gas0int-air-clean", 0.2,
       ],
-
-      "bo": [
+      bo: [
         "loveclab-item0ore-sand", 1, 0.25,
       ],
 
@@ -50,6 +48,4 @@ const rc = {
 };
 
 
-Events.run(ClientLoadEvent, () => {
-  exports.rc = rc;
-});
+exports.rc = rc;
