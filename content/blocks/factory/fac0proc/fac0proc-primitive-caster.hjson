@@ -1,0 +1,120 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: GenericCrafter
+  category: crafting
+  requirements: [
+    loveclab-item0chem-copper/40
+    loveclab-item0chem-graphite/40
+    loveclab-item0buil-brick-clay/25
+    loveclab-item0buil-brick-magnesia/25
+  ]
+  buildCostMultiplier: 2.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: fac0furn-kiln
+    objectives: []
+  }
+  researchCostMultiplier: 0.3
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 2
+  hasItems: true
+  itemCapacity: 60
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawDefault
+      }
+
+
+      {
+        type: DrawFrames
+        frames: 32
+        interval: 7.5
+        sine: false
+      }
+
+
+      {
+        type: DrawGlowRegion
+        color: ff3838
+        suffix: "-glow"
+      }
+
+
+    ]
+  }
+  ambientSound: se-amb-hum
+  ambientSoundVolume: 0.2
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  ignoreLiquidFullness: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  craftTime: 1200.0
+  consumes: {
+    power: 1.08333333
+  }

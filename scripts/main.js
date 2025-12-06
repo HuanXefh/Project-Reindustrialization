@@ -6,7 +6,7 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "100.25120401",
+    "lovec", "100.25120501",
     "loveclab", "100.25120401",
   ])) return;
 
@@ -57,6 +57,7 @@
   const CT_BLK_fluidPipe = require("projreind/ct/CT_BLK_fluidPipe");
   const CT_BLK_fluidJunction = require("projreind/ct/CT_BLK_fluidJunction");
   const CT_BLK_fluidValve = require("projreind/ct/CT_BLK_fluidValve");
+  const CT_BLK_fluidPressureValve = require("projreind/ct/CT_BLK_fluidPressureValve");
   const CT_BLK_fluidPipeBridge = require("projreind/ct/CT_BLK_fluidPipeBridge");
   const CT_BLK_fluidRouter = require("projreind/ct/CT_BLK_fluidRouter");
 
@@ -80,8 +81,9 @@
   const CT_BLK_manualRecipeFactory = require("projreind/ct/CT_BLK_manualRecipeFactory");
 
 
-  const CT_BLK_materialBlock = require("projreind/ct/CT_BLK_materialBlock");
   const CT_BLK_payloadConveyor = require("projreind/ct/CT_BLK_payloadConveyor");
+  const CT_BLK_materialBlock = require("projreind/ct/CT_BLK_materialBlock");
+  const CT_BLK_partsBlock = require("projreind/ct/CT_BLK_partsBlock");
 
 
   const CT_BLK_directionalMender = require("projreind/ct/CT_BLK_directionalMender");

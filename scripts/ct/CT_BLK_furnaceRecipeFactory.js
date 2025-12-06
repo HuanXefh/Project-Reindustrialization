@@ -120,6 +120,22 @@
   exports.fac0furn_primitiveCokeOven = fac0furn_primitiveCokeOven;
 
 
+  /* <---------- fac0proc ----------> */
+
+
+  const fac0proc_primitiveCaster = extendBlock(
+    TEMPLATE, "fac0proc-primitive-caster",
+    TEMPLATE[0].build({
+      fuelConsMtp: 0.75,
+      fuelLvlMtp: 1.35,
+      fuelWarmupRate: 0.0004,
+      rcMdl: "fac0proc-primitive-caster",
+      rcSourceMod: "projreind",
+    }),
+  );
+  exports.fac0proc_primitiveCaster = fac0proc_primitiveCaster;
+
+
   /* <---------- fac0heat ----------> */
 
 

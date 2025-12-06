@@ -7,10 +7,18 @@ const db = {
   param: {
 
 
-    presRes: [],
+    presRes: [
+
+      "projreind-bliq0aux-primitive-pressure-valve", 12.0,
+
+    ],
 
 
-    vacRes: [],
+    vacRes: [
+
+      "projreind-bliq0aux-primitive-pressure-valve", -3.0,
+
+    ],
 
 
     corRes: [],
@@ -24,6 +32,8 @@ const db = {
       "projreind-fac0furn-primitive-crucible", 1800.0,
       "projreind-fac0furn-primitive-sintering-furnace", 1800.0,
       "projreind-fac0furn-primitive-coke-oven", 1600.0,
+
+      "projreind-fac0proc-primitive-caster", 1800.0,
 
     ],
 
@@ -45,6 +55,8 @@ const db = {
       "projreind-fac0furn-primitive-crucible", 4.0,
       "projreind-fac0furn-primitive-sintering-furnace", 10.0,
       "projreind-fac0furn-primitive-coke-oven", 13.0,
+
+      "projreind-fac0proc-primitive-caster", 4.0,
 
       "projreind-fac0heat-combustion-heater", 6.0,
 
