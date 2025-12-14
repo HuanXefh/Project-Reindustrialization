@@ -136,6 +136,19 @@
   exports.fac0proc_primitiveCaster = fac0proc_primitiveCaster;
 
 
+  const fac0proc_primitiveForge = extendBlock(
+    TEMPLATE, "fac0proc-primitive-forge",
+    TEMPLATE[0].build({
+      fuelConsMtp: 0.75,
+      fuelLvlMtp: 1.35,
+      fuelWarmupRate: 0.0004,
+      rcMdl: "fac0proc-primitive-forge",
+      rcSourceMod: "projreind",
+    }),
+  );
+  exports.fac0proc_primitiveForge = fac0proc_primitiveForge;
+
+
   /* <---------- fac0heat ----------> */
 
 

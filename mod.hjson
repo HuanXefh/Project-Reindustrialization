@@ -5,7 +5,7 @@ subtitle: "V101: Another Origin"
 
 author: MaboroshiX
 repo: HuanXefh/Project-Reindustrialization
-minGameVersion: 152
+minGameVersion: 154
 dependencies: [
   lovec
   loveclab
@@ -22,4 +22,4 @@ Part of Lovecraftian series, you will need Lovecraftian Library and Lovecraftian
 Warning: recipe hell ahead!
 '''
 
-version: 100.25120501
+version: 100.25121401

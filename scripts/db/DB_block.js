@@ -34,6 +34,7 @@ const db = {
       "projreind-fac0furn-primitive-coke-oven", 1600.0,
 
       "projreind-fac0proc-primitive-caster", 1800.0,
+      "projreind-fac0proc-primitive-forge", 1800.0,
 
     ],
 
@@ -57,6 +58,7 @@ const db = {
       "projreind-fac0furn-primitive-coke-oven", 13.0,
 
       "projreind-fac0proc-primitive-caster", 4.0,
+      "projreind-fac0proc-primitive-forge", 2.0,
 
       "projreind-fac0heat-combustion-heater", 6.0,
 
@@ -128,7 +130,11 @@ const db = {
 
       "projreind-fac0furn-kiln", "carbonization-furnace",
 
+      "projreind-fac0proc-primitive-caster", "caster",
+
       "projreind-fac0furn-primitive-coke-oven", "coke-oven",
+
+      "projreind-fac0proc-primitive-forge", "forge",
 
       "projreind-fac0heat-combustion-heater", "heater",
 
