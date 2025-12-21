@@ -7,7 +7,17 @@ const rc = {
   // craftTime: 20s
 
 
-  base: {},
+  base: {
+
+    baseCi: [
+      "loveclab-liq0ore-water", 0.1,
+    ],
+
+    baseCo: [
+      "loveclab-gas0misc-steam", 0.1,
+    ],
+
+  },
 
 
   recipe: [],

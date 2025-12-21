@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "100.25121401",
-    "loveclab", "100.25121401",
+    "lovec", "100.25122101",
+    "loveclab", "100.25122101",
   ])) return;
 
 
@@ -54,15 +54,18 @@
   const CT_BLK_manualTimerPump = require("projreind/ct/CT_BLK_manualTimerPump");
   const CT_BLK_liquidPump = require("projreind/ct/CT_BLK_liquidPump");
   const CT_BLK_depthPump = require("projreind/ct/CT_BLK_depthPump");
+  const CT_BLK_pressurePump = require("projreind/ct/CT_BLK_pressurePump");
   const CT_BLK_fluidPipe = require("projreind/ct/CT_BLK_fluidPipe");
   const CT_BLK_fluidJunction = require("projreind/ct/CT_BLK_fluidJunction");
   const CT_BLK_fluidValve = require("projreind/ct/CT_BLK_fluidValve");
+  const CT_BLK_fluidFilter = require("projreind/ct/CT_BLK_fluidFilter");
   const CT_BLK_fluidPressureValve = require("projreind/ct/CT_BLK_fluidPressureValve");
   const CT_BLK_fluidPipeBridge = require("projreind/ct/CT_BLK_fluidPipeBridge");
   const CT_BLK_fluidRouter = require("projreind/ct/CT_BLK_fluidRouter");
 
 
   const CT_BLK_cable = require("projreind/ct/CT_BLK_cable");
+  const CT_BLK_armoredCable = require("projreind/ct/CT_BLK_armoredCable");
   const CT_BLK_wireRelay = require("projreind/ct/CT_BLK_wireRelay");
   const CT_BLK_wireNode = require("projreind/ct/CT_BLK_wireNode");
   const CT_BLK_ventGenerator = require("projreind/ct/CT_BLK_ventGenerator");
@@ -75,8 +78,10 @@
 
   const CT_BLK_baseFactory = require("projreind/ct/CT_BLK_baseFactory");
   const CT_BLK_terrainFactory = require("projreind/ct/CT_BLK_terrainFactory");
+  const CT_BLK_rainCollector = require("projreind/ct/CT_BLK_rainCollector");
   const CT_BLK_recipeFactory = require("projreind/ct/CT_BLK_recipeFactory");
   const CT_BLK_furnaceRecipeFactory = require("projreind/ct/CT_BLK_furnaceRecipeFactory");
+  const CT_BLK_electricFurnaceRecipeFactory = require("projreind/ct/CT_BLK_electricFurnaceRecipeFactory");
   const CT_BLK_durabilityRecipeFactory = require("projreind/ct/CT_BLK_durabilityRecipeFactory");
   const CT_BLK_manualRecipeFactory = require("projreind/ct/CT_BLK_manualRecipeFactory");
 

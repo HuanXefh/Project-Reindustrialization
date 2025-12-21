@@ -1,0 +1,69 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: ArmoredConveyor
+  category: power
+  requirements: [
+    loveclab-item0chem-rubber/3
+    loveclab-item0chem-copper/1
+  ]
+  buildCostMultiplier: 5.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: pow0trans-copper-wire-relay
+    objectives: []
+  }
+  researchCostMultiplier: 5.0
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 20.0
+  armor: 0.0
+  size: 1
+  hasItems: true
+  itemCapacity: 0
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 18
+  fogRadius: 1
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  consumes: {
+    power: 0.01916667
+  }

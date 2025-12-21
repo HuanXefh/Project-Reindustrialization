@@ -20,11 +20,7 @@
 */
 
 
-  research: {
-    parent: pay0mat-wooden-block
-    objectives: []
-  }
-  researchCostMultiplier: 0.4
+  alwaysUnlocked: true
 
 
 /*

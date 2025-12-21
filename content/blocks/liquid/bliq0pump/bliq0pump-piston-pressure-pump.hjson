@@ -1,0 +1,121 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: GenericCrafter
+  category: liquid
+  requirements: [
+    loveclab-item0chem-lead/20
+    loveclab-item0chem-graphite/35
+    loveclab-item0chem-tin-bronze/20
+    loveclab-item0chem-steel/20
+  ]
+  buildCostMultiplier: 3.5
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: bliq0pump-piston-liquid-pump
+    objectives: []
+  }
+  researchCostMultiplier: 0.55
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 2
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: true
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 18
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawDefault
+      }
+
+
+      {
+        type: DrawLiquidRegion
+        drawLiquid: loveclab-liq0ore-water
+        suffix: "-liquid"
+      }
+
+
+      {
+        type: DrawFade
+        suffix: "-fade"
+      }
+
+
+    ]
+  }
+  ambientSound: se-amb-piston-pump
+  ambientSoundVolume: 0.2
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  ignoreLiquidFullness: true
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  craftTime: 180.0
+  consumes: {
+    power: 1.66666667
+    liquids: [
+      loveclab-liq0ore-water/0.05
+    ]
+  }

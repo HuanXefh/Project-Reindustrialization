@@ -37,7 +37,7 @@
   scaledHealth: 40.0
   armor: 0.0
   size: 1
-  hasItems: false
+  hasItems: true
   itemCapacity: 0
   hasLiquids: false
   liquidCapacity: 5.0

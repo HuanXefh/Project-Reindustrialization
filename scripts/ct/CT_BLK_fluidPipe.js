@@ -80,6 +80,7 @@
     TEMPLATE, "bliq0cond-bronze-gas-pipe",
     TEMPLATE[0].build({
       fldTp: "gas",
+      isShortCircuitPipe: true,
     }),
   );
   exports.bliq0cond_bronzeGasPipe = bliq0cond_bronzeGasPipe;
@@ -89,6 +90,7 @@
     TEMPLATE_A, "bliq0cond-steel-gas-pipe",
     TEMPLATE_A[0].build({
       fldTp: "gas",
+      isShortCircuitPipe: true,
     }),
   );
   exports.bliq0cond_steelGasPipe = bliq0cond_steelGasPipe;

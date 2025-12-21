@@ -21,7 +21,7 @@
 
 
   research: {
-    parent: pay0mat-wooden-block
+    parent: eff0stor-crate
     objectives: []
   }
   researchCostMultiplier: 0.4

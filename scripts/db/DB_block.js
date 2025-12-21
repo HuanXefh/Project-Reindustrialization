@@ -33,6 +33,8 @@ const db = {
       "projreind-fac0furn-primitive-sintering-furnace", 1800.0,
       "projreind-fac0furn-primitive-coke-oven", 1600.0,
 
+      "projreind-fac0heat-resistance-heater", 750.0,
+
       "projreind-fac0proc-primitive-caster", 1800.0,
       "projreind-fac0proc-primitive-forge", 1800.0,
 
@@ -137,6 +139,7 @@ const db = {
       "projreind-fac0proc-primitive-forge", "forge",
 
       "projreind-fac0heat-combustion-heater", "heater",
+      "projreind-fac0heat-resistance-heater", "heater",
 
       "projreind-fac0heat-primitive-heat-exchanger", "heat-exchanger",
 
@@ -256,6 +259,9 @@ const db = {
       "projreind-pow0trans-copper-cable",
       "projreind-pow0trans-copper-wire-relay",
       "projreind-pow0trans-copper-wire-node",
+      "projreind-pow0trans-copper-wire-remote-node",
+
+      "projreind-fac0heat-resistance-heater",
 
       "projreind-pay0conv-payload-express-way",
 

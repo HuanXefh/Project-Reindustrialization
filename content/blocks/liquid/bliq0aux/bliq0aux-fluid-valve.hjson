@@ -8,9 +8,9 @@
   # type: LiquidJunction
   category: liquid
   requirements: [
-    loveclab-item0chem-graphite/30
+    loveclab-item0chem-graphite/15
     loveclab-item0chem-brass/15
-    loveclab-item0chem-leaded-tin-bronze/30
+    loveclab-item0chem-leaded-tin-bronze/15
   ]
   buildCostMultiplier: 5.0
 

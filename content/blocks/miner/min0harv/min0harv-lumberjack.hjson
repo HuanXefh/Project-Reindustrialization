@@ -65,7 +65,7 @@
 
   squareSprite: false
   rotateSpeed: 18.0
-  ambientSound: cutter
+  ambientSound: loopCutter
   ambientSoundVolume: 0.2
 
 

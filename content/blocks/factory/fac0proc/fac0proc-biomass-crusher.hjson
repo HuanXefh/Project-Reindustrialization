@@ -1,0 +1,138 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: GenericCrafter
+  category: crafting
+  requirements: [
+    loveclab-item0chem-copper/40
+    loveclab-item0chem-graphite/25
+    loveclab-item0chem-brass/15
+    loveclab-item0chem-leaded-tin-bronze/25
+  ]
+  buildCostMultiplier: 3.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: fac0proc-sawmill
+    objectives: []
+  }
+  researchCostMultiplier: 0.35
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 3
+  hasItems: true
+  itemCapacity: 20
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 1
+  envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawRegion
+        suffix: "-bottom"
+      }
+
+
+      {
+        type: DrawFrames
+        frames: 8
+        interval: 1.0
+        sine: false
+      }
+
+
+      {
+        type: DrawParticles
+        color: dccdb1
+        alpha: 1.0
+        particles: 24
+        particleLife: 60.0
+        particleRad: 9.0
+        particleSize: 2.0
+        rotateScl: 4.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawRegion
+        suffix: "-shade"
+      }
+
+
+      {
+        type: DrawDefault
+      }
+
+
+    ]
+  }
+  ambientSound: se-amb-hum
+  ambientSoundVolume: 0.3
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  ignoreLiquidFullness: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  craftTime: 240.0
+  consumes: {
+    power: 0.83333333
+  }

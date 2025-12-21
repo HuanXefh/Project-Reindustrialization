@@ -59,6 +59,18 @@
   exports.fac0proc_coreCrafter = fac0proc_coreCrafter;
 
 
+  const fac0proc_biomassCrusher = extendBlock(
+    TEMPLATE, "fac0proc-biomass-crusher",
+    TEMPLATE[0].build({
+      rcMdl: "fac0proc-biomass-crusher",
+      rcSourceMod: "projreind",
+      updateEff: EFF.sawmillCrack,
+      updateEffP: 0.02,
+    }),
+  );
+  exports.fac0proc_biomassCrusher = fac0proc_biomassCrusher;
+
+
   /* <---------- fac0sep ----------> */
 
 
