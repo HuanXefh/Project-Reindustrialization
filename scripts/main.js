@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "100.25122101",
-    "loveclab", "100.25122101",
+    "lovec", "100.26010301",
+    "loveclab", "100.26010301",
   ])) return;
 
 
@@ -35,6 +35,7 @@
 
 
   const CT_BLK_conveyor = require("projreind/ct/CT_BLK_conveyor");
+  const CT_BLK_stackConveyor = require("projreind/ct/CT_BLK_stackConveyor");
   const CT_BLK_itemJunction = require("projreind/ct/CT_BLK_itemJunction");
   const CT_BLK_conveyorBridge = require("projreind/ct/CT_BLK_conveyorBridge");
   const CT_BLK_router = require("projreind/ct/CT_BLK_router");
@@ -100,6 +101,9 @@
 
 
   const CT_BLK_defenseWall = require("projreind/ct/CT_BLK_defenseWall");
+
+
+  const CT_DBCT_infoContent = require("projreind/ct/CT_DBCT_infoContent");
 
 
 /*

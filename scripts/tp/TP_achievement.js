@@ -118,7 +118,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0ore-native-copper")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(itm.name === "loveclab-item0chem-copper") this.complete();
+        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-copper") this.complete();
       },
     );
 
@@ -128,7 +128,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-tin-bronze")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(itm.name === "loveclab-item0chem-tin-bronze") this.complete();
+        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-tin-bronze") this.complete();
       },
     );
 
@@ -138,7 +138,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-steel")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(itm.name === "loveclab-item0chem-steel") this.complete();
+        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-steel") this.complete();
       },
     );
 

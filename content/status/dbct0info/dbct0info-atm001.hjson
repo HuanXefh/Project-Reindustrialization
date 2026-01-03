@@ -1,0 +1,18 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: camp-atm001-sector-beta
+    objectives: [
+
+      {
+        type: SectorComplete
+        preset: camp-atm001-sector-beta
+      }
+
+    ]
+  }

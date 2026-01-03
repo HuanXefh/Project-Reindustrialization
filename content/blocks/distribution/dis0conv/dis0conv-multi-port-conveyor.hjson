@@ -1,0 +1,93 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: StackConveyor
+  category: distribution
+  requirements: [
+    loveclab-item0bio-timber/7
+    loveclab-item0chem-graphite/5
+    loveclab-item0chem-leaded-tin-bronze/3
+    loveclab-item0chem-steel/2
+  ]
+  buildCostMultiplier: 5.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: dis0conv-standard-conveyor
+    objectives: []
+  }
+  buildCostMultiplier: 3.5
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 1
+  hasItems: true
+  itemCapacity: 50
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 1
+  envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  glowColor: cfe3f2
+  glowAlpha: 0.8
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  baseEfficiency: 0.0
+  speed: 0.025
+  recharge: 5.0
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  consumes: {
+    power: 0.05416667
+  }

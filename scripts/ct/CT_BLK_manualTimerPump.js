@@ -24,8 +24,8 @@
   const bliq0pump_portableManualPump = extendBlock(
     TEMPLATE, "bliq0pump-portable-manual-pump",
     TEMPLATE[0].build({
-      timeClickCap: 2.5 * 60.0 * 60.0,
-      timeClickInc: 180.0,
+      manualTimerCap: 2.5 * 60.0 * 60.0,
+      manualTimerClickInc: 180.0,
     }),
   );
   exports.bliq0pump_portableManualPump = bliq0pump_portableManualPump;

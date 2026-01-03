@@ -241,8 +241,16 @@ const db = {
     exposed: [
 
       "projreind-dis0conv-primitive-conveyor",
+      "projreind-dis0conv-standard-conveyor",
+      "projreind-dis0conv-multi-port-conveyor",
+
+      "projreind-dis0aux-item-junction",
+      "projreind-dis0aux-item-incinerator",
 
       "projreind-eff0stor-crate",
+
+      "projreind-dis0loot-item-hopper",
+      "projreind-dis0loot-item-collector",
 
     ],
 
@@ -255,6 +263,8 @@ const db = {
 
 
     shortCircuit: [
+
+      "projreind-dis0conv-multi-port-conveyor",
 
       "projreind-pow0trans-copper-cable",
       "projreind-pow0trans-copper-wire-relay",
