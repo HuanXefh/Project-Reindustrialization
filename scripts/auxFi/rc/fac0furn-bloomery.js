@@ -20,21 +20,41 @@ const rc = {
     /* base */
 
 
+    "STEELMAKING: cast iron", {
+      icon: "loveclab-item0chem-cast-iron",
+      category: "steelmaking",
+      lockedBy: [
+        "loveclab-item0chem-leaded-tin-bronze",
+        "loveclab-item0ore-hematite",
+      ],
+      timeScl: 3.0,
+      tempReq: 1600.0,
+
+      bi: [
+        "GROUP: pig iron", 30, 1.0,
+      ],
+
+      bo: [
+        "loveclab-item0chem-cast-iron", 30, 0.66666667,
+      ],
+
+    },
+
+
     "STEELMAKING: wrought iron", {
 
       icon: "loveclab-item0chem-wrought-iron",
       category: "steelmaking",
       lockedBy: [
-        "loveclab-item0chem-brass",
-        "loveclab-item0chem-tin-bronze",
+        "loveclab-item0chem-cast-iron",
       ],
       tempReq: 1200.0,
 
+      ci: [
+        "loveclab-gas0misc-air", 0.2,
+      ],
       bi: [
-        [
-          "loveclab-item0chem-pig-iron", 10, 1.0,
-          "loveclab-item0ore-meteoric-iron", 15, 1.0,
-        ], -1.0, -1.0,
+        "GROUP: pig iron", 10, 1.0,
       ],
 
       bo: [
@@ -76,6 +96,9 @@ const rc = {
 
       icon: "loveclab-item0was-scrap-steel",
       category: "steelmaking",
+      lockedBy: [
+        "loveclab-item0chem-mangalloy",
+      ],
       timeScl: 3.0,
       tempReq: 1400.0,
 
@@ -110,19 +133,11 @@ const rc = {
       tempReq: 1600.0,
 
       bi: [
-        [
-          "loveclab-item0ore-psilomelane", 30, 1.0,
-          "loveclab-item0ore-pyrolusite", 30, 1.0,
-        ], -1.0, -1.0,
-        [
-          "loveclab-item0chem-pig-iron", 30, 0.75,
-          "loveclab-item0ore-hematite", 30, 1.0,
-          "loveclab-item0ore-magnetite", 30, 1.0,
-        ], -1.0, -1.0,
+        "GROUP: manganiferous material", 30.0, 1.0,
+        "GROUP: ferrous material", 30.0, 1.0,
         [
           "loveclab-item0chem-graphite", 15, 0.5,
-          "loveclab-item0chem-coke", 15, 0.5,
-          "loveclab-item0chem-anthracite", 15, 1.0,
+          "GROUP: reductive carbon", 15, 1.0,
         ], -1.0, -1.0,
       ],
 

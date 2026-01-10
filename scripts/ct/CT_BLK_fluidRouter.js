@@ -30,7 +30,6 @@
       fldTp: "liquid",
     }),
   );
-  exports.bliq0stor_bronzeLiquidRouter = bliq0stor_bronzeLiquidRouter;
 
 
   const bliq0stor_steelLiquidTank = extendBlock(
@@ -39,7 +38,6 @@
       fldTp: "liquid",
     }),
   );
-  exports.bliq0stor_steelLiquidTank = bliq0stor_steelLiquidTank;
 
 
   /* gas */
@@ -51,4 +49,3 @@
       fldTp: "gas",
     }),
   );
-  exports.bliq0stor_steelGasCylinder = bliq0stor_steelGasCylinder;

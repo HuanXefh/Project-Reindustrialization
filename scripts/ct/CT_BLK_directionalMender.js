@@ -28,4 +28,3 @@
       bHealPerc: 0.08,
     }),
   );
-  exports.eff0proj_localRepairer = eff0proj_localRepairer;

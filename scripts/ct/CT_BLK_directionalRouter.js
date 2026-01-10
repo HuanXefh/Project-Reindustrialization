@@ -24,4 +24,3 @@
   const dis0aux_primitiveDirectionalRouter = extendBlock(
     TEMPLATE, "dis0aux-primitive-directional-router",
   );
-  exports.dis0aux_primitiveDirectionalRouter = dis0aux_primitiveDirectionalRouter;

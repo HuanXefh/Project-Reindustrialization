@@ -17,6 +17,9 @@ const rc = {
 
       icon: "loveclab-item0bio-timber",
       category: "misc",
+      lockedBy: [
+        "loveclab-item0buil-brick-clay",
+      ],
 
       bi: [
         "loveclab-item0bio-log", 10, 1.0,

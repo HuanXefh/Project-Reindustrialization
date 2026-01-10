@@ -24,4 +24,3 @@
   const def0wall_woodenBarricade = extendBlock(
     TEMPLATE, "def0wall-wooden-barricade",
   );
-  exports.def0wall_woodenBarricade = def0wall_woodenBarricade;

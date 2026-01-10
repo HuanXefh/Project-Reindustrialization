@@ -28,4 +28,3 @@
       presProd: 0.03333333,
     }),
   );
-  exports.bliq0pump_pistonPressurePump = bliq0pump_pistonPressurePump;

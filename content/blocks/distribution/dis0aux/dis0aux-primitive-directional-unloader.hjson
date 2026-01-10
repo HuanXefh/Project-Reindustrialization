@@ -8,10 +8,10 @@
   # type: DirectionalUnloader
   category: distribution
   requirements: [
-    loveclab-item0bio-timber/65
-    loveclab-item0chem-graphite/40
-    loveclab-item0chem-brass/40
-    loveclab-item0chem-steel/20
+    loveclab-item0bio-timber/80
+    loveclab-item0chem-graphite/65
+    loveclab-item0chem-brass/65
+    loveclab-item0chem-steel/40
   ]
   buildCostMultiplier: 1.0
 

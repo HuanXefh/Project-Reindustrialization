@@ -30,7 +30,6 @@
       minRadFrac: 0.35,
     }),
   );
-  exports.pow0trans_copperWireNode = pow0trans_copperWireNode;
 
 
   const pow0trans_copperWireRemoteNode = extendBlock(
@@ -42,4 +41,3 @@
       minRadFrac: 0.7,
     }),
   );
-  exports.pow0trans_copperWireRemoteNode = pow0trans_copperWireRemoteNode;

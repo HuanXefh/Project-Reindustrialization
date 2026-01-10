@@ -24,4 +24,3 @@
   const dis0brd_conveyorBridge = extendBlock(
     TEMPLATE, "dis0brd-conveyor-bridge",
   );
-  exports.dis0brd_conveyorBridge = dis0brd_conveyorBridge;

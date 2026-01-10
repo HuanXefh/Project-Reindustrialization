@@ -28,7 +28,6 @@
       ovCog: "projreind-pow0tor-large-brass-cogwheel",
     }),
   );
-  exports.pow0tor_brassCogwheelStack1to3 = pow0tor_brassCogwheelStack1to3;
 
 
   const pow0tor_brassCogwheelStack3to1 = extendBlock(
@@ -38,4 +37,3 @@
       ovCog: "projreind-pow0tor-brass-cogwheel",
     }),
   );
-  exports.pow0tor_brassCogwheelStack3to1 = pow0tor_brassCogwheelStack3to1;

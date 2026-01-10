@@ -28,4 +28,3 @@
       wireTouchDmg: 20.0,
     }),
   );
-  exports.pow0trans_copperWireRelay = pow0trans_copperWireRelay;

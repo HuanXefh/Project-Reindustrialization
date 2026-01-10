@@ -38,13 +38,12 @@
       updateEffP: 0.01,
     }),
   );
-  exports.fac0furn_kiln = fac0furn_kiln;
 
 
   const fac0furn_primitiveSmelter = extendBlock(
     TEMPLATE, "fac0furn-primitive-smelter",
     TEMPLATE[0].build({
-      fuelConsMtp: 0.1,
+      fuelConsMtp: 0.25,
       rcMdl: "fac0furn-primitive-smelter",
       rcSourceMod: "projreind",
       disableDump: true,
@@ -53,7 +52,6 @@
       updateEffP: 0.01,
     }),
   );
-  exports.fac0furn_primitiveSmelter = fac0furn_primitiveSmelter;
 
 
   const fac0furn_bloomery = extendBlock(
@@ -69,7 +67,6 @@
       updateEffP: 0.01,
     }),
   );
-  exports.fac0furn_bloomery = fac0furn_bloomery;
 
 
   const fac0furn_primitiveCrucible = extendBlock(
@@ -85,7 +82,6 @@
       updateEffP: 0.01,
     }),
   );
-  exports.fac0furn_primitiveCrucible = fac0furn_primitiveCrucible;
 
 
   const fac0furn_primitiveSinteringFurnace = extendBlock(
@@ -93,7 +89,7 @@
     TEMPLATE[0].build({
       blockedFuels: DB_item.db["group"]["fuel"]["biotic"],
       fuelConsMtp: 0.75,
-      fuelLvlMtp: 1.25,
+      fuelLvlMtp: 1.375,
       fuelWarmupRate: 0.0003,
       rcMdl: "fac0furn-primitive-sintering-furnace",
       rcSourceMod: "projreind",
@@ -102,7 +98,6 @@
       updateEffP: 0.01,
     }),
   );
-  exports.fac0furn_primitiveSinteringFurnace = fac0furn_primitiveSinteringFurnace;
 
 
   const fac0furn_primitiveCokeOven = extendBlock(
@@ -117,7 +112,6 @@
       updateEffP: 0.01,
     }),
   );
-  exports.fac0furn_primitiveCokeOven = fac0furn_primitiveCokeOven;
 
 
   /* <---------- fac0proc ----------> */
@@ -133,7 +127,6 @@
       rcSourceMod: "projreind",
     }),
   );
-  exports.fac0proc_primitiveCaster = fac0proc_primitiveCaster;
 
 
   const fac0proc_primitiveForge = extendBlock(
@@ -146,7 +139,6 @@
       rcSourceMod: "projreind",
     }),
   );
-  exports.fac0proc_primitiveForge = fac0proc_primitiveForge;
 
 
   /* <---------- fac0heat ----------> */
@@ -163,4 +155,3 @@
       updateEffP: 0.01,
     }),
   );
-  exports.fac0heat_combustionHeater = fac0heat_combustionHeater;

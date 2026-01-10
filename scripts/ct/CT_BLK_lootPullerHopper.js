@@ -29,4 +29,3 @@
       lootCallAmt: 18,
     }),
   );
-  exports.dis0loot_itemCollector = dis0loot_itemCollector;

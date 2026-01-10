@@ -41,4 +41,3 @@
       updateEffP: 0.01,
     }),
   );
-  exports.min0drl_topazClassSandMiner = min0drl_topazClassSandMiner;

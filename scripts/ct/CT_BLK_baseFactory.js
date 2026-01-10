@@ -29,4 +29,3 @@
       updateEffP: 0.02,
     }),
   );
-  exports.fac0proc_sawmill = fac0proc_sawmill;

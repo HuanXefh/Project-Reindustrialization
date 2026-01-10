@@ -31,4 +31,3 @@
       updateEffP: 0.02,
     }),
   );
-  exports.min0harv_mycelialHarvester = min0harv_mycelialHarvester;

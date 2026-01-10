@@ -30,7 +30,6 @@
       updateEffP: 0.01,
     }),
   );
-  exports.min0drl_survivorDrill = min0drl_survivorDrill;
 
 
   const min0drl_progressClassDrill = extendBlock(
@@ -41,4 +40,3 @@
       updateEffP: 0.01,
     }),
   );
-  exports.min0drl_progressClassDrill = min0drl_progressClassDrill;

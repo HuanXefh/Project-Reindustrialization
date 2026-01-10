@@ -29,4 +29,3 @@
       rcSourceMod: "projreind",
     }),
   );
-  exports.pow0tor_crank = pow0tor_crank;

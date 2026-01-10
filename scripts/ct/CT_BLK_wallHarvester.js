@@ -28,4 +28,3 @@
       updateEffP: 0.02,
     }),
   );
-  exports.min0harv_lumberjack = min0harv_lumberjack;

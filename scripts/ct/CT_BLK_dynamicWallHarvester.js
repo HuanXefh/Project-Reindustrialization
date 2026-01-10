@@ -31,4 +31,3 @@
       liqProdRate: 0.1,
     }),
   );
-  exports.min0harv_treeTap = min0harv_treeTap;

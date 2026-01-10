@@ -25,10 +25,8 @@
   const dis0conv_primitiveConveyor = extendBlock(
     TEMPLATE_A, "dis0conv-primitive-conveyor",
   );
-  exports.dis0conv_primitiveConveyor = dis0conv_primitiveConveyor;
 
 
   const dis0conv_standardConveyor = extendBlock(
     TEMPLATE_A, "dis0conv-standard-conveyor",
   );
-  exports.dis0conv_standardConveyor = dis0conv_standardConveyor;

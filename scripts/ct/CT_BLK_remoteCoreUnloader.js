@@ -24,4 +24,3 @@
   const dis0aux_remoteCoreUnloader = extendBlock(
     TEMPLATE, "dis0aux-remote-core-unloader",
   );
-  exports.dis0aux_remoteCoreUnloader = dis0aux_remoteCoreUnloader;

@@ -30,7 +30,6 @@
       rcSourceMod: "projreind",
     }),
   );
-  exports.fac0mill_jawCrusher = fac0mill_jawCrusher;
 
 
   const fac0mill_mechanicalMill = extendBlock(
@@ -41,7 +40,6 @@
       rcSourceMod: "projreind",
     }),
   );
-  exports.fac0mill_mechanicalMill = fac0mill_mechanicalMill;
 
 
   /* <---------- fac0mix ----------> */
@@ -55,4 +53,3 @@
       rcSourceMod: "projreind",
     }),
   );
-  exports.fac0mix_vMixer = fac0mix_vMixer;

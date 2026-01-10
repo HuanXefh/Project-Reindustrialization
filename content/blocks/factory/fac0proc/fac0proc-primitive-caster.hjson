@@ -10,6 +10,7 @@
   requirements: [
     loveclab-item0chem-copper/40
     loveclab-item0chem-graphite/40
+    loveclab-item0chem-cast-iron/20
     loveclab-item0buil-brick-clay/25
     loveclab-item0buil-brick-magnesia/25
   ]

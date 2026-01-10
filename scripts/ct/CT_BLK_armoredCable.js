@@ -24,4 +24,3 @@
   const pow0trans_insulatedCopperCable = extendBlock(
     TEMPLATE, "pow0trans-insulated-copper-cable",
   );
-  exports.pow0trans_insulatedCopperCable = pow0trans_insulatedCopperCable;

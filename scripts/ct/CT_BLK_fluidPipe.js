@@ -31,7 +31,6 @@
       fldTp: "liquid",
     }),
   );
-  exports.bliq0cond_woodenLiquidPipe = bliq0cond_woodenLiquidPipe;
 
 
   const bliq0cond_bronzeLiquidPipe = extendBlock(
@@ -41,7 +40,6 @@
       isShortCircuitPipe: true,
     }),
   );
-  exports.bliq0cond_bronzeLiquidPipe = bliq0cond_bronzeLiquidPipe;
 
 
   const bliq0cond_leadLiquidPipe = extendBlock(
@@ -51,7 +49,6 @@
       isShortCircuitPipe: true,
     }),
   );
-  exports.bliq0cond_leadLiquidPipe = bliq0cond_leadLiquidPipe;
 
 
   const bliq0cond_steelLiquidPipe = extendBlock(
@@ -61,7 +58,6 @@
       isShortCircuitPipe: true,
     }),
   );
-  exports.bliq0cond_steelLiquidPipe = bliq0cond_steelLiquidPipe;
 
 
   /* gas */
@@ -73,7 +69,6 @@
       fldTp: "gas",
     }),
   );
-  exports.bliq0cond_woodenGasPipe = bliq0cond_woodenGasPipe;
 
 
   const bliq0cond_bronzeGasPipe = extendBlock(
@@ -83,7 +78,6 @@
       isShortCircuitPipe: true,
     }),
   );
-  exports.bliq0cond_bronzeGasPipe = bliq0cond_bronzeGasPipe;
 
 
   const bliq0cond_steelGasPipe = extendBlock(
@@ -93,4 +87,3 @@
       isShortCircuitPipe: true,
     }),
   );
-  exports.bliq0cond_steelGasPipe = bliq0cond_steelGasPipe;

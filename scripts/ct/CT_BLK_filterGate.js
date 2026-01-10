@@ -27,7 +27,6 @@
   const dis0aux_filterGate = extendBlock(
     TEMPLATE, "dis0aux-filter-gate",
   );
-  exports.dis0aux_filterGate = dis0aux_filterGate;
 
 
   const dis0aux_intermediateFilterGate = extendBlock(
@@ -37,7 +36,6 @@
       hideSelection: true,
     }),
   );
-  exports.dis0aux_intermediateFilterGate = dis0aux_intermediateFilterGate;
 
 
   const dis0aux_wasteFilterGate = extendBlock(
@@ -47,4 +45,3 @@
       hideSelection: true,
     }),
   );
-  exports.dis0aux_wasteFilterGate = dis0aux_wasteFilterGate;

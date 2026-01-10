@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "100.26010301",
-    "loveclab", "100.26010301",
+    "lovec", "100.26011001",
+    "loveclab", "100.26011001",
   ])) return;
 
 
@@ -16,9 +16,6 @@
 
   const MDL_event = require("lovec/mdl/MDL_event");
   const MDL_util = require("lovec/mdl/MDL_util");
-
-
-  const TP_achievement = require("projreind/tp/TP_achievement");
 
 
   /* <---------- load ----------> */
@@ -97,6 +94,7 @@
   const CT_BLK_statusProjector = require("projreind/ct/CT_BLK_statusProjector");
 
 
+  const CT_BLK_messageBlock = require("projreind/ct/CT_BLK_messageBlock");
   const CT_BLK_directionalSwitch = require("projreind/ct/CT_BLK_directionalSwitch");
 
 
@@ -104,6 +102,11 @@
 
 
   const CT_DBCT_infoContent = require("projreind/ct/CT_DBCT_infoContent");
+  const CT_DBCT_dialFlowContent = require("projreind/ct/CT_DBCT_dialFlowContent");
+
+
+  const TP_achievement = require("projreind/tp/TP_achievement");
+  const TP_dialFlow = require("projreind/tp/TP_dialFlow");
 
 
 /*

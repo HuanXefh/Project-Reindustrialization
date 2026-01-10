@@ -10,6 +10,7 @@
   requirements: [
     loveclab-item0chem-lead/20
     loveclab-item0chem-tin-bronze/15
+    loveclab-item0chem-cast-iron/20
     loveclab-item0chem-steel/10
   ]
   buildCostMultiplier: 4.0

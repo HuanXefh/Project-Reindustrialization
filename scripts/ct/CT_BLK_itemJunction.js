@@ -24,4 +24,3 @@
   const dis0aux_itemJunction = extendBlock(
     TEMPLATE, "dis0aux-item-junction",
   );
-  exports.dis0aux_itemJunction = dis0aux_itemJunction;

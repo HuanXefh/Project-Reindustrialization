@@ -24,4 +24,3 @@
   const dis0aux_router = extendBlock(
     TEMPLATE, "dis0aux-router",
   );
-  exports.dis0aux_router = dis0aux_router;

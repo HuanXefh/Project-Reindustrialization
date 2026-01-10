@@ -35,4 +35,3 @@
       }),
     }),
   );
-  exports.min0drl_boulderClassImpactDrill = min0drl_boulderClassImpactDrill;

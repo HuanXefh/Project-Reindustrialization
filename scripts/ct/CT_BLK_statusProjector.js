@@ -39,4 +39,3 @@
       ],
     }),
   );
-  exports.eff0proj_hasteProjector = eff0proj_hasteProjector;

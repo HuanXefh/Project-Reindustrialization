@@ -28,4 +28,3 @@
       lootCallAmt: 15,
     }),
   );
-  exports.dis0loot_itemHopper = dis0loot_itemHopper;

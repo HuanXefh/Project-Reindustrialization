@@ -28,4 +28,3 @@
       manualTimerClickInc: 180.0,
     }),
   );
-  exports.bliq0pump_portableManualPump = bliq0pump_portableManualPump;

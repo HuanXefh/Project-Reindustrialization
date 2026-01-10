@@ -30,7 +30,6 @@
       exploEff: EFF.explosion,
     }),
   );
-  exports.pow0gen_ventGenerator = pow0gen_ventGenerator;
 
 
   const pow0gen_hpsvGenerator = extendBlock(
@@ -41,4 +40,3 @@
       exploEff: EFF.explosion,
     }),
   );
-  exports.pow0gen_hpsvGenerator = pow0gen_hpsvGenerator;

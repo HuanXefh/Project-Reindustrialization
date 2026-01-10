@@ -24,4 +24,3 @@
   const dis0aux_overflowGate = extendBlock(
     TEMPLATE, "dis0aux-overflow-gate",
   );
-  exports.dis0aux_overflowGate = dis0aux_overflowGate;

@@ -24,4 +24,3 @@
   const bliq0aux_primitivePressureValve = extendBlock(
     TEMPLATE, "bliq0aux-primitive-pressure-valve",
   );
-  exports.bliq0aux_primitivePressureValve = bliq0aux_primitivePressureValve;

@@ -27,4 +27,3 @@
       presThr: 1.0,
     }),
   );
-  exports.bliq0brd_bronzeFluidPipeBridge = bliq0brd_bronzeFluidPipeBridge;

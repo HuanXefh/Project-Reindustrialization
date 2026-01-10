@@ -24,4 +24,3 @@
   const min0drl_pangolinClassWallDrill = extendBlock(
     TEMPLATE, "min0drl-pangolin-class-wall-drill",
   );
-  exports.min0drl_pangolinClassWallDrill = min0drl_pangolinClassWallDrill;

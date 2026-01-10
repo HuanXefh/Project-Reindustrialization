@@ -24,4 +24,3 @@
   const pow0tor_brassGearBox = extendBlock(
     TEMPLATE, "pow0tor-brass-gear-box",
   );
-  exports.pow0tor_brassGearBox = pow0tor_brassGearBox;

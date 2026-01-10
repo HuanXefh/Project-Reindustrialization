@@ -24,4 +24,3 @@
   const pay0conv_payloadExpressWay = extendBlock(
     TEMPLATE, "pay0conv-payload-express-way",
   );
-  exports.pay0conv_payloadExpressWay = pay0conv_payloadExpressWay;

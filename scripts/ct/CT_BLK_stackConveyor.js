@@ -24,4 +24,3 @@
   const dis0conv_multiPortConveyor = extendBlock(
     TEMPLATE, "dis0conv-multi-port-conveyor",
   );
-  exports.dis0conv_multiPortConveyor = dis0conv_multiPortConveyor;

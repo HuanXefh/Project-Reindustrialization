@@ -30,4 +30,3 @@
       updateEffP: 0.02,
     }),
   );
-  exports.dis0aux_itemIncinerator = dis0aux_itemIncinerator;

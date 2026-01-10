@@ -29,7 +29,6 @@
       rcSourceMod: "projreind",
     }),
   );
-  exports.fac0air_airFilter = fac0air_airFilter;
 
 
   /* <---------- fac0heat ----------> */
@@ -42,7 +41,6 @@
       rcSourceMod: "projreind",
     }),
   );
-  exports.fac0heat_primitiveHeatExchanger = fac0heat_primitiveHeatExchanger;
 
 
   /* <---------- fac0proc ----------> */
@@ -56,7 +54,6 @@
       craftEff: EFF.craftCrack,
     }),
   );
-  exports.fac0proc_coreCrafter = fac0proc_coreCrafter;
 
 
   const fac0proc_biomassCrusher = extendBlock(
@@ -68,7 +65,6 @@
       updateEffP: 0.02,
     }),
   );
-  exports.fac0proc_biomassCrusher = fac0proc_biomassCrusher;
 
 
   /* <---------- fac0sep ----------> */
@@ -81,7 +77,6 @@
       rcSourceMod: "projreind",
     }),
   );
-  exports.fac0sep_cycloneSeparator = fac0sep_cycloneSeparator;
 
 
   const fac0sep_vibrationScreen = extendBlock(
@@ -91,7 +86,6 @@
       rcSourceMod: "projreind",
     }),
   );
-  exports.fac0sep_vibrationScreen = fac0sep_vibrationScreen;
 
 
   const fac0sep_dryMagneticSeparator = extendBlock(
@@ -101,4 +95,3 @@
       rcSourceMod: "projreind",
     }),
   );
-  exports.fac0sep_dryMagneticSeparator = fac0sep_dryMagneticSeparator;

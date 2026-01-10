@@ -29,4 +29,3 @@
       terMode: "disable",
     }),
   );
-  exports.fac0air_airCollector = fac0air_airCollector;

@@ -9,7 +9,7 @@
   category: crafting
   requirements: [
     loveclab-item0chem-graphite/20
-    loveclab-item0chem-steel/10
+    loveclab-item0chem-cast-iron/15
     loveclab-item0buil-brick-clay/20
   ]
   buildCostMultiplier: 5.0
@@ -109,7 +109,7 @@
 */
 
 
-  ignoreLiquidFullness: true
+  ignoreLiquidFullness: false
   dumpExtraLiquid: false
 
 

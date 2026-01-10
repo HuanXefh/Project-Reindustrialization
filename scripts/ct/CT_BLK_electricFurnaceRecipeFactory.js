@@ -33,4 +33,3 @@
       rcSourceMod: "projreind",
     }),
   );
-  exports.fac0heat_resistanceHeater = fac0heat_resistanceHeater;

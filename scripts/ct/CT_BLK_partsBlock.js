@@ -24,4 +24,3 @@
   const pay0mat_mangalloyRod = extendBlock(
     TEMPLATE, "pay0mat-mangalloy-rod",
   );
-  exports.pay0mat_mangalloyRod = pay0mat_mangalloyRod;

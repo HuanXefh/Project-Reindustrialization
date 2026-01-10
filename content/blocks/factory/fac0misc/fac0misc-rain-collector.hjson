@@ -10,7 +10,7 @@
   requirements: [
     loveclab-item0bio-timber/35
     loveclab-item0chem-graphite/15
-    loveclab-item0chem-steel/10
+    loveclab-item0chem-cast-iron/15
   ]
   buildCostMultiplier: 4.0
 

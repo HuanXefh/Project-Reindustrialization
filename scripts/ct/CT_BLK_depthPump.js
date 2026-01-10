@@ -32,4 +32,3 @@
       liqProdRate: 0.5,
     }),
   );
-  exports.bliq0pump_pistonDepthPump = bliq0pump_pistonDepthPump;

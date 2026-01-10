@@ -30,4 +30,3 @@
       craftEff: EFF.drillPulsePack[2],
     }),
   );
-  exports.min0scan_alphaClassOreScanner = min0scan_alphaClassOreScanner;

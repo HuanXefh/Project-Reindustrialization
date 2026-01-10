@@ -39,7 +39,7 @@
   size: 2
   hasItems: true
   itemCapacity: 150
-  hasLiquids: false
+  hasLiquids: true
   liquidCapacity: 5.0
   hasPower: false
 

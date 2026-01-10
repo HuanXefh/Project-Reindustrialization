@@ -30,4 +30,3 @@
       unitHealPerc: 0.025,
     }),
   );
-  exports.eff0proj_bayClassRepairer = eff0proj_bayClassRepairer;

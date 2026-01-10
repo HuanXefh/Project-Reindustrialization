@@ -31,4 +31,3 @@
     drawers,
     fetchDrawer("DrawDynamicLiquid"),
   ]);
-  exports.fac0misc_rainCollector = fac0misc_rainCollector;

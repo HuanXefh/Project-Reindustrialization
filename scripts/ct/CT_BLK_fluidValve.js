@@ -24,4 +24,3 @@
   const bliq0aux_fluidValve = extendBlock(
     TEMPLATE, "bliq0aux-fluid-valve",
   );
-  exports.bliq0aux_fluidValve = bliq0aux_fluidValve;

@@ -24,4 +24,3 @@
   const bliq0aux_fluidJunction = extendBlock(
     TEMPLATE, "bliq0aux-fluid-junction",
   );
-  exports.bliq0aux_fluidJunction = bliq0aux_fluidJunction;

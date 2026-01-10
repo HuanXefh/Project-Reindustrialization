@@ -24,4 +24,3 @@
   const dis0aux_primitiveUnloader = extendBlock(
     TEMPLATE, "dis0aux-primitive-unloader",
   );
-  exports.dis0aux_primitiveUnloader = dis0aux_primitiveUnloader;
