@@ -1,0 +1,107 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: MassDriver
+  category: distribution
+  requirements: [
+    loveclab-item0bio-timber/160
+    loveclab-item0chem-tin-bronze/75
+    loveclab-item0chem-cast-iron/180
+    loveclab-item0chem-mangalloy/60
+    loveclab-item0ore-magnetite/200
+    loveclab-item0buil-cement/75
+    loveclab-item0buil-coarse-aggregate/120
+    loveclab-item0buil-fine-aggregate/90
+  ]
+  buildCostMultiplier: 2.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: dis0mdr-local-mass-driver
+    objectives: []
+  }
+  researchCostMultiplier: 0.2
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 2
+  hasItems: true
+  itemCapacity: 120
+  hasLiquids: true
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 20
+  fogRadius: 3
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  knockback: 2.5
+  translation: 3.5
+  shake: 6.0
+  shootSound: se-shot-mass-driver1
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  range: 800.0
+  rotateSpeed: 0.5
+  bulletSpeed: 8.0
+  bulletLifetime: 100.0
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  minDistribute: 45
+  reload: 300.0
+  consumes: {
+    power: 1.5
+    liquids: [
+      loveclab-liq0ore-water/0.15
+    ]
+  }

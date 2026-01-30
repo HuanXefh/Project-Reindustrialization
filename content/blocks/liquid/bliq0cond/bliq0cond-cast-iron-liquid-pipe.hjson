@@ -1,0 +1,78 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: ArmoredConduit
+  category: liquid
+  requirements: [
+    loveclab-item0chem-cast-iron/3
+  ]
+  buildCostMultiplier: 3.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: bliq0cond-bronze-liquid-pipe
+    objectives: []
+  }
+  researchCostMultiplier: 2.5
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 1
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: true
+  liquidCapacity: 30.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 16
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  botColor: "675e78"
+  padCorners: true
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  leaks: true
+  junctionReplacement: bliq0aux-fluid-junction
+  bridgeReplacement: bliq0brd-bronze-fluid-pipe-bridge

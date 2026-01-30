@@ -78,17 +78,14 @@ const rc = {
 
     "MISC: rubber", {
 
-      icon: "loveclab-liq0bio-latex",
+      icon: "loveclab-item0chem-rubber",
       category: "misc",
       tempReq: 160.0,
       tempAllowed: 350.0,
 
       bi: [
         "loveclab-item0int-raw-rubber", 5, 1.0,
-        [
-          "loveclab-item0chem-sulfur", 10, 0.25,
-          "loveclab-item0ore-crude-sulfur", 10, 1.0,
-        ], -1.0, -1.0,
+        "GROUP: sulfurous", 10, 1.0,
       ],
 
       bo: [
@@ -107,10 +104,10 @@ const rc = {
 
 
 TP_recipeGen._g_brickKiln.run(rc, {
-  objF: obj => obj.failP = 0.1,
+  objF: obj => obj.failP = 0.25,
   amtI: 10,
   amtO: 5,
-  maxTemp: 1400.0,
+  maxTemp: 1600.0,
 });
 
 

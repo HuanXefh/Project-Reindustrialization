@@ -42,6 +42,16 @@
   );
 
 
+  const fac0mill_ballMill = extendBlock(
+    TEMPLATE, "fac0mill-ball-mill",
+    TEMPLATE[0].build({
+      durabCap: 7.5 * 60.0 * 60.0,
+      rcMdl: "fac0mill-ball-mill",
+      rcSourceMod: "projreind",
+    }),
+  );
+
+
   /* <---------- fac0mix ----------> */
 
 

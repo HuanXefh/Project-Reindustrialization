@@ -66,10 +66,10 @@
 
   squareSprite: false
   laserWidth: 0.0
-  glowColor: 8ca9e8
-  sparkColor: 8ca9e8
-  heatColor: 8ca9e8
-  boostHeatColor: 8ca9e8
+  glowColor: "8ca9e8"
+  sparkColor: "8ca9e8"
+  heatColor: "8ca9e8"
+  boostHeatColor: "8ca9e8"
   ambientSound: se-amb-drill
   ambientSoundVolume: 0.3
 

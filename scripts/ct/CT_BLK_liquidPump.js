@@ -25,6 +25,6 @@
     TEMPLATE, "bliq0pump-piston-liquid-pump",
     TEMPLATE[0].build({
       presProd: 0.01666667,
-      presFldTp: "liquid",
+      presFldType: "liquid",
     }),
   );

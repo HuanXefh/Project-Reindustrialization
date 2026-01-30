@@ -87,7 +87,7 @@
 
       {
         type: DrawParticles
-        color: dccdb1
+        color: "dccdb1"
         alpha: 1.0
         particles: 24
         particleLife: 60.0

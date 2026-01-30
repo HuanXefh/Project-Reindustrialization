@@ -123,6 +123,7 @@
       fuelConsMtp: 0.75,
       fuelLvlMtp: 1.35,
       fuelWarmupRate: 0.0004,
+      furnHeatA: 0.5,
       rcMdl: "fac0proc-primitive-caster",
       rcSourceMod: "projreind",
     }),
@@ -135,23 +136,8 @@
       fuelConsMtp: 0.75,
       fuelLvlMtp: 1.35,
       fuelWarmupRate: 0.0004,
+      furnHeatA: 0.5,
       rcMdl: "fac0proc-primitive-forge",
       rcSourceMod: "projreind",
-    }),
-  );
-
-
-  /* <---------- fac0heat ----------> */
-
-
-  const fac0heat_combustionHeater = extendBlock(
-    TEMPLATE, "fac0heat-combustion-heater",
-    TEMPLATE[0].build({
-      fuelWarmupRate: 0.0004,
-      rcMdl: "fac0heat-combustion-heater",
-      rcSourceMod: "projreind",
-      craftEff: EFF.furnaceSmog,
-      updateEff: EFF.furnaceCrack,
-      updateEffP: 0.01,
     }),
   );

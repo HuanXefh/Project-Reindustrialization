@@ -37,7 +37,4 @@ const rc = {
 };
 
 
-(() => {}).setTodo("Asbestos, and how to get asbestos wool in a vibration screen.");
-
-
 exports.rc = rc;

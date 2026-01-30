@@ -78,7 +78,7 @@
 
       {
         type: DrawFlame
-        flameColor: ffc999
+        flameColor: "ffc999"
         flameRadius: 2.5
         flameRadiusIn: 1.5
         flameRadiusScl: 5.0
@@ -93,6 +93,126 @@
 
       {
         type: DrawDefault
+      }
+
+
+      {
+        type: DrawParticles
+        x: -4.0
+        y: 4.0
+        color: "606060"
+        alpha: 1.0
+        particles: 2
+        particleLife: 40.0
+        particleRad: 4.0
+        particleSize: 1.25
+        rotateScl: 10.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawParticles
+        x: 4.0
+        y: 4.0
+        color: "606060"
+        alpha: 1.0
+        particles: 2
+        particleLife: 40.0
+        particleRad: 4.0
+        particleSize: 1.25
+        rotateScl: 10.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawParticles
+        x: -4.0
+        y: -4.0
+        color: "606060"
+        alpha: 1.0
+        particles: 2
+        particleLife: 40.0
+        particleRad: 4.0
+        particleSize: 1.25
+        rotateScl: 10.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawParticles
+        x: 4.0
+        y: -4.0
+        color: "606060"
+        alpha: 1.0
+        particles: 2
+        particleLife: 40.0
+        particleRad: 4.0
+        particleSize: 1.25
+        rotateScl: 10
+        reverse: true
+      }
+
+
+      {
+        type: DrawParticles
+        x: -4.0
+        y: 4.0
+        color: "303030"
+        alpha: 1.0
+        particles: 2
+        particleLife: 60.0
+        particleRad: 4.5
+        particleSize: 1.0
+        rotateScl: 13.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawParticles
+        x: 4.0
+        y: 4.0
+        color: "303030"
+        alpha: 1.0
+        particles: 2
+        particleLife: 60.0
+        particleRad: 4.5
+        particleSize: 1.0
+        rotateScl: 13.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawParticles
+        x: -4.0
+        y: -4.0
+        color: "303030"
+        alpha: 1.0
+        particles: 2
+        particleLife: 60.0
+        particleRad: 4.5
+        particleSize: 1.0
+        rotateScl: 13.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawParticles
+        x: 4.0
+        y: -4.0
+        color: "303030"
+        alpha: 1.0
+        particles: 2
+        particleLife: 60.0
+        particleRad: 4.5
+        particleSize: 1.0
+        rotateScl: 13.0
+        reverse: true
       }
 
 

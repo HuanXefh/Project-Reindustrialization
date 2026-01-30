@@ -85,13 +85,6 @@
       }
 
 
-      {
-        type: DrawGlowRegion
-        color: ff3838
-        suffix: "-glow"
-      }
-
-
     ]
   }
   ambientSound: se-amb-hum

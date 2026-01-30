@@ -79,7 +79,7 @@
 
       {
         type: DrawFlame
-        flameColor: ffc999
+        flameColor: "ffc999"
         flameRadius: 0.0
         flameRadiusIn: 0.0
         flameRadiusScl: 0.0
@@ -94,7 +94,7 @@
 
       {
         type: DrawGlowRegion
-        color: ff3838
+        color: "ff3838"
         suffix: "-glow"
       }
 

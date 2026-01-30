@@ -1,0 +1,78 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: Wall
+  category: defense
+  requirements: [
+    loveclab-item0bio-timber/15
+    loveclab-item0buil-cement/20
+    loveclab-item0buil-coarse-aggregate/20
+    loveclab-item0buil-fine-aggregate/20
+  ]
+  buildCostMultiplier: 11.5
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: def0wall-wooden-barricade
+    objectives: []
+  }
+  researchCostMultiplier: 0.5
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 540.0
+  armor: 36.0
+  size: 2
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 16
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: true
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  crushDamageMultiplier: 0.25

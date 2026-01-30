@@ -79,7 +79,7 @@
 
       {
         type: DrawParticles
-        color: eff8fb
+        color: "eff8fb"
         alpha: 0.3
         particles: 48
         particleLife: 30.0
@@ -101,7 +101,7 @@
 
       {
         type: DrawParticles
-        color: dccdb1
+        color: "dccdb1"
         alpha: 1.0
         particles: 24
         particleLife: 60.0
@@ -114,7 +114,7 @@
 
       {
         type: DrawParticles
-        color: eff8fb
+        color: "eff8fb"
         alpha: 0.3
         particles: 48
         particleLife: 30.0
@@ -132,7 +132,7 @@
 
       {
         type: DrawGlowRegion
-        color: ff3838
+        color: "ff3838"
         suffix: "-glow"
       }
 

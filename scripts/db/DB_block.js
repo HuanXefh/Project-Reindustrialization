@@ -7,74 +7,6 @@ const db = {
   param: {
 
 
-    presRes: [
-
-      "projreind-bliq0aux-primitive-pressure-valve", 12.0,
-
-    ],
-
-
-    vacRes: [
-
-      "projreind-bliq0aux-primitive-pressure-valve", -3.0,
-
-    ],
-
-
-    corRes: [],
-
-
-    heatRes: [
-
-      "projreind-fac0furn-kiln", 1400.0,
-      "projreind-fac0furn-primitive-smelter", 1600.0,
-      "projreind-fac0furn-bloomery", 1800.0,
-      "projreind-fac0furn-primitive-crucible", 1800.0,
-      "projreind-fac0furn-primitive-sintering-furnace", 1800.0,
-      "projreind-fac0furn-primitive-coke-oven", 1600.0,
-
-      "projreind-fac0heat-resistance-heater", 750.0,
-
-      "projreind-fac0proc-primitive-caster", 1800.0,
-      "projreind-fac0proc-primitive-forge", 1800.0,
-
-    ],
-
-
-    pol: [
-
-      "projreind-min0drl-survivor-drill", 6.0,
-      "projreind-min0drl-progress-class-drill", 2.0,
-      "projreind-min0drl-pangolin-class-wall-drill", 4.0,
-      "projreind-min0drl-boulder-class-impact-drill", 4.0,
-      "projreind-min0drl-topaz-class-sand-miner", 10.0,
-
-      "projreind-fac0air-air-collector", -4.0,
-      "projreind-fac0air-air-filter", -30.0,
-
-      "projreind-fac0furn-kiln", 6.0,
-      "projreind-fac0furn-primitive-smelter", 10.0,
-      "projreind-fac0furn-bloomery", 10.0,
-      "projreind-fac0furn-primitive-crucible", 4.0,
-      "projreind-fac0furn-primitive-sintering-furnace", 10.0,
-      "projreind-fac0furn-primitive-coke-oven", 13.0,
-
-      "projreind-fac0proc-primitive-caster", 4.0,
-      "projreind-fac0proc-primitive-forge", 2.0,
-
-      "projreind-fac0heat-combustion-heater", 6.0,
-
-      "projreind-fac0mill-jaw-crusher", 3.0,
-      "projreind-fac0mill-mechanical-mill", 4.5,
-
-      "projreind-fac0sep-dry-magnetic-separator", 4.0,
-
-    ],
-
-
-    polTol: [],
-
-
     cep: {
 
 
@@ -128,6 +60,8 @@ const db = {
 
       "projreind-fac0furn-primitive-crucible", "alloy-furnace",
 
+      "projreind-pow0boil-primitive-boiler", "boiler",
+
       "projreind-fac0furn-kiln", "brick-kiln",
 
       "projreind-fac0furn-kiln", "carbonization-furnace",
@@ -138,14 +72,20 @@ const db = {
 
       "projreind-fac0proc-primitive-forge", "forge",
 
-      "projreind-fac0heat-combustion-heater", "heater",
-      "projreind-fac0heat-resistance-heater", "heater",
+      "projreind-pow0heat-combustion-heater", "heater",
+      "projreind-pow0heat-resistance-heater", "heater",
 
       "projreind-fac0heat-primitive-heat-exchanger", "heat-exchanger",
 
+      "projreind-fac0mix-mechanical-mixing-cauldron", "liquid-mixer",
+
       "projreind-fac0mix-v-mixer", "mixer",
 
+      "projreind-bliq0pump-piston-pressure-pump", "pressure-pump",
+      "projreind-bliq0pump-piston-vacuum-pump", "pressure-pump",
+
       "projreind-fac0mill-mechanical-mill", "pulverizer",
+      "projreind-fac0mill-ball-mill", "pulverizer",
 
       "projreind-fac0sep-dry-magnetic-separator", "purifier",
 
@@ -174,7 +114,6 @@ const db = {
       wood: [
 
         "projreind-bliq0cond-wooden-liquid-pipe",
-
         "projreind-bliq0cond-wooden-gas-pipe",
 
       ],
@@ -187,12 +126,13 @@ const db = {
         "projreind-bliq0pump-piston-depth-pump",
 
         "projreind-bliq0cond-bronze-liquid-pipe",
-
         "projreind-bliq0cond-bronze-gas-pipe",
 
         "projreind-bliq0brd-bronze-fluid-pipe-bridge",
 
         "projreind-bliq0stor-bronze-liquid-router",
+
+        "projreind-fac0mix-mechanical-mixing-cauldron",
 
       ],
 
@@ -204,17 +144,20 @@ const db = {
       ],
 
 
-      iron: [],
+      iron: [
+
+        "projreind-bliq0cond-cast-iron-liquid-pipe",
+        "projreind-bliq0cond-cast-iron-gas-pipe",
+
+      ],
 
 
       steel: [
 
         "projreind-bliq0cond-steel-liquid-pipe",
-
         "projreind-bliq0cond-steel-gas-pipe",
 
         "projreind-bliq0stor-steel-liquid-tank",
-
         "projreind-bliq0stor-steel-gas-cylinder",
 
       ],
@@ -271,7 +214,7 @@ const db = {
       "projreind-pow0trans-copper-wire-node",
       "projreind-pow0trans-copper-wire-remote-node",
 
-      "projreind-fac0heat-resistance-heater",
+      "projreind-pow0heat-resistance-heater",
 
       "projreind-pay0conv-payload-express-way",
 

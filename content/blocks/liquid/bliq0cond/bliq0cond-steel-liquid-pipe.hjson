@@ -52,7 +52,7 @@
 
 
   envRequired: 0
-  envDisabled: 20
+  envDisabled: 16
 
 
 /*
@@ -62,7 +62,7 @@
 */
 
 
-  botColor: 7b7b8e
+  botColor: "7b7b8e"
   padCorners: true
 
 

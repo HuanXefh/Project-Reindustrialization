@@ -103,6 +103,16 @@
     );
 
 
+    exports.boilerBomb = new CLS_achievement(
+      "projreind", "boiler-bomb",
+      new TextureRegionDrawable(Core.atlas.find("projreind-pow0boil-primitive-boiler-full")),
+      TRIGGER.boilerExplosion,
+      function(b) {
+        if(Vars.state.isCampaign()) this.complete();
+      },
+    );
+
+
     exports.thatsNotRemote = new CLS_achievement(
       "projreind", "thats-not-remote",
       new TextureRegionDrawable(Core.atlas.find("projreind-dis0aux-remote-core-unloader-full")),

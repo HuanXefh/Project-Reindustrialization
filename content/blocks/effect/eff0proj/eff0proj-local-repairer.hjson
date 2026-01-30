@@ -65,7 +65,7 @@
 
 
   squareSprite: false
-  baseColor: 84f491
+  baseColor: "84f491"
 
 
 /*

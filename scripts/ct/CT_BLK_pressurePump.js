@@ -28,3 +28,11 @@
       presProd: 0.03333333,
     }),
   );
+
+
+  const bliq0pump_pistonVacuumPump = extendBlock(
+    TEMPLATE, "bliq0pump-piston-vacuum-pump",
+    TEMPLATE[0].build({
+      presProd: -0.03333333,
+    }),
+  );

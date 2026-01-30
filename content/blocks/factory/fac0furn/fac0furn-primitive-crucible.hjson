@@ -77,7 +77,7 @@
 
       {
         type: DrawFlame
-        flameColor: ffc999
+        flameColor: "ffc999"
         flameRadius: 2.5
         flameRadiusIn: 1.5
         flameRadiusScl: 5.0

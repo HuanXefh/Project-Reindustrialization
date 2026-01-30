@@ -75,7 +75,7 @@
 
       {
         type: DrawParticles
-        color: bfbfbf
+        color: "bfbfbf"
         alpha: 0.6
         particles: 5
         particleLife: 90.0

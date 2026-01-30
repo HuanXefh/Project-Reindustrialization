@@ -29,5 +29,5 @@
   );
   setDrawer(fac0misc_rainCollector, drawers => [
     drawers,
-    fetchDrawer("DrawDynamicLiquid"),
+    fetchDrawer("DrawMixedLiquid"),
   ]);

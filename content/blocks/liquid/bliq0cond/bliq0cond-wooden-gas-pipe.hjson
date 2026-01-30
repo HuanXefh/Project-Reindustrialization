@@ -62,7 +62,7 @@
 */
 
 
-  botColor: 60564b
+  botColor: "60564b"
   padCorners: true
 
 

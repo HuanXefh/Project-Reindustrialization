@@ -8,12 +8,13 @@
   # type: GenericCrafter
   category: crafting
   requirements: [
-    loveclab-item0chem-copper/45
-    loveclab-item0chem-lead/25
-    loveclab-item0chem-graphite/25
-    loveclab-item0buil-brick-clay/25
+    loveclab-item0chem-copper/60
+    loveclab-item0chem-lead/30
+    loveclab-item0chem-graphite/50
+    loveclab-item0chem-tin-bronze/30
+    loveclab-item0chem-cast-iron/20
   ]
-  buildCostMultiplier: 3.0
+  buildCostMultiplier: 2.0
 
 
 /*
@@ -24,10 +25,10 @@
 
 
   research: {
-    parent: fac0heat-combustion-heater
+    parent: fac0furn-kiln
     objectives: []
   }
-  researchCostMultiplier: 0.5
+  researchCostMultiplier: 0.2
 
 
 /*
@@ -37,13 +38,13 @@
 */
 
 
-  scaledHealth: 50.0
-  armor: 6.0
-  size: 2
-  hasItems: false
-  itemCapacity: 20
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 3
+  hasItems: true
+  itemCapacity: 250
   hasLiquids: true
-  liquidCapacity: 5.0
+  liquidCapacity: 30.0
   hasPower: true
 
 
@@ -72,26 +73,22 @@
 
 
       {
-        type: DrawRegion
+        type: DrawDefault
       }
 
 
       {
-        type: DrawSideRegion
-      }
-
-
-      {
-        type: DrawGlowRegion
-        color: ff3838
-        suffix: "-glow"
+        type: DrawFade
+        suffix: "-fade"
+        alpha: 0.4
+        scale: 7.0
       }
 
 
     ]
   }
-  ambientSound: se-amb-hum
-  ambientSoundVolume: 0.2
+  ambientSound: se-amb-piston-pump
+  ambientSoundVolume: 0.3
 
 
 /*
@@ -101,8 +98,7 @@
 */
 
 
-  rotate: true
-  ignoreLiquidFullness: true
+  ignoreLiquidFullness: false
 
 
 /*
@@ -112,4 +108,4 @@
 */
 
 
-  craftTime: 300.0
+  craftTime: 1200.0

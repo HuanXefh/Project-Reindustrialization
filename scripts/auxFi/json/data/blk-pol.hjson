@@ -1,0 +1,41 @@
+/* <---------- min0drl ----------> */
+
+projreind-min0drl-survivor-drill: 6.0
+projreind-min0drl-progress-class-drill: 2.0
+projreind-min0drl-pangolin-class-wall-drill: 4.0
+projreind-min0drl-boulder-class-impact-drill: 4.0
+projreind-min0drl-topaz-class-sand-miner: 10.0
+
+/* <---------- pow0heat ----------> */
+
+projreind-pow0heat-combustion-heater: 6.0
+
+/* <---------- fac0air ----------> */
+
+projreind-fac0air-air-collector: -4.0
+projreind-fac0air-air-filter: -30.0
+
+/* <---------- fac0furn ----------> */
+
+projreind-fac0furn-kiln: 6.0
+projreind-fac0furn-primitive-smelter: 10.0
+projreind-fac0furn-bloomery: 10.0
+projreind-fac0furn-primitive-crucible: 4.0
+projreind-fac0furn-primitive-sintering-furnace: 10.0
+projreind-fac0furn-primitive-coke-oven: 13.0
+
+/* <---------- fac0proc ----------> */
+
+projreind-fac0proc-briquette-press: 1.5
+projreind-fac0proc-primitive-caster: 4.0
+projreind-fac0proc-primitive-forge: 2.0
+
+/* <---------- fac0mill ----------> */
+
+projreind-fac0mill-jaw-crusher: 3.0
+projreind-fac0mill-mechanical-mill: 4.5
+projreind-fac0mill-ball-mill: 3.0
+
+/* <---------- fac0sep ----------> */
+
+projreind-fac0sep-dry-magnetic-separator: 4.0

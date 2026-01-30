@@ -66,8 +66,10 @@
 
 
   squareSprite: false
-  baseColor: 84f491
-  phaseColor: 84f491
+  baseColor: "84f491"
+  phaseColor: "84f491"
+  ambientSound: se-amb-regen
+  ambientSoundVolume: 0.3
 
 
 /*

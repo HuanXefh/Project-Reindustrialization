@@ -86,7 +86,7 @@
 
       {
         type: DrawParticles
-        color: eff8fb
+        color: "eff8fb"
         alpha: 0.3
         particles: 48
         particleLife: 30.0
@@ -99,7 +99,7 @@
 
       {
         type: DrawParticles
-        color: eff8fb
+        color: "eff8fb"
         alpha: 0.3
         particles: 48
         particleLife: 30.0

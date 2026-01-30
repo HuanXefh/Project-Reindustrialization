@@ -81,7 +81,7 @@
 
       {
         type: DrawParticles
-        color: cce4ff
+        color: "cce4ff"
         alpha: 0.2
         particles: 12
         particleLife: 45.0
@@ -114,7 +114,7 @@
 
       {
         type: DrawGlowRegion
-        color: ffffff
+        color: "ffffff"
         suffix: "-glow"
         alpha: 0.6
         glowScale: 5.0

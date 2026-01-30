@@ -78,16 +78,16 @@
 
       {
         type: DrawCultivator
-        plantColor: eff8fb
-        plantColorLight: 00000000
-        bottomColor: b8d3e0
+        plantColor: "eff8fb"
+        plantColorLight: "00000000"
+        bottomColor: "b8d3e0"
         bubbles: 0
       }
 
 
       {
         type: DrawParticles
-        color: eff8fb
+        color: "eff8fb"
         alpha: 0.6
         particles: 16
         particleLife: 30.0
@@ -108,7 +108,7 @@
 
       {
         type: DrawParticles
-        color: eff8fb
+        color: "eff8fb"
         alpha: 0.6
         particles: 16
         particleLife: 30.0

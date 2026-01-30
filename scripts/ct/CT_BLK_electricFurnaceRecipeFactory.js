@@ -19,17 +19,17 @@
 */
 
 
-  /* <---------- fac0heat ----------> */
+  /* <---------- fac0proc ----------> */
 
 
-  const fac0heat_resistanceHeater = extendBlock(
-    TEMPLATE, "fac0heat-resistance-heater",
+  const fac0proc_briquettePress = extendBlock(
+    TEMPLATE, "fac0proc-briquette-press",
     TEMPLATE[0].build({
-      powConsBase: 0.5,
-      powConsPerFuelLvl: 1.25,
-      maxOverheatScl: 0.66666667,
-      fuelWarmupRate: 0.0002,
-      rcMdl: "fac0heat-resistance-heater",
+      powConsBase: 0.41666667,
+      powConsPerFuelLvl: 1.41666667,
+      fuelWarmupRate: 0.0003,
+      furnHeatA: 0.5,
+      rcMdl: "fac0proc-briquette-press",
       rcSourceMod: "projreind",
     }),
   );

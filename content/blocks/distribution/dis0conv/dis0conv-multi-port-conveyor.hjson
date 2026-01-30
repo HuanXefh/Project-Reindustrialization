@@ -65,7 +65,7 @@
 */
 
 
-  glowColor: cfe3f2
+  glowColor: "cfe3f2"
   glowAlpha: 0.8
 
 

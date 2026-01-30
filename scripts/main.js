@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "100.26011001",
-    "loveclab", "100.26011001",
+    "lovec", "100.26013001",
+    "loveclab", "100.26013001",
   ])) return;
 
 
@@ -44,6 +44,7 @@
   const CT_BLK_directionalUnloader = require("projreind/ct/CT_BLK_directionalUnloader");
   const CT_BLK_remoteCoreUnloader = require("projreind/ct/CT_BLK_remoteCoreUnloader");
   const CT_BLK_incinerator = require("projreind/ct/CT_BLK_incinerator");
+  const CT_BLK_massDriver = require("projreind/ct/CT_BLK_massDriver");
   const CT_BLK_container = require("projreind/ct/CT_BLK_container");
   const CT_BLK_lootHopper = require("projreind/ct/CT_BLK_lootHopper");
   const CT_BLK_lootPullerHopper = require("projreind/ct/CT_BLK_lootPullerHopper");
@@ -66,12 +67,17 @@
   const CT_BLK_armoredCable = require("projreind/ct/CT_BLK_armoredCable");
   const CT_BLK_wireRelay = require("projreind/ct/CT_BLK_wireRelay");
   const CT_BLK_wireNode = require("projreind/ct/CT_BLK_wireNode");
+  const CT_BLK_consumeGenerator = require("projreind/ct/CT_BLK_consumeGenerator");
   const CT_BLK_ventGenerator = require("projreind/ct/CT_BLK_ventGenerator");
 
 
   const CT_BLK_cogwheel = require("projreind/ct/CT_BLK_cogwheel");
   const CT_BLK_gearBox = require("projreind/ct/CT_BLK_gearBox");
   const CT_BLK_cogwheelStack = require("projreind/ct/CT_BLK_cogwheelStack");
+
+
+  const CT_BLK_heatSource = require("projreind/ct/CT_BLK_heatSource");
+  const CT_BLK_boiler = require("projreind/ct/CT_BLK_boiler");
 
 
   const CT_BLK_baseFactory = require("projreind/ct/CT_BLK_baseFactory");
@@ -81,6 +87,7 @@
   const CT_BLK_furnaceRecipeFactory = require("projreind/ct/CT_BLK_furnaceRecipeFactory");
   const CT_BLK_electricFurnaceRecipeFactory = require("projreind/ct/CT_BLK_electricFurnaceRecipeFactory");
   const CT_BLK_durabilityRecipeFactory = require("projreind/ct/CT_BLK_durabilityRecipeFactory");
+  const CT_BLK_fluidRecipeFactory = require("projreind/ct/CT_BLK_fluidRecipeFactory");
   const CT_BLK_manualRecipeFactory = require("projreind/ct/CT_BLK_manualRecipeFactory");
 
 
@@ -95,6 +102,7 @@
 
 
   const CT_BLK_messageBlock = require("projreind/ct/CT_BLK_messageBlock");
+  const CT_BLK_resourceDisplay = require("projreind/ct/CT_BLK_resourceDisplay");
   const CT_BLK_directionalSwitch = require("projreind/ct/CT_BLK_directionalSwitch");
 
 

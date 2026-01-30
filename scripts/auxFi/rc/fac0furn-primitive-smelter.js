@@ -27,7 +27,7 @@ const rc = {
         "loveclab-item0bio-timber",
         "loveclab-item0chem-lead",
       ],
-      tempReq: 900.0,                // NOTE: This is nerfed from ~2500 HU in real life, too high for a starter smelter.
+      tempReq: 900.0,                // This is nerfed from ~2500 HU in real life, too high for a starter smelter
 
       bi: [
         "loveclab-item0ore-crude-graphite", 270, 1.0,
@@ -50,7 +50,7 @@ const rc = {
       lockedBy: [
         "loveclab-item0bio-timber",
       ],
-      tempReq: MDL_content._sintTemp("loveclab-item0ore-chalcopyrite"),
+      tempReq: 750.0,
 
       bi: [
         "loveclab-item0ore-chalcopyrite", 270, 1.0,
@@ -67,7 +67,7 @@ const rc = {
 
       icon: "loveclab-item0ore-malachite",
       category: "smelting",
-      tempReq: MDL_content._sintTemp("loveclab-item0ore-malachite"),
+      tempReq: 160.0,
 
       bi: [
         "loveclab-item0ore-malachite", 270, 1.0,
@@ -87,7 +87,7 @@ const rc = {
       lockedBy: [
         "loveclab-item0bio-timber",
       ],
-      tempReq: MDL_content._sintTemp("loveclab-item0ore-native-copper"),
+      tempReq: 950.0,
 
       bi: [
         "loveclab-item0ore-native-copper", 270, 1.0,
@@ -110,7 +110,7 @@ const rc = {
       lockedBy: [
         "loveclab-item0bio-timber",
       ],
-      tempReq: MDL_content._sintTemp("loveclab-item0ore-galena"),
+      tempReq: 1050.0,
 
       bi: [
         "loveclab-item0ore-galena", 270, 1.0,
@@ -133,7 +133,7 @@ const rc = {
       lockedBy: [
         "loveclab-item0chem-graphite",
       ],
-      tempReq: MDL_content._sintTemp("loveclab-item0ore-cassiterite"),
+      tempReq: 1550.0,
 
       bi: [
         "loveclab-item0ore-cassiterite", 270, 1.0,
@@ -156,7 +156,7 @@ const rc = {
       lockedBy: [
         "loveclab-item0chem-graphite",
       ],
-      tempReq: MDL_content._sintTemp("loveclab-item0ore-sphalerite"),
+      tempReq: 370.0,
 
       bi: [
         "loveclab-item0ore-sphalerite", 270, 1.0,

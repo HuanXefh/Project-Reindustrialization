@@ -6,13 +6,13 @@
 
 
   # type: GenericCrafter
-  category: crafting
+  category: power
   requirements: [
-    loveclab-item0chem-graphite/20
-    loveclab-item0chem-cast-iron/15
-    loveclab-item0buil-brick-clay/30
+    loveclab-item0chem-brass/90
+    loveclab-item0chem-tin-bronze/80
+    loveclab-item0chem-cast-iron/50
   ]
-  buildCostMultiplier: 4.0
+  buildCostMultiplier: 3.0
 
 
 /*
@@ -23,10 +23,10 @@
 
 
   research: {
-    parent: fac0heat-primitive-heat-exchanger
+    parent: pow0tor-crank
     objectives: []
   }
-  researchCostMultiplier: 0.5
+  researchCostMultiplier: 0.25
 
 
 /*
@@ -38,9 +38,9 @@
 
   scaledHealth: 50.0
   armor: 6.0
-  size: 2
-  hasItems: true
-  itemCapacity: 30
+  size: 3
+  hasItems: false
+  itemCapacity: 20
   hasLiquids: true
   liquidCapacity: 5.0
   hasPower: false
@@ -53,8 +53,8 @@
 */
 
 
-  envRequired: 129
-  envDisabled: 22
+  envRequired: 0
+  envDisabled: 20
 
 
 /*
@@ -77,41 +77,22 @@
 
 
       {
-        type: DrawFlame
-        flameColor: ffc999
-        flameRadius: 2.5
-        flameRadiusIn: 1.5
-        flameRadiusScl: 5.0
-        flameRadiusMag: 2.0
-        flameRadiusInMag: 1.0
-        lightRadius: 48.0
-        lightAlpha: 0.65
-        lightSinScl: 16.0
-        lightSinMag: 6.0
+        type: DrawBlurSpin
+        suffix: "-rotator"
+        rotateSpeed: 1.5
+        blurThresh: 0.5
       }
 
 
       {
-        type: DrawRegion
-      }
-
-
-      {
-        type: DrawSideRegion
-      }
-
-
-      {
-        type: DrawGlowRegion
-        color: ff3838
-        suffix: "-glow"
+        type: DrawDefault
       }
 
 
     ]
   }
-  ambientSound: se-amb-furnace
-  ambientSoundVolume: 0.2
+  ambientSound: se-amb-turbine
+  ambientSoundVolume: 0.3
 
 
 /*
@@ -121,7 +102,6 @@
 */
 
 
-  rotate: true
   ignoreLiquidFullness: true
 
 
@@ -133,3 +113,7 @@
 
 
   craftTime: 300.0
+  outputLiquids: [
+    loveclab-gas0misc-steam/0.25
+    loveclab-aux0aux-torque/0.1
+  ]

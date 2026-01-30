@@ -96,6 +96,32 @@
       }
 
 
+      {
+        type: DrawParticles
+        color: "606060"
+        alpha: 1.0
+        particles: 3
+        particleLife: 40.0
+        particleRad: 6.0
+        particleSize: 2.0
+        rotateScl: 8.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawParticles
+        color: "303030"
+        alpha: 1.0
+        particles: 3
+        particleLife: 60.0
+        particleRad: 6.5
+        particleSize: 1.5
+        rotateScl: 14.0
+        reverse: true
+      }
+
+
     ]
   }
   ambientSound: se-amb-furnace
