@@ -6,7 +6,7 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "100.26013001",
+    "lovec", "100.26020101",
     "loveclab", "100.26013001",
   ])) return;
 
@@ -14,7 +14,13 @@
   /* <---------- import ----------> */
 
 
+  const CLS_window = require("lovec/cls/ui/CLS_window");
+
+
+  const MDL_bundle = require("lovec/mdl/MDL_bundle");
   const MDL_event = require("lovec/mdl/MDL_event");
+  const MDL_table = require("lovec/mdl/MDL_table");
+  const MDL_ui = require("lovec/mdl/MDL_ui");
   const MDL_util = require("lovec/mdl/MDL_util");
 
 
@@ -96,6 +102,7 @@
   const CT_BLK_partsBlock = require("projreind/ct/CT_BLK_partsBlock");
 
 
+  const CT_BLK_fuelLight = require("projreind/ct/CT_BLK_fuelLight");
   const CT_BLK_directionalMender = require("projreind/ct/CT_BLK_directionalMender");
   const CT_BLK_radiusMender = require("projreind/ct/CT_BLK_radiusMender");
   const CT_BLK_statusProjector = require("projreind/ct/CT_BLK_statusProjector");
@@ -142,6 +149,167 @@
           "https://www.bilibili.com/video/BV1GJ411x7h7" :
           "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       )).size(210.0, 64.0);
+    };
+
+
+    // Welcome dialog
+    if(!Vars.headless) {
+      const data = {};
+      data["v101: Another Origin"] = [
+        "projreind-eff0li-bonfire",
+        "projreind-pow0boil-primitive-boiler",
+        "projreind-pow0turb-primitive-steam-turbine",
+        "projreind-dis0mdr-standard-mass-driver",
+        "projreind-log0aux-resource-display-panel",
+        "projreind-pow0heat-heat-source",
+        "projreind-bliq0pump-piston-pressure-pump",
+        "projreind-fac0proc-primitive-forge",
+        "projreind-bliq0aux-primitive-pressure-valve",
+        "projreind-pow0tor-brass-gear-box",
+        "projreind-min0harv-mycelial-harvester",
+        "projreind-dis0aux-item-incinerator",
+        "projreind-fac0sep-dry-magnetic-separator",
+        "projreind-min0drl-topaz-class-sand-miner",
+        "projreind-fac0mill-mechanical-mill",
+        "projreind-min0drl-boulder-class-impact-drill",
+        "projreind-min0scan-alpha-class-ore-scanner",
+        "projreind-pay0conv-payload-express-way",
+        "projreind-min0harv-tree-tap",
+        "projreind-camp-atm001-sector-beta",
+        "projreind-pow0tor-brass-cogwheel",
+        "projreind-bliq0pump-portable-manual-pump",
+        "projreind-dis0aux-remote-core-unloader",
+        "projreind-eff0proj-haste-projector",
+        "projreind-bliq0aux-fluid-valve",
+        "projreind-eff0proj-local-repairer",
+        "projreind-pow0trans-copper-cable",
+        "projreind-fac0mill-jaw-crusher",
+        "projreind-dis0loot-item-hopper",
+        "projreind-fac0furn-kiln",
+        "projreind-min0harv-lumberjack",
+        "projreind-dis0aux-filter-gate",
+        "projreind-min0drl-survivor-drill",
+      ];
+
+
+      const winWelcome = new CLS_window(MDL_bundle._info("projreind", "dial-welcome"), cont => {
+        let isVert = MDL_ui._screenW() <= MDL_ui._screenH();
+
+        // @TABLE: text
+        cont.table(Styles.none, tb => {
+          tb.pane(pn => {
+            pn.left();
+            MDL_table.__margin(pn);
+            pn.image(Core.atlas.find("projreind-logo")).left().width(468.0).height(120.0).row();
+            MDL_table.__break(pn, 3);
+            MDL_table.__wrapLine(pn, MDL_bundle._info("projreind", "dial-welcome", true), Align.left, 1);
+          });
+          MDL_table.__break(tb);
+          tb.table(Styles.none, tb1 => {
+            MDL_table.__btn(tb1, "@close", () => winWelcome.close());
+            MDL_table.__btn(tb1, MDL_bundle._info("projreind", "dial-credits"), () => dialCredits.ex_show());
+            MDL_table.__btn(tb1, "Repo", () => Core.app.openURI("https://github.com/HuanXefh/Project-Reindustrialization"));
+          });
+        }).growX().growY();
+
+        // @TABLE: splitor
+        if(isVert) {
+          cont.row();
+          cont.table(Styles.none, tb => {
+            MDL_table.__bar(tb, Pal.accent, null, 8.0);
+          }).marginTop(30.0).marginBottom(30.0).growX();
+          cont.row();
+        } else {
+          cont.table(Styles.none, tb => {
+            MDL_table.__barV(tb, Pal.accent, null, 8.0);
+          }).marginLeft(50.0).marginRight(50.0).growY();
+        };
+
+        // @TABLE: updates
+        const cellUpdate = cont.table(Styles.none, tb => {
+          tb.pane(pn => {
+            MDL_table.__margin(pn);
+            Object._it(data, (verStr, nmCts) => {
+              pn.button(verStr, () => fetchDialog("ctsRow").ex_show(verStr, nmCts)).center().size(300.0, 50.0).row();
+              MDL_table.__break(pn, 1);
+            });
+          }).growX();
+        });
+        if(!isVert) {
+          cellUpdate.growY();
+        };
+      });
+      winWelcome.setSizeRange(null, MDL_ui._screenW(), null, MDL_ui._screenH() * 0.8);
+
+      const dialCredits = extend(BaseDialog, MDL_bundle._info("projreind", "dial-credits"), {
+
+
+        ex_show() {
+          this.cont.clear();
+          this.buttons.clear();
+
+          // @TABLE: info
+          MDL_table.__break(this.cont);
+          MDL_table.setDisplay_note(this.cont, MDL_bundle._info("projreind", "dial-credits", true));
+
+          // @TABLE: bar
+          MDL_table.__break(this.cont);
+          MDL_table.__bar(this.cont, null, MDL_ui._uiW());
+
+          // @TABLE: content
+          MDL_table.__break(this.cont);
+          this.cont.pane(pn => {
+            MDL_table.__margin(pn);
+            pn.add(String.multiline(
+              "Ideas:",
+              "  > MaboroshiX",
+              "  > Everyone in the Reind discussion group",
+              "",
+              "Programming:",
+              "  > MaboroshiX",
+              "",
+              "Spriting:",
+              "  > MaboroshiX",
+              "  > Starshine - support",
+              "",
+              "Map Making:",
+              "  > MaboroshiX",
+              "",
+              "Translation:",
+              "  > MaboroshiX - EN and CN",
+              "",
+              "Acknowledgement & Dedication:",
+              "  [green][Website][]",
+              "  > [accent]Pixabay[] - raw sound effects",
+              "  [green][Video Game][]",
+              "  > [accent]Rusted Warfare[] - RTS ideas",
+              "  [green][Minecraft Mod][]",
+              "  > [accent]Create[] - torque mechanics ideas",
+              "  > [accent]Greg's Tech[] - industrialization ideas",
+              "  > [accent]Immersive Engineering[] - industrialization ideas",
+              "  [green][Mindustry Mod][]",
+              "  > [accent]Asthosus[] - hjson introduction",
+              "  > [accent]Fictional Octo System[] - underground ore ideas",
+              "  > [accent]Meepscellaneous Concepts[] - pseudo-3D ideas",
+              "  > [accent]MultiCrafter Lib[] - multi-crafter ideas",
+              "  > [accent]Sapphirium[] - JavaScript introduction",
+              "  > [accent]TooManyItems[] - less suffering from complexity",
+              "  [green][Book][]",
+              "  > [accent]Encyclopedia of Materials: Science and Technology[]",
+            )).left().row();
+          }).width(MDL_ui._uiW()).row();
+
+          // @TABLE: buttons
+          MDL_table.__break(this.cont);
+          MDL_table.__btnClose(this.buttons, this);
+
+          this.show();
+        },
+
+
+      });
+
+      winWelcome.add();
     };
 
 

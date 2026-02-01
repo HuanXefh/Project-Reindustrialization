@@ -1,0 +1,100 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: GenericCrafter
+  category: effect
+  requirements: [
+    loveclab-item0bio-timber/30
+  ]
+  buildCostMultiplier: 4.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: min0harv-lumberjack
+    objectives: []
+  }
+  researchCostMultiplier: 0.0
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 40.0
+  armor: 0.0
+  size: 2
+  hasItems: true
+  itemCapacity: 5
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 129
+  envDisabled: 22
+  fogRadius: 5
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawDefault
+      }
+
+
+    ]
+  }
+  ambientSound: loopFire
+  ambientSoundVolume: 0.4
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  ignoreLiquidFullness: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  craftTime: 300.0
