@@ -126,6 +126,7 @@
       furnHeatA: 0.5,
       rcMdl: "fac0proc-primitive-caster",
       rcSourceMod: "projreind",
+      payAmtCap: 4,
     }),
   );
 
@@ -139,5 +140,6 @@
       furnHeatA: 0.5,
       rcMdl: "fac0proc-primitive-forge",
       rcSourceMod: "projreind",
+      payAmtCap: 4,
     }),
   );
