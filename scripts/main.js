@@ -157,7 +157,7 @@
 
 
     // Welcome dialog
-    if(!Vars.headless) {
+    if(!Vars.headless && !Core.app.isMobile()) {
       const data = {};
       data["v101: Another Origin"] = [
         "projreind-eff0li-bonfire",
@@ -198,6 +198,11 @@
 
       const winWelcome = new CLS_window(MDL_bundle._info("projreind", "dial-welcome"), cont => {
         let isVert = MDL_ui._screenW() <= MDL_ui._screenH();
+        let tipCap = 0;
+        while(Core.bundle.has("dial.projreind-tip-" + tipCap)) {
+          tipCap++;
+        };
+        tipCap--;
 
         // @TABLE: text
         cont.table(Styles.none, tb => {
@@ -237,10 +242,17 @@
               pn.button(verStr, () => fetchDialog("ctsRow").ex_show(verStr, nmCts)).center().size(300.0, 50.0).row();
               MDL_table.__break(pn, 1);
             });
-          }).growX();
+          }).grow();
+          tb.row();
+
+          tb.button(new TextureRegionDrawable(Core.atlas.find("projreind-earlan")), Styles.clearNonei, 64.0, () => {
+            let textEnd = false;
+            MDL_ui._d_chara(0.0, "lovec", "earlan", () => textEnd, 0.5, false, "fade-in");
+            MDL_ui._d_text(0.0, ["projreind", "tip", tipCap.randInt()], ["lovec", "earlan"], () => textEnd = true);
+          }).right().padTop(32.0);
         });
         if(!isVert) {
-          cellUpdate.growY();
+          cellUpdate.grow();
         };
       });
       winWelcome.setSizeRange(null, MDL_ui._screenW(), null, MDL_ui._screenH() * 0.8);

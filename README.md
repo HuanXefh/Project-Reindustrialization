@@ -8,7 +8,7 @@ Project Reindustrialization (ProjReind) is a Mindustry mod without tower defense
 
 ![Preview 1](document/doc-preview-1.jpg)
 
-ProjReind is the improved version of [Reindustrialization](https://github.com/HuanXefh/Reindustrialization) with codes and contents refined. The mod requires [Lovecraftian Library](https://github.com/HuanXefh/Lovecraftian-Library) and [Lovecraftian Laboratory](https://github.com/HuanXefh/Lovecraftian-Laboratory).
+ProjReind is the improved version of [Reindustrialization](https://github.com/HuanXefh/Reindustrialization) with codes and contents refined. The mod requires [Lovecraftian Library](https://github.com/HuanXefh/Lovecraftian-Library-Java) and [Lovecraftian Laboratory](https://github.com/HuanXefh/Lovecraftian-Laboratory).
 
 Mod features:
 
