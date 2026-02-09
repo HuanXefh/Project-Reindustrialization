@@ -197,7 +197,6 @@
 
 
       const winWelcome = new CLS_window(MDL_bundle._info("projreind", "dial-welcome"), cont => {
-        let isVert = MDL_ui._screenW() <= MDL_ui._screenH();
         let tipCap = 0;
         while(Core.bundle.has("dial.projreind-tip-" + tipCap)) {
           tipCap++;
@@ -222,17 +221,9 @@
         }).growX().growY();
 
         // @TABLE: splitor
-        if(isVert) {
-          cont.row();
-          cont.table(Styles.none, tb => {
-            MDL_table.__bar(tb, Pal.accent, null, 8.0);
-          }).marginTop(30.0).marginBottom(30.0).growX();
-          cont.row();
-        } else {
-          cont.table(Styles.none, tb => {
-            MDL_table.__barV(tb, Pal.accent, null, 8.0);
-          }).marginLeft(50.0).marginRight(50.0).growY();
-        };
+        cont.table(Styles.none, tb => {
+          MDL_table.__barV(tb, Pal.accent, null, 8.0);
+        }).marginLeft(50.0).marginRight(50.0).growY();
 
         // @TABLE: updates
         const cellUpdate = cont.table(Styles.none, tb => {
@@ -250,10 +241,7 @@
             MDL_ui._d_chara(0.0, "lovec", "earlan", () => textEnd, 0.5, false, "fade-in");
             MDL_ui._d_text(0.0, ["projreind", "tip", tipCap.randInt()], ["lovec", "earlan"], () => textEnd = true);
           }).right().padTop(32.0);
-        });
-        if(!isVert) {
-          cellUpdate.grow();
-        };
+        }).grow();
       });
       winWelcome.setSizeRange(null, MDL_ui._screenW(), null, MDL_ui._screenH() * 0.8);
 
