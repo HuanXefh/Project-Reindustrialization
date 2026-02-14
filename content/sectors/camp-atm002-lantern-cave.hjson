@@ -1,0 +1,50 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: camp-atm001-sector-beta
+    objectives: []
+    requirements: [
+      loveclab-item0chem-brass/300
+      loveclab-item0chem-tin-bronze/300
+    ]
+  }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  planet: loveclab-pla0ter-anthimyst
+  sector: 96
+  difficulty: 1
+
+
+/*
+  ========================================
+  Section: Gameplay
+  ========================================
+*/
+
+
+  captureWave: 2
+  overrideLaunchDefaults: false
+  allowLaunchSchematics: true
+  allowLaunchLoadout: true
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  noLighting: true

@@ -53,7 +53,7 @@
 
   envRequired: 129
   envDisabled: 22
-  fogRadius: 5
+  fogRadius: 7
 
 
 /*

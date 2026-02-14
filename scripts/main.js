@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "100.26021001",
-    "loveclab", "100.26021001",
+    "lovec", "100.26021401",
+    "loveclab", "100.26021401",
   ])) return;
 
 
@@ -160,6 +160,7 @@
     if(!Vars.headless && !Core.app.isMobile()) {
       const data = {};
       data["v101: Another Origin"] = [
+        "projreind-camp-atm002-lantern-cave",
         "projreind-eff0li-bonfire",
         "projreind-pow0boil-primitive-boiler",
         "projreind-pow0turb-primitive-steam-turbine",
@@ -236,10 +237,12 @@
           }).grow();
           tb.row();
 
+          let textGlbInd = 0;
           tb.button(new TextureRegionDrawable(Core.atlas.find("projreind-earlan")), Styles.clearNonei, 64.0, () => {
             let textEnd = false;
-            MDL_ui._d_chara(0.0, "lovec", "earlan", () => textEnd, 0.5, false, "fade-in");
-            MDL_ui._d_text(0.0, ["projreind", "tip", tipCap.randInt()], ["lovec", "earlan"], () => textEnd = true);
+            let textInd = ++textGlbInd;
+            MDL_ui._d_chara(0.0, "lovec", "earlan", () => textEnd || textInd < textGlbInd, 0.5, false, "fade-in");
+            MDL_ui._d_text(0.0, ["projreind", "tip", tipCap.randInt()], ["lovec", "earlan"], () => textEnd = true, null, () => textInd < textGlbInd);
           }).right().padTop(32.0);
         }).grow();
       });

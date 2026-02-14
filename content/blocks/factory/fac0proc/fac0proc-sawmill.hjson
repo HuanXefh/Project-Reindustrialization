@@ -8,10 +8,10 @@
   # type: GenericCrafter
   category: crafting
   requirements: [
-    loveclab-item0chem-copper/40
-    loveclab-item0chem-lead/20
-    loveclab-item0chem-graphite/10
-    loveclab-item0chem-brass/10
+    loveclab-item0chem-copper/70
+    loveclab-item0chem-lead/50
+    loveclab-item0chem-graphite/30
+    loveclab-item0chem-brass/30
   ]
   buildCostMultiplier: 3.0
 
