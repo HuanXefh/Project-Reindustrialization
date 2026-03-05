@@ -6,22 +6,12 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "100.26021401",
-    "loveclab", "100.26021401",
+    "lovec", "100.0026030501",
+    "loveclab", "100.0026030501",
   ])) return;
 
 
   /* <---------- import ----------> */
-
-
-  const CLS_window = require("lovec/cls/ui/CLS_window");
-
-
-  const MDL_bundle = require("lovec/mdl/MDL_bundle");
-  const MDL_event = require("lovec/mdl/MDL_event");
-  const MDL_table = require("lovec/mdl/MDL_table");
-  const MDL_ui = require("lovec/mdl/MDL_ui");
-  const MDL_util = require("lovec/mdl/MDL_util");
 
 
   /* <---------- load ----------> */
@@ -159,6 +149,7 @@
     // Welcome dialog
     if(!Vars.headless && !Core.app.isMobile()) {
       const data = {};
+      data["v102: Hot Furnace"] = [];
       data["v101: Another Origin"] = [
         "projreind-camp-atm002-lantern-cave",
         "projreind-eff0li-bonfire",
@@ -204,7 +195,7 @@
         };
         tipCap--;
 
-        // @TABLE: text
+        // <TABLE>: text
         cont.table(Styles.none, tb => {
           tb.pane(pn => {
             pn.left();
@@ -221,12 +212,12 @@
           });
         }).growX().growY();
 
-        // @TABLE: splitor
+        // <TABLE>: splitor
         cont.table(Styles.none, tb => {
           MDL_table.__barV(tb, Pal.accent, null, 8.0);
         }).marginLeft(50.0).marginRight(50.0).growY();
 
-        // @TABLE: updates
+        // <TABLE>: updates
         const cellUpdate = cont.table(Styles.none, tb => {
           tb.pane(pn => {
             MDL_table.__margin(pn);
@@ -255,15 +246,15 @@
           this.cont.clear();
           this.buttons.clear();
 
-          // @TABLE: info
+          // <TABLE>: info
           MDL_table.__break(this.cont);
-          MDL_table.setDisplay_note(this.cont, MDL_bundle._info("projreind", "dial-credits", true));
+          MDL_table._d_note(this.cont, MDL_bundle._info("projreind", "dial-credits", true));
 
-          // @TABLE: bar
+          // <TABLE>: bar
           MDL_table.__break(this.cont);
           MDL_table.__bar(this.cont, null, MDL_ui._uiW());
 
-          // @TABLE: content
+          // <TABLE>: content
           MDL_table.__break(this.cont);
           this.cont.pane(pn => {
             MDL_table.__margin(pn);
@@ -295,7 +286,7 @@
               "  > [accent]Greg's Tech[] - industrialization ideas",
               "  > [accent]Immersive Engineering[] - industrialization ideas",
               "  [green][Mindustry Mod][]",
-              "  > [accent]Asthosus[] - hjson introduction",
+              "  > [accent]Asthosus[] - HJSON introduction",
               "  > [accent]Fictional Octo System[] - underground ore ideas",
               "  > [accent]Meepscellaneous Concepts[] - pseudo-3D ideas",
               "  > [accent]MultiCrafter Lib[] - multi-crafter ideas",
@@ -306,7 +297,7 @@
             )).left().row();
           }).width(MDL_ui._uiW()).row();
 
-          // @TABLE: buttons
+          // <TABLE>: buttons
           MDL_table.__break(this.cont);
           MDL_table.__btnClose(this.buttons, this);
 

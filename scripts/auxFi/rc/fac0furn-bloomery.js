@@ -1,7 +1,3 @@
-const MDL_content = require("lovec/mdl/MDL_content");
-const TP_recipeGen = require("lovec/tp/TP_recipeGen");
-
-
 const rc = {
 
 

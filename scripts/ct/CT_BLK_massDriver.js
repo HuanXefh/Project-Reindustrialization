@@ -9,8 +9,7 @@
 
 
   const TEMPLATE = require("lovec/temp/blk/BLK_massDriver");
-  const EFF = require("lovec/glb/GLB_eff");
-
+  
 
 /*
   ========================================

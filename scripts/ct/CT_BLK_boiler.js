@@ -9,10 +9,7 @@
 
 
   const TEMPLATE = require("lovec/temp/blk/BLK_boiler");
-
-
-  const TP_effect = require("lovec/tp/TP_effect");
-
+  
 
 /*
   ========================================

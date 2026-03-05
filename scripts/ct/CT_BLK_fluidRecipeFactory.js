@@ -9,7 +9,6 @@
 
 
   const TEMPLATE = require("lovec/temp/blk/BLK_fluidRecipeFactory");
-  const EFF = require("lovec/glb/GLB_eff");
 
 
 /*

@@ -1,6 +1,3 @@
-const TP_recipeGen = require("lovec/tp/TP_recipeGen");
-
-
 const rc = {
 
 

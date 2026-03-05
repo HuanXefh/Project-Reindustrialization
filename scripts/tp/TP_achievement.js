@@ -8,13 +8,6 @@
   /* <---------- import ----------> */
 
 
-  const CLS_achievement = require("lovec/cls/util/CLS_achievement");
-  const TRIGGER = require("lovec/glb/BOX_trigger");
-
-
-  const MDL_event = require("lovec/mdl/MDL_event");
-
-
   /* <---------- base ----------> */
 
 

@@ -9,7 +9,6 @@
 
 
   const TEMPLATE = require("lovec/temp/blk/BLK_terrainFactory");
-  const EFF = require("lovec/glb/GLB_eff");
 
 
 /*

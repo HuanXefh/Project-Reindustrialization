@@ -11,9 +11,6 @@
   const TEMPLATE = require("lovec/temp/blk/BLK_statusProjector");
 
 
-  const MDL_effect = require("lovec/mdl/MDL_effect");
-
-
 /*
   ========================================
   Section: Application
@@ -32,7 +29,7 @@
       filterScrTup: [
         (b, ounit) => {
           if(ounit.team !== b.team) return false;
-          MDL_effect.showBetween_line(b.x, b.y, null, ounit, Pal.accent);
+          MDL_effect._e_line(b.x, b.y, null, ounit, Pal.accent);
           MDL_effect.showAt(ounit.x, ounit.y, Fx.dynamicWave, ounit.hitSize * 1.5, Pal.accent);
           return true;
         },

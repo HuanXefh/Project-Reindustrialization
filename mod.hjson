@@ -1,11 +1,11 @@
 name: projreind
 displayName: Project Reindustrialization
-subtitle: "v101: Another Origin"
+subtitle: "v102: Hot Furnace"
 
 
 author: MaboroshiX
 repo: HuanXefh/Project-Reindustrialization
-minGameVersion: 155
+minGameVersion: 156
 dependencies: [
   lovec
   loveclab
@@ -31,4 +31,4 @@ This mod is part of Lovecraftian series, which requires Lovecraftian Library and
 WARNING: RECIPE HELL AHEAD!
 '''
 
-version: 101
+version: 101.0026030501

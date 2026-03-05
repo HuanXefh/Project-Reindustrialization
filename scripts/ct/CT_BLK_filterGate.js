@@ -9,10 +9,7 @@
 
 
   const TEMPLATE = require("lovec/temp/blk/BLK_filterGate");
-
-
-  const MDL_cond = require("lovec/mdl/MDL_cond");
-
+  
 
 /*
   ========================================

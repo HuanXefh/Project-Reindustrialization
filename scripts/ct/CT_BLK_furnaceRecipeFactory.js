@@ -9,10 +9,6 @@
 
 
   const TEMPLATE = require("lovec/temp/blk/BLK_furnaceRecipeFactory");
-  const EFF = require("lovec/glb/GLB_eff");
-
-
-  const DB_item = require("lovec/db/DB_item");
 
 
 /*

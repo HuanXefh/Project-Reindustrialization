@@ -11,9 +11,6 @@
   const TEMPLATE = require("lovec/temp/blk/BLK_impactDrill");
 
 
-  const TP_effect = require("lovec/tp/TP_effect");
-
-
 /*
   ========================================
   Section: Application

@@ -1,6 +1,3 @@
-const MDL_content = require("lovec/mdl/MDL_content");
-
-
 const rc = {
 
 
