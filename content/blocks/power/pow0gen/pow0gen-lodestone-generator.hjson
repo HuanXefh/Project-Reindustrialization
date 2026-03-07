@@ -107,7 +107,7 @@
 
   consumes: {
     liquids: [
-      loveclab-aux0aux-torque/0.05
+      loveclab-aux0aux-torque/0.1
     ]
   }
   powerProduction: 2.66666667

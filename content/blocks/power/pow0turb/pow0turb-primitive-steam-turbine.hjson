@@ -115,5 +115,5 @@
   craftTime: 300.0
   outputLiquids: [
     loveclab-gas0misc-steam/0.25
-    loveclab-aux0aux-torque/0.1
+    loveclab-aux0aux-torque/0.5
   ]

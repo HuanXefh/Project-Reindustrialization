@@ -8,7 +8,7 @@ const rc = {
 
 
     baseAux: [
-      "loveclab-aux0aux-torque", 0.05,
+      "loveclab-aux0aux-torque", 0.075,
     ],
 
 
