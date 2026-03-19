@@ -24,7 +24,8 @@ const rc = {
         "loveclab-item0bio-timber",
         "loveclab-item0chem-lead",
       ],
-      tempReq: 900.0,                // This is nerfed from ~2500 HU in real life, too high for a starter smelter
+      // This is nerfed from ~2500 HU in real life, too high for a starter smelter
+      tempReq: 900.0,
 
       bi: [
         "loveclab-item0ore-crude-graphite", 270, 1.0,

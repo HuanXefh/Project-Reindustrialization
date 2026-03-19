@@ -16,6 +16,7 @@ const db = {
       use: [
 
         "projreind-min0drl-survivor-drill", 1.5,
+        "projreind-min0scan-portable-ore-scanner", 4.0,
 
         "projreind-dis0aux-remote-core-unloader", 1.0,
 

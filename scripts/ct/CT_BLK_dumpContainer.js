@@ -8,7 +8,7 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/temp/blk/BLK_container");
+  const TEMPLATE = require("lovec/temp/blk/BLK_dumpContainer");
 
 
 /*

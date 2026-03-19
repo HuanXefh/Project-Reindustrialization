@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "100.0026030701",
-    "loveclab", "100.0026030701",
+    "lovec", "100.0026031901",
+    "loveclab", "100.0026031901",
   ])) return;
 
 
@@ -20,6 +20,7 @@
   require("projreind/ct/CT_BLK_groundDrill");
   require("projreind/ct/CT_BLK_wallDrill");
   require("projreind/ct/CT_BLK_oreScanner");
+  require("projreind/ct/CT_BLK_manualTimerOreScanner");
   require("projreind/ct/CT_BLK_impactDrill");
   require("projreind/ct/CT_BLK_terrainDynamicDrill");
   require("projreind/ct/CT_BLK_wallHarvester");
@@ -41,7 +42,7 @@
   require("projreind/ct/CT_BLK_remoteCoreUnloader");
   require("projreind/ct/CT_BLK_incinerator");
   require("projreind/ct/CT_BLK_massDriver");
-  require("projreind/ct/CT_BLK_container");
+  require("projreind/ct/CT_BLK_dumpContainer");
   require("projreind/ct/CT_BLK_lootHopper");
   require("projreind/ct/CT_BLK_lootPullerHopper");
 
@@ -149,7 +150,9 @@
     // Welcome dialog
     if(!Vars.headless && !Core.app.isMobile()) {
       const data = {};
-      data["v102: Hot Furnace"] = [];
+      data["v102: Hot Furnace"] = [
+        "projreind-min0scan-portable-ore-scanner",
+      ];
       data["v101: Another Origin"] = [
         "projreind-camp-atm002-lantern-cave",
         "projreind-eff0li-bonfire",
@@ -233,7 +236,7 @@
             let textEnd = false;
             let textInd = ++textGlbInd;
             MDL_ui._d_chara(0.0, "lovec", "earlan", () => textEnd || textInd < textGlbInd, 0.5, false, "fade-in");
-            MDL_ui._d_text(0.0, ["projreind", "tip", tipCap.randInt()], ["lovec", "earlan"], () => textEnd = true, null, () => textInd < textGlbInd);
+            MDL_ui._d_text(0.0, ["projreind", "tip", tipCap.randInt()], ["lovec", "earlan"], () => {textEnd = true; MDL_ui.clearDialFlow()}, null, () => textInd < textGlbInd);
           }).right().padTop(32.0);
         }).grow();
       });

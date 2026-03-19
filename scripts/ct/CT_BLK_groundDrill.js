@@ -27,6 +27,7 @@
       drillEff: EFF.drillPulsePack[3],
       updateEff: EFF.drillCrack,
       updateEffP: 0.01,
+      durabCap: 2.0 * 60.0 * 60.0,
     }),
   );
 
