@@ -29,4 +29,4 @@ Mod features:
 
 ![Preview 3](document/doc-preview-3.jpg)
 
-If you'd like to report bugs or share ideas, please submit issues at [Lovecraftian Library](https://github.com/HuanXefh/Lovecraftian-Library) where majority of the scripts are written, or go to the [Discord forum](https://discord.com/channels/391020510269669376/1346118807734845440).
+If you'd like to report bugs or share ideas, please submit issues at [Lovecraftian Library](https://github.com/HuanXefh/Lovecraftian-Library-Java) where majority of the scripts are written, or go to the [Discord forum](https://discord.com/channels/391020510269669376/1346118807734845440).
