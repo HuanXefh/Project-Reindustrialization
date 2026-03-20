@@ -26,7 +26,6 @@
     TEMPLATE[0].build({
       manualTimerCap: 0.5 * 60.0 * 60.0,
       scanTier: 2,
-      scanColor: Pal.accent,
       craftSe: "se-craft-ore-scanner",
       scanRad: 4.0 * Vars.tilesize,
       craftEff: EFF.drillPulsePack[1],
