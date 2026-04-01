@@ -78,6 +78,15 @@
   );
 
 
+  const fac0sep_hydrocyclone = extendBlock(
+    TEMPLATE, "fac0sep-hydrocyclone",
+    TEMPLATE[0].build({
+      rcMdl: "fac0sep-hydrocyclone",
+      rcSourceMod: "projreind",
+    }),
+  );
+
+
   const fac0sep_vibrationScreen = extendBlock(
     TEMPLATE, "fac0sep-vibration-screen",
     TEMPLATE[0].build({

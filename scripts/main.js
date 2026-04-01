@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.1",
-    "loveclab", "101.1",
+    "lovec", "101.1.26040101",
+    "loveclab", "101.1.26040101",
   ])) return;
 
 
@@ -61,7 +61,6 @@
 
 
   require("projreind/ct/CT_BLK_cable");
-  require("projreind/ct/CT_BLK_armoredCable");
   require("projreind/ct/CT_BLK_wireRelay");
   require("projreind/ct/CT_BLK_wireNode");
   require("projreind/ct/CT_BLK_consumeGenerator");
@@ -80,6 +79,7 @@
   require("projreind/ct/CT_BLK_baseFactory");
   require("projreind/ct/CT_BLK_terrainFactory");
   require("projreind/ct/CT_BLK_rainCollector");
+  require("projreind/ct/CT_BLK_infoFactory");
   require("projreind/ct/CT_BLK_recipeFactory");
   require("projreind/ct/CT_BLK_furnaceRecipeFactory");
   require("projreind/ct/CT_BLK_electricFurnaceRecipeFactory");
@@ -95,6 +95,7 @@
   require("projreind/ct/CT_BLK_payloadConveyor");
   require("projreind/ct/CT_BLK_materialBlock");
   require("projreind/ct/CT_BLK_partsBlock");
+  require("projreind/ct/CT_BLK_rawOreBlock");
 
 
   require("projreind/ct/CT_BLK_fuelLight");
@@ -109,6 +110,9 @@
 
 
   require("projreind/ct/CT_BLK_defenseWall");
+
+
+  require("projreind/ct/CT_BLK_constructionCore");
 
 
   require("projreind/ct/CT_DBCT_infoContent");
@@ -137,13 +141,21 @@
 
 
     // Why are you here?
-    if(!Vars.headless && Mathf.chance(0.2)) {
-      let tmpSeq = Vars.ui.database.getChildren();
-      tmpSeq.get(tmpSeq.size - 1).button("@info.projreind-info-dont-click-me.name", () => Core.app.openURI(
-        global.lovecUtil.prop.locale === "zh_CN" ?
+    if(!Vars.headless) {
+      let date = new Date();
+
+      if(date.getMonth() === 3 && date.getDate() === 1) {
+        Musics.menu = fetchMusic("noizisfun");
+      };
+
+      if(Mathf.chance(0.2)) {
+        let tmpSeq = Vars.ui.database.getChildren();
+        tmpSeq.get(tmpSeq.size - 1).button("@info.projreind-info-dont-click-me.name", () => Core.app.openURI(
+          global.lovecUtil.prop.locale === "zh_CN" ?
           "https://www.bilibili.com/video/BV1GJ411x7h7" :
           "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-      )).size(210.0, 64.0);
+        )).size(210.0, 64.0);
+      };
     };
 
 
@@ -151,6 +163,10 @@
     if(!Vars.headless && !Core.app.isMobile()) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-fac0sep-hydrocyclone",
+        "projreind-min0drl-anteater-class-wall-drill",
+        "projreind-fac0misc-pollution-detection-center-core",
+        "projreind-pay0mat0ore-native-copper",
         "projreind-min0scan-portable-ore-scanner",
       ];
       data["v101: Another Origin"] = [

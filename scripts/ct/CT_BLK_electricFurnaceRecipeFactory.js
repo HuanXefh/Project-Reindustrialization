@@ -26,8 +26,8 @@
     TEMPLATE[0].build({
       powConsBase: 0.41666667,
       powConsPerFuelLvl: 1.41666667,
-      fuelWarmupRate: 0.0003,
-      furnHeatA: 0.5,
+      heatWarmupRate: 0.0003,
+      heatA: 0.5,
       rcMdl: "fac0proc-briquette-press",
       rcSourceMod: "projreind",
     }),

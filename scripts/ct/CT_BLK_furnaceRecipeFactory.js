@@ -70,7 +70,7 @@
     TEMPLATE[0].build({
       blockedFuels: DB_item.db["group"]["fuel"]["biotic"],
       fuelLvlMtp: 1.35,
-      fuelWarmupRate: 0.0002,
+      heatWarmupRate: 0.0002,
       rcMdl: "fac0furn-primitive-crucible",
       rcSourceMod: "projreind",
       craftEff: EFF.furnaceSmog,
@@ -86,7 +86,7 @@
       blockedFuels: DB_item.db["group"]["fuel"]["biotic"],
       fuelConsMtp: 0.75,
       fuelLvlMtp: 1.375,
-      fuelWarmupRate: 0.0003,
+      heatWarmupRate: 0.0003,
       rcMdl: "fac0furn-primitive-sintering-furnace",
       rcSourceMod: "projreind",
       craftEff: EFF.furnaceSmog,
@@ -100,7 +100,7 @@
     TEMPLATE, "fac0furn-primitive-coke-oven",
     TEMPLATE[0].build({
       blockedFuels: DB_item.db["group"]["fuel"]["biotic"],
-      fuelWarmupRate: 0.0002,
+      heatWarmupRate: 0.0002,
       rcMdl: "fac0furn-primitive-coke-oven",
       rcSourceMod: "projreind",
       craftEff: EFF.furnaceSmog,
@@ -118,8 +118,8 @@
     TEMPLATE[0].build({
       fuelConsMtp: 0.75,
       fuelLvlMtp: 1.35,
-      fuelWarmupRate: 0.0004,
-      furnHeatA: 0.5,
+      heatWarmupRate: 0.0004,
+      heatA: 0.5,
       rcMdl: "fac0proc-primitive-caster",
       rcSourceMod: "projreind",
       payAmtCap: 4,
@@ -132,8 +132,8 @@
     TEMPLATE[0].build({
       fuelConsMtp: 0.75,
       fuelLvlMtp: 1.35,
-      fuelWarmupRate: 0.0004,
-      furnHeatA: 0.5,
+      heatWarmupRate: 0.0004,
+      heatA: 0.5,
       rcMdl: "fac0proc-primitive-forge",
       rcSourceMod: "projreind",
       payAmtCap: 4,

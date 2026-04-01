@@ -26,5 +26,6 @@
     TEMPLATE[0].build({
       wireMat: "copper",
       wireTouchDmg: 20.0,
+      maxPowProdAllowed: 5000.0 / 60.0,
     }),
   );

@@ -27,10 +27,6 @@ const rc = {
       icon: "loveclab-aux0aux-liquid-mixing",
       category: "aux",
 
-      ci: [
-        "loveclab-liq0ore-water", 0.1,
-      ],
-
       co: [
         "loveclab-aux0aux-liquid-mixing", 0.01666667,
       ],

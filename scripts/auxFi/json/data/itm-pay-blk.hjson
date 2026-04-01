@@ -1,0 +1,25 @@
+/* <---------- copper ----------> */
+
+loveclab-item0ore-native-copper: projreind-pay0mat0ore-native-copper
+
+/* <---------- iron ----------> */
+
+loveclab-item0ore-hematite: projreind-pay0mat0ore-hematite
+loveclab-item0ore-magnetite: projreind-pay0mat0ore-magnetite
+
+/* <---------- lead ----------> */
+
+loveclab-item0ore-galena: projreind-pay0mat0ore-galena
+
+/* <---------- tin ----------> */
+
+loveclab-item0ore-cassiterite: projreind-pay0mat0ore-cassiterite
+
+/* <---------- zinc ----------> */
+
+loveclab-item0ore-sphalerite: projreind-pay0mat0ore-sphalerite
+
+/* <---------- rock ----------> */
+
+loveclab-item0ore-dolomite: projreind-pay0mat0ore-dolomite
+loveclab-item0ore-limestone: projreind-pay0mat0ore-limestone

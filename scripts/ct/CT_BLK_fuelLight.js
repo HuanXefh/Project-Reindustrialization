@@ -28,7 +28,7 @@
         "loveclab-item0bio-charcoal",
       ]),
       fuelConsMtp: 0.4,
-      fuelWarmupRate: 0.0008,
+      heatWarmupRate: 0.0008,
       maxLightTemp: 800.0,
       lightRad: 136.0,
     }),

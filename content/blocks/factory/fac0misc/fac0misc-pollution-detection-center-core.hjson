@@ -6,11 +6,16 @@
 
 
   # type: Wall
-  category: defense
+  category: crafting
   requirements: [
-    loveclab-item0chem-copper/5
+    loveclab-item0chem-copper/80
+    loveclab-item0chem-lead/80
+    loveclab-item0chem-steel/60
+    loveclab-item0buil-coarse-aggregate/100
+    loveclab-item0buil-fine-aggregate/80
+    loveclab-item0buil-cement/60
   ]
-  buildCostMultiplier: 5.0
+  buildCostMultiplier: 1.0
 
 
 /*
@@ -20,7 +25,11 @@
 */
 
 
-  alwaysUnlocked: true
+  research: {
+    parent: fac0proc-core-crafter
+    objectives: []
+  }
+  researchCostMultiplier: 0.2
 
 
 /*
@@ -30,9 +39,9 @@
 */
 
 
-  scaledHealth: 40.0
-  armor: 0.0
-  size: 1
+  scaledHealth: 80.0
+  armor: 12.0
+  size: 2
   hasItems: false
   itemCapacity: 20
   hasLiquids: false
@@ -47,8 +56,8 @@
 */
 
 
-  envRequired: 0
-  envDisabled: 0
+  envRequired: 129
+  envDisabled: 22
 
 
 /*
@@ -58,4 +67,4 @@
 */
 
 
-  squareSprite: true
+  squareSprite: false

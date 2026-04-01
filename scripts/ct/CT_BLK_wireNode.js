@@ -28,6 +28,7 @@
       wireTouchDmg: 20.0,
       linkMode: "cons",
       minRadFrac: 0.35,
+      maxPowProdAllowed: 5000.0 / 60.0,
     }),
   );
 
@@ -39,5 +40,6 @@
       wireTouchDmg: 30.0,
       linkMode: "remote-node",
       minRadFrac: 0.7,
+      maxPowProdAllowed: 5000.0 / 60.0,
     }),
   );

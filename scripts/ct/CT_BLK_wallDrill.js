@@ -24,3 +24,11 @@
   const min0drl_pangolinClassWallDrill = extendBlock(
     TEMPLATE, "min0drl-pangolin-class-wall-drill",
   );
+
+
+  const min0drl_anteaterClassWallDrill = extendBlock(
+    TEMPLATE, "min0drl-anteater-class-wall-drill",
+    TEMPLATE[0].build({
+      shouldDropPay: true,
+    }),
+  );

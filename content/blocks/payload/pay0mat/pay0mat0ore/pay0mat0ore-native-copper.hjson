@@ -8,9 +8,8 @@
   # type: Wall
   category: defense
   requirements: [
-    loveclab-item0chem-copper/5
+    loveclab-item0ore-native-copper/20
   ]
-  buildCostMultiplier: 5.0
 
 
 /*
@@ -32,7 +31,7 @@
 
   scaledHealth: 40.0
   armor: 0.0
-  size: 1
+  size: 2
   hasItems: false
   itemCapacity: 20
   hasLiquids: false
@@ -58,4 +57,4 @@
 */
 
 
-  squareSprite: true
+  squareSprite: false

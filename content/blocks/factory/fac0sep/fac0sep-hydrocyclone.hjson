@@ -5,11 +5,13 @@
 */
 
 
-  # type: BeamDrill
-  category: production
+  # type: GenericCrafter
+  category: crafting
   requirements: [
-    loveclab-item0chem-copper/40
-    loveclab-item0chem-lead/20
+    loveclab-item0chem-lead/50
+    loveclab-item0chem-tin-bronze/30
+    loveclab-item0chem-cast-iron/30
+    loveclab-item0chem-steel/20
   ]
   buildCostMultiplier: 4.0
 
@@ -22,10 +24,10 @@
 
 
   research: {
-    parent: min0drl-progress-class-drill
+    parent: fac0sep-cyclone-separator
     objectives: []
   }
-  researchCostMultiplier: 0.1
+  researchCostMultiplier: 0.3
 
 
 /*
@@ -35,11 +37,11 @@
 */
 
 
-  scaledHealth: 40.0
-  armor: 0.0
-  size: 2
+  scaledHealth: 80.0
+  armor: 12.0
+  size: 3
   hasItems: true
-  itemCapacity: 10
+  itemCapacity: 20
   hasLiquids: true
   liquidCapacity: 5.0
   hasPower: true
@@ -54,7 +56,6 @@
 
   envRequired: 1
   envDisabled: 22
-  fogRadius: 4
 
 
 /*
@@ -65,12 +66,32 @@
 
 
   squareSprite: false
-  glowColor: "8ca9e8"
-  sparkColor: "8ca9e8"
-  heatColor: "8ca9e8"
-  boostHeatColor: "8ca9e8"
-  ambientSound: se-amb-drill
-  ambientSoundVolume: 0.2
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawDefault
+      }
+
+
+      {
+        type: DrawRegion
+        suffix: "-pipe"
+      }
+
+
+      {
+        type: DrawFade
+        suffix: "-fade"
+      }
+
+
+    ]
+  }
+  ambientSound: se-amb-hum
+  ambientSoundVolume: 0.3
 
 
 /*
@@ -80,7 +101,7 @@
 */
 
 
-  tier: 4
+  ignoreLiquidFullness: false
 
 
 /*
@@ -90,14 +111,7 @@
 */
 
 
-  drillTime: 300.0
-  optionalBoostIntensity: 1.875
+  craftTime: 240.0
   consumes: {
-    power: 0.5
-    liquid: {
-      liquid: loveclab-liq0ore-water
-      amount: 0.075
-      optional: true
-      booster: true
-    }
+    power: 0.83333333
   }

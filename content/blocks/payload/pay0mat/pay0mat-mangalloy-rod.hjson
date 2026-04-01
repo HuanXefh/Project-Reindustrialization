@@ -10,7 +10,6 @@
   requirements: [
     loveclab-item0chem-mangalloy/20
   ]
-  buildCostMultiplier: 20.0
 
 
 /*
@@ -48,7 +47,7 @@
 
 
   envRequired: 0
-  envDisabled: 16
+  envDisabled: 0
 
 
 /*
@@ -58,4 +57,4 @@
 */
 
 
-  squareSprite: true
+  squareSprite: false

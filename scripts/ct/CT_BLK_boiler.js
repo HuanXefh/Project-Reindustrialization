@@ -9,7 +9,7 @@
 
 
   const TEMPLATE = require("lovec/temp/blk/BLK_boiler");
-  
+
 
 /*
   ========================================
@@ -30,7 +30,7 @@
       exploFldTg: "loveclab-gas0int-steam-mp",
       presProd: 0.06666667,
       tempExtMtp: 0.25,
-      furnHeatA: 0.5,
+      heatA: 0.5,
     }),
   );
   setDrawer(pow0boil_primitiveBoiler, drawers => [
