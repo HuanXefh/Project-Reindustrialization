@@ -1,0 +1,80 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: StorageBlock
+  category: distribution
+  requirements: [
+    loveclab-item0bio-timber/40
+    loveclab-item0chem-graphite/10
+    loveclab-item0chem-brass/20
+    loveclab-item0chem-cast-iron/20
+  ]
+  buildCostMultiplier: 2.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: dis0loot-item-hopper
+    objectives: []
+  }
+  researchCostMultiplier: 0.25
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 6.0
+  size: 2
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  consumes: {
+    power: 0.33333333
+  }

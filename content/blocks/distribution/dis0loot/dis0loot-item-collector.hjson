@@ -43,7 +43,7 @@
   itemCapacity: 80
   hasLiquids: false
   liquidCapacity: 5.0
-  hasPower: false
+  hasPower: true
 
 
 /*

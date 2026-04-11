@@ -10,6 +10,7 @@ const rc = {
     baseOpt: [
       "loveclab-item0cons-mangalloy-ball", 1, 0.1, 1.0,
     ],
+    baseReqOpt: true,
 
 
   },

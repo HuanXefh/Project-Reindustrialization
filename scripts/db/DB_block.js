@@ -44,6 +44,7 @@ const db = {
       "projreind-min0drl-survivor-drill", "emerald-tide",
       "projreind-min0drl-progress-class-drill", "emerald-tide",
       "projreind-min0drl-pangolin-class-wall-drill", "emerald-tide",
+      "projreind-min0drl-anteater-class-wall-drill", "emerald-tide",
       "projreind-min0drl-boulder-class-impact-drill", "emerald-tide",
       "projreind-min0drl-topaz-class-sand-miner", "emerald-tide",
       "projreind-min0scan-alpha-class-ore-scanner", "emerald-tide",
@@ -88,6 +89,7 @@ const db = {
       "projreind-fac0mill-mechanical-mill", "pulverizer",
       "projreind-fac0mill-ball-mill", "pulverizer",
 
+      "projreind-fac0sep-hydrocyclone", "purifier",
       "projreind-fac0sep-dry-magnetic-separator", "purifier",
 
       "projreind-fac0furn-primitive-sintering-furnace", "roasting-furnace",

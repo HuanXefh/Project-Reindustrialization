@@ -30,7 +30,7 @@ const rc = {
 
     "MISC: asbestos wool", {
 
-      icon: "loveclab-item0buil-asbestos-wool",
+      icon: "loveclab-item0chem-asbestos-wool",
       category: "misc",
 
       ci: [
@@ -44,7 +44,7 @@ const rc = {
       ],
 
       bo: [
-        "loveclab-item0buil-asbestos-wool", 5, 0.5,
+        "loveclab-item0chem-asbestos-wool", 5, 0.5,
       ],
 
     },

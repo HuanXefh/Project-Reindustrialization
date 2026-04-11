@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.1.26040101",
-    "loveclab", "101.1.26040101",
+    "lovec", "101.1.26041101",
+    "loveclab", "101.1.26041101",
   ])) return;
 
 
@@ -45,6 +45,7 @@
   require("projreind/ct/CT_BLK_dumpContainer");
   require("projreind/ct/CT_BLK_lootHopper");
   require("projreind/ct/CT_BLK_lootPullerHopper");
+  require("projreind/ct/CT_BLK_lootFilter");
 
 
   require("projreind/ct/CT_BLK_manualTimerPump");
@@ -163,6 +164,8 @@
     if(!Vars.headless && !Core.app.isMobile()) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-dis0loot-item-picker",
+        "projreind-pow0trans-tin-cable",
         "projreind-fac0sep-hydrocyclone",
         "projreind-min0drl-anteater-class-wall-drill",
         "projreind-fac0misc-pollution-detection-center-core",

@@ -1,19 +1,48 @@
+/* <---------- barium ----------> */
+
+loveclab-item0ore-barite: projreind-pay0mat0ore-barite
+
+/* <---------- carbon ----------> */
+
+loveclab-item0ore-raw-coal: projreind-pay0mat0ore-raw-coal
+loveclab-item0chem-anthracite: projreind-pay0mat0ore-anthracite
+loveclab-item0ore-crude-graphite: projreind-pay0mat0ore-crude-graphite
+
 /* <---------- copper ----------> */
 
+loveclab-item0ore-chalcopyrite: projreind-pay0mat0ore-chalcopyrite
 loveclab-item0ore-native-copper: projreind-pay0mat0ore-native-copper
 
 /* <---------- iron ----------> */
 
 loveclab-item0ore-hematite: projreind-pay0mat0ore-hematite
+loveclab-item0ore-limonite: projreind-pay0mat0ore-limonite
 loveclab-item0ore-magnetite: projreind-pay0mat0ore-magnetite
+loveclab-item0ore-meteoric-iron: projreind-pay0mat0ore-meteoric-iron
+loveclab-item0ore-pyrite: projreind-pay0mat0ore-pyrite
+loveclab-item0ore-pyrrhotite: projreind-pay0mat0ore-pyrrhotite
 
 /* <---------- lead ----------> */
 
 loveclab-item0ore-galena: projreind-pay0mat0ore-galena
 
+/* <---------- silicon ----------> */
+
+loveclab-item0ore-silica-stone: projreind-pay0mat0ore-silica-stone
+
 /* <---------- tin ----------> */
 
 loveclab-item0ore-cassiterite: projreind-pay0mat0ore-cassiterite
+
+/* <---------- titanium ----------> */
+
+loveclab-item0ore-ilmenite: projreind-pay0mat0ore-ilmenite
+loveclab-item0ore-rutile: projreind-pay0mat0ore-rutile
+
+/* <---------- tungsten ----------> */
+
+loveclab-item0ore-scheelite: projreind-pay0mat0ore-scheelite
+loveclab-item0ore-wolframite: projreind-pay0mat0ore-wolframite
 
 /* <---------- zinc ----------> */
 
@@ -22,4 +51,15 @@ loveclab-item0ore-sphalerite: projreind-pay0mat0ore-sphalerite
 /* <---------- rock ----------> */
 
 loveclab-item0ore-dolomite: projreind-pay0mat0ore-dolomite
+loveclab-item0ore-gypsum: projreind-pay0mat0ore-gypsum
 loveclab-item0ore-limestone: projreind-pay0mat0ore-limestone
+loveclab-item0ore-pumice: projreind-pay0mat0ore-pumice
+loveclab-item0ore-talc: projreind-pay0mat0ore-talc
+loveclab-item0ore-rock-clastic: projreind-pay0mat0ore-rock-clastic
+loveclab-item0ore-rock-evaporite: projreind-pay0mat0ore-rock-evaporite
+loveclab-item0ore-rock-hypabyssal: projreind-pay0mat0ore-rock-hypabyssal
+loveclab-item0ore-rock-lava: projreind-pay0mat0ore-rock-lava
+loveclab-item0ore-rock-metamorphic: projreind-pay0mat0ore-rock-metamorphic
+loveclab-item0ore-rock-plutonic: projreind-pay0mat0ore-rock-plutonic
+loveclab-item0ore-rock-biological-sedimentary: projreind-pay0mat0ore-rock-biological-sedimentary
+loveclab-item0ore-rock-clastic-sedimentary: projreind-pay0mat0ore-rock-clastic-sedimentary

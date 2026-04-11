@@ -8,7 +8,7 @@
   # type: Wall
   category: power
   requirements: [
-    loveclab-item0chem-brass/5
+    loveclab-item0chem-brass/10
   ]
   buildCostMultiplier: 5.0
 
@@ -24,7 +24,7 @@
     parent: pow0trans-copper-cable
     objectives: []
   }
-  researchCostMultiplier: 1.5
+  researchCostMultiplier: 0.8
 
 
 /*

@@ -73,6 +73,28 @@ const rc = {
     },
 
 
+    "MISC: rubber (no talc)", {
+
+      icon: "loveclab-item0chem-rubber",
+      tint: Pal.remove,
+      category: "misc",
+      tempReq: 160.0,
+      tempAllowed: 350.0,
+
+      bi: [
+        "loveclab-item0int-raw-rubber", 5, 1.0,
+        "GROUP: sulfurous", 10, 1.0,
+      ],
+
+      bo: [
+        "loveclab-item0chem-rubber", 10, 0.5,
+      ],
+      failP: 0.35,
+      fo: [],
+
+    },
+
+
     "MISC: rubber", {
 
       icon: "loveclab-item0chem-rubber",
@@ -83,6 +105,7 @@ const rc = {
       bi: [
         "loveclab-item0int-raw-rubber", 5, 1.0,
         "GROUP: sulfurous", 10, 1.0,
+        "loveclab-item0chem-talcum-powder", 5, 0.5,
       ],
 
       bo: [

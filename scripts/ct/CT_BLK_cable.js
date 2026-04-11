@@ -10,6 +10,7 @@
 
   const TEMPLATE = require("lovec/temp/blk/BLK_cable");
   const TEMPLATE_A = require("lovec/temp/blk/BLK_armoredCable");
+  const TEMPLATE_B = require("lovec/temp/blk/BLK_auxiliaryCable");
 
 
 /*
@@ -34,5 +35,13 @@
     TEMPLATE_A, "pow0trans-insulated-copper-cable",
     TEMPLATE_A[0].build({
       maxPowProdAllowed: 3000.0 / 60.0,
+    }),
+  );
+
+
+  const pow0trans_tinCable = extendBlock(
+    TEMPLATE_B, "pow0trans-tin-cable",
+    TEMPLATE_B[0].build({
+      transmitterOverdriveDmgScl: 2.5,
     }),
   );

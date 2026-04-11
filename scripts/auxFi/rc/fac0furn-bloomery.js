@@ -264,6 +264,28 @@ const rc = {
     },
 
 
+    "STEELMAKING: pyrrhotite", {
+
+      icon: "loveclab-item0ore-pyrrhotite",
+      category: "steelmaking",
+      lockedBy: [
+        "loveclab-item0chem-brass",
+        "loveclab-item0chem-tin-bronze",
+      ],
+      tempReq: DB_HANDLER.read("itm-sint-temp", "loveclab-item0ore-pyrrhotite"),
+
+      bi: [
+        "loveclab-item0ore-pyrrhotite", 30, 0.5,
+      ],
+
+      bo: [
+        "loveclab-item0chem-pig-iron", 20, 0.5,
+        "loveclab-item0was-slag", 15, 0.5,
+      ],
+
+    },
+
+
   ],
 
 

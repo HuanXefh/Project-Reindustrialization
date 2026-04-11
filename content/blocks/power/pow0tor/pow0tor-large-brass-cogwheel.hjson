@@ -8,8 +8,8 @@
   # type: Wall
   category: power
   requirements: [
-    loveclab-item0chem-brass/40
-    loveclab-item0chem-steel/10
+    loveclab-item0chem-brass/25
+    loveclab-item0chem-steel/5
   ]
   buildCostMultiplier: 3.0
 
