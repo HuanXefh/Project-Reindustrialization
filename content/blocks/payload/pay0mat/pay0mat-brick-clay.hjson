@@ -8,7 +8,7 @@
   # type: Wall
   category: defense
   requirements: [
-    loveclab-item0chem-rubber/10
+    loveclab-item0buil-brick-clay/10
   ]
   buildCostMultiplier: 5.0
 
@@ -48,7 +48,7 @@
 
 
   envRequired: 0
-  envDisabled: 16
+  envDisabled: 0
 
 
 /*
@@ -59,13 +59,3 @@
 
 
   squareSprite: true
-
-
-/*
-  ========================================
-  Section: Specific
-  ========================================
-*/
-
-
-  insulated: true

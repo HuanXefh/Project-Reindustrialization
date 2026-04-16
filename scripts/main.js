@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.1.26041101",
-    "loveclab", "101.1.26041101",
+    "lovec", "101.1.26041601",
+    "loveclab", "101.1.26041601",
   ])) return;
 
 
@@ -219,12 +219,12 @@
 
         // <TABLE>: text
         cont.table(Styles.none, tb => {
-          tb.pane(pn => {
-            pn.left();
-            MDL_table.__margin(pn);
-            pn.image(Core.atlas.find("projreind-logo")).left().width(468.0).height(120.0).row();
-            MDL_table.__break(pn, 3);
-            MDL_table.__wrapLine(pn, MDL_bundle._info("projreind", "dial-welcome", true), Align.left, 1);
+          tb.pane(pnTb => {
+            pnTb.left();
+            MDL_table.__margin(pnTb);
+            pnTb.image(Core.atlas.find("projreind-logo")).left().width(468.0).height(120.0).row();
+            MDL_table.__break(pnTb, 3);
+            MDL_table.__wrapLine(pnTb, MDL_bundle._info("projreind", "dial-welcome", true), Align.left, 1);
           });
           MDL_table.__break(tb);
           tb.table(Styles.none, tb1 => {
@@ -241,11 +241,11 @@
 
         // <TABLE>: updates
         const cellUpdate = cont.table(Styles.none, tb => {
-          tb.pane(pn => {
-            MDL_table.__margin(pn);
+          tb.pane(pnTb => {
+            MDL_table.__margin(pnTb);
             Object._it(data, (verStr, nmCts) => {
-              pn.button(verStr, () => fetchDialog("ctsRow").ex_show(verStr, nmCts)).center().size(300.0, 50.0).row();
-              MDL_table.__break(pn, 1);
+              pnTb.button(verStr, () => fetchDialog("ctsRow").ex_show(verStr, nmCts)).center().size(300.0, 50.0).row();
+              MDL_table.__break(pnTb, 1);
             });
           }).grow();
           tb.row();
@@ -278,9 +278,9 @@
 
           // <TABLE>: content
           MDL_table.__break(this.cont);
-          this.cont.pane(pn => {
-            MDL_table.__margin(pn);
-            pn.add(String.multiline(
+          this.cont.pane(pnTb => {
+            MDL_table.__margin(pnTb);
+            pnTb.add(String.multiline(
               "Ideas:",
               "  > MaboroshiX",
               "  > Everyone in the Reind discussion group",

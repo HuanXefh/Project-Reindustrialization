@@ -8,7 +8,7 @@
   # type: Wall
   category: defense
   requirements: [
-    loveclab-item0chem-copper/5
+    loveclab-item0chem-copper/10
   ]
   buildCostMultiplier: 5.0
 

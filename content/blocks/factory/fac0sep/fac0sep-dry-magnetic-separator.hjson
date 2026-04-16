@@ -24,7 +24,7 @@
 
 
   research: {
-    parent: fac0sep-cyclone-separator
+    parent: fac0sep-vibration-screen
     objectives: []
   }
   researchCostMultiplier: 0.35

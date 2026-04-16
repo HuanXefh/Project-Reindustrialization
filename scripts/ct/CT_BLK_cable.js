@@ -42,6 +42,6 @@
   const pow0trans_tinCable = extendBlock(
     TEMPLATE_B, "pow0trans-tin-cable",
     TEMPLATE_B[0].build({
-      transmitterOverdriveDmgScl: 2.5,
+      transmitterOverloadDmgScl: 2.5,
     }),
   );

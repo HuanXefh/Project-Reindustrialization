@@ -71,6 +71,7 @@ const db = {
       "projreind-fac0proc-primitive-caster", "caster",
 
       "projreind-fac0furn-primitive-coke-oven", "coke-oven",
+      "projreind-fac0furn-coke-oven-battery", "coke-oven",
 
       "projreind-fac0proc-primitive-forge", "forge",
 
@@ -151,6 +152,8 @@ const db = {
 
         "projreind-bliq0cond-cast-iron-liquid-pipe",
         "projreind-bliq0cond-cast-iron-gas-pipe",
+
+        "projreind-fac0misc-rain-collector",
 
       ],
 

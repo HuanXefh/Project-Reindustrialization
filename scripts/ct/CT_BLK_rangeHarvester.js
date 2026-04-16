@@ -25,7 +25,7 @@
     TEMPLATE, "min0harv-mycelial-harvester",
     TEMPLATE[0].build({
       attrR: 5,
-      attrMode: "block",
+      attrMode: MDL_attr.AttrModes.BLOCK,
       updateEff: EFF.harvesterParticle,
       updateEffP: 0.02,
     }),

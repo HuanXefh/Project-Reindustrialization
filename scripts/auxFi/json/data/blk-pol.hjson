@@ -3,6 +3,7 @@
 projreind-min0drl-survivor-drill: 6.0
 projreind-min0drl-progress-class-drill: 2.0
 projreind-min0drl-pangolin-class-wall-drill: 4.0
+projreind-min0drl-anteater-class-wall-drill: 6.0
 projreind-min0drl-boulder-class-impact-drill: 4.0
 projreind-min0drl-topaz-class-sand-miner: 10.0
 
@@ -23,6 +24,7 @@ projreind-fac0furn-bloomery: 10.0
 projreind-fac0furn-primitive-crucible: 4.0
 projreind-fac0furn-primitive-sintering-furnace: 10.0
 projreind-fac0furn-primitive-coke-oven: 13.0
+projreind-fac0furn-coke-oven-battery: 44.0
 
 /* <---------- fac0proc ----------> */
 

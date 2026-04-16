@@ -110,6 +110,22 @@
   );
 
 
+  const fac0furn_cokeOvenBattery = extendBlock(
+    TEMPLATE, "fac0furn-coke-oven-battery",
+    TEMPLATE[0].build({
+      blockedFuels: DB_item.db["group"]["fuel"]["biotic"],
+      fuelConsMtp: 1.75,
+      fuelLvlMtp: 1.4,
+      heatWarmupRate: 0.0004,
+      rcMdl: "fac0furn-coke-oven-battery",
+      rcSourceMod: "projreind",
+      craftEff: EFF.furnaceSmogLarge,
+      updateEff: EFF.furnaceCrackLarge,
+      updateEffP: 0.02,
+    }),
+  );
+
+
   /* <---------- fac0proc ----------> */
 
 

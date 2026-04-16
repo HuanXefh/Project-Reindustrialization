@@ -11,6 +11,7 @@ projreind-fac0furn-bloomery: 1800.0
 projreind-fac0furn-primitive-crucible: 1800.0
 projreind-fac0furn-primitive-sintering-furnace: 1800.0
 projreind-fac0furn-primitive-coke-oven: 1600.0
+projreind-fac0furn-coke-oven-battery: 1800.0
 
 /* <---------- fac0proc ----------> */
 
