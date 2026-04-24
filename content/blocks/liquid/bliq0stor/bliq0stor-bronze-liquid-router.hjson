@@ -9,6 +9,7 @@
   category: liquid
   requirements: [
     loveclab-item0chem-lead/10
+    loveclab-item0chem-graphite/5
     loveclab-item0chem-tin-bronze/5
   ]
   buildCostMultiplier: 5.0

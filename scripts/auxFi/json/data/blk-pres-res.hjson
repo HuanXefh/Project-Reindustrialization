@@ -1,7 +1,11 @@
-/* <---------- bliq0aux ----------> */
+/* <---------- bliq0cond ----------> */
 
 projreind-bliq0cond-cast-iron-liquid-pipe: 24.0
 projreind-bliq0cond-cast-iron-gas-pipe: 24.0
+
+/* <---------- bliq0stor ----------> */
+
+projreind-bliq0stor-pressure-router: 24.0
 
 /* <---------- bliq0aux ----------> */
 

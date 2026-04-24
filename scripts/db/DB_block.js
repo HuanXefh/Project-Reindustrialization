@@ -45,6 +45,7 @@ const db = {
       "projreind-min0drl-progress-class-drill", "emerald-tide",
       "projreind-min0drl-pangolin-class-wall-drill", "emerald-tide",
       "projreind-min0drl-anteater-class-wall-drill", "emerald-tide",
+      "projreind-min0drl-scavenger-class-deposit-drill", "emerald-tide",
       "projreind-min0drl-boulder-class-impact-drill", "emerald-tide",
       "projreind-min0drl-topaz-class-sand-miner", "emerald-tide",
       "projreind-min0scan-alpha-class-ore-scanner", "emerald-tide",
@@ -72,6 +73,8 @@ const db = {
 
       "projreind-fac0furn-primitive-coke-oven", "coke-oven",
       "projreind-fac0furn-coke-oven-battery", "coke-oven",
+
+      "projreind-fac0heat-jet-condenser", "condenser",
 
       "projreind-fac0proc-primitive-forge", "forge",
 
@@ -153,7 +156,11 @@ const db = {
         "projreind-bliq0cond-cast-iron-liquid-pipe",
         "projreind-bliq0cond-cast-iron-gas-pipe",
 
+        "projreind-bliq0stor-pressure-router",
+
         "projreind-fac0misc-rain-collector",
+
+        "projreind-fac0heat-jet-condenser",
 
       ],
 
@@ -192,6 +199,8 @@ const db = {
       "projreind-dis0conv-primitive-conveyor",
       "projreind-dis0conv-standard-conveyor",
       "projreind-dis0conv-multi-port-conveyor",
+
+      "projreind-dis0brd-primitive-conveyor-bridge",
 
       "projreind-dis0aux-item-junction",
       "projreind-dis0aux-item-incinerator",

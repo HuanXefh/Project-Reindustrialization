@@ -4,8 +4,9 @@ projreind-min0drl-survivor-drill: 6.0
 projreind-min0drl-progress-class-drill: 2.0
 projreind-min0drl-pangolin-class-wall-drill: 4.0
 projreind-min0drl-anteater-class-wall-drill: 6.0
+projreind-min0drl-scavenger-class-deposit-drill: 14.0
 projreind-min0drl-boulder-class-impact-drill: 4.0
-projreind-min0drl-topaz-class-sand-miner: 10.0
+projreind-min0drl-topaz-class-sand-miner: 12.0
 
 /* <---------- pow0heat ----------> */
 
@@ -41,3 +42,4 @@ projreind-fac0mill-ball-mill: 3.0
 /* <---------- fac0sep ----------> */
 
 projreind-fac0sep-dry-magnetic-separator: 4.0
+projreind-fac0sep-hydrocyclone: 8.0

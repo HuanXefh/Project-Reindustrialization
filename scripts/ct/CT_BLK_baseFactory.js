@@ -18,6 +18,14 @@
 */
 
 
+  /* <---------- pow0tor ----------> */
+
+
+  const pow0tor_primitiveElectricMotor = extendBlock(
+    TEMPLATE, "pow0tor-primitive-electric-motor",
+  );
+
+
   /* <---------- pow0turb ----------> */
 
 

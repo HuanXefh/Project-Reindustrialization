@@ -1,0 +1,106 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: BeamDrill
+  category: production
+  requirements: [
+    loveclab-item0bio-timber/180
+    loveclab-item0chem-graphite/120
+    loveclab-item0chem-brass/100
+    loveclab-item0chem-cupronickel/80
+    loveclab-item0chem-cast-iron/70
+    loveclab-item0chem-steel/60
+  ]
+  buildCostMultiplier: 2.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: min0drl-pangolin-class-wall-drill
+    objectives: []
+  }
+  researchCostMultiplier: 0.35
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 80.0
+  armor: 12.0
+  size: 3
+  hasItems: true
+  itemCapacity: 80
+  hasLiquids: true
+  liquidCapacity: 10.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 1
+  envDisabled: 22
+  fogRadius: 4
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  heatColor: "8ca9e8"
+  boostHeatColor: "8ca9e8"
+  ambientSound: se-amb-drill
+  ambientSoundVolume: 0.3
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  tier: 6
+  range: 5
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  drillTime: 750.0
+  optionalBoostIntensity: 2.0
+  consumes: {
+    power: 4.66666667
+    liquid: {
+      liquid: loveclab-aux0aux-vacuum
+      amount: 0.11666667
+      optional: true
+      booster: true
+    }
+  }

@@ -1,0 +1,116 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: GenericCrafter
+  category: power
+  requirements: [
+    loveclab-item0chem-brass/40
+    loveclab-item0chem-tin-bronze/50
+    loveclab-item0chem-cast-iron/30
+    loveclab-item0chem-steel/10
+  ]
+  buildCostMultiplier: 3.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: pow0tor-crank
+    objectives: []
+  }
+  researchCostMultiplier: 0.2
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 2
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: true
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 16
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawDefault
+      }
+
+
+      {
+        type: DrawFrames
+        frames: 5
+        interval: 1.0
+        sine: false
+      }
+
+
+    ]
+  }
+  ambientSound: se-amb-hum
+  ambientSoundVolume: 0.2
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  ignoreLiquidFullness: true
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  craftTime: 60.0
+  consumes: {
+    power: 7.5
+  }
+  outputLiquids: [
+    loveclab-aux0aux-torque/0.25
+  ]

@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.1.26041601",
-    "loveclab", "101.1.26041601",
+    "lovec", "101.1.26042401",
+    "loveclab", "101.1.26042401",
   ])) return;
 
 
@@ -19,10 +19,11 @@
 
   require("projreind/ct/CT_BLK_groundDrill");
   require("projreind/ct/CT_BLK_wallDrill");
-  require("projreind/ct/CT_BLK_oreScanner");
-  require("projreind/ct/CT_BLK_manualTimerOreScanner");
+  require("projreind/ct/CT_BLK_rangeWallDrill");
   require("projreind/ct/CT_BLK_impactDrill");
   require("projreind/ct/CT_BLK_terrainDynamicDrill");
+  require("projreind/ct/CT_BLK_oreScanner");
+  require("projreind/ct/CT_BLK_manualTimerOreScanner");
   require("projreind/ct/CT_BLK_wallHarvester");
   require("projreind/ct/CT_BLK_dynamicWallHarvester");
   require("projreind/ct/CT_BLK_rangeHarvester");
@@ -30,6 +31,7 @@
 
   require("projreind/ct/CT_BLK_conveyor");
   require("projreind/ct/CT_BLK_stackConveyor");
+  require("projreind/ct/CT_BLK_duct");
   require("projreind/ct/CT_BLK_itemJunction");
   require("projreind/ct/CT_BLK_conveyorBridge");
   require("projreind/ct/CT_BLK_router");
@@ -53,12 +55,13 @@
   require("projreind/ct/CT_BLK_depthPump");
   require("projreind/ct/CT_BLK_pressurePump");
   require("projreind/ct/CT_BLK_fluidPipe");
+  require("projreind/ct/CT_BLK_fluidRouter");
+  require("projreind/ct/CT_BLK_directionalFluidRouter");
   require("projreind/ct/CT_BLK_fluidJunction");
   require("projreind/ct/CT_BLK_fluidValve");
   require("projreind/ct/CT_BLK_fluidFilter");
   require("projreind/ct/CT_BLK_fluidPressureValve");
   require("projreind/ct/CT_BLK_fluidPipeBridge");
-  require("projreind/ct/CT_BLK_fluidRouter");
 
 
   require("projreind/ct/CT_BLK_cable");
@@ -164,6 +167,9 @@
     if(!Vars.headless && !Core.app.isMobile()) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-min0drl-scavenger-class-deposit-drill",
+        "projreind-dis0conv-standard-duct",
+        "projreind-bliq0stor-pressure-router",
         "projreind-dis0loot-item-picker",
         "projreind-pow0trans-tin-cable",
         "projreind-fac0sep-hydrocyclone",
@@ -208,6 +214,8 @@
         "projreind-dis0aux-filter-gate",
         "projreind-min0drl-survivor-drill",
       ];
+
+
 
 
       const winWelcome = new CLS_window(MDL_bundle._info("projreind", "dial-welcome"), cont => {
@@ -260,6 +268,9 @@
         }).grow();
       });
       winWelcome.setSizeRange(null, MDL_ui._screenW(), null, MDL_ui._screenH() * 0.8);
+
+
+
 
       const dialCredits = extend(BaseDialog, MDL_bundle._info("projreind", "dial-credits"), {
 
@@ -328,6 +339,9 @@
 
 
       });
+
+
+
 
       winWelcome.add();
     };

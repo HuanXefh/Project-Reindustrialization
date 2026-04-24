@@ -39,7 +39,7 @@ const rc = {
         "loveclab-gas0was-coke-oven-gas", 0.4,
       ],
       bo: [
-        "loveclab-item0chem-coke", 80, 0.75,
+        "loveclab-item0chem-coke", 240, 0.75,
       ],
 
     },
@@ -52,7 +52,7 @@ const rc = {
       tempReq: 900.0,
 
       bi: [
-        "loveclab-item0chem-anthracite", 80, 1.0,
+        "loveclab-item0chem-anthracite", 240, 1.0,
       ],
 
       co: [
@@ -60,7 +60,7 @@ const rc = {
         "loveclab-gas0was-coke-oven-gas", 0.4,
       ],
       bo: [
-        "loveclab-item0chem-coke", 80, 1.0,
+        "loveclab-item0chem-coke", 240, 1.0,
       ],
 
     },
@@ -73,7 +73,7 @@ const rc = {
       tempReq: 900.0,
 
       bi: [
-        "loveclab-item0chem-peat", 80, 1.0,
+        "loveclab-item0chem-peat", 240, 1.0,
       ],
 
       co: [
@@ -81,7 +81,7 @@ const rc = {
         "loveclab-gas0was-coke-oven-gas", 0.4,
       ],
       bo: [
-        "loveclab-item0chem-semicoke", 80, 0.5,
+        "loveclab-item0chem-semicoke", 240, 0.5,
       ],
 
     },
@@ -94,7 +94,7 @@ const rc = {
       tempReq: 900.0,
 
       bi: [
-        "loveclab-item0chem-lignite", 80, 1.0,
+        "loveclab-item0chem-lignite", 240, 1.0,
       ],
 
       co: [
@@ -102,7 +102,7 @@ const rc = {
         "loveclab-gas0was-coke-oven-gas", 0.4,
       ],
       bo: [
-        "loveclab-item0chem-semicoke", 80, 0.75,
+        "loveclab-item0chem-semicoke", 240, 0.75,
       ],
 
     },

@@ -18,6 +18,18 @@
 */
 
 
+  /* <---------- fac0heat ----------> */
+
+
+  const fac0heat_jetCondenser = extendBlock(
+    TEMPLATE, "fac0heat-jet-condenser",
+    TEMPLATE[0].build({
+      rcMdl: "fac0heat-jet-condenser",
+      rcSourceMod: "projreind",
+    }),
+  );
+
+
   /* <---------- fac0mix ----------> */
 
 
