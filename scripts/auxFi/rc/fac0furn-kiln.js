@@ -13,46 +13,6 @@ const rc = {
     /* <---------- misc ----------> */
 
 
-    "MISC: charcoal", {
-
-      icon: "loveclab-item0bio-log",
-      category: "misc",
-      tempReq: 300.0,
-      tempAllowed: 750.0,
-
-      bi: [
-        "loveclab-item0bio-log", 10, 1.0,
-      ],
-
-      bo: [
-        "loveclab-item0bio-charcoal", 10, 0.5,
-      ],
-      failP: 0.1,
-      fo: [],
-
-    },
-
-
-    "MISC: charcoal; FROM: hypha rod", {
-
-      icon: "loveclab-item0bio-hypha-rod",
-      category: "misc",
-      tempReq: 500.0,
-      tempAllowed: 900.0,
-
-      bi: [
-        "loveclab-item0bio-hypha-rod", 10, 1.0,
-      ],
-
-      bo: [
-        "loveclab-item0bio-charcoal", 10, 0.5,
-      ],
-      failP: 0.05,
-      fo: [],
-
-    },
-
-
     "MISC: raw rubber", {
 
       icon: "loveclab-item0int-raw-rubber",
@@ -123,6 +83,11 @@ const rc = {
 };
 
 
+TP_recipeGen._g_carbonizationFurnace.run(rc, {
+  objF: obj => obj.failP = obj.icon === "loveclab-item0bio-log" ? 0.1 : 0.05,
+  amtI: 10,
+  maxTemp: 1600.0,
+});
 TP_recipeGen._g_brickKiln.run(rc, {
   objF: obj => obj.failP = 0.25,
   amtI: 10,

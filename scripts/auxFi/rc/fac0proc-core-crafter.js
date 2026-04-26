@@ -10,6 +10,105 @@ const rc = {
   recipe: [
 
 
+    /* <---------- assembly ----------> */
+
+
+    "ASSEMBLY: clay brick block", {
+
+      icon: "projreind-pay0mat-brick-clay",
+      category: "assembly",
+
+      bi: [
+        "loveclab-item0buil-brick-clay", 10, 1.0,
+      ],
+
+      payo: [
+        "projreind-pay0mat-brick-clay", 1,
+      ],
+
+    },
+
+
+    "ASSEMBLY: magnesia brick block", {
+
+      icon: "projreind-pay0mat-brick-magnesia",
+      category: "assembly",
+
+      bi: [
+        "loveclab-item0buil-brick-magnesia", 10, 1.0,
+      ],
+
+      payo: [
+        "projreind-pay0mat-brick-magnesia", 1,
+      ],
+
+    },
+
+
+    "ASSEMBLY: high-alumina brick block", {
+
+      icon: "projreind-pay0mat-brick-high-alumina",
+      category: "assembly",
+
+      bi: [
+        "loveclab-item0buil-brick-high-alumina", 10, 1.0,
+      ],
+
+      payo: [
+        "projreind-pay0mat-brick-high-alumina", 1,
+      ],
+
+    },
+
+
+    "ASSEMBLY: mullite brick block", {
+
+      icon: "projreind-pay0mat-brick-mullite",
+      category: "assembly",
+
+      bi: [
+        "loveclab-item0buil-brick-mullite", 10, 1.0,
+      ],
+
+      payo: [
+        "projreind-pay0mat-brick-mullite", 1,
+      ],
+
+    },
+
+
+    "ASSEMBLY: silica brick block", {
+
+      icon: "projreind-pay0mat-brick-silica",
+      category: "assembly",
+
+      bi: [
+        "loveclab-item0buil-brick-silica", 10, 1.0,
+      ],
+
+      payo: [
+        "projreind-pay0mat-brick-silica", 1,
+      ],
+
+    },
+
+
+    "ASSEMBLY: carbon brick block", {
+
+      icon: "projreind-pay0mat-brick-carbon",
+      category: "assembly",
+
+      bi: [
+        "loveclab-item0buil-brick-carbon", 10, 1.0,
+      ],
+
+      payo: [
+        "projreind-pay0mat-brick-carbon", 1,
+      ],
+
+    },
+
+
     /* <---------- misc ----------> */
 
 
@@ -61,102 +160,6 @@ const rc = {
 
       payo: [
         "projreind-pay0mat-rubber-block", 1,
-      ],
-
-    },
-
-
-    "MISC: clay brick block", {
-
-      icon: "projreind-pay0mat-brick-clay",
-      category: "misc",
-
-      bi: [
-        "loveclab-item0buil-brick-clay", 10, 1.0,
-      ],
-
-      payo: [
-        "projreind-pay0mat-brick-clay", 1,
-      ],
-
-    },
-
-
-    "MISC: magnesia brick block", {
-
-      icon: "projreind-pay0mat-brick-magnesia",
-      category: "misc",
-
-      bi: [
-        "loveclab-item0buil-brick-magnesia", 10, 1.0,
-      ],
-
-      payo: [
-        "projreind-pay0mat-brick-magnesia", 1,
-      ],
-
-    },
-
-
-    "MISC: high-alumina brick block", {
-
-      icon: "projreind-pay0mat-brick-high-alumina",
-      category: "misc",
-
-      bi: [
-        "loveclab-item0buil-brick-high-alumina", 10, 1.0,
-      ],
-
-      payo: [
-        "projreind-pay0mat-brick-high-alumina", 1,
-      ],
-
-    },
-
-
-    "MISC: mullite brick block", {
-
-      icon: "projreind-pay0mat-brick-mullite",
-      category: "misc",
-
-      bi: [
-        "loveclab-item0buil-brick-mullite", 10, 1.0,
-      ],
-
-      payo: [
-        "projreind-pay0mat-brick-mullite", 1,
-      ],
-
-    },
-
-
-    "MISC: silica brick block", {
-
-      icon: "projreind-pay0mat-brick-silica",
-      category: "misc",
-
-      bi: [
-        "loveclab-item0buil-brick-silica", 10, 1.0,
-      ],
-
-      payo: [
-        "projreind-pay0mat-brick-silica", 1,
-      ],
-
-    },
-
-
-    "MISC: carbon brick block", {
-
-      icon: "projreind-pay0mat-brick-carbon",
-      category: "misc",
-
-      bi: [
-        "loveclab-item0buil-brick-carbon", 10, 1.0,
-      ],
-
-      payo: [
-        "projreind-pay0mat-brick-carbon", 1,
       ],
 
     },

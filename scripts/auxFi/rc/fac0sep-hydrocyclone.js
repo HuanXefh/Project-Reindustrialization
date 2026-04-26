@@ -28,7 +28,7 @@ const rc = {
 
 TP_recipeGen._g_purifier.run(rc, {
   tier: 1,
-  amtI: 12,
+  amtI: 24,
   pI: 0.5,
 });
 

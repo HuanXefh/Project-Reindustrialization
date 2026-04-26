@@ -25,6 +25,7 @@ const rc = {
       bi: [
         [
           "loveclab-item0bio-sawdust", 80, 0.5,
+          "loveclab-item0bio-biomass-powder", 80, 0.5,
           "loveclab-item0int0dust-raw-coal", 40, 0.5,
         ], -1.0, -1.0,
         [
@@ -46,6 +47,7 @@ const rc = {
       bo: [
         "loveclab-item0cons-briquette", 30, 1.0,
       ],
+      failP: 0.05,
 
     },
 

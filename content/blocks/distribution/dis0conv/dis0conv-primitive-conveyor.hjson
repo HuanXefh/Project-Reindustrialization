@@ -64,3 +64,5 @@
 
   speed: 0.021
   displayedSpeed: 3.0
+  junctionReplacement: dis0aux-item-junction
+  bridgeReplacement: dis0brd-conveyor-bridge

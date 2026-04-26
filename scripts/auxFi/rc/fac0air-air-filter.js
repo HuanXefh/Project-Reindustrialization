@@ -4,15 +4,7 @@ const rc = {
   // craftTime: 5s
 
 
-  base: {
-
-
-    baseOpt: [
-      "loveclab-item0bio-charcoal", 1, 0.6, 1.0,
-    ],
-
-
-  },
+  base: {},
 
 
   recipe: [
@@ -31,7 +23,11 @@ const rc = {
         "loveclab-gas0misc-air", 0.2,
       ],
       reqOpt: true,
-      
+      opt: [
+        "loveclab-item0bio-charcoal", 1, 0.6, 1.0,
+        "loveclab-item0chem-activated-carbon", 1, 0.3, 2.0,
+      ],
+
       co: [
         "loveclab-gas0int-air-clean", 0.2,
       ],

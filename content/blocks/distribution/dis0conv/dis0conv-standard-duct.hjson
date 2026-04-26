@@ -67,3 +67,5 @@
 
   speed: 5.0
   armored: false
+  junctionReplacement: dis0aux-item-junction
+  bridgeReplacement: dis0brd-conveyor-bridge

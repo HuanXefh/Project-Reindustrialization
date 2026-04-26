@@ -63,6 +63,8 @@ const db = {
 
       "projreind-fac0furn-primitive-crucible", "alloy-furnace",
 
+      "projreind-fac0proc-core-crafter", "assembler",
+
       "projreind-pow0boil-primitive-boiler", "boiler",
 
       "projreind-fac0furn-kiln", "brick-kiln",
@@ -75,6 +77,8 @@ const db = {
       "projreind-fac0furn-coke-oven-battery", "coke-oven",
 
       "projreind-fac0heat-jet-condenser", "condenser",
+
+      "projreind-fac0proc-biomass-crusher", "crusher",
 
       "projreind-fac0proc-primitive-forge", "forge",
 
@@ -225,6 +229,7 @@ const db = {
       "projreind-dis0conv-multi-port-conveyor",
 
       "projreind-pow0trans-copper-cable",
+      "projreind-pow0trans-tin-cable",
       "projreind-pow0trans-copper-wire-relay",
       "projreind-pow0trans-copper-wire-node",
       "projreind-pow0trans-copper-wire-remote-node",
