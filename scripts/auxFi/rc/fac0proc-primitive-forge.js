@@ -20,8 +20,8 @@ const rc = {
 
 
 TP_recipeGen._g_forge.run(rc, {
-  amtO: 10,
-  payAmtO: 1,
+  amt: 10,
+  payAmt: 1,
   maxTemp: 1800.0,
   sizeCap: 2,
 });

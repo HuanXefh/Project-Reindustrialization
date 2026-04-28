@@ -69,7 +69,7 @@
   ambientSound: se-amb-drill
   ambientSoundVolume: 0.2
   drawRim: false
-  rotateSpeed: 6.0
+  rotateSpeed: 2.0
 
 
 /*

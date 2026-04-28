@@ -23,7 +23,7 @@ const rc = {
 
 
 TP_recipeGen._g_purifierMagnetic.run(rc, {
-  amtI: 15,
+  amt: 15,
 });
 
 

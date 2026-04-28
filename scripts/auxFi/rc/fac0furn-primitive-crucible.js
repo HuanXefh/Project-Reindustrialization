@@ -25,7 +25,7 @@ TP_recipeGen._g_alloyFurnace.run(rc, {
         break;
     };
   },
-  amtO: 60,
+  amt: 60,
   pO: 0.5,
   maxTemp: 1800.0,
 });

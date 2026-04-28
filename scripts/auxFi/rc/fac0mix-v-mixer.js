@@ -14,7 +14,7 @@ const rc = {
 
 
 TP_recipeGen._g_mixer.run(rc, {
-  amtO: 6,
+  amt: 6,
   pO: 0.5,
 });
 

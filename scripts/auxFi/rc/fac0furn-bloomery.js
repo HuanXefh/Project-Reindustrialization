@@ -313,7 +313,7 @@ TP_recipeGen._g_smelter.run(rc, {
     };
   },
   isConcentrate: false,
-  amtI: 20,
+  amt: 20,
   pI: 0.5,
 });
 

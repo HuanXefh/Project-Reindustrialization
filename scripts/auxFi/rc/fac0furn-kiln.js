@@ -85,7 +85,8 @@ const rc = {
 
 TP_recipeGen._g_carbonizationFurnace.run(rc, {
   objF: obj => obj.failP = obj.icon === "loveclab-item0bio-log" ? 0.1 : 0.05,
-  amtI: 10,
+  time: 20.0 * 60.0,
+  amt: 10,
   maxTemp: 1600.0,
 });
 TP_recipeGen._g_brickKiln.run(rc, {

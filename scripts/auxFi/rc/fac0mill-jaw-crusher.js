@@ -22,13 +22,12 @@ const rc = {
 
 
 TP_recipeGen._g_rockCrusher.run(rc, {
-  amtI: 2,
-  amtO: 2,
+  amt: 2,
   maxHardness: 7,
+  abrasionFactor: 1.0,
 });
 TP_recipeGen._g_rockCrusherAggregate.run(rc, {
-  amtI: 2,
-  amtO: 2,
+  amt: 2,
   maxHardness: 7,
   abrasionFactor: 1.25,
 });

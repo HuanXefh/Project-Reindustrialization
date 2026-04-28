@@ -41,8 +41,8 @@ const rc = {
 
 
 TP_recipeGen._g_liquidMixer.run(rc, {
-  time: 600.0,
-  amtO: 10,
+  amt: 10,
+  time: 10.0 * 60.0,
 });
 
 

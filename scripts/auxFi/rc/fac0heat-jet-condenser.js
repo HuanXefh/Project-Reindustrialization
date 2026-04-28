@@ -21,8 +21,8 @@ const rc = {
 
 
 TP_recipeGen._g_condenser.run(rc, {
-  amtI: 2,
-  time: 120.0,
+  amt: 2,
+  time: 2.0 * 60.0,
 });
 
 

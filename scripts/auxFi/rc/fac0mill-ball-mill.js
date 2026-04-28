@@ -24,9 +24,10 @@ const rc = {
 
 TP_recipeGen._g_mixer.run(rc, {
   isBallMill: true,
-  amtO: 12,
+  amt: 12,
   pO: 0.5,
   maxHardness: 7,
+  abrasionFactor: 1.0,
 });
 TP_recipeGen._g_pulverizer.run(rc, {
   amtI: 18,
@@ -34,6 +35,7 @@ TP_recipeGen._g_pulverizer.run(rc, {
   amtO: 18,
   pO: 0.5,
   maxHardness: 7,
+  abrasionFactor: 1.0,
 });
 
 
