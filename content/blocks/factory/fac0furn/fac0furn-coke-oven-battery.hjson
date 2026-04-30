@@ -20,7 +20,7 @@
   armor: 12.0
   size: 5
   hasItems: true
-  itemCapacity: 300
+  itemCapacity: 750
   hasLiquids: true
   liquidCapacity: 30.0
   hasPower: true
@@ -198,7 +198,7 @@
 
     ]
   }
-  ambientSound: se-amb-furnace
+  ambientSound: se-amb-furnace1
   ambientSoundVolume: 0.5
 
 

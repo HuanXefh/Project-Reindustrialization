@@ -66,3 +66,5 @@
 
   squareSprite: false
   customShadow: true
+  ambientSound: se-amb-cogwheel
+  ambientSoundVolume: 0.1

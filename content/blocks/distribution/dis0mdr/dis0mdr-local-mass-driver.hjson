@@ -72,7 +72,7 @@
   knockback: 1.5
   translation: 2.0
   shake: 2.0
-  shootSound: se-shot-mass-driver2
+  shootSound: se-shot-mass-driver1
 
 
 /*
