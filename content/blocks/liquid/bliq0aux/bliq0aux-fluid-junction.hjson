@@ -23,7 +23,7 @@
 
 
   research: {
-    parent: bliq0cond-wooden-liquid-pipe
+    parent: bliq0brd-bronze-fluid-pipe-bridge
     objectives: []
   }
   researchCostMultiplier: 0.25

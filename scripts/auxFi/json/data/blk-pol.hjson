@@ -21,11 +21,12 @@ projreind-fac0air-air-filter: -30.0
 
 projreind-fac0furn-kiln: 6.0
 projreind-fac0furn-primitive-smelter: 10.0
-projreind-fac0furn-bloomery: 10.0
+projreind-fac0furn-bloomery: 12.0
+projreind-fac0furn-bricked-blast-furnace: 60.0
 projreind-fac0furn-primitive-crucible: 4.0
 projreind-fac0furn-primitive-sintering-furnace: 10.0
-projreind-fac0furn-primitive-coke-oven: 13.0
-projreind-fac0furn-coke-oven-battery: 44.0
+projreind-fac0furn-primitive-coke-oven: 16.0
+projreind-fac0furn-coke-oven-battery: 60.0
 
 /* <---------- fac0proc ----------> */
 
@@ -36,10 +37,12 @@ projreind-fac0proc-primitive-forge: 2.0
 /* <---------- fac0mill ----------> */
 
 projreind-fac0mill-jaw-crusher: 3.0
+projreind-fac0mill-hammer-crusher: 4.0
 projreind-fac0mill-mechanical-mill: 4.5
 projreind-fac0mill-ball-mill: 3.0
 
 /* <---------- fac0sep ----------> */
 
-projreind-fac0sep-dry-magnetic-separator: 4.0
+projreind-fac0sep-ore-washer: 5.0
 projreind-fac0sep-hydrocyclone: 8.0
+projreind-fac0sep-dry-magnetic-separator: 4.0

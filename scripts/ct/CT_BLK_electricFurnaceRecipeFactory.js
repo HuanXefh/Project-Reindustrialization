@@ -18,6 +18,22 @@
 */
 
 
+  /* <---------- fac0furn ----------> */
+
+
+  const fac0furn_tubeFurnace = extendBlock(
+    TEMPLATE, "fac0furn-tube-furnace",
+    TEMPLATE[0].build({
+      powConsBase: 1.33333333,
+      powConsPerFuelLvl: 0.5,
+      heatWarmupRate: 0.0005,
+      heatA: 0.5,
+      rcMdl: "fac0furn-tube-furnace",
+      rcSourceMod: "projreind",
+    }),
+  );
+
+
   /* <---------- fac0proc ----------> */
 
 

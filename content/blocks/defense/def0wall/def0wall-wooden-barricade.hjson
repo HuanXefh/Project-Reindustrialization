@@ -21,7 +21,7 @@
 
 
   research: {
-    parent: eff0stor-crate
+    parent: eff0stor-stacking-area
     objectives: []
   }
   researchCostMultiplier: 0.4

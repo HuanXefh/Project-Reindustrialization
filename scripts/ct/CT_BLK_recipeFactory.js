@@ -76,6 +76,27 @@
       rcSourceMod: "projreind",
     }),
   );
+  
+
+  const fac0sep_oreWasher = extendBlock(
+    TEMPLATE, "fac0sep-ore-washer",
+    TEMPLATE[0].build({
+      rcMdl: "fac0sep-ore-washer",
+      rcSourceMod: "projreind",
+    }),
+  );
+  setDrawer(fac0sep_oreWasher, drawers => [
+    drawers[0],
+    fetchDrawer("DrawMixedLiquid"),
+    fetchDrawer("DrawRipple", {
+      rad: 4.5,
+      size: 2.5,
+      scl: 9.0,
+      recur: 2.0
+    }),
+    drawers[1],
+    drawers[2],
+  ]);
 
 
   const fac0sep_hydrocyclone = extendBlock(

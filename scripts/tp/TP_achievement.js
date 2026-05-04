@@ -104,6 +104,26 @@
 
 
     new CLS_achievement(
+      "projreind", "physics-is-gone",
+      new TextureRegionDrawable(Core.atlas.find("loveclab-item0bio-log")),
+      TRIGGER.lootDrown,
+      function(loot) {
+        if(LCCheck.checkPosVisible(loot.x, loot.y, 8.0) && loot.item().name === "loveclab-item0bio-log") this.complete();
+      },
+    );
+
+
+    new CLS_achievement(
+      "projreind", "milk-in-the-sewer",
+      new TextureRegionDrawable(Core.atlas.find("deep-water")),
+      TRIGGER.lootDrown,
+      function(loot) {
+        if(LCCheck.checkPosVisible(loot.x, loot.y, 8.0) && loot.stack.amount >= 1000) this.complete();
+      },
+    );
+
+
+    new CLS_achievement(
       "projreind", "thats-not-remote",
       new TextureRegionDrawable(Core.atlas.find("projreind-dis0aux-remote-core-unloader-full")),
       TRIGGER.remoteCoreUnloaderNearCore,
@@ -149,6 +169,36 @@
       TRIGGER.itemProduce,
       function(b, itm, amt) {
         if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-rubber") this.complete();
+      },
+    );
+
+
+    new CLS_achievement(
+      "projreind", "concrete-wasteland",
+      new TextureRegionDrawable(Core.atlas.find("loveclab-item0buil-cement")),
+      TRIGGER.itemProduce,
+      function(b, itm, amt) {
+        if(Vars.state.isCampaign() && itm.name === "loveclab-item0buil-cement") this.complete();
+      },
+    );
+
+
+    new CLS_achievement(
+      "projreind", "my-little-kiln",
+      new TextureRegionDrawable(Core.atlas.find("projreind-fac0furn-bricked-blast-furnace-full")),
+      TRIGGER.constructionComplete,
+      function(b) {
+        if(Vars.state.isCampaign() && b.block.name === "projreind-fac0furn-bricked-blast-furnace") this.complete();
+      },
+    );
+
+
+    new CLS_achievement(
+      "projreind", "final-form-of-copper",
+      new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-cupronickel")),
+      TRIGGER.itemProduce,
+      function(b, itm, amt) {
+        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-cupronickel") this.complete();
       },
     );
 

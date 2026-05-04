@@ -24,7 +24,7 @@
 
 
   research: {
-    parent: dis0conv-standard-conveyor
+    parent: dis0conv-multi-port-conveyor
     objectives: []
   }
   buildCostMultiplier: 15.0

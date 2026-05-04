@@ -23,7 +23,7 @@
 
 
   research: {
-    parent: bliq0stor-bronze-liquid-router
+    parent: bliq0aux-fluid-filter-valve
     objectives: []
   }
   researchCostMultiplier: 0.2

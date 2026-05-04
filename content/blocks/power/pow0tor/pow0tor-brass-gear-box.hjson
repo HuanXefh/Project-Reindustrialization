@@ -23,7 +23,7 @@
 
 
   research: {
-    parent: pow0tor-brass-cogwheel
+    parent: pow0tor-large-brass-cogwheel
     objectives: []
   }
   researchCostMultiplier: 0.4

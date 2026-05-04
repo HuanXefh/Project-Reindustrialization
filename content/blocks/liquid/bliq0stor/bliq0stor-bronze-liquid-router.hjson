@@ -23,7 +23,7 @@
 
 
   research: {
-    parent: bliq0cond-wooden-liquid-pipe
+    parent: bliq0aux-fluid-junction
     objectives: []
   }
   researchCostMultiplier: 0.35

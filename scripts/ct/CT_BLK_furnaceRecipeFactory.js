@@ -65,6 +65,21 @@
   );
 
 
+  const fac0furn_brickedBlastFurnace = extendBlock(
+    TEMPLATE, "fac0furn-bricked-blast-furnace",
+    TEMPLATE[0].build({
+      blockedFuels: DB_item.db["group"]["fuel"]["biotic"],
+      fuelConsMtp: 1.25,
+      fuelLvlMtp: 1.35,
+      rcMdl: "fac0furn-bricked-blast-furnace",
+      rcSourceMod: "projreind",
+      craftEff: EFF.furnaceSmogLarge,
+      updateEff: EFF.furnaceCrackLarge,
+      updateEffP: 0.01,
+    }),
+  );
+
+
   const fac0furn_primitiveCrucible = extendBlock(
     TEMPLATE, "fac0furn-primitive-crucible",
     TEMPLATE[0].build({

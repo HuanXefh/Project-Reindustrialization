@@ -49,7 +49,7 @@ const rc = {
       bo: [
         "loveclab-item0chem-rubber", 10, 0.5,
       ],
-      failP: 0.35,
+      failP: 0.33333333,
       fo: [],
 
     },
@@ -73,6 +73,49 @@ const rc = {
       ],
       failP: 0.05,
       fo: [],
+
+    },
+
+
+    "MISC: glass", {
+
+      icon: "loveclab-item0buil-glass",
+      category: "misc",
+      tempReq: 1500.0,
+
+      bi: [
+        "GROUP: silica", 20, 1.0,
+        "GROUP: sodium carbonate", 20, 0.5,
+        "loveclab-item0int0chunks-limestone", 20, 1.0,
+        "loveclab-item0chem-tin", 10, 0.5,
+      ],
+
+      bo: [
+        "loveclab-item0buil-glass", 20, 0.5,
+      ],
+      failP: 0.33333333,
+
+    },
+
+
+    "MISC: tempered glass", {
+
+      icon: "loveclab-item0buil-tempered-glass",
+      category: "misc",
+      tempReq: 650.0,
+      tempAllowed: 800.0,
+
+      ci: [
+        "loveclab-gas0misc-air", 0.2,
+      ],
+      bi: [
+        "loveclab-item0buil-glass", 10, 1.0,
+      ],
+
+      bo: [
+        "loveclab-item0buil-tempered-glass", 10, 1.0,
+      ],
+      failP: 0.33333333,
 
     },
 

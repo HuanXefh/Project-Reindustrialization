@@ -24,7 +24,7 @@
 
 
   research: {
-    parent: pow0tor-crank
+    parent: pow0tor-waterwheel
     objectives: []
   }
   researchCostMultiplier: 0.2
@@ -87,7 +87,7 @@
     ]
   }
   ambientSound: se-amb-hum-motor
-  ambientSoundVolume: 0.2
+  ambientSoundVolume: 0.25
 
 
 /*

@@ -24,7 +24,7 @@
 
 
   research: {
-    parent: dis0loot-item-hopper
+    parent: dis0loot-item-collector
     objectives: []
   }
   researchCostMultiplier: 0.25

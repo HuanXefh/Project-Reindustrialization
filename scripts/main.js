@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.1.26043001",
-    "loveclab", "101.1.26043001",
+    "lovec", "101.2",
+    "loveclab", "101.2",
   ])) return;
 
 
@@ -44,7 +44,7 @@
   require("projreind/ct/CT_BLK_remoteCoreUnloader");
   require("projreind/ct/CT_BLK_incinerator");
   require("projreind/ct/CT_BLK_massDriver");
-  require("projreind/ct/CT_BLK_dumpContainer");
+  require("projreind/ct/CT_BLK_container");
   require("projreind/ct/CT_BLK_lootHopper");
   require("projreind/ct/CT_BLK_lootPullerHopper");
   require("projreind/ct/CT_BLK_lootFilter");
@@ -89,17 +89,14 @@
   require("projreind/ct/CT_BLK_electricFurnaceRecipeFactory");
   require("projreind/ct/CT_BLK_durabilityRecipeFactory");
   require("projreind/ct/CT_BLK_fluidRecipeFactory");
-  require("projreind/ct/CT_BLK_manualRecipeFactory");
   // Not time for this now
   /*runWithDependency("projreind", "multi-block-lib", () => {
     require("projreind/ct/CT_BLK_multiBlockLibRecipeFactory");
   });*/
+  require("projreind/ct/CT_BLK_turbineFactory");
 
 
   require("projreind/ct/CT_BLK_payloadConveyor");
-  require("projreind/ct/CT_BLK_materialBlock");
-  require("projreind/ct/CT_BLK_partsBlock");
-  require("projreind/ct/CT_BLK_rawOreBlock");
 
 
   require("projreind/ct/CT_BLK_fuelLight");
@@ -167,6 +164,8 @@
     if(!Vars.headless && !Core.app.isMobile()) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-pow0tor-waterwheel",
+        "projreind-fac0furn-bricked-blast-furnace-core",
         "projreind-min0drl-scavenger-class-deposit-drill",
         "projreind-dis0conv-standard-duct",
         "projreind-bliq0stor-pressure-router",
@@ -175,7 +174,6 @@
         "projreind-fac0sep-hydrocyclone",
         "projreind-min0drl-anteater-class-wall-drill",
         "projreind-fac0misc-pollution-detection-center-core",
-        "projreind-pay0mat0ore-native-copper",
         "projreind-min0scan-portable-ore-scanner",
       ];
       data["v101: Another Origin"] = [

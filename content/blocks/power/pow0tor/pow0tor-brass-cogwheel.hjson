@@ -21,7 +21,7 @@
 
 
   research: {
-    parent: pow0trans-copper-cable
+    parent: pow0gen-vent-generator
     objectives: []
   }
   researchCostMultiplier: 0.8

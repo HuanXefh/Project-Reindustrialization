@@ -21,7 +21,7 @@
 
 
   research: {
-    parent: bliq0cond-bronze-gas-pipe
+    parent: bliq0cond-cast-iron-gas-pipe
     objectives: []
   }
   researchCostMultiplier: 3.5

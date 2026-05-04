@@ -23,7 +23,7 @@
 
 
   research: {
-    parent: min0harv-lumberjack
+    parent: fac0proc-sawmill
     objectives: []
   }
   researchCostMultiplier: 0.3

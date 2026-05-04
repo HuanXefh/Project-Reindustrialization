@@ -29,7 +29,7 @@
   );
   setDrawer(dis0aux_router, drawers => [
     drawers,
-    fetchDrawer("DrawContentIcon", {
+    fetchDrawer("DrawContent", {
       ctGetterTup: [b => b.delegee.lastRs],
       regScl: 0.5,
     }),

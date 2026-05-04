@@ -18,33 +18,6 @@
 */
 
 
-  /* <---------- pow0tor ----------> */
-
-
-  const pow0tor_primitiveElectricMotor = extendBlock(
-    TEMPLATE, "pow0tor-primitive-electric-motor",
-  );
-
-
-  /* <---------- pow0turb ----------> */
-
-
-  const pow0turb_primitiveSteamTurbine = extendBlock(
-    TEMPLATE, "pow0turb-primitive-steam-turbine",
-  );
-  setConsumer(pow0turb_primitiveSteamTurbine, conss => [
-    conss,
-    fetchConsumer("ConsumeLiquidEfficiencyMap", {
-      amt: 0.25,
-      liqEffcMap: [
-        "loveclab-gas0int-steam-hp", 1.0,
-        "loveclab-gas0int-steam-mp", 0.75,
-        "loveclab-gas0int-steam-lp", 0.5,
-      ],
-    }),
-  ]);
-
-
   /* <---------- fac0proc ----------> */
 
 

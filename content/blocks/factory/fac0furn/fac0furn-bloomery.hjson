@@ -133,7 +133,7 @@
 */
 
 
-  ignoreLiquidFullness: true
+  ignoreLiquidFullness: false
 
 
 /*

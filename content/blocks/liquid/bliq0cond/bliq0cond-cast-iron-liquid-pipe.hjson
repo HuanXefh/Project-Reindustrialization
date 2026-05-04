@@ -21,7 +21,7 @@
 
 
   research: {
-    parent: bliq0cond-bronze-liquid-pipe
+    parent: bliq0cond-lead-liquid-pipe
     objectives: []
   }
   researchCostMultiplier: 2.5

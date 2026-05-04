@@ -8,10 +8,12 @@ projreind-pow0heat-resistance-heater: 750.0
 projreind-fac0furn-kiln: 1600.0
 projreind-fac0furn-primitive-smelter: 1600.0
 projreind-fac0furn-bloomery: 1800.0
+projreind-fac0furn-bricked-blast-furnace: 2000.0
 projreind-fac0furn-primitive-crucible: 1800.0
 projreind-fac0furn-primitive-sintering-furnace: 1800.0
 projreind-fac0furn-primitive-coke-oven: 1600.0
 projreind-fac0furn-coke-oven-battery: 1800.0
+projreind-fac0furn-tube-furnace: 1800.0
 
 /* <---------- fac0proc ----------> */
 

@@ -41,7 +41,7 @@
   armor: 12.0
   size: 3
   hasItems: true
-  itemCapacity: 20
+  itemCapacity: 40
   hasLiquids: true
   liquidCapacity: 5.0
   hasPower: true

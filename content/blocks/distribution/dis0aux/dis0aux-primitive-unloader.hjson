@@ -24,7 +24,7 @@
 
 
   research: {
-    parent: dis0aux-item-junction
+    parent: dis0aux-overflow-gate
     objectives: []
   }
   researchCostMultiplier: 0.5

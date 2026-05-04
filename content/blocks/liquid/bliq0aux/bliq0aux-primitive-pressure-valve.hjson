@@ -24,7 +24,7 @@
 
 
   research: {
-    parent: bliq0aux-fluid-valve
+    parent: bliq0aux-fluid-filter-valve
     objectives: []
   }
   researchCostMultiplier: 0.45

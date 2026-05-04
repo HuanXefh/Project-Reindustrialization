@@ -8,9 +8,10 @@
   # type: Drill
   category: production
   requirements: [
-    loveclab-item0chem-lead/35
-    loveclab-item0chem-graphite/15
-    loveclab-item0chem-tin-bronze/25
+    loveclab-item0chem-lead/40
+    loveclab-item0chem-graphite/20
+    loveclab-item0chem-tin-bronze/30
+    loveclab-item0chem-cast-iron/15
   ]
   buildCostMultiplier: 5.0
 
@@ -23,10 +24,10 @@
 
 
   research: {
-    parent: min0drl-progress-class-drill
+    parent: min0drl-pangolin-class-wall-drill
     objectives: []
   }
-  researchCostMultiplier: 0.2
+  researchCostMultiplier: 0.4
 
 
 /*

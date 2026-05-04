@@ -24,7 +24,7 @@
 
 
   research: {
-    parent: fac0furn-primitive-crucible
+    parent: fac0furn-primitive-sintering-furnace
     objectives: []
   }
   researchCostMultiplier: 0.4

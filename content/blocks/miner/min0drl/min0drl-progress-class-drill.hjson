@@ -21,7 +21,7 @@
 
 
   research: {
-    parent: min0drl-survivor-drill
+    parent: min0harv-lumberjack
     objectives: []
   }
   researchCostMultiplier: 0.05

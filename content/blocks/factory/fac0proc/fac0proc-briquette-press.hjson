@@ -25,7 +25,7 @@
 
 
   research: {
-    parent: fac0furn-kiln
+    parent: fac0furn-primitive-crucible
     objectives: []
   }
   researchCostMultiplier: 0.2

@@ -10,9 +10,8 @@
   requirements: [
     loveclab-item0chem-copper/45
     loveclab-item0chem-brass/45
-    loveclab-item0chem-leaded-tin-bronze/60
+    loveclab-item0chem-leaded-tin-bronze/80
     loveclab-item0chem-cast-iron/70
-    loveclab-item0chem-mangalloy/30
   ]
   buildCostMultiplier: 2.0
 
@@ -109,3 +108,6 @@
 
 
   craftTime: 360.0
+  consumes: {
+    power: 1.25
+  }

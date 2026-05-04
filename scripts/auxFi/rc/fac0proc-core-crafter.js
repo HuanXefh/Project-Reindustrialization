@@ -15,7 +15,7 @@ const rc = {
 
     "ASSEMBLY: clay brick block", {
 
-      icon: "projreind-pay0mat-brick-clay",
+      icon: "loveclab-pay0mat-brick-clay",
       category: "assembly",
 
       bi: [
@@ -23,7 +23,7 @@ const rc = {
       ],
 
       payo: [
-        "projreind-pay0mat-brick-clay", 1,
+        "loveclab-pay0mat-brick-clay", 1,
       ],
 
     },
@@ -31,7 +31,7 @@ const rc = {
 
     "ASSEMBLY: magnesia brick block", {
 
-      icon: "projreind-pay0mat-brick-magnesia",
+      icon: "loveclab-pay0mat-brick-magnesia",
       category: "assembly",
 
       bi: [
@@ -39,7 +39,7 @@ const rc = {
       ],
 
       payo: [
-        "projreind-pay0mat-brick-magnesia", 1,
+        "loveclab-pay0mat-brick-magnesia", 1,
       ],
 
     },
@@ -47,7 +47,7 @@ const rc = {
 
     "ASSEMBLY: high-alumina brick block", {
 
-      icon: "projreind-pay0mat-brick-high-alumina",
+      icon: "loveclab-pay0mat-brick-high-alumina",
       category: "assembly",
 
       bi: [
@@ -55,7 +55,7 @@ const rc = {
       ],
 
       payo: [
-        "projreind-pay0mat-brick-high-alumina", 1,
+        "loveclab-pay0mat-brick-high-alumina", 1,
       ],
 
     },
@@ -63,7 +63,7 @@ const rc = {
 
     "ASSEMBLY: mullite brick block", {
 
-      icon: "projreind-pay0mat-brick-mullite",
+      icon: "loveclab-pay0mat-brick-mullite",
       category: "assembly",
 
       bi: [
@@ -71,7 +71,7 @@ const rc = {
       ],
 
       payo: [
-        "projreind-pay0mat-brick-mullite", 1,
+        "loveclab-pay0mat-brick-mullite", 1,
       ],
 
     },
@@ -79,7 +79,7 @@ const rc = {
 
     "ASSEMBLY: silica brick block", {
 
-      icon: "projreind-pay0mat-brick-silica",
+      icon: "loveclab-pay0mat-brick-silica",
       category: "assembly",
 
       bi: [
@@ -87,7 +87,7 @@ const rc = {
       ],
 
       payo: [
-        "projreind-pay0mat-brick-silica", 1,
+        "loveclab-pay0mat-brick-silica", 1,
       ],
 
     },
@@ -95,7 +95,7 @@ const rc = {
 
     "ASSEMBLY: carbon brick block", {
 
-      icon: "projreind-pay0mat-brick-carbon",
+      icon: "loveclab-pay0mat-brick-carbon",
       category: "assembly",
 
       bi: [
@@ -103,7 +103,7 @@ const rc = {
       ],
 
       payo: [
-        "projreind-pay0mat-brick-carbon", 1,
+        "loveclab-pay0mat-brick-carbon", 1,
       ],
 
     },
@@ -135,7 +135,7 @@ const rc = {
 
     "MISC: wooden block", {
 
-      icon: "projreind-pay0mat-wooden-block",
+      icon: "loveclab-pay0mat-wooden-block",
       category: "misc",
 
       bi: [
@@ -143,7 +143,7 @@ const rc = {
       ],
 
       payo: [
-        "projreind-pay0mat-wooden-block", 1,
+        "loveclab-pay0mat-wooden-block", 1,
       ],
 
     },
@@ -151,7 +151,7 @@ const rc = {
 
     "MISC: rubber block", {
 
-      icon: "projreind-pay0mat-rubber-block",
+      icon: "loveclab-pay0mat-rubber-block",
       category: "misc",
 
       bi: [
@@ -159,7 +159,7 @@ const rc = {
       ],
 
       payo: [
-        "projreind-pay0mat-rubber-block", 1,
+        "loveclab-pay0mat-rubber-block", 1,
       ],
 
     },

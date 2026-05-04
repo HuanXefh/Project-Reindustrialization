@@ -22,7 +22,7 @@
 
 
   research: {
-    parent: dis0aux-router
+    parent: dis0aux-overflow-gate
     objectives: []
   }
   researchCostMultiplier: 0.2

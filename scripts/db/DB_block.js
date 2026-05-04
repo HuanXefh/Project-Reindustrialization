@@ -82,8 +82,12 @@ const db = {
 
       "projreind-fac0proc-primitive-forge", "forge",
 
+      "projreind-fac0furn-bricked-blast-furnace", "furnace-reactor",
+
       "projreind-pow0heat-combustion-heater", "heater",
       "projreind-pow0heat-resistance-heater", "heater",
+      "projreind-fac0furn-tube-furnace", "heater",
+      "projreind-fac0heat-primitive-heat-exchanger", "heater",
 
       "projreind-fac0heat-primitive-heat-exchanger", "heat-exchanger",
 
@@ -97,18 +101,21 @@ const db = {
       "projreind-fac0mill-mechanical-mill", "pulverizer",
       "projreind-fac0mill-ball-mill", "pulverizer",
 
+      "projreind-fac0sep-ore-washer", "purifier",
       "projreind-fac0sep-hydrocyclone", "purifier",
       "projreind-fac0sep-dry-magnetic-separator", "purifier",
 
       "projreind-fac0furn-primitive-sintering-furnace", "roasting-furnace",
 
       "projreind-fac0mill-jaw-crusher", "rock-crusher",
+      "projreind-fac0mill-hammer-crusher", "rock-crusher",
 
       "projreind-fac0furn-bloomery", "sintering-furnace",
       "projreind-fac0furn-primitive-sintering-furnace", "sintering-furnace",
 
       "projreind-fac0furn-primitive-smelter", "smelter",
       "projreind-fac0furn-bloomery", "smelter",
+      "projreind-fac0furn-bricked-blast-furnace", "smelter",
 
     ],
 

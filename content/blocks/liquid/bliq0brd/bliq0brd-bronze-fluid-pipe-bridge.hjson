@@ -23,7 +23,7 @@
 
 
   research: {
-    parent: bliq0cond-wooden-liquid-pipe
+    parent: bliq0cond-wooden-gas-pipe
     objectives: []
   }
   researchCostMultiplier: 0.15

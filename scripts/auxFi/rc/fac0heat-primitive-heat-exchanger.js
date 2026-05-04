@@ -22,11 +22,11 @@ const rc = {
         "loveclab-gas0misc-air", 0.1,
       ],
       aux: [
-        "loveclab-aux0aux-pressure", 0.05,
+        "loveclab-aux0aux-pressure", 0.03333333,
       ],
 
       co: [
-        "loveclab-aux0aux-heat-exchange", 0.01666667,
+        "loveclab-aux0aux-heat-exchange", 0.03333333,
       ],
 
     },
@@ -42,7 +42,7 @@ const rc = {
       ],
 
       co: [
-        "loveclab-aux0aux-heat-exchange", 0.01666667,
+        "loveclab-aux0aux-heat-exchange", 0.03333333,
         "loveclab-gas0misc-steam", 0.1,
       ],
 
@@ -53,6 +53,13 @@ const rc = {
 
 
 };
+
+
+TP_recipeGen._g_heaterExchange.run(rc, {
+  amt: 1,
+  heatOScl: 2.0,
+  time: 60.0,
+});
 
 
 exports.rc = rc;

@@ -8,7 +8,8 @@
   # type: StorageBlock
   category: effect
   requirements: [
-    loveclab-item0bio-timber/50
+    loveclab-item0bio-timber/120
+    loveclab-item0chem-copper/25
   ]
   buildCostMultiplier: 5.0
 
@@ -21,10 +22,10 @@
 
 
   research: {
-    parent: dis0conv-primitive-conveyor
+    parent: eff0stor-stacking-area
     objectives: []
   }
-  researchCostMultiplier: 0.1
+  researchCostMultiplier: 0.075
 
 
 /*
@@ -34,11 +35,11 @@
 */
 
 
-  scaledHealth: 40.0
-  armor: 0.0
+  scaledHealth: 50.0
+  armor: 6.0
   size: 2
   hasItems: true
-  itemCapacity: 150
+  itemCapacity: 200
   hasLiquids: false
   liquidCapacity: 5.0
   hasPower: false
@@ -72,4 +73,4 @@
 */
 
 
-  coreMerge: false
+  coreMerge: true

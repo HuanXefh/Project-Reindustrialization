@@ -25,7 +25,7 @@
 
 
   research: {
-    parent: min0drl-progress-class-drill
+    parent: min0scan-alpha-class-ore-scanner
     objectives: []
   }
   researchCostMultiplier: 0.35

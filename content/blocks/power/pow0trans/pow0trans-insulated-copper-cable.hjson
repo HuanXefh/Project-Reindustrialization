@@ -22,7 +22,7 @@
 
 
   research: {
-    parent: pow0trans-copper-wire-relay
+    parent: pow0trans-tin-cable
     objectives: []
   }
   researchCostMultiplier: 5.0

@@ -21,11 +21,11 @@
 */
 
 
+  alwaysUnlocked: true
   research: {
     parent: min0drl-survivor-drill
     objectives: []
   }
-  researchCostMultiplier: 0.1
 
 
 /*

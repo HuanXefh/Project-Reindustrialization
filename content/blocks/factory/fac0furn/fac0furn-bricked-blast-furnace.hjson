@@ -1,0 +1,138 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: GenericCrafter
+  category: crafting
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 80.0
+  armor: 12.0
+  size: 4
+  hasItems: true
+  itemCapacity: 1500
+  hasLiquids: true
+  liquidCapacity: 30.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 129
+  envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawRegion
+        suffix: "-bottom"
+      }
+
+
+      {
+        type: DrawFlame
+        flameColor: "ffc999"
+        flameRadius: 2.5
+        flameRadiusIn: 1.5
+        flameRadiusScl: 5.0
+        flameRadiusMag: 2.0
+        flameRadiusInMag: 1.0
+        lightRadius: 48.0
+        lightAlpha: 0.65
+        lightSinScl: 16.0
+        lightSinMag: 6.0
+      }
+
+
+      {
+        type: DrawDefault
+      }
+
+
+      {
+        type: DrawFade
+        suffix: "-fade"
+      }
+
+
+      {
+        type: DrawParticles
+        color: "606060"
+        alpha: 1.0
+        particles: 3
+        particleLife: 40.0
+        particleRad: 6.0
+        particleSize: 2.0
+        rotateScl: 8.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawParticles
+        color: "303030"
+        alpha: 1.0
+        particles: 3
+        particleLife: 60.0
+        particleRad: 6.5
+        particleSize: 1.5
+        rotateScl: 14.0
+        reverse: true
+      }
+
+
+    ]
+  }
+  ambientSound: se-amb-furnace1
+  ambientSoundVolume: 0.4
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  ignoreLiquidFullness: false
+  dumpExtraLiquid: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  craftTime: 3600.0
+  consumes: {
+    power: 1.25
+  }

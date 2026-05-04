@@ -26,7 +26,7 @@
 
 
   research: {
-    parent: min0drl-pangolin-class-wall-drill
+    parent: min0drl-anteater-class-wall-drill
     objectives: []
   }
   researchCostMultiplier: 0.35

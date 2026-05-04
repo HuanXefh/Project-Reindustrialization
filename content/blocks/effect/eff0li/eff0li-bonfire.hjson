@@ -24,7 +24,7 @@
     parent: min0harv-lumberjack
     objectives: []
   }
-  researchCostMultiplier: 0.0
+  researchCostMultiplier: 0.05
 
 
 /*

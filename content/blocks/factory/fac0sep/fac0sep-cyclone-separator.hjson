@@ -21,7 +21,7 @@
 
 
   research: {
-    parent: fac0proc-core-crafter
+    parent: fac0air-air-collector
     objectives: []
   }
   researchCostMultiplier: 0.08
@@ -99,7 +99,7 @@
 */
 
 
-  ignoreLiquidFullness: true
+  ignoreLiquidFullness: false
 
 
 /*

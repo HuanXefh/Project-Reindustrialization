@@ -8,6 +8,7 @@ const rc = {
 
 
     baseOpt: [
+      "loveclab-item0cons-cast-iron-ball", 1, 0.4, 1.0,
       "loveclab-item0cons-mangalloy-ball", 1, 0.1, 1.0,
     ],
     baseReqOpt: true,

@@ -25,6 +25,7 @@ TP_recipeGen._g_roastingFurnace.run(rc, {
   amtI: 20,
   pI: 0.5,
   amtO: 10,
+  time: 20.0 * 60.0,
   maxTemp: 1800.0,
   maxFlam: 0.0,
 });

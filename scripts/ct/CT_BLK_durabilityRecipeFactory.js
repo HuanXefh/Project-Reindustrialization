@@ -31,6 +31,16 @@
   );
 
 
+  const fac0mill_hammerCrusher = extendBlock(
+    TEMPLATE, "fac0mill-hammer-crusher",
+    TEMPLATE[0].build({
+      durabCap: 5.0 * 60.0 * 60.0,
+      rcMdl: "fac0mill-hammer-crusher",
+      rcSourceMod: "projreind",
+    }),
+  );
+
+
   const fac0mill_mechanicalMill = extendBlock(
     TEMPLATE, "fac0mill-mechanical-mill",
     TEMPLATE[0].build({

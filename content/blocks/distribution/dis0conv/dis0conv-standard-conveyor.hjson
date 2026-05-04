@@ -23,7 +23,7 @@
 
 
   research: {
-    parent: dis0conv-primitive-conveyor
+    parent: dis0aux-item-junction
     objectives: []
   }
   buildCostMultiplier: 5.0
