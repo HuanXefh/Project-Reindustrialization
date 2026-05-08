@@ -8,12 +8,9 @@
   # type: Wall
   category: defense
   requirements: [
-    loveclab-item0bio-timber/15
-    loveclab-item0buil-cement/20
-    loveclab-item0buil-coarse-aggregate/20
-    loveclab-item0buil-fine-aggregate/20
+    loveclab-item0was-scrap-steel/30
   ]
-  buildCostMultiplier: 11.5
+  buildCostMultiplier: 6.0
 
 
 /*
@@ -24,10 +21,10 @@
 
 
   research: {
-    parent: def0wall-scrap-steel-barricade
+    parent: def0wall-wooden-barricade
     objectives: []
   }
-  researchCostMultiplier: 0.5
+  researchCostMultiplier: 0.4
 
 
 /*
@@ -37,8 +34,8 @@
 */
 
 
-  scaledHealth: 540.0
-  armor: 36.0
+  scaledHealth: 400.0
+  armor: 0.0
   size: 2
   hasItems: false
   itemCapacity: 20
@@ -55,7 +52,7 @@
 
 
   envRequired: 0
-  envDisabled: 144
+  envDisabled: 16
 
 
 /*
@@ -66,13 +63,3 @@
 
 
   squareSprite: true
-
-
-/*
-  ========================================
-  Section: Specific
-  ========================================
-*/
-
-
-  crushDamageMultiplier: 0.25

@@ -26,6 +26,11 @@
   );
 
 
+  const def0wall_scrapSteelBarricade = extendBlock(
+    TEMPLATE, "def0wall-scrap-steel-barricade",
+  );
+
+
   const def0wall_concreteBarricade = extendBlock(
     TEMPLATE, "def0wall-concrete-barricade",
   );
