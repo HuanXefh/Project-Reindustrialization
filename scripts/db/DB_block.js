@@ -69,6 +69,8 @@ const db = {
 
       "projreind-fac0furn-kiln", "brick-kiln",
 
+      "projreind-fac0furn-combustion-chamber", "burner",
+
       "projreind-fac0furn-kiln", "carbonization-furnace",
 
       "projreind-fac0proc-primitive-caster", "caster",
@@ -79,6 +81,8 @@ const db = {
       "projreind-fac0heat-jet-condenser", "condenser",
 
       "projreind-fac0proc-biomass-crusher", "crusher",
+
+      "projreind-fac0heat-primitive-freeze-dryer", "dryer",
 
       "projreind-fac0proc-primitive-forge", "forge",
 
@@ -150,6 +154,8 @@ const db = {
 
         "projreind-bliq0stor-bronze-liquid-router",
 
+        "projreind-fac0furn-combustion-chamber",
+
         "projreind-fac0mix-mechanical-mixing-cauldron",
 
       ],
@@ -183,6 +189,8 @@ const db = {
 
         "projreind-bliq0stor-steel-liquid-tank",
         "projreind-bliq0stor-steel-gas-cylinder",
+
+        "projreind-fac0heat-primitive-freeze-dryer",
 
       ],
 

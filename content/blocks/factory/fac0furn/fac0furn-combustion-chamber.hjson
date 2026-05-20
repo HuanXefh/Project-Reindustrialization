@@ -1,0 +1,144 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: GenericCrafter
+  category: crafting
+  requirements: [
+    loveclab-item0chem-copper/35
+    loveclab-item0buil-brick-clay/30
+    loveclab-item0buil-brick-magnesia/20
+  ]
+  buildCostMultiplier: 4.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: fac0heat-primitive-heat-exchanger
+    objectives: []
+  }
+  researchCostMultiplier: 0.35
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 50.0
+  armor: 6.0
+  size: 2
+  hasItems: true
+  itemCapacity: 30
+  hasLiquids: true
+  liquidCapacity: 10.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 129
+  envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawRegion
+        suffix: "-bottom"
+      }
+
+
+      {
+        type: DrawCrucibleFlame
+        alpha: 0.1
+        particles: 30
+        particleLife: 50.0
+        particleRad: 6.0
+        particleSize: 2.5
+        fadeMargin: 0.35
+        rotateScl: 4.0
+        flameColor: "ffc999"
+        flameRad: 0.0
+        flameRadiusScl: 6.0
+        flameRadiusMag: 0.0
+        midColor: "ffc999"
+        circleSpace: 0.0
+        circleStroke: 0.0
+      }
+
+
+      {
+        type: DrawRegion
+      }
+
+
+      {
+        type: DrawSideRegion
+      }
+
+
+      {
+        type: DrawGlowRegion
+        rotate: true
+        color: "ff3838"
+        suffix: "-glow"
+      }
+
+
+    ]
+  }
+  ambientSound: se-amb-furnace
+  ambientSoundVolume: 0.2
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  rotate: true
+  ignoreLiquidFullness: false
+  dumpExtraLiquid: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  craftTime: 300.0
+  consumes: {
+    power: 0.25
+  }

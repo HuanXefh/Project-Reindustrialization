@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.2.26050801",
-    "loveclab", "101.2.26050801",
+    "lovec", "101.2.26052001",
+    "loveclab", "101.2.26052001",
   ])) return;
 
 
@@ -89,6 +89,7 @@
   require("projreind/ct/CT_BLK_electricFurnaceRecipeFactory");
   require("projreind/ct/CT_BLK_durabilityRecipeFactory");
   require("projreind/ct/CT_BLK_fluidRecipeFactory");
+  require("projreind/ct/CT_BLK_chemicalReactor");
   // Not time for this now
   /*runWithDependency("projreind", "multi-block-lib", () => {
     require("projreind/ct/CT_BLK_multiBlockLibRecipeFactory");

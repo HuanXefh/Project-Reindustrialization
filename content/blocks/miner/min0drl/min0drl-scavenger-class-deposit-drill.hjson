@@ -103,4 +103,7 @@
       optional: true
       booster: true
     }
+    liquids: [
+      loveclab-liq0ore-water/0.1
+    ]
   }

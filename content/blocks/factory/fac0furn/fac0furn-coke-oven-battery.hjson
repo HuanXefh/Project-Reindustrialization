@@ -57,13 +57,32 @@
 
 
       {
+        type: DrawCrucibleFlame
+        alpha: 0.1
+        particles: 45
+        particleLife: 50.0
+        particleRad: 12.0
+        particleSize: 4.0
+        fadeMargin: 0.35
+        rotateScl: 4.0
+        flameColor: "ffc999"
+        flameRad: 0.0
+        flameRadiusScl: 6.0
+        flameRadiusMag: 0.0
+        midColor: "ffc999"
+        circleSpace: 0.0
+        circleStroke: 0.0
+      }
+
+
+      {
         type: DrawFlame
         flameColor: "ffc999"
-        flameRadius: 2.5
-        flameRadiusIn: 1.5
-        flameRadiusScl: 5.0
-        flameRadiusMag: 2.0
-        flameRadiusInMag: 1.0
+        flameRadius: 0.0
+        flameRadiusIn: 0.0
+        flameRadiusScl: 0.0
+        flameRadiusMag: 0.0
+        flameRadiusInMag: 0.0
         lightRadius: 48.0
         lightAlpha: 0.65
         lightSinScl: 16.0

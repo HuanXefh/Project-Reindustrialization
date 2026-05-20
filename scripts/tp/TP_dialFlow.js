@@ -11,7 +11,6 @@
   newDialogFlow(
     "projreind-camp-atm002",
     new CLS_dialogFlowBuilder()
-    .setBgmStart(Musics.boss1)
     .setText("projreind", "camp-atm002", 0)
     .setText("projreind", "camp-atm002", 1)
     .setText("projreind", "camp-atm002", 2)
@@ -157,6 +156,5 @@
     .setText("projreind", "camp-atm002", 32)
     .setText("projreind", "camp-atm002", 33)
     .setText("projreind", "camp-atm002", 34)
-    .setBgmEnd()
     .build(),
   );

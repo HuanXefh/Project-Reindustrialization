@@ -40,7 +40,7 @@ const rc = {
 };
 
 
-TP_recipeGen._g_liquidMixer.run(rc, {
+TP_recipeGen._g_mixerLiquid.run(rc, {
   amt: 10,
   time: 10.0 * 60.0,
 });

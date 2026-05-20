@@ -15,15 +15,16 @@ softDependencies: []
 
 description:
 '''
-OBJECT: Retrieve the forgotten technology.
+OBJECTIVE: Retrieve the forgotten technology.
 
 A mod inspired by Greg's Tech that makes manufacturing realistic and even harder.
 Remade and improved version of Reindustrialization.
 
 Mod features:
-- Distinct style of gameplay with hardcore production.
+- Distinct style of gameplay with realistic and hardcore production.
+- Peaceful sectors focused on mass production.
 - A separate and complex tech tree.
-- Multi-crafters and intermediates.
+- Tons of multi-crafters and intermediates.
 - Pipe corrosion and more mechanics stolen from Greg's Tech.
 
 This mod is part of Lovecraftian series, which requires Lovecraftian Library and Lovecraftian Laboratory.
@@ -31,4 +32,4 @@ This mod is part of Lovecraftian series, which requires Lovecraftian Library and
 WARNING: RECIPE HELL AHEAD!
 '''
 
-version: 101.2.26050801
+version: 101.2.26052001

@@ -94,7 +94,7 @@
   consumes: {
     liquid: {
       liquid: loveclab-liq0ore-water
-      amount: 0.05
+      amount: 0.1
       optional: true
       booster: true
     }

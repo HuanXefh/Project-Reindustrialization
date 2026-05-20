@@ -97,7 +97,7 @@
 
     ]
   }
-  ambientSound: none
+  ambientSound: se-amb-hum
   ambientSoundVolume: 0.2
 
 

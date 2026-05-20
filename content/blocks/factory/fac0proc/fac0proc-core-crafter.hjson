@@ -108,6 +108,37 @@
 
 
       {
+        type: DrawBlockParts
+        parts: [
+
+
+          {
+            type: RegionPart
+            suffix: "-door-l"
+            outline: false
+            rotation: 90.0
+            moveX: 0.0
+            moveY: -3.0
+            progress: warmup
+          }
+
+
+          {
+            type: RegionPart
+            suffix: "-door-r"
+            outline: false
+            rotation: 90.0
+            moveX: 0.0
+            moveY: 3.0
+            progress: warmup
+          }
+
+
+        ]
+      }
+
+
+      {
         type: DrawDefault
       }
 

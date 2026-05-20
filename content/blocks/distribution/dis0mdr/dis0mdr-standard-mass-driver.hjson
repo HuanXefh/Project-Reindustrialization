@@ -9,13 +9,10 @@
   category: distribution
   requirements: [
     loveclab-item0bio-timber/160
-    loveclab-item0chem-tin-bronze/75
-    loveclab-item0chem-cast-iron/180
-    loveclab-item0chem-mangalloy/60
-    loveclab-item0ore-magnetite/200
-    loveclab-item0buil-cement/75
-    loveclab-item0buil-coarse-aggregate/120
-    loveclab-item0buil-fine-aggregate/90
+    loveclab-item0chem-tin-bronze/120
+    loveclab-item0chem-cast-iron/120
+    loveclab-item0chem-mangalloy/75
+    loveclab-item0int0conc-magnetite/120
   ]
   buildCostMultiplier: 2.0
 
@@ -60,7 +57,7 @@
 
   envRequired: 0
   envDisabled: 20
-  fogRadius: 3
+  fogRadius: 4
 
 
 /*
@@ -100,7 +97,7 @@
   minDistribute: 45
   reload: 300.0
   consumes: {
-    power: 1.5
+    power: 2.33333333
     liquids: [
       loveclab-liq0ore-water/0.15
     ]

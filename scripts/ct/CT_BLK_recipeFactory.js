@@ -42,6 +42,15 @@
   );
 
 
+  const fac0heat_hotAirDryer = extendBlock(
+    TEMPLATE, "fac0heat-hot-air-dryer",
+    TEMPLATE[0].build({
+      rcMdl: "fac0heat-hot-air-dryer",
+      rcSourceMod: "projreind",
+    }),
+  );
+
+
   /* <---------- fac0proc ----------> */
 
 
@@ -76,7 +85,7 @@
       rcSourceMod: "projreind",
     }),
   );
-  
+
 
   const fac0sep_oreWasher = extendBlock(
     TEMPLATE, "fac0sep-ore-washer",
@@ -88,14 +97,15 @@
   setDrawer(fac0sep_oreWasher, drawers => [
     drawers[0],
     fetchDrawer("DrawMixedLiquid"),
+    drawers[1],
     fetchDrawer("DrawRipple", {
       rad: 4.5,
       size: 2.5,
-      scl: 9.0,
-      recur: 2.0
+      scl: 40.0,
+      recur: 3.0
     }),
-    drawers[1],
     drawers[2],
+    drawers[3],
   ]);
 
 

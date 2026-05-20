@@ -8,10 +8,11 @@
   # type: MendProjector
   category: effect
   requirements: [
-    loveclab-item0bio-timber/50
+    loveclab-item0bio-timber/70
     loveclab-item0chem-brass/40
-    loveclab-item0chem-tin-bronze/25
-    loveclab-item0chem-steel/10
+    loveclab-item0chem-tin-bronze/40
+    loveclab-item0chem-cast-iron/40
+    loveclab-item0chem-steel/30
   ]
   buildCostMultiplier: 4.0
 

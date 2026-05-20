@@ -96,7 +96,7 @@
 
 
   minDistribute: 30
-  reload: 300.0
+  reload: 266.66666667
   consumes: {
-    power: 0.83333333
+    power: 0.66666667
   }

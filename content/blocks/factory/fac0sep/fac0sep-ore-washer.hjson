@@ -78,6 +78,20 @@
 
 
       {
+        type: DrawPistons
+        suffix: "-piston"
+        sides: 1
+        sinMag: -6.8
+        sinScl: 20.0
+        sinOffset: 0.0
+        sideOffset: 0.0
+        lenOffset: -1.0
+        horiOffset: 0.0
+        angleOffset: 0.0
+      }
+
+
+      {
         type: DrawDefault
       }
 

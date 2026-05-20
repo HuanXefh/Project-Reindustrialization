@@ -18,6 +18,19 @@
 */
 
 
+  /* <---------- fac0furn ----------> */
+
+
+  const fac0furn_combustionChamber = extendBlock(
+    TEMPLATE, "fac0furn-combustion-chamber",
+    TEMPLATE[0].build({
+      rcMdl: "fac0furn-combustion-chamber",
+      rcSourceMod: "projreind",
+      inputDirs: [2],
+    }),
+  );
+
+
   /* <---------- fac0heat ----------> */
 
 
@@ -25,6 +38,15 @@
     TEMPLATE, "fac0heat-jet-condenser",
     TEMPLATE[0].build({
       rcMdl: "fac0heat-jet-condenser",
+      rcSourceMod: "projreind",
+    }),
+  );
+
+
+  const fac0heat_primitiveFreezeDryer = extendBlock(
+    TEMPLATE, "fac0heat-primitive-freeze-dryer",
+    TEMPLATE[0].build({
+      rcMdl: "fac0heat-primitive-freeze-dryer",
       rcSourceMod: "projreind",
     }),
   );

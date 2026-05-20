@@ -42,7 +42,7 @@
   armor: 12.0
   size: 2
   hasItems: true
-  itemCapacity: 30
+  itemCapacity: 25
   hasLiquids: true
   liquidCapacity: 5.0
   hasPower: true
@@ -95,10 +95,16 @@
 */
 
 
-  drillTime: 192.0
-  liquidBoostIntensity: 1.0
+  drillTime: 384.0
+  liquidBoostIntensity: 1.6
   consumes: {
     power: 1.25
+    liquid: {
+      liquid: loveclab-aux0aux-vacuum
+      amount: 0.08333333
+      optional: true
+      booster: true
+    }
     liquids: [
       loveclab-liq0ore-water/0.25
     ]
