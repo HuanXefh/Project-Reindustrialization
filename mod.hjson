@@ -5,7 +5,7 @@ subtitle: "v102: Hot Furnace"
 
 author: MaboroshiX
 repo: HuanXefh/Project-Reindustrialization
-minGameVersion: 156
+minGameVersion: 158
 dependencies: [
   lovec
   loveclab
@@ -32,4 +32,4 @@ This mod is part of Lovecraftian series, which requires Lovecraftian Library and
 WARNING: RECIPE HELL AHEAD!
 '''
 
-version: 101.2.26052001
+version: 101.2.26052701
