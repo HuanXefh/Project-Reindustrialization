@@ -8,8 +8,8 @@
   # type: BeamNode
   category: power
   requirements: [
-    loveclab-item0chem-copper/20
-    loveclab-item0chem-lead/15
+    loveclab-item0chem-copper/30
+    loveclab-item0chem-lead/20
   ]
   buildCostMultiplier: 3.0
 

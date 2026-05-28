@@ -7,4 +7,7 @@
 
   research: {
     parent: camp-atm002-lantern-cave
+    requirements: [
+      item-locked/1
+    ]
   }
