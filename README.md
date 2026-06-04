@@ -11,7 +11,7 @@
 
 - [Discord](https://discord.com/channels/391020510269669376/1346118807734845440)
 
-- [Trello](https://trello.com/invite/b/69f36fa2ecd73734b4e1b3f6/ATTIedebb1c53725211faa72a13293371bd4F56B312C/projreind-todos)
+- [Trello](https://trello.com/b/26BvfHy9/projreind-todos)
 
 <br>
 
