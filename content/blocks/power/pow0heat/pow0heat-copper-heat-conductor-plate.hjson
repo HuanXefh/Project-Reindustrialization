@@ -1,0 +1,66 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: Wall
+  category: power
+  requirements: [
+    loveclab-item0chem-copper/7
+    loveclab-item0chem-graphite/5
+  ]
+  buildCostMultiplier: 8.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: pow0boil-primitive-boiler
+    objectives: []
+  }
+  researchCostMultiplier: 1.5
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 40.0
+  armor: 0.0
+  size: 1
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 0
+  envDisabled: 20
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: true

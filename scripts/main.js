@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.3",
-    "loveclab", "101.3",
+    "lovec", "101.3.26060401",
+    "loveclab", "101.3.26060401",
   ])) return;
 
 
@@ -76,6 +76,7 @@
   require("projreind/ct/CT_BLK_cogwheelStack");
 
 
+  require("projreind/ct/CT_BLK_heatConductor");
   require("projreind/ct/CT_BLK_heatSource");
   require("projreind/ct/CT_BLK_boiler");
 

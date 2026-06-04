@@ -24,10 +24,10 @@
   const min0drl_survivorDrill = extendBlock(
     TEMPLATE, "min0drl-survivor-drill",
     TEMPLATE[0].build({
+      durabCap: 2.0 * 60.0 * 60.0,
       drillEff: EFF.drillPulsePack[3],
       updateEff: EFF.drillCrack,
       updateEffP: 0.01,
-      durabCap: 2.0 * 60.0 * 60.0,
     }),
   );
 

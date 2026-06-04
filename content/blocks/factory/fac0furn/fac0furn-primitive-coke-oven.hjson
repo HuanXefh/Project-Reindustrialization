@@ -8,8 +8,8 @@
   # type: GenericCrafter
   category: crafting
   requirements: [
+    loveclab-item0chem-copper/35
     loveclab-item0chem-graphite/20
-    loveclab-item0chem-cast-iron/15
     loveclab-item0buil-brick-clay/20
   ]
   buildCostMultiplier: 5.0
@@ -36,8 +36,8 @@
 */
 
 
-  scaledHealth: 50.0
-  armor: 6.0
+  scaledHealth: 40.0
+  armor: 0.0
   size: 2
   hasItems: true
   itemCapacity: 80

@@ -154,6 +154,8 @@ const db = {
 
         "projreind-bliq0stor-bronze-liquid-router",
 
+        "projreind-pow0heat-copper-heat-conductor-plate",
+
         "projreind-fac0furn-combustion-chamber",
 
         "projreind-fac0mix-mechanical-mixing-cauldron",
@@ -174,6 +176,8 @@ const db = {
         "projreind-bliq0cond-cast-iron-gas-pipe",
 
         "projreind-bliq0stor-pressure-router",
+
+        "projreind-pow0heat-cast-iron-heat-conductor-plate",
 
         "projreind-fac0misc-rain-collector",
 
