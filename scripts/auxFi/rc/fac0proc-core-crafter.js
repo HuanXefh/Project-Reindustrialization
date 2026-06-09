@@ -133,6 +133,24 @@ const rc = {
     },
 
 
+    "MISC: asbestos diaphragm", {
+
+      icon: "loveclab-item0cons-asbestos-diaphragm",
+      category: "misc",
+
+      bi: [
+        "loveclab-item0chem-asbestos-wool", 20, 1.0,
+        "loveclab-item0chem-steel", 5, 1.0,
+      ],
+
+      bo: [
+        "loveclab-item0cons-asbestos-diaphragm", 1, 1.0,
+      ],
+      failP: 0.1,
+
+    },
+
+
     "MISC: wooden block", {
 
       icon: "loveclab-pay0mat-wooden-block",

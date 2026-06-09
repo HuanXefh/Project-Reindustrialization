@@ -28,7 +28,7 @@
 
 
   research: {
-    parent: fac0furn-primitive-coke-oven
+    parent: dbct0tech-advanced-furnace
     objectives: []
   }
   researchCostMultiplier: 0.25

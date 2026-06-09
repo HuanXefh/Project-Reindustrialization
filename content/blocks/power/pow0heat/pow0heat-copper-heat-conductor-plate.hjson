@@ -22,7 +22,7 @@
 
 
   research: {
-    parent: pow0boil-primitive-boiler
+    parent: dbct0tech-heat-transfer
     objectives: []
   }
   researchCostMultiplier: 1.5

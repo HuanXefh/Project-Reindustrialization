@@ -23,7 +23,7 @@
 
 
   research: {
-    parent: pow0gen-lodestone-generator
+    parent: pow0heat-copper-heat-conductor-plate
     objectives: []
   }
   researchCostMultiplier: 0.3

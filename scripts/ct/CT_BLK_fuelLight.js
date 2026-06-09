@@ -31,6 +31,7 @@
       heatWarmupRate: 0.0008,
       maxLightTemp: 800.0,
       lightRad: 136.0,
+      fogRadFrac: 0.88235294,
     }),
   );
   setDrawer(eff0li_bonfire, drawers => [

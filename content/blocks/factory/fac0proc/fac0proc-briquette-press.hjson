@@ -25,7 +25,7 @@
 
 
   research: {
-    parent: fac0furn-primitive-crucible
+    parent: dbct0tech-utility-crafting
     objectives: []
   }
   researchCostMultiplier: 0.2

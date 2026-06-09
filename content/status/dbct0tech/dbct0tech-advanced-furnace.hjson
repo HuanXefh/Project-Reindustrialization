@@ -1,0 +1,20 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: fac0furn-primitive-coke-oven
+    objectives: []
+    requirements: [
+      loveclab-item0buil-brick-clay/3000
+      loveclab-item0buil-brick-magnesia/100
+      loveclab-item0buil-brick-high-alumina/500
+      loveclab-item0buil-brick-silica/500
+      loveclab-item0buil-brick-mullite/500
+      loveclab-item0misc-engineering-tech-point-t1/60
+      loveclab-item0misc-chemistry-tech-point-t1/60
+    ]
+  }

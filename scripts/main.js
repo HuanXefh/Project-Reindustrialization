@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.3.26060401",
-    "loveclab", "101.3.26060401",
+    "lovec", "101.3.26060901",
+    "loveclab", "101.3.26060901",
   ])) return;
 
 
@@ -118,6 +118,7 @@
   require("projreind/ct/CT_BLK_constructionCore");
 
 
+  require("projreind/ct/CT_DBCT_techNodeContent");
   require("projreind/ct/CT_DBCT_infoContent");
   require("projreind/ct/CT_DBCT_dialFlowContent");
 
@@ -163,9 +164,11 @@
 
 
     // Welcome dialog
-    if(!Vars.headless && !Core.app.isMobile()) {
+    if(!Vars.headless && fetchSetting("misc-enable-window")) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-dbct0tech-utility-crafting",
+        "projreind-pow0heat-copper-heat-conductor-plate",
         "projreind-pow0tor-waterwheel",
         "projreind-fac0furn-bricked-blast-furnace-core",
         "projreind-min0drl-scavenger-class-deposit-drill",

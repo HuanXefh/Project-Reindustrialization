@@ -22,7 +22,7 @@ const rc = {
 
 
 TP_recipeGen._g_rockCrusher.run(rc, {
-  amt: 2,
+  amt: 4,
   maxHardness: 7,
   abrasionFactor: 1.0,
 });

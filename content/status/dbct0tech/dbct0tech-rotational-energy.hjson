@@ -1,0 +1,16 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: pow0gen-vent-generator
+    objectives: []
+    requirements: [
+      loveclab-item0chem-brass/3000
+      loveclab-item0chem-steel/500
+      loveclab-item0misc-engineering-tech-point-t1/60
+    ]
+  }

@@ -8,10 +8,9 @@
   # type: Pump
   category: liquid
   requirements: [
-    loveclab-item0chem-lead/40
-    loveclab-item0chem-graphite/30
-    loveclab-item0chem-tin-bronze/30
-    loveclab-item0chem-cast-iron/20
+    loveclab-item0chem-lead/60
+    loveclab-item0chem-graphite/40
+    loveclab-item0chem-tin-bronze/40
   ]
   buildCostMultiplier: 3.0
 

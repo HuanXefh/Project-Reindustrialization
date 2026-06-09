@@ -24,7 +24,7 @@
 
 
   research: {
-    parent: bliq0pump-piston-liquid-pump
+    parent: dbct0tech-pressurization
     objectives: []
   }
   researchCostMultiplier: 0.55

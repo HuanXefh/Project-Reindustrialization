@@ -134,3 +134,15 @@
       rcSourceMod: "projreind",
     }),
   );
+
+
+  /* <---------- fac0misc ----------> */
+
+
+  const fac0misc_laboratory = extendBlock(
+    TEMPLATE, "fac0misc-laboratory",
+    TEMPLATE[0].build({
+      rcMdl: "fac0misc-laboratory",
+      rcSourceMod: "projreind",
+    }),
+  );

@@ -8,10 +8,10 @@
   # type: GenericCrafter
   category: crafting
   requirements: [
-    loveclab-item0chem-lead/20
-    loveclab-item0chem-tin-bronze/15
-    loveclab-item0chem-cast-iron/20
-    loveclab-item0chem-steel/10
+    loveclab-item0bio-timber/40
+    loveclab-item0chem-copper/80
+    loveclab-item0chem-lead/80
+    loveclab-item0chem-graphite/30
   ]
   buildCostMultiplier: 4.0
 
@@ -24,10 +24,10 @@
 
 
   research: {
-    parent: dbct0tech-heat-exchange
+    parent: fac0proc-core-crafter
     objectives: []
   }
-  researchCostMultiplier: 0.4
+  researchCostMultiplier: 0.1
 
 
 /*
@@ -39,11 +39,11 @@
 
   scaledHealth: 50.0
   armor: 6.0
-  size: 2
-  hasItems: false
-  itemCapacity: 20
+  size: 3
+  hasItems: true
+  itemCapacity: 30
   hasLiquids: true
-  liquidCapacity: 5.0
+  liquidCapacity: 10.0
   hasPower: true
 
 
@@ -55,7 +55,7 @@
 
 
   envRequired: 0
-  envDisabled: 20
+  envDisabled: 16
 
 
 /*
@@ -72,34 +72,28 @@
 
 
       {
+        type: DrawRegion
+        suffix: "-bottom"
+      }
+
+
+      {
+        type: DrawLiquidTile
+        drawLiquid: loveclab-liq0ore-water
+        padding: 1.5
+        padRight: 3.0
+      }
+
+
+      {
         type: DrawDefault
-      }
-
-
-      {
-        type: DrawParticles
-        color: "bfbfbf"
-        alpha: 0.6
-        particles: 5
-        particleLife: 90.0
-        particleRad: 6.0
-        particleSize: 1.5
-        rotateScl: 3.0
-        reverse: true
-      }
-
-
-      {
-        type: DrawGlowRegion
-        color: "ff3838"
-        suffix: "-glow"
       }
 
 
     ]
   }
-  ambientSound: se-amb-hum
-  ambientSoundVolume: 0.2
+  ambientSound: se-hum-computer
+  ambientSoundVolume: 0.3
 
 
 /*
@@ -110,7 +104,6 @@
 
 
   ignoreLiquidFullness: false
-  dumpExtraLiquid: false
 
 
 /*
@@ -120,7 +113,7 @@
 */
 
 
-  craftTime: 60.0
+  craftTime: 3600.0
   consumes: {
-    power: 0.5
+    power: 3.0
   }

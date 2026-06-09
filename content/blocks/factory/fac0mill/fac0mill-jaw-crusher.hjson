@@ -23,7 +23,7 @@
 
 
   research: {
-    parent: fac0proc-core-crafter
+    parent: dbct0tech-ore-selection
     objectives: []
   }
   researchCostMultiplier: 0.15

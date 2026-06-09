@@ -22,7 +22,7 @@
 
 
   research: {
-    parent: fac0sep-cyclone-separator
+    parent: dbct0tech-ore-selection
     objectives: []
   }
   researchCostMultiplier: 0.15

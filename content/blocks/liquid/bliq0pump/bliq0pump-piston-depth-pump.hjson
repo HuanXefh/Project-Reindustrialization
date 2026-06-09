@@ -25,7 +25,7 @@
 
 
   research: {
-    parent: bliq0pump-piston-depth-pump
+    parent: bliq0pump-piston-liquid-pump
     objectives: []
   }
   researchCostMultiplier: 0.2

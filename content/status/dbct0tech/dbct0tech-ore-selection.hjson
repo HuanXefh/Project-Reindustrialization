@@ -1,0 +1,20 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: fac0sep-cyclone-separator
+    objectives: []
+    requirements: [
+      loveclab-item0chem-copper/2000
+      loveclab-item0chem-lead/3000
+      loveclab-item0chem-brass/1000
+      loveclab-item0chem-tin-bronze/1000
+      loveclab-item0chem-leaded-tin-bronze/500
+      loveclab-item0misc-engineering-tech-point-t1/20
+      loveclab-item0misc-chemistry-tech-point-t1/40
+    ]
+  }

@@ -24,7 +24,7 @@
     parent: log0aux-resource-display-panel
     objectives: []
   }
-  researchCostMultiplier: 0.0
+  researchCostMultiplier: 0.25
 
 
 /*
