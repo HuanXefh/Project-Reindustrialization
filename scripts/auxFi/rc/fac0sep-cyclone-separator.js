@@ -18,6 +18,10 @@ const rc = {
       icon: "loveclab-aux0aux-dust-recycling",
       category: "aux",
 
+      ci: [
+        "loveclab-aux0aux-dust-recycling", 0.0,
+      ],
+
       co: [
         "loveclab-aux0aux-dust-recycling", 0.01666667,
       ],

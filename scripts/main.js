@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.3.26060901",
-    "loveclab", "101.3.26060901",
+    "lovec", "101.3.26060902",
+    "loveclab", "101.3.26060902",
   ])) return;
 
 
@@ -167,6 +167,7 @@
     if(!Vars.headless && fetchSetting("misc-enable-window")) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-fac0misc-laboratory",
         "projreind-dbct0tech-utility-crafting",
         "projreind-pow0heat-copper-heat-conductor-plate",
         "projreind-pow0tor-waterwheel",
@@ -314,20 +315,21 @@
               "",
               "Acknowledgement & Dedication:",
               "  [green][Website][]",
-              "  > [accent]Pixabay[] - raw sound effects",
+              "  > [accent]Pixabay[] - Raw sound effects.",
               "  [green][Video Game][]",
-              "  > [accent]Rusted Warfare[] - RTS ideas",
+              "  > [accent]Factorio[] - The factory must grow.",
+              "  > [accent]Rusted Warfare[] - RTS ideas.",
               "  [green][Minecraft Mod][]",
-              "  > [accent]Create[] - torque mechanics ideas",
-              "  > [accent]Greg's Tech[] - industrialization ideas",
-              "  > [accent]Immersive Engineering[] - industrialization ideas",
+              "  > [accent]Create[] - Torque mechanics ideas.",
+              "  > [accent]Greg's Tech[] - Industrialization ideas",
+              "  > [accent]Immersive Engineering[] - Industrialization ideas",
               "  [green][Mindustry Mod][]",
-              "  > [accent]Asthosus[] - HJSON introduction",
-              "  > [accent]Fictional Octo System[] - underground ore ideas",
-              "  > [accent]Meepscellaneous Concepts[] - pseudo-3D ideas",
-              "  > [accent]MultiCrafter Lib[] - multi-crafter ideas",
-              "  > [accent]Sapphirium[] - JavaScript introduction",
-              "  > [accent]TooManyItems[] - less suffering from complexity",
+              "  > [accent]Asthosus[] - HJSON introduction.",
+              "  > [accent]Fictional Octo System[] - Underground ore ideas.",
+              "  > [accent]Meepscellaneous Concepts[] - Pseudo-3D ideas",
+              "  > [accent]MultiCrafter Lib[] - Multi-crafter ideas.",
+              "  > [accent]Sapphirium[] - JavaScript introduction.",
+              "  > [accent]TooManyItems[] - Less suffering from complexity.",
               "  [green][Book][]",
               "  > [accent]Encyclopedia of Materials: Science and Technology[]",
             )).left().row();

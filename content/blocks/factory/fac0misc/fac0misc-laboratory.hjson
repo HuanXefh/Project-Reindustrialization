@@ -41,7 +41,7 @@
   armor: 6.0
   size: 3
   hasItems: true
-  itemCapacity: 30
+  itemCapacity: 200
   hasLiquids: true
   liquidCapacity: 10.0
   hasPower: true
@@ -92,7 +92,7 @@
 
     ]
   }
-  ambientSound: se-hum-computer
+  ambientSound: se-amb-hum-computer
   ambientSoundVolume: 0.3
 
 

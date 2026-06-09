@@ -23,10 +23,11 @@ const rc = {
       ],
       aux: [
         "loveclab-aux0aux-pressure", 0.03333333,
+        "loveclab-aux0aux-heat-exchange", 0.0,
       ],
 
       co: [
-        "loveclab-aux0aux-heat-exchange", 0.03333333,
+        "loveclab-aux0aux-heat-exchange", 0.01666667,
       ],
 
     },
@@ -40,9 +41,12 @@ const rc = {
       ci: [
         "loveclab-liq0ore-water", 0.1,
       ],
+      aux: [
+        "loveclab-aux0aux-heat-exchange", 0.0,
+      ],
 
       co: [
-        "loveclab-aux0aux-heat-exchange", 0.03333333,
+        "loveclab-aux0aux-heat-exchange", 0.01666667,
         "loveclab-gas0misc-steam", 0.1,
       ],
 

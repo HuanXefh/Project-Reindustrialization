@@ -124,4 +124,5 @@
   }
   outputLiquids: [
     loveclab-gas0int-steam-mp/0.25
+    loveclab-liq0ore-water/0.0
   ]
