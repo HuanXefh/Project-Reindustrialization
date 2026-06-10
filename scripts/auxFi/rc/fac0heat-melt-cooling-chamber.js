@@ -1,7 +1,7 @@
 const rc = {
 
 
-  // craftTime: 1s
+  // craftTime: 5s
 
 
   base: {},
@@ -10,10 +10,7 @@ const rc = {
   recipe: [
 
 
-    /* <---------- aux ----------> */
-
-
-    "AUX: heat exchange; FROM: air", {
+    "AUX: melt cooling; FROM: air", {
       icon: "loveclab-gas0misc-air",
       category: "aux",
 
@@ -21,18 +18,17 @@ const rc = {
         "loveclab-gas0misc-air", 0.2,
       ],
       aux: [
-        "loveclab-aux0aux-pressure", 0.03333333,
-        "loveclab-aux0aux-heat-exchange", 0.0,
+        "loveclab-aux0aux-melt-cooling", 0.0,
       ],
 
       co: [
-        "loveclab-aux0aux-heat-exchange", 0.01666667,
+        "loveclab-aux0aux-melt-cooling", 0.01666667,
         "loveclab-gas0misc-air", 0.0,
       ],
     },
 
 
-    "AUX: heat exchange; FROM: water", {
+    "AUX: melt cooling; FROM: water", {
       icon: "loveclab-liq0ore-water",
       category: "aux",
 
@@ -40,11 +36,11 @@ const rc = {
         "loveclab-liq0ore-water", 0.1,
       ],
       aux: [
-        "loveclab-aux0aux-heat-exchange", 0.0,
+        "loveclab-aux0aux-melt-cooling", 0.0,
       ],
 
       co: [
-        "loveclab-aux0aux-heat-exchange", 0.01666667,
+        "loveclab-aux0aux-melt-cooling", 0.01666667,
         "loveclab-gas0misc-steam", 0.1,
         "loveclab-liq0ore-water", 0.0,
       ],
@@ -55,13 +51,6 @@ const rc = {
 
 
 };
-
-
-TP_recipeGen._g_heaterExchange.run(rc, {
-  amt: 1,
-  heatOScl: 2.0,
-  time: 60.0,
-});
 
 
 exports.rc = rc;

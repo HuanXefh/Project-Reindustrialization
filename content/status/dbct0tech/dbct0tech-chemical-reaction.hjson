@@ -1,0 +1,19 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: fac0mix-mechanical-mixing-cauldron
+    objectives: []
+    requirements: [
+      loveclab-item0chem-graphite/5000
+      loveclab-item0chem-tin-bronze/3000
+      loveclab-item0chem-cast-iron/2000
+      loveclab-item0chem-stainless-steel/500
+      loveclab-item0misc-engineering-tech-point-t1/40
+      loveclab-item0misc-chemistry-tech-point-t1/80
+    ]
+  }

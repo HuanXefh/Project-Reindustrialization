@@ -23,7 +23,7 @@
 
 
   research: {
-    parent: dis0loot-item-hopper
+    parent: dbct0tech-loot-transportation
     objectives: []
   }
   researchCostMultiplier: 0.4

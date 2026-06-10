@@ -21,7 +21,7 @@
 
 
   research: {
-    parent: pow0trans-copper-wire-relay
+    parent: dbct0tech-advanced-power-transmission
     objectives: []
   }
   researchCostMultiplier: 1.2

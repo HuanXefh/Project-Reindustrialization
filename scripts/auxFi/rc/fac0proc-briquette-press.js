@@ -14,7 +14,6 @@ const rc = {
 
 
     "MISC: briquette", {
-
       icon: "loveclab-item0cons-briquette",
       category: "misc",
       tempReq: 100.0,
@@ -48,7 +47,6 @@ const rc = {
         "loveclab-item0cons-briquette", 30, 1.0,
       ],
       failP: 0.05,
-
     },
 
 

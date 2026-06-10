@@ -24,7 +24,7 @@
 
 
   research: {
-    parent: min0drl-pangolin-class-wall-drill
+    parent: dbct0tech-advanced-mining
     objectives: []
   }
   researchCostMultiplier: 0.4

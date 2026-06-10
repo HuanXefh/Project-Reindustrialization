@@ -14,7 +14,6 @@ const rc = {
 
 
     "MISC: raw rubber", {
-
       icon: "loveclab-item0int-raw-rubber",
       category: "misc",
       tempReq: 80.0,
@@ -29,12 +28,10 @@ const rc = {
       ],
       failP: 0.05,
       fo: [],
-
     },
 
 
     "MISC: rubber (no talc)", {
-
       icon: "loveclab-item0chem-rubber",
       tint: Pal.remove,
       category: "misc",
@@ -51,12 +48,10 @@ const rc = {
       ],
       failP: 0.33333333,
       fo: [],
-
     },
 
 
     "MISC: rubber", {
-
       icon: "loveclab-item0chem-rubber",
       category: "misc",
       tempReq: 160.0,
@@ -73,12 +68,10 @@ const rc = {
       ],
       failP: 0.05,
       fo: [],
-
     },
 
 
     "MISC: glass", {
-
       icon: "loveclab-item0buil-glass",
       category: "misc",
       tempReq: 1500.0,
@@ -94,12 +87,10 @@ const rc = {
         "loveclab-item0buil-glass", 20, 0.5,
       ],
       failP: 0.33333333,
-
     },
 
 
     "MISC: tempered glass", {
-
       icon: "loveclab-item0buil-tempered-glass",
       category: "misc",
       tempReq: 650.0,
@@ -116,7 +107,6 @@ const rc = {
         "loveclab-item0buil-tempered-glass", 10, 1.0,
       ],
       failP: 0.33333333,
-
     },
 
 

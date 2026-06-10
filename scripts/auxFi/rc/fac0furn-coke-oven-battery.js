@@ -25,7 +25,6 @@ const rc = {
 
 
     "COKING: coke; FROM: coal", {
-
       icon: "loveclab-item0chem-coal",
       category: "coking",
       tempReq: 900.0,
@@ -41,12 +40,10 @@ const rc = {
       bo: [
         "loveclab-item0chem-coke", 240, 0.75,
       ],
-
     },
 
 
     "COKING: coke; FROM: anthracite", {
-
       icon: "loveclab-item0chem-anthracite",
       category: "coking",
       tempReq: 900.0,
@@ -62,12 +59,10 @@ const rc = {
       bo: [
         "loveclab-item0chem-coke", 240, 1.0,
       ],
-
     },
 
 
     "COKING: semicoke; FROM: peat", {
-
       icon: "loveclab-item0chem-peat",
       category: "coking",
       tempReq: 900.0,
@@ -83,12 +78,10 @@ const rc = {
       bo: [
         "loveclab-item0chem-semicoke", 240, 0.5,
       ],
-
     },
 
 
     "COKING: semicoke; FROM: lignite", {
-
       icon: "loveclab-item0chem-lignite",
       category: "coking",
       tempReq: 900.0,
@@ -104,7 +97,6 @@ const rc = {
       bo: [
         "loveclab-item0chem-semicoke", 240, 0.75,
       ],
-
     },
 
 

@@ -14,7 +14,6 @@ const rc = {
 
 
     "ASSEMBLY: clay brick block", {
-
       icon: "loveclab-pay0mat-brick-clay",
       category: "assembly",
 
@@ -25,12 +24,10 @@ const rc = {
       payo: [
         "loveclab-pay0mat-brick-clay", 1,
       ],
-
     },
 
 
     "ASSEMBLY: magnesia brick block", {
-
       icon: "loveclab-pay0mat-brick-magnesia",
       category: "assembly",
 
@@ -41,12 +38,10 @@ const rc = {
       payo: [
         "loveclab-pay0mat-brick-magnesia", 1,
       ],
-
     },
 
 
     "ASSEMBLY: high-alumina brick block", {
-
       icon: "loveclab-pay0mat-brick-high-alumina",
       category: "assembly",
 
@@ -57,12 +52,10 @@ const rc = {
       payo: [
         "loveclab-pay0mat-brick-high-alumina", 1,
       ],
-
     },
 
 
     "ASSEMBLY: mullite brick block", {
-
       icon: "loveclab-pay0mat-brick-mullite",
       category: "assembly",
 
@@ -73,12 +66,10 @@ const rc = {
       payo: [
         "loveclab-pay0mat-brick-mullite", 1,
       ],
-
     },
 
 
     "ASSEMBLY: silica brick block", {
-
       icon: "loveclab-pay0mat-brick-silica",
       category: "assembly",
 
@@ -89,12 +80,10 @@ const rc = {
       payo: [
         "loveclab-pay0mat-brick-silica", 1,
       ],
-
     },
 
 
     "ASSEMBLY: carbon brick block", {
-
       icon: "loveclab-pay0mat-brick-carbon",
       category: "assembly",
 
@@ -105,7 +94,6 @@ const rc = {
       payo: [
         "loveclab-pay0mat-brick-carbon", 1,
       ],
-
     },
 
 
@@ -113,7 +101,6 @@ const rc = {
 
 
     "MISC: timber", {
-
       icon: "loveclab-item0bio-timber",
       category: "misc",
       lockedBy: [
@@ -129,12 +116,10 @@ const rc = {
       ],
       failP: 0.1,
       fo: [],
-
     },
 
 
     "MISC: asbestos diaphragm", {
-
       icon: "loveclab-item0cons-asbestos-diaphragm",
       category: "misc",
 
@@ -147,12 +132,10 @@ const rc = {
         "loveclab-item0cons-asbestos-diaphragm", 1, 1.0,
       ],
       failP: 0.1,
-
     },
 
 
     "MISC: wooden block", {
-
       icon: "loveclab-pay0mat-wooden-block",
       category: "misc",
 
@@ -163,12 +146,10 @@ const rc = {
       payo: [
         "loveclab-pay0mat-wooden-block", 1,
       ],
-
     },
 
 
     "MISC: rubber block", {
-
       icon: "loveclab-pay0mat-rubber-block",
       category: "misc",
 
@@ -179,7 +160,6 @@ const rc = {
       payo: [
         "loveclab-pay0mat-rubber-block", 1,
       ],
-
     },
 
 

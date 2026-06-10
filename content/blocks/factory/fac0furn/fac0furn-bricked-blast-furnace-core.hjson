@@ -28,7 +28,7 @@
 
 
   research: {
-    parent: dbct0tech-advanced-furnace
+    parent: fac0heat-melt-cooling-chamber
     objectives: []
   }
   researchCostMultiplier: 0.1

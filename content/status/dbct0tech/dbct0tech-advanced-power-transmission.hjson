@@ -6,11 +6,11 @@
 
 
   research: {
-    parent: fac0sep-cyclone-separator
+    parent: pow0trans-copper-wire-node
     objectives: []
     requirements: [
-      loveclab-item0chem-brass/1000
-      loveclab-item0chem-cast-iron/500
-      loveclab-item0misc-engineering-tech-point-t1/20
+      loveclab-item0chem-copper/6000
+      loveclab-item0chem-lead/3000
+      loveclab-item0misc-engineering-tech-point-t1/60
     ]
   }

@@ -34,6 +34,15 @@
   /* <---------- fac0heat ----------> */
 
 
+  const fac0heat_meltCoolingChamber = extendBlock(
+    TEMPLATE, "fac0heat-melt-cooling-chamber",
+    TEMPLATE[0].build({
+      rcMdl: "fac0heat-melt-cooling-chamber",
+      rcSourceMod: "projreind",
+    }),
+  );
+
+
   const fac0heat_jetCondenser = extendBlock(
     TEMPLATE, "fac0heat-jet-condenser",
     TEMPLATE[0].build({

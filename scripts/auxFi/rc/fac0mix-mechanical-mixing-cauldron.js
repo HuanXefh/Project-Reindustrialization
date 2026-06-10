@@ -23,14 +23,12 @@ const rc = {
 
 
     "AUX: liquid mixing", {
-
       icon: "loveclab-aux0aux-liquid-mixing",
       category: "aux",
 
       co: [
         "loveclab-aux0aux-liquid-mixing", 0.01666667,
       ],
-
     },
 
 

@@ -14,7 +14,6 @@ const rc = {
 
 
     "AUX: dust recycling", {
-
       icon: "loveclab-aux0aux-dust-recycling",
       category: "aux",
 
@@ -25,7 +24,6 @@ const rc = {
       co: [
         "loveclab-aux0aux-dust-recycling", 0.01666667,
       ],
-
     },
 
 
@@ -33,7 +31,6 @@ const rc = {
 
 
     "MISC: sand", {
-
       icon: "loveclab-item0ore-sand",
       category: "misc",
       ignoreItemFullness: true,
@@ -45,7 +42,6 @@ const rc = {
       bo: [
         "loveclab-item0ore-sand", 1, 0.125,
       ],
-
     },
 
 

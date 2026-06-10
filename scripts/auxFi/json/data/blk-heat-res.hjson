@@ -15,6 +15,10 @@ projreind-fac0furn-primitive-coke-oven: 1600.0
 projreind-fac0furn-coke-oven-battery: 1800.0
 projreind-fac0furn-tube-furnace: 1800.0
 
+/* <---------- fac0heat ----------> */
+
+projreind-fac0heat-melt-cooling-chamber: 1800.0
+
 /* <---------- fac0proc ----------> */
 
 projreind-fac0proc-briquette-press: 750.0

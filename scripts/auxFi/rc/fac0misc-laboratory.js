@@ -20,19 +20,16 @@ const rc = {
 
 
     "generic tech point t1", {
-
       icon: "loveclab-item0misc-generic-tech-point-t1",
       category: "misc",
 
       bo: [
         "loveclab-item0misc-generic-tech-point-t1", 1, 1.0,
       ],
-
     },
 
 
     "engineering tech point t1", {
-
       icon: "loveclab-item0misc-engineering-tech-point-t1",
       category: "misc",
 
@@ -45,12 +42,10 @@ const rc = {
       bo: [
         "loveclab-item0misc-engineering-tech-point-t1", 1, 1.0,
       ],
-
     },
 
 
     "chemistry tech point t1", {
-
       icon: "loveclab-item0misc-chemistry-tech-point-t1",
       category: "misc",
 
@@ -63,7 +58,6 @@ const rc = {
       bo: [
         "loveclab-item0misc-chemistry-tech-point-t1", 1, 1.0,
       ],
-
     },
 
 

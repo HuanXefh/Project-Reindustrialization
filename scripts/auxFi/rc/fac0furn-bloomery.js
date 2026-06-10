@@ -33,12 +33,10 @@ const rc = {
       bo: [
         "loveclab-item0chem-cast-iron", 30, 0.66666667,
       ],
-
     },
 
 
     "STEELMAKING: wrought iron", {
-
       icon: "loveclab-item0chem-wrought-iron",
       category: "steelmaking",
       lockedBy: [
@@ -56,12 +54,10 @@ const rc = {
       bo: [
         "loveclab-item0chem-wrought-iron", 10, 1.0,
       ],
-
     },
 
 
     "STEELMAKING: steel", {
-
       icon: "loveclab-item0chem-steel",
       category: "steelmaking",
       lockedBy: [
@@ -85,12 +81,10 @@ const rc = {
         "loveclab-item0chem-steel", 30, 0.5,
         "loveclab-item0was-slag", 30, 0.5,
       ],
-
     },
 
 
     "STEELMAKING: steel; FROM: scrap steel", {
-
       icon: "loveclab-item0was-scrap-steel",
       category: "steelmaking",
       lockedBy: [
@@ -112,7 +106,6 @@ const rc = {
         "loveclab-item0chem-steel", 30, 0.5,
         "loveclab-item0was-slag", 30, 0.75,
       ],
-
     },
 
 
@@ -120,7 +113,6 @@ const rc = {
 
 
     "STEELMAKING: ferromanganese", {
-
       icon: "loveclab-item0chem-ferromanganese",
       category: "steelmaking",
       lockedBy: [
@@ -142,12 +134,10 @@ const rc = {
         "loveclab-item0chem-ferromanganese", 30, 0.5,
         "loveclab-item0was-slag", 45, 0.5,
       ],
-
     },
 
 
     "STEELMAKING: mangalloy", {
-
       icon: "loveclab-item0chem-mangalloy",
       category: "steelmaking",
       lockedBy: [
@@ -169,7 +159,6 @@ const rc = {
         "loveclab-item0chem-mangalloy", 30, 0.5,
         "loveclab-item0was-slag", 30, 0.75,
       ],
-
     },
 
 
@@ -177,7 +166,6 @@ const rc = {
 
 
     "STEELMAKING: hematite", {
-
       icon: "loveclab-item0ore-hematite",
       category: "steelmaking",
       lockedBy: [
@@ -194,12 +182,10 @@ const rc = {
         "loveclab-item0chem-pig-iron", 20, 0.5,
         "loveclab-item0was-slag", 10, 0.5,
       ],
-
     },
 
 
     "STEELMAKING: limonite", {
-
       icon: "loveclab-item0ore-limonite",
       category: "steelmaking",
       lockedBy: [
@@ -216,12 +202,10 @@ const rc = {
         "loveclab-item0chem-pig-iron", 20, 0.5,
         "loveclab-item0was-slag", 15, 0.5,
       ],
-
     },
 
 
     "STEELMAKING: magnetite", {
-
       icon: "loveclab-item0ore-magnetite",
       category: "steelmaking",
       lockedBy: [
@@ -238,12 +222,10 @@ const rc = {
         "loveclab-item0chem-pig-iron", 20, 0.5,
         "loveclab-item0was-slag", 10, 0.5,
       ],
-
     },
 
 
     "STEELMAKING: pyrite", {
-
       icon: "loveclab-item0ore-pyrite",
       category: "steelmaking",
       lockedBy: [
@@ -260,12 +242,10 @@ const rc = {
         "loveclab-item0chem-pig-iron", 20, 0.5,
         "loveclab-item0was-slag", 15, 0.5,
       ],
-
     },
 
 
     "STEELMAKING: pyrrhotite", {
-
       icon: "loveclab-item0ore-pyrrhotite",
       category: "steelmaking",
       lockedBy: [
@@ -282,7 +262,6 @@ const rc = {
         "loveclab-item0chem-pig-iron", 20, 0.5,
         "loveclab-item0was-slag", 15, 0.5,
       ],
-
     },
 
 

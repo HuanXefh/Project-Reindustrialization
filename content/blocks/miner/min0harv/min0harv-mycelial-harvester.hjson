@@ -23,7 +23,7 @@
 
 
   research: {
-    parent: fac0proc-sawmill
+    parent: dbct0tech-harvester
     objectives: []
   }
   researchCostMultiplier: 0.3

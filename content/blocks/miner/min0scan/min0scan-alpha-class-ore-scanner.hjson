@@ -23,7 +23,7 @@
 
 
   research: {
-    parent: min0drl-progress-class-drill
+    parent: dbct0tech-advanced-mining
     objectives: []
   }
   researchCostMultiplier: 0.2

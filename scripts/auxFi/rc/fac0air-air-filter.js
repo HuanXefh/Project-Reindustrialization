@@ -14,7 +14,6 @@ const rc = {
 
 
     "MISC: air (clean)", {
-
       icon: "loveclab-gas0int-air-clean",
       category: "misc",
       ignoreItemFullness: true,
@@ -34,7 +33,6 @@ const rc = {
       bo: [
         "loveclab-item0ore-sand", 1, 0.25,
       ],
-
     },
 
 

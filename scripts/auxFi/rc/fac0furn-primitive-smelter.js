@@ -17,7 +17,6 @@ const rc = {
 
 
     "SMELTING: crude graphite", {
-
       icon: "loveclab-item0ore-crude-graphite",
       category: "smelting",
       lockedBy: [
@@ -34,7 +33,6 @@ const rc = {
       bo: [
         "loveclab-item0chem-graphite", 270, 0.4,
       ],
-
     },
 
 
@@ -42,7 +40,6 @@ const rc = {
 
 
     "SMELTING: chalcopyrite", {
-
       icon: "loveclab-item0ore-chalcopyrite",
       category: "smelting",
       lockedBy: [
@@ -57,12 +54,10 @@ const rc = {
       bo: [
         "loveclab-item0chem-copper", 270, 0.4,
       ],
-
     },
 
 
     "SMELTING: malachite", {
-
       icon: "loveclab-item0ore-malachite",
       category: "smelting",
       tempReq: 160.0,
@@ -74,12 +69,10 @@ const rc = {
       bo: [
         "loveclab-item0chem-copper", 270, 0.6,
       ],
-
     },
 
 
     "SMELTING: native copper", {
-
       icon: "loveclab-item0ore-native-copper",
       category: "smelting",
       lockedBy: [
@@ -94,7 +87,6 @@ const rc = {
       bo: [
         "loveclab-item0chem-copper", 270, 0.8,
       ],
-
     },
 
 
@@ -102,7 +94,6 @@ const rc = {
 
 
     "SMELTING: galena", {
-
       icon: "loveclab-item0ore-galena",
       category: "smelting",
       lockedBy: [
@@ -117,7 +108,6 @@ const rc = {
       bo: [
         "loveclab-item0chem-lead", 270, 0.6,
       ],
-
     },
 
 
@@ -125,7 +115,6 @@ const rc = {
 
 
     "SMELTING: cassiterite", {
-
       icon: "loveclab-item0ore-cassiterite",
       category: "smelting",
       lockedBy: [
@@ -140,7 +129,6 @@ const rc = {
       bo: [
         "loveclab-item0chem-tin", 270, 0.6,
       ],
-
     },
 
 
@@ -148,7 +136,6 @@ const rc = {
 
 
     "SMELTING: sphalerite", {
-
       icon: "loveclab-item0ore-sphalerite",
       category: "smelting",
       lockedBy: [
@@ -163,7 +150,6 @@ const rc = {
       bo: [
         "loveclab-item0chem-zinc", 270, 0.6,
       ],
-
     },
 
 

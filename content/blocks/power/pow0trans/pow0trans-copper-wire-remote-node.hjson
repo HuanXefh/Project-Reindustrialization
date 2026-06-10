@@ -24,7 +24,7 @@
 
 
   research: {
-    parent: pow0trans-copper-wire-node
+    parent: dbct0tech-advanced-power-transmission
     objectives: []
   }
   researchCostMultiplier: 0.13

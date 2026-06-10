@@ -5,16 +5,14 @@
 */
 
 
-  # type: BeamDrill
-  category: production
+  # type: GenericCrafter
+  category: crafting
   requirements: [
-    loveclab-item0chem-lead/50
-    loveclab-item0chem-tin-bronze/50
-    loveclab-item0chem-leaded-tin-bronze/40
-    loveclab-item0chem-cast-iron/30
-    loveclab-item0chem-steel/20
+    loveclab-item0chem-copper/40
+    loveclab-item0chem-cast-iron/20
+    loveclab-item0buil-brick-silica/30
   ]
-  buildCostMultiplier: 2.0
+  buildCostMultiplier: 3.0
 
 
 /*
@@ -25,10 +23,10 @@
 
 
   research: {
-    parent: dbct0tech-advanced-mining
+    parent: dbct0tech-advanced-furnace
     objectives: []
   }
-  researchCostMultiplier: 0.3
+  researchCostMultiplier: 0.25
 
 
 /*
@@ -38,10 +36,10 @@
 */
 
 
-  scaledHealth: 80.0
-  armor: 12.0
-  size: 3
-  hasItems: true
+  scaledHealth: 50.0
+  armor: 6.0
+  size: 2
+  hasItems: false
   itemCapacity: 20
   hasLiquids: true
   liquidCapacity: 10.0
@@ -55,9 +53,8 @@
 */
 
 
-  envRequired: 1
-  envDisabled: 22
-  fogRadius: 4
+  envRequired: 0
+  envDisabled: 20
 
 
 /*
@@ -68,12 +65,40 @@
 
 
   squareSprite: false
-  glowColor: "8ca9e8"
-  sparkColor: "8ca9e8"
-  heatColor: "8ca9e8"
-  boostHeatColor: "8ca9e8"
-  ambientSound: se-amb-drill
-  ambientSoundVolume: 0.3
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawDefault
+      }
+
+
+      {
+        type: DrawParticles
+        color: "bfbfbf"
+        alpha: 0.6
+        particles: 5
+        particleLife: 90.0
+        particleRad: 6.0
+        particleSize: 1.5
+        rotateScl: 3.0
+        reverse: true
+      }
+
+
+      {
+        type: DrawGlowRegion
+        color: "ff3838"
+        suffix: "-glow"
+      }
+
+
+    ]
+  }
+  ambientSound: se-amb-hum
+  ambientSoundVolume: 0.2
 
 
 /*
@@ -83,7 +108,8 @@
 */
 
 
-  tier: 7
+  ignoreLiquidFullness: false
+  dumpExtraLiquid: false
 
 
 /*
@@ -93,14 +119,7 @@
 */
 
 
-  drillTime: 180.0
-  optionalBoostIntensity: 3.0
+  craftTime: 300.0
   consumes: {
-    power: 1.83333333
-    liquid: {
-      liquid: loveclab-aux0aux-vacuum
-      amount: 0.08333333
-      optional: true
-      booster: true
-    }
+    power: 0.33333333
   }
