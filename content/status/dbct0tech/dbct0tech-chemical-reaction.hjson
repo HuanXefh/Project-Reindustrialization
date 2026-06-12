@@ -13,7 +13,9 @@
       loveclab-item0chem-tin-bronze/3000
       loveclab-item0chem-cast-iron/2000
       loveclab-item0chem-stainless-steel/500
-      loveclab-item0misc-engineering-tech-point-t1/40
-      loveclab-item0misc-chemistry-tech-point-t1/80
+      loveclab-item0misc-engineering-tech-point-t1/60
+      loveclab-item0misc-engineering-tech-point-t2/20
+      loveclab-item0misc-chemistry-tech-point-t1/60
+      loveclab-item0misc-chemistry-tech-point-t2/20
     ]
   }

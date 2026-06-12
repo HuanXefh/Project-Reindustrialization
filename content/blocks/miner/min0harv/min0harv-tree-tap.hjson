@@ -22,7 +22,7 @@
 
 
   research: {
-    parent: min0harv-mycelial-harvester
+    parent: fac0proc-sawmill
     objectives: []
   }
   researchCostMultiplier: 0.3

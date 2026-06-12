@@ -6,7 +6,7 @@
 
 
   research: {
-    parent: fac0proc-sawmill
+    parent: min0harv-tree-tap
     objectives: []
     requirements: [
       loveclab-item0chem-lead/4000

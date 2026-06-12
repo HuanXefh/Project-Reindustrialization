@@ -9,8 +9,10 @@
     parent: fac0air-air-filter
     objectives: []
     requirements: [
+      loveclab-item0bio-charcoal/7000
       loveclab-item0chem-activated-carbon/3000
-      loveclab-item0misc-engineering-tech-point-t1/60
+      loveclab-item0misc-engineering-tech-point-t1/90
       loveclab-item0misc-chemistry-tech-point-t1/90
+      loveclab-item0misc-chemistry-tech-point-t2/60
     ]
   }

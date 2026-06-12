@@ -11,7 +11,8 @@
     loveclab-item0bio-timber/40
     loveclab-item0chem-copper/80
     loveclab-item0chem-lead/80
-    loveclab-item0chem-graphite/30
+    loveclab-item0chem-graphite/40
+    loveclab-item0chem-cast-iron/30
   ]
   buildCostMultiplier: 4.0
 
@@ -41,7 +42,7 @@
   armor: 6.0
   size: 3
   hasItems: true
-  itemCapacity: 200
+  itemCapacity: 500
   hasLiquids: true
   liquidCapacity: 10.0
   hasPower: true

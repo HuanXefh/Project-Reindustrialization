@@ -26,6 +26,7 @@
     TEMPLATE[0].build({
       impactRad: 6.0 * Vars.tilesize,
       depthTierMtp: 0.5,
+      maxDepthLvl: 1,
       drillAmtMtp: 2.0,
       drillEff: TP_effect._impactDrillCraft({
         blkSize: 2,

@@ -10,6 +10,7 @@
   requirements: [
     loveclab-item0chem-copper/80
     loveclab-item0chem-lead/80
+    loveclab-item0chem-steel/50
     loveclab-item0chem-stainless-steel/60
     loveclab-item0buil-coarse-aggregate/100
     loveclab-item0buil-fine-aggregate/80
