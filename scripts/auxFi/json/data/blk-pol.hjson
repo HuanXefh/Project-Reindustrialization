@@ -1,6 +1,7 @@
 /* <---------- min0drl ----------> */
 
 projreind-min0drl-survivor-drill: 6.0
+projreind-min0drl-primitive-burner-drill: 16.0
 projreind-min0drl-progress-class-drill: 2.0
 projreind-min0drl-pangolin-class-wall-drill: 4.0
 projreind-min0drl-anteater-class-wall-drill: 6.0
@@ -46,3 +47,7 @@ projreind-fac0mill-ball-mill: 3.0
 projreind-fac0sep-ore-washer: 5.0
 projreind-fac0sep-hydrocyclone: 8.0
 projreind-fac0sep-dry-magnetic-separator: 4.0
+
+/* <---------- fac0misc ----------> */
+
+projreind-fac0misc-laboratory: 10.0

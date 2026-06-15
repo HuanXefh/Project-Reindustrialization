@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.3.26061201",
-    "loveclab", "101.3.26061201",
+    "lovec", "101.3.26061501",
+    "loveclab", "101.3.26061501",
   ])) return;
 
 
@@ -167,6 +167,7 @@
     if(!Vars.headless && fetchSetting("misc-enable-window")) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-min0drl-primitive-burner-drill",
         "projreind-fac0misc-laboratory",
         "projreind-dbct0tech-utility-crafting",
         "projreind-pow0heat-copper-heat-conductor-plate",

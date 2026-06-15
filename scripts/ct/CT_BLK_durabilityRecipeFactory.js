@@ -27,6 +27,7 @@
       durabCap: 5.0 * 60.0 * 60.0,
       rcMdl: "fac0mill-jaw-crusher",
       rcSourceMod: "projreind",
+      useAutoSelection: true,
     }),
   );
 
@@ -47,6 +48,7 @@
       durabCap: 3.0 * 60.0 * 60.0,
       rcMdl: "fac0mill-mechanical-mill",
       rcSourceMod: "projreind",
+      useAutoSelection: true,
     }),
   );
 

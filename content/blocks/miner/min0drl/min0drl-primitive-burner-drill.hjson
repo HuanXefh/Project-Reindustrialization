@@ -8,11 +8,10 @@
   # type: Drill
   category: production
   requirements: [
-    loveclab-item0bio-timber/30
-    loveclab-item0chem-copper/30
-    loveclab-item0chem-lead/30
+    loveclab-item0chem-copper/40
+    loveclab-item0ore-clay/80
   ]
-  buildCostMultiplier: 5.0
+  buildCostMultiplier: 6.0
 
 
 /*
@@ -23,7 +22,7 @@
 
 
   research: {
-    parent: min0drl-primitive-burner-drill
+    parent: min0drl-survivor-drill
     objectives: []
   }
   researchCostMultiplier: 0.05
@@ -38,12 +37,12 @@
 
   scaledHealth: 40.0
   armor: 0.0
-  size: 2
+  size: 3
   hasItems: true
-  itemCapacity: 5
-  hasLiquids: true
+  itemCapacity: 10
+  hasLiquids: false
   liquidCapacity: 5.0
-  hasPower: true
+  hasPower: false
 
 
 /*
@@ -53,7 +52,7 @@
 */
 
 
-  envRequired: 1
+  envRequired: 129
   envDisabled: 22
   fogRadius: 4
 
@@ -67,9 +66,10 @@
 
   squareSprite: false
   ambientSound: se-amb-drill
-  ambientSoundVolume: 0.2
+  ambientSoundVolume: 0.3
+  drawMineItem: false
   drawRim: false
-  rotateSpeed: 1.5
+  rotateSpeed: 4.0
 
 
 /*
@@ -80,7 +80,7 @@
 
 
   tier: 4
-  hardnessDrillMultiplier: 20.0
+  hardnessDrillMultiplier: 10.0
 
 
 /*
@@ -90,14 +90,5 @@
 */
 
 
-  drillTime: 600.0
-  liquidBoostIntensity: 1.22474487
-  consumes: {
-    power: 0.33333333
-    liquid: {
-      liquid: loveclab-liq0ore-water
-      amount: 0.025
-      optional: true
-      booster: true
-    }
-  }
+  drillTime: 360.0
+  liquidBoostIntensity: 1.0

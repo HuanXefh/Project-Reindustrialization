@@ -47,6 +47,7 @@
     TEMPLATE[0].build({
       rcMdl: "fac0heat-hot-air-dryer",
       rcSourceMod: "projreind",
+      useAutoSelection: true,
     }),
   );
 
@@ -92,6 +93,7 @@
     TEMPLATE[0].build({
       rcMdl: "fac0sep-ore-washer",
       rcSourceMod: "projreind",
+      useAutoSelection: true,
     }),
   );
   setDrawer(fac0sep_oreWasher, drawers => [
@@ -114,6 +116,7 @@
     TEMPLATE[0].build({
       rcMdl: "fac0sep-hydrocyclone",
       rcSourceMod: "projreind",
+      useAutoSelection: true,
     }),
   );
 
@@ -132,6 +135,7 @@
     TEMPLATE[0].build({
       rcMdl: "fac0sep-dry-magnetic-separator",
       rcSourceMod: "projreind",
+      useAutoSelection: true,
     }),
   );
 
