@@ -99,15 +99,14 @@
   setDrawer(fac0sep_oreWasher, drawers => [
     drawers[0],
     fetchDrawer("DrawMixedLiquid"),
-    drawers[1],
     fetchDrawer("DrawRipple", {
       rad: 4.5,
       size: 2.5,
       scl: 40.0,
       recur: 3.0
     }),
+    drawers[1],
     drawers[2],
-    drawers[3],
   ]);
 
 

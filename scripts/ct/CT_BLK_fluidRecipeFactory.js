@@ -77,6 +77,7 @@
     fetchDrawer("DrawRipple", {
       rad: 5.0,
       size: 2.0,
+      noLiqCheck: true,
     }),
     drawers[1],
     drawers[2],

@@ -96,12 +96,6 @@
       }
 
 
-      {
-        type: DrawFade
-        suffix: "-fade"
-      }
-
-
     ]
   }
   ambientSound: se-amb-hum

@@ -55,7 +55,7 @@
     TEMPLATE[0].build({
       blockedFuels: DB_item.db["group"]["fuel"]["biotic"],
       fuelConsMtp: 0.75,
-      fuelLvlMtp: 1.35,
+      fuelLvlMtp: 1.4,
       rcMdl: "fac0furn-bloomery",
       rcSourceMod: "projreind",
       craftEff: EFF.furnaceSmog,
@@ -70,7 +70,7 @@
     TEMPLATE[0].build({
       blockedFuels: DB_item.db["group"]["fuel"]["biotic"],
       fuelConsMtp: 1.25,
-      fuelLvlMtp: 1.35,
+      fuelLvlMtp: 1.3,
       rcMdl: "fac0furn-bricked-blast-furnace",
       rcSourceMod: "projreind",
       craftEff: EFF.furnaceSmogLarge,

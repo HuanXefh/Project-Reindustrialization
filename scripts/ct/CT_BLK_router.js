@@ -25,6 +25,7 @@
     TEMPLATE, "dis0aux-router",
     TEMPLATE[0].build({
       forceUseDrawer: true,
+      recacheForItm: true,
     }),
   );
   setDrawer(dis0aux_router, drawers => [

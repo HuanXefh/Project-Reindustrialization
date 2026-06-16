@@ -25,8 +25,9 @@
   const eff0stor_stackingArea = extendBlock(
     TEMPLATE, "eff0stor-stacking-area",
     TEMPLATE[0].build({
-      singleTypeOnly: true,
       forceUseDrawer: true,
+      recacheForItm: true,
+      singleTypeOnly: true,
     }),
   );
   setDrawer(eff0stor_stackingArea, drawers => [

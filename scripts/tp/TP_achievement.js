@@ -164,11 +164,70 @@
 
 
     new CLS_achievement(
+      "projreind", "science-power",
+      new TextureRegionDrawable(Core.atlas.find("loveclab-item0misc-generic-tech-point-t1")),
+      TRIGGER.itemProduce,
+      function(b, itm, amt) {
+        if(Vars.state.isCampaign() && itm.name === "loveclab-item0misc-generic-tech-point-t1") this.complete();
+      },
+    );
+
+
+    new CLS_achievement(
+      "projreind", "shock-resistant",
+      new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-mangalloy")),
+      TRIGGER.itemProduce,
+      function(b, itm, amt) {
+        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-mangalloy") this.complete();
+      },
+    );
+
+
+    new CLS_achievement(
+      "projreind", "better-than-anthracite",
+      new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-coke")),
+      TRIGGER.itemProduce,
+      function(b, itm, amt) {
+        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-coke") this.complete();
+      },
+    );
+
+
+    new CLS_achievement(
+      "projreind", "too-many-bricks",
+      new TextureRegionDrawable(Core.atlas.find("loveclab-item0buil-brick-silica")),
+      TRIGGER.contentUnlock,
+      function(ct) {
+        if(
+          Vars.state.isCampaign()
+            && fetchContent("loveclab-item0buil-brick-clay").unlocked
+            && fetchContent("loveclab-item0buil-brick-magnesia").unlocked
+            && fetchContent("loveclab-item0buil-brick-mullite").unlocked
+            && fetchContent("loveclab-item0buil-brick-high-alumina").unlocked
+            && fetchContent("loveclab-item0buil-brick-silica").unlocked
+        ) {
+          this.complete();
+        };
+      },
+    );
+
+
+    new CLS_achievement(
       "projreind", "insulator",
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-rubber")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
         if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-rubber") this.complete();
+      },
+    );
+
+
+    new CLS_achievement(
+      "projreind", "no-lungs",
+      new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-asbestos-wool")),
+      TRIGGER.itemProduce,
+      function(b, itm, amt) {
+        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-asbestos-wool") this.complete();
       },
     );
 
@@ -189,6 +248,16 @@
       TRIGGER.constructionComplete,
       function(b) {
         if(Vars.state.isCampaign() && b.block.name === "projreind-fac0furn-bricked-blast-furnace") this.complete();
+      },
+    );
+
+
+    new CLS_achievement(
+      "projreind", "you-gotta-wait",
+      new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-stainless-steel")),
+      TRIGGER.itemProduce,
+      function(b, itm, amt) {
+        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-stainless-steel") this.complete();
       },
     );
 
@@ -218,7 +287,7 @@
 
     new CLS_achievement(
       "projreind", "as-you-wish",
-      new TextureRegionDrawable(Core.atlas.find("error")),
+      new TextureRegionDrawable(Core.atlas.find("lovec-icon-ohno")),
       TRIGGER.secretCodeCrash,
     );
 
