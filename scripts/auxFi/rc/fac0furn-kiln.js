@@ -16,6 +16,9 @@ const rc = {
     "MISC: raw rubber", {
       icon: "loveclab-item0int-raw-rubber",
       category: "misc",
+      lockedBy: [
+        "loveclab-item0chem-mangalloy",
+      ],
       tempReq: 80.0,
       tempAllowed: 350.0,
 
@@ -35,6 +38,9 @@ const rc = {
       icon: "loveclab-item0chem-rubber",
       tint: Pal.remove,
       category: "misc",
+      lockedBy: [
+        "loveclab-item0chem-mangalloy",
+      ],
       tempReq: 160.0,
       tempAllowed: 350.0,
 
@@ -54,6 +60,9 @@ const rc = {
     "MISC: rubber", {
       icon: "loveclab-item0chem-rubber",
       category: "misc",
+      lockedBy: [
+        "loveclab-item0chem-mangalloy",
+      ],
       tempReq: 160.0,
       tempAllowed: 350.0,
 

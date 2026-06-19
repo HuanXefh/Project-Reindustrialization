@@ -8,9 +8,9 @@
   # type: SwitchBlock
   category: logic
   requirements: [
-    loveclab-item0bio-timber/10
-    loveclab-item0chem-lead/10
-    loveclab-item0chem-brass/5
+    loveclab-item0bio-timber/75
+    loveclab-item0chem-lead/50
+    loveclab-item0chem-brass/30
   ]
   buildCostMultiplier: 3.0
 

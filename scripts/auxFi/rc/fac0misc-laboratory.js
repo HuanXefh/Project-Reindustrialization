@@ -39,7 +39,7 @@ const rc = {
 
       bi: [
         "loveclab-item0misc-generic-tech-point-t1", 1, 1.0,
-        "loveclab-item0chem-steel", 30, 1.0,
+        "loveclab-item0chem-mangalloy", 30, 1.0,
         "loveclab-item0chem-rubber", 30, 1.0,
       ],
 
@@ -71,8 +71,10 @@ const rc = {
 
       bi: [
         "loveclab-item0misc-generic-tech-point-t2", 1, 1.0,
-        "loveclab-item0chem-mangalloy", 30, 1.0,
         "loveclab-item0buil-cement", 30, 1.0,
+      ],
+      payi: [
+        "projreind-pow0tor-brass-cogwheel", 4,
       ],
 
       bo: [
