@@ -8,9 +8,10 @@
   # type: GenericCrafter
   category: power
   requirements: [
-    loveclab-item0chem-graphite/30
+    loveclab-item0chem-graphite/40
     loveclab-item0chem-tin-bronze/40
     loveclab-item0chem-cast-iron/70
+    loveclab-item0chem-steel/30
   ]
   buildCostMultiplier: 3.0
 

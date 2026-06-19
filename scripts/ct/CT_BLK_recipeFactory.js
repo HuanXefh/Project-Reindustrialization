@@ -26,6 +26,7 @@
     TEMPLATE[0].build({
       rcMdl: "fac0air-air-filter",
       rcSourceMod: "projreind",
+      useAutoSelection: true,
     }),
   );
 

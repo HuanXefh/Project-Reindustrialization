@@ -14,7 +14,7 @@ const rc = {
 
 
     "MISC: air (clean)", {
-      icon: "loveclab-gas0int-air-clean",
+      icon: "loveclab-gas0misc-air",
       category: "misc",
       ignoreItemFullness: true,
 

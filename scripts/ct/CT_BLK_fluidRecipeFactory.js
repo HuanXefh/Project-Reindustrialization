@@ -48,6 +48,7 @@
     TEMPLATE[0].build({
       rcMdl: "fac0heat-jet-condenser",
       rcSourceMod: "projreind",
+      useAutoSelection: true,
     }),
   );
 
@@ -57,6 +58,7 @@
     TEMPLATE[0].build({
       rcMdl: "fac0heat-primitive-freeze-dryer",
       rcSourceMod: "projreind",
+      useAutoSelection: true,
     }),
   );
 

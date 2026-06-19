@@ -38,6 +38,7 @@
       durabCap: 5.0 * 60.0 * 60.0,
       rcMdl: "fac0mill-hammer-crusher",
       rcSourceMod: "projreind",
+      useAutoSelection: true,
     }),
   );
 
