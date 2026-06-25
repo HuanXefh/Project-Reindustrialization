@@ -10,7 +10,7 @@
   requirements: [
     loveclab-item0chem-copper/5
   ]
-  buildCostMultiplier: 5.0
+  buildCostMultiplier: 10.0
 
 
 /*

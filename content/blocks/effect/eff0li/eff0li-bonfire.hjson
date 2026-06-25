@@ -10,7 +10,7 @@
   requirements: [
     loveclab-item0bio-timber/30
   ]
-  buildCostMultiplier: 4.0
+  buildCostMultiplier: 2.0
 
 
 /*

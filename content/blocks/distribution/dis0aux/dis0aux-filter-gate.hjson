@@ -8,8 +8,8 @@
   # type: Sorter
   category: distribution
   requirements: [
-    loveclab-item0chem-copper/5
-    loveclab-item0chem-lead/10
+    loveclab-item0chem-copper/10
+    loveclab-item0chem-lead/20
   ]
   buildCostMultiplier: 5.0
 

@@ -8,8 +8,8 @@
   # type: OverflowGate
   category: distribution
   requirements: [
-    loveclab-item0chem-copper/10
-    loveclab-item0chem-lead/5
+    loveclab-item0chem-copper/20
+    loveclab-item0chem-lead/10
   ]
   buildCostMultiplier: 5.0
 

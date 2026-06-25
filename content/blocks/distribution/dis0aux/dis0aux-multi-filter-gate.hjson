@@ -8,12 +8,12 @@
   # type: Sorter
   category: distribution
   requirements: [
-    loveclab-item0bio-timber/45
+    loveclab-item0bio-timber/50
     loveclab-item0chem-lead/30
-    loveclab-item0chem-brass/20
+    loveclab-item0chem-brass/30
     loveclab-item0chem-steel/10
   ]
-  buildCostMultiplier: 4.0
+  buildCostMultiplier: 1.2
 
 
 /*

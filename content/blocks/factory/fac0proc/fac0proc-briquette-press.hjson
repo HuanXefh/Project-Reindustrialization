@@ -8,11 +8,11 @@
   # type: GenericCrafter
   category: crafting
   requirements: [
-    loveclab-item0chem-copper/60
-    loveclab-item0chem-lead/30
-    loveclab-item0chem-graphite/50
-    loveclab-item0chem-tin-bronze/30
-    loveclab-item0chem-cast-iron/20
+    loveclab-item0chem-copper/80
+    loveclab-item0chem-graphite/60
+    loveclab-item0chem-tin-bronze/40
+    loveclab-item0chem-cast-iron/30
+    loveclab-item0chem-steel/20
   ]
   buildCostMultiplier: 2.0
 
@@ -28,7 +28,7 @@
     parent: dbct0tech-utility-crafting
     objectives: []
   }
-  researchCostMultiplier: 0.2
+  researchCostMultiplier: 0.15
 
 
 /*

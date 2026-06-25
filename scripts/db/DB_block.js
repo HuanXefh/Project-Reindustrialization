@@ -49,6 +49,14 @@ const db = {
       "projreind-min0drl-boulder-class-impact-drill", "emerald-tide",
       "projreind-min0drl-topaz-class-sand-miner", "emerald-tide",
       "projreind-min0scan-alpha-class-ore-scanner", "emerald-tide",
+      "projreind-min0scan-portable-ore-scanner", "emerald-tide",
+      "projreind-min0harv-forest-harvester", "emerald-tide",
+      "projreind-min0harv-mycelial-harvester", "emerald-tide",
+      "projreind-min0harv-algae-harvester", "emerald-tide",
+
+      "projreind-min0drl-primitive-burner-drill", "rim-builder",
+      "projreind-pow0gen-hpsv-generator", "rim-builder",
+      "projreind-fac0proc-core-crafter", "rim-builder",
 
       "projreind-eff0proj-local-repairer", "outpost-military",
       "projreind-eff0proj-bay-class-repairer", "outpost-military",
@@ -82,6 +90,7 @@ const db = {
 
       "projreind-fac0proc-biomass-crusher", "crusher",
 
+      "projreind-fac0heat-hot-air-dryer", "dryer",
       "projreind-fac0heat-primitive-freeze-dryer", "dryer",
 
       "projreind-fac0proc-primitive-forge", "forge",

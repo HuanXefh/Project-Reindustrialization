@@ -8,7 +8,7 @@
   # type: Router
   category: distribution
   requirements: [
-    loveclab-item0chem-copper/3
+    loveclab-item0chem-copper/5
   ]
   buildCostMultiplier: 5.0
 

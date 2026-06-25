@@ -14,7 +14,7 @@
     loveclab-item0chem-graphite/40
     loveclab-item0chem-cast-iron/30
   ]
-  buildCostMultiplier: 4.0
+  buildCostMultiplier: 1.8
 
 
 /*
@@ -91,9 +91,19 @@
       }
 
 
+      {
+        type: DrawGlowRegion
+        color: "7898ba"
+        alpha: 0.35
+        suffix: "-glow"
+        glowScale: 1.5
+        glowIntensity: 1.0
+      }
+
+
     ]
   }
-  ambientSound: se-amb-hum-computer
+  ambientSound: se-amb-lab
   ambientSoundVolume: 0.3
 
 
