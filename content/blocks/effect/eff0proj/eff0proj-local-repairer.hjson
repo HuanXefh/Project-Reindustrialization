@@ -8,11 +8,11 @@
   # type: MendProjector
   category: effect
   requirements: [
-    loveclab-item0bio-timber/25
+    loveclab-item0bio-timber/40
     loveclab-item0chem-lead/25
-    loveclab-item0chem-brass/15
+    loveclab-item0chem-brass/25
   ]
-  buildCostMultiplier: 2.0
+  buildCostMultiplier: 1.5
 
 
 /*
@@ -87,5 +87,5 @@
 
   useTime: 60.0
   consumes: {
-    power: 0.66666667
+    power: 0.41666667
   }

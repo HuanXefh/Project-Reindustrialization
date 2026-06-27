@@ -10,7 +10,6 @@
 
   const TEMPLATE = require("lovec/temp/blk/BLK_turbineFactory");
   const TEMPLATE_A = require("lovec/temp/blk/BLK_manualTurbine");
-  const TEMPLATE_B = require("lovec/temp/blk/BLK_terrainTurbine");
 
 
 /*
@@ -32,8 +31,8 @@
 
 
   const pow0tor_waterwheel = extendBlock(
-    TEMPLATE_B, "pow0tor-waterwheel",
-    TEMPLATE_B[0].build({
+    TEMPLATE, "pow0tor-waterwheel",
+    TEMPLATE[0].build({
       ters: ["river"],
       isWaterborne: true,
     }),

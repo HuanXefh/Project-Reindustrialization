@@ -6,7 +6,7 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.3.26062701",
+    "lovec", "101.3.26062702",
     "loveclab", "101.3.26062701",
   ])) return;
 
@@ -17,63 +17,34 @@
   /* <---------- load ----------> */
 
 
-  require("projreind/ct/CT_BLK_groundDrill");
-  require("projreind/ct/CT_BLK_wallDrill");
-  require("projreind/ct/CT_BLK_rangeWallDrill");
-  require("projreind/ct/CT_BLK_impactDrill");
-  require("projreind/ct/CT_BLK_terrainDynamicDrill");
+  require("projreind/ct/CT_BLK_baseDrill");
   require("projreind/ct/CT_BLK_oreScanner");
-  require("projreind/ct/CT_BLK_manualTimerOreScanner");
-  require("projreind/ct/CT_BLK_wallHarvester");
-  require("projreind/ct/CT_BLK_dynamicWallHarvester");
-  require("projreind/ct/CT_BLK_rangeHarvester");
+  require("projreind/ct/CT_BLK_baseHarvester");
 
 
   require("projreind/ct/CT_BLK_conveyor");
-  require("projreind/ct/CT_BLK_stackConveyor");
   require("projreind/ct/CT_BLK_duct");
-  require("projreind/ct/CT_BLK_itemJunction");
   require("projreind/ct/CT_BLK_conveyorBridge");
-  require("projreind/ct/CT_BLK_router");
-  require("projreind/ct/CT_BLK_directionalRouter");
-  require("projreind/ct/CT_BLK_filterGate");
-  require("projreind/ct/CT_BLK_multiFilterGate");
-  require("projreind/ct/CT_BLK_overflowGate");
-  require("projreind/ct/CT_BLK_unloader");
-  require("projreind/ct/CT_BLK_directionalUnloader");
-  require("projreind/ct/CT_BLK_remoteCoreUnloader");
+  require("projreind/ct/CT_BLK_baseItemGate");
   require("projreind/ct/CT_BLK_incinerator");
   require("projreind/ct/CT_BLK_massDriver");
   require("projreind/ct/CT_BLK_container");
-  require("projreind/ct/CT_BLK_lootHopper");
-  require("projreind/ct/CT_BLK_lootPullerHopper");
-  require("projreind/ct/CT_BLK_lootFilter");
+  require("projreind/ct/CT_BLK_baseLootBlock");
 
 
-  require("projreind/ct/CT_BLK_manualTimerPump");
   require("projreind/ct/CT_BLK_liquidPump");
-  require("projreind/ct/CT_BLK_depthPump");
   require("projreind/ct/CT_BLK_pressurePump");
   require("projreind/ct/CT_BLK_fluidPipe");
-  require("projreind/ct/CT_BLK_fluidRouter");
-  require("projreind/ct/CT_BLK_directionalFluidRouter");
-  require("projreind/ct/CT_BLK_fluidJunction");
-  require("projreind/ct/CT_BLK_fluidValve");
-  require("projreind/ct/CT_BLK_fluidFilter");
-  require("projreind/ct/CT_BLK_fluidPressureValve");
   require("projreind/ct/CT_BLK_fluidPipeBridge");
+  require("projreind/ct/CT_BLK_baseFluidDistributor");
+  require("projreind/ct/CT_BLK_fluidRouter");
 
 
-  require("projreind/ct/CT_BLK_cable");
-  require("projreind/ct/CT_BLK_wireRelay");
-  require("projreind/ct/CT_BLK_wireNode");
-  require("projreind/ct/CT_BLK_consumeGenerator");
-  require("projreind/ct/CT_BLK_ventGenerator");
+  require("projreind/ct/CT_BLK_basePowerTransmitter");
+  require("projreind/ct/CT_BLK_baseGenerator");
 
 
-  require("projreind/ct/CT_BLK_cogwheel");
-  require("projreind/ct/CT_BLK_gearBox");
-  require("projreind/ct/CT_BLK_cogwheelStack");
+  require("projreind/ct/CT_BLK_baseTorqueBlock");
 
 
   require("projreind/ct/CT_BLK_heatConductor");
@@ -82,15 +53,6 @@
 
 
   require("projreind/ct/CT_BLK_baseFactory");
-  require("projreind/ct/CT_BLK_terrainFactory");
-  require("projreind/ct/CT_BLK_rainCollector");
-  require("projreind/ct/CT_BLK_infoFactory");
-  require("projreind/ct/CT_BLK_recipeFactory");
-  require("projreind/ct/CT_BLK_furnaceRecipeFactory");
-  require("projreind/ct/CT_BLK_electricFurnaceRecipeFactory");
-  require("projreind/ct/CT_BLK_durabilityRecipeFactory");
-  require("projreind/ct/CT_BLK_fluidRecipeFactory");
-  require("projreind/ct/CT_BLK_chemicalReactor");
   // Not time for this now
   /*runWithDependency("projreind", "multi-block-lib", () => {
     require("projreind/ct/CT_BLK_multiBlockLibRecipeFactory");
@@ -101,15 +63,13 @@
   require("projreind/ct/CT_BLK_payloadConveyor");
 
 
-  require("projreind/ct/CT_BLK_fuelLight");
-  require("projreind/ct/CT_BLK_directionalMender");
-  require("projreind/ct/CT_BLK_radiusMender");
+  require("projreind/ct/CT_BLK_light");
+  require("projreind/ct/CT_BLK_baseMender");
   require("projreind/ct/CT_BLK_statusProjector");
 
 
-  require("projreind/ct/CT_BLK_messageBlock");
+  require("projreind/ct/CT_BLK_baseLogicBlock");
   require("projreind/ct/CT_BLK_resourceDisplay");
-  require("projreind/ct/CT_BLK_directionalSwitch");
 
 
   require("projreind/ct/CT_BLK_defenseWall");
@@ -167,6 +127,7 @@
     if(!Vars.headless && fetchSetting("misc-enable-window")) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-eff0stor-remote-core-relay",
         "projreind-min0drl-primitive-burner-drill",
         "projreind-fac0misc-laboratory",
         "projreind-dbct0tech-utility-crafting",

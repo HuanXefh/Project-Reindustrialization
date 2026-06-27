@@ -8,7 +8,8 @@
   /* <---------- import ----------> */
 
 
-  const TEMPLATE = require("lovec/temp/blk/BLK_fuelLight");
+  const TEMPLATE = require("lovec/temp/blk/BLK_light");
+  const TEMPLATE_A = require("lovec/temp/blk/BLK_fuelLight");
 
 
 /*
@@ -22,8 +23,8 @@
 
 
   const eff0li_bonfire = extendBlock(
-    TEMPLATE, "eff0li-bonfire",
-    TEMPLATE[0].build({
+    TEMPLATE_A, "eff0li-bonfire",
+    TEMPLATE_A[0].build({
       allowedFuels: DB_item.db["group"]["fuel"]["biotic"].cpy().pushAll([
         "loveclab-item0bio-charcoal",
       ]),

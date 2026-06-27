@@ -18,7 +18,8 @@ const db = {
         "projreind-min0drl-survivor-drill", 1.5,
         "projreind-min0scan-portable-ore-scanner", 4.0,
 
-        "projreind-dis0aux-remote-core-unloader", 1.0,
+        "projreind-dis0aux-remote-core-unloader", 1.5,
+        "projreind-eff0stor-remote-core-relay", 3.5,
 
         "projreind-fac0proc-core-crafter", 2.0,
 
@@ -55,6 +56,8 @@ const db = {
       "projreind-min0harv-algae-harvester", "emerald-tide",
 
       "projreind-min0drl-primitive-burner-drill", "rim-builder",
+      "projreind-dis0aux-remote-core-unloader", "rim-builder",
+      "projreind-eff0stor-remote-core-relay", "rim-builder",
       "projreind-pow0gen-hpsv-generator", "rim-builder",
       "projreind-fac0proc-core-crafter", "rim-builder",
 

@@ -10,6 +10,7 @@
 
   const TEMPLATE = require("lovec/temp/blk/BLK_container");
   const TEMPLATE_A = require("lovec/temp/blk/BLK_dumpContainer");
+  const TEMPLATE_B = require("lovec/temp/blk/BLK_coreRelay");
 
 
 /*
@@ -42,4 +43,12 @@
 
   const eff0stor_crate = extendBlock(
     TEMPLATE_A, "eff0stor-crate",
+  );
+
+
+  const eff0stor_remoteCoreRelay = extendBlock(
+    TEMPLATE_B, "eff0stor-remote-core-relay",
+    TEMPLATE_B[0].build({
+      coreSendCooldown: 450.0,
+    }),
   );

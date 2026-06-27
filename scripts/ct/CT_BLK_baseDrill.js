@@ -9,6 +9,10 @@
 
 
   const TEMPLATE = require("lovec/temp/blk/BLK_groundDrill");
+  const TEMPLATE_A = require("lovec/temp/blk/BLK_impactDrill");
+  const TEMPLATE_AA = require("lovec/temp/blk/BLK_terrainDynamicDrill");
+  const TEMPLATE_B = require("lovec/temp/blk/BLK_wallDrill");
+  const TEMPLATE_BA = require("lovec/temp/blk/BLK_rangeWallDrill");
 
 
 /*
@@ -71,4 +75,55 @@
       updateEff: EFF.drillCrack,
       updateEffP: 0.01,
     }),
+  );
+
+
+  const min0drl_boulderClassImpactDrill = extendBlock(
+    TEMPLATE_A, "min0drl-boulder-class-impact-drill",
+    TEMPLATE_A[0].build({
+      impactRad: 6.0 * Vars.tilesize,
+      depthTierMtp: 0.5,
+      maxDepthLvl: 1,
+      drillAmtMtp: 2.0,
+      drillEff: TP_effect._impactDrillCraft({
+        blkSize: 2,
+        rad: 6.0 * Vars.tilesize,
+      }),
+    }),
+  );
+
+
+  const min0drl_topazClassSandMiner = extendBlock(
+    TEMPLATE_AA, "min0drl-topaz-class-sand-miner",
+    TEMPLATE_AA[0].build({
+      terItmMapMap: ObjectMap.of(
+        "loveclab-item0ore-sand", ObjectMap.of(
+          "bank", "loveclab-item0ore-sand-river",
+          "beach", "loveclab-item0ore-sand-sea",
+        ),
+      ),
+      itmWhitelist: DB_item.db["group"]["sand"],
+      noSandOutput: false,
+      drillEff: EFF.heatSmog,
+      updateEff: EFF.drillCrack,
+      updateEffP: 0.01,
+    }),
+  );
+
+
+  const min0drl_pangolinClassWallDrill = extendBlock(
+    TEMPLATE_B, "min0drl-pangolin-class-wall-drill",
+  );
+
+
+  const min0drl_anteaterClassWallDrill = extendBlock(
+    TEMPLATE_B, "min0drl-anteater-class-wall-drill",
+    TEMPLATE_B[0].build({
+      shouldDropPay: true,
+    }),
+  );
+
+
+  const min0drl_scavengerClassDepositDrill = extendBlock(
+    TEMPLATE_BA, "min0drl-scavenger-class-deposit-drill",
   );
