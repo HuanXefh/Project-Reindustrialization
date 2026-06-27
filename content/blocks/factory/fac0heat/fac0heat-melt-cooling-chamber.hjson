@@ -53,8 +53,7 @@
 */
 
 
-  envRequired: 0
-  envDisabled: 20
+  envDisabled: 22
 
 
 /*

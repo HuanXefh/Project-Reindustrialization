@@ -52,7 +52,6 @@
 */
 
 
-  envRequired: 0
   envDisabled: 20
   fogRadius: 1
 
