@@ -9,7 +9,6 @@
 
 
   const TEMPLATE = require("lovec/temp/blk/BLK_fluidRouter");
-  const TEMPLATE_A = require("lovec/temp/blk/BLK_directionalFluidRouter");
 
 
 /*
@@ -49,12 +48,4 @@
     TEMPLATE[0].build({
       fldType: "gas",
     }),
-  );
-
-
-  /* misc */
-
-
-  const bliq0stor_pressureRouter = extendBlock(
-    TEMPLATE_A, "bliq0stor-pressure-router",
   );

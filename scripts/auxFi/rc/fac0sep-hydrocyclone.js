@@ -14,7 +14,7 @@ const rc = {
     ],
 
     baseCo: [
-      "loveclab-liq0was-waste-water", 0.15,
+      "loveclab-liq0was-waste-slurry", 0.15,
     ],
 
   },

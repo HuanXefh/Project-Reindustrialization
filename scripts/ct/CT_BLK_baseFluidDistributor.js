@@ -10,9 +10,10 @@
 
   const TEMPLATE = require("lovec/temp/blk/BLK_fluidJunction");
   const TEMPLATE_A = require("lovec/temp/blk/BLK_fluidValve");
-  const TEMPLATE_B = require("lovec/temp/blk/BLK_fluidFilter");
-  //const TEMPLATE_C = require("lovec/temp/blk/BLK_fluidOverflowGate");
-  const TEMPLATE_D = require("lovec/temp/blk/BLK_fluidPressureValve");
+  const TEMPLATE_AA = require("lovec/temp/blk/BLK_fluidFilter");
+  const TEMPLATE_B = require("lovec/temp/blk/BLK_fluidOverflowGate");
+  const TEMPLATE_BA = require("lovec/temp/blk/BLK_directionalFluidRouter");
+  const TEMPLATE_C = require("lovec/temp/blk/BLK_fluidPressureValve");
 
 
 /*
@@ -36,10 +37,20 @@
 
 
   const bliq0aux_fluidFilterValve = extendBlock(
-    TEMPLATE_B, "bliq0aux-fluid-filter-valve",
+    TEMPLATE_AA, "bliq0aux-fluid-filter-valve",
+  );
+
+
+  const bliq0aux_fluidOverflowValve = extendBlock(
+    TEMPLATE_B, "bliq0aux-fluid-overflow-valve",
+  );
+
+
+  const bliq0aux_pressureRouter = extendBlock(
+    TEMPLATE_BA, "bliq0aux-pressure-router",
   );
 
 
   const bliq0aux_primitivePressureValve = extendBlock(
-    TEMPLATE_D, "bliq0aux-primitive-pressure-valve",
+    TEMPLATE_C, "bliq0aux-primitive-pressure-valve",
   );

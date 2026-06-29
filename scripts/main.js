@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.3.26062702",
-    "loveclab", "101.3.26062701",
+    "lovec", "101.3.26062901",
+    "loveclab", "101.3.26062901",
   ])) return;
 
 
@@ -127,6 +127,7 @@
     if(!Vars.headless && fetchSetting("misc-enable-window")) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-bliq0aux-fluid-overflow-valve",
         "projreind-eff0stor-remote-core-relay",
         "projreind-min0drl-primitive-burner-drill",
         "projreind-fac0misc-laboratory",
@@ -136,7 +137,7 @@
         "projreind-fac0furn-bricked-blast-furnace-core",
         "projreind-min0drl-scavenger-class-deposit-drill",
         "projreind-dis0conv-standard-duct",
-        "projreind-bliq0stor-pressure-router",
+        "projreind-bliq0aux-pressure-router",
         "projreind-dis0loot-item-picker",
         "projreind-pow0trans-tin-cable",
         "projreind-fac0sep-hydrocyclone",

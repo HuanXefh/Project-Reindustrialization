@@ -187,7 +187,8 @@ const db = {
         "projreind-bliq0cond-cast-iron-liquid-pipe",
         "projreind-bliq0cond-cast-iron-gas-pipe",
 
-        "projreind-bliq0stor-pressure-router",
+        "projreind-bliq0aux-fluid-overflow-valve",
+        "projreind-bliq0aux-pressure-router",
 
         "projreind-pow0heat-cast-iron-heat-conductor-plate",
 

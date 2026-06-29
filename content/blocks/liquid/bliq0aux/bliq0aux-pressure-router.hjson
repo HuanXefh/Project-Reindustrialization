@@ -8,7 +8,7 @@
   # type: LiquidRouter
   category: liquid
   requirements: [
-    loveclab-item0chem-lead/30
+    loveclab-item0chem-lead/40
     loveclab-item0chem-graphite/20
     loveclab-item0chem-cast-iron/20
   ]
