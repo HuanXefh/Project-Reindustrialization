@@ -11,8 +11,8 @@
     loveclab-item0bio-timber/50
     loveclab-item0chem-lead/30
     loveclab-item0chem-graphite/30
-    loveclab-item0chem-tin-bronze/15
-    loveclab-item0chem-cast-iron/15
+    loveclab-item0chem-tin-bronze/20
+    loveclab-item0chem-cast-iron/20
     loveclab-item0ore-magnetite/80
   ]
   buildCostMultiplier: 0.8
@@ -70,7 +70,7 @@
   squareSprite: false
   knockback: 1.5
   translation: 2.0
-  shake: 2.0
+  shake: 1.5
   shootSound: se-shot-mass-driver1
 
 
