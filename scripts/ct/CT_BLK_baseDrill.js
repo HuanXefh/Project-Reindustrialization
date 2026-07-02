@@ -49,6 +49,7 @@
       }),
       updateEff: EFF.drillCrack,
       updateEffP: 0.01,
+      consEff: Fx.ballfire,
     }),
   );
   setConsumer(min0drl_primitiveBurnerDrill, conss => [

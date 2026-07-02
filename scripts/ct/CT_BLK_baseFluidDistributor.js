@@ -13,6 +13,7 @@
   const TEMPLATE_AA = require("lovec/temp/blk/BLK_fluidFilter");
   const TEMPLATE_B = require("lovec/temp/blk/BLK_fluidOverflowGate");
   const TEMPLATE_BA = require("lovec/temp/blk/BLK_directionalFluidRouter");
+  const TEMPLATE_BB = require("lovec/temp/blk/BLK_fluidUnloader");
   const TEMPLATE_C = require("lovec/temp/blk/BLK_fluidPressureValve");
 
 
@@ -53,4 +54,9 @@
 
   const bliq0aux_primitivePressureValve = extendBlock(
     TEMPLATE_C, "bliq0aux-primitive-pressure-valve",
+  );
+
+
+  const bliq0aux_fluidUnloader = extendBlock(
+    TEMPLATE_BB, "bliq0aux-fluid-unloader",
   );

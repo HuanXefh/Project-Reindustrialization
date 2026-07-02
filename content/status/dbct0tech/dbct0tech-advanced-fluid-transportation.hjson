@@ -1,0 +1,17 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: bliq0aux-primitive-pressure-valve
+    objectives: []
+    requirements: [
+      loveclab-item0buil-glass/1500
+      loveclab-item0chem-stainless-steel/1000
+      loveclab-item0misc-engineering-tech-point-t2/40
+      loveclab-item0misc-chemistry-tech-point-t2/20
+    ]
+  }

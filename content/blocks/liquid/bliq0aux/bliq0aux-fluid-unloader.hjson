@@ -9,11 +9,11 @@
   category: liquid
   requirements: [
     loveclab-item0chem-graphite/40
-    loveclab-item0chem-tin-bronze/20
-    loveclab-item0chem-cast-iron/40
-    loveclab-item0chem-steel/10
+    loveclab-item0buil-glass/40
+    loveclab-item0chem-cupronickel/25
+    loveclab-item0chem-stainless-steel/25
   ]
-  buildCostMultiplier: 3.0
+  buildCostMultiplier: 1.5
 
 
 /*
@@ -24,7 +24,7 @@
 
 
   research: {
-    parent: bliq0stor-bronze-liquid-router
+    parent: dbct0tech-advanced-fluid-transportation
     objectives: []
   }
   researchCostMultiplier: 0.3
@@ -39,11 +39,11 @@
 
   scaledHealth: 60.0
   armor: 12.0
-  size: 2
+  size: 1
   hasItems: false
   itemCapacity: 20
   hasLiquids: true
-  liquidCapacity: 600.0
+  liquidCapacity: 10.0
   hasPower: false
 
 
@@ -65,4 +65,4 @@
 
 
   squareSprite: false
-  liquidPadding: 1.5
+  liquidPadding: 1.0

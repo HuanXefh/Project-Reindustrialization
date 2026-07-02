@@ -1,11 +1,11 @@
 /* <---------- min0drl ----------> */
 
 projreind-min0drl-survivor-drill: 6.0
-projreind-min0drl-primitive-burner-drill: 16.0
+projreind-min0drl-primitive-burner-drill: 18.0
 projreind-min0drl-progress-class-drill: 2.0
 projreind-min0drl-pangolin-class-wall-drill: 4.0
 projreind-min0drl-anteater-class-wall-drill: 6.0
-projreind-min0drl-scavenger-class-deposit-drill: 14.0
+projreind-min0drl-scavenger-class-deposit-drill: 15.0
 projreind-min0drl-boulder-class-impact-drill: 4.0
 projreind-min0drl-topaz-class-sand-miner: 12.0
 
@@ -15,7 +15,7 @@ projreind-pow0heat-combustion-heater: 6.0
 
 /* <---------- fac0air ----------> */
 
-projreind-fac0air-air-collector: -4.0
+projreind-fac0air-air-collector: -1.5
 projreind-fac0air-air-filter: -30.0
 
 /* <---------- fac0furn ----------> */

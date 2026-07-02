@@ -23,28 +23,15 @@ const rc = {
     /* <---------- misc ----------> */
 
 
+    /* T1 */
+
+
     "generic tech point t1", {
       icon: "loveclab-item0misc-generic-tech-point-t1",
       category: "misc",
 
       bo: [
         "loveclab-item0misc-generic-tech-point-t1", 1, 1.0,
-      ],
-    },
-
-
-    "generic tech point t2", {
-      icon: "loveclab-item0misc-generic-tech-point-t2",
-      category: "misc",
-
-      bi: [
-        "loveclab-item0misc-generic-tech-point-t1", 1, 1.0,
-        "loveclab-item0chem-mangalloy", 30, 1.0,
-        "loveclab-item0chem-rubber", 30, 1.0,
-      ],
-
-      bo: [
-        "loveclab-item0misc-generic-tech-point-t2", 1, 1.0,
       ],
     },
 
@@ -65,6 +52,41 @@ const rc = {
     },
 
 
+    "chemistry tech point t1", {
+      icon: "loveclab-item0misc-chemistry-tech-point-t1",
+      category: "misc",
+
+      bi: [
+        "loveclab-item0misc-generic-tech-point-t1", 1, 1.0,
+        "loveclab-item0chem-tin-bronze", 30, 1.0,
+        "loveclab-item0chem-graphite", 30, 1.0,
+      ],
+
+      bo: [
+        "loveclab-item0misc-chemistry-tech-point-t1", 1, 1.0,
+      ],
+    },
+
+
+    /* T2 */
+
+
+    "generic tech point t2", {
+      icon: "loveclab-item0misc-generic-tech-point-t2",
+      category: "misc",
+
+      bi: [
+        "loveclab-item0misc-generic-tech-point-t1", 1, 1.0,
+        "loveclab-item0chem-mangalloy", 30, 1.0,
+        "loveclab-item0chem-rubber", 30, 1.0,
+      ],
+
+      bo: [
+        "loveclab-item0misc-generic-tech-point-t2", 1, 1.0,
+      ],
+    },
+
+
     "engineering tech point t2", {
       icon: "loveclab-item0misc-engineering-tech-point-t2",
       category: "misc",
@@ -79,22 +101,6 @@ const rc = {
 
       bo: [
         "loveclab-item0misc-engineering-tech-point-t2", 1, 1.0,
-      ],
-    },
-
-
-    "chemistry tech point t1", {
-      icon: "loveclab-item0misc-chemistry-tech-point-t1",
-      category: "misc",
-
-      bi: [
-        "loveclab-item0misc-generic-tech-point-t1", 1, 1.0,
-        "loveclab-item0chem-tin-bronze", 30, 1.0,
-        "loveclab-item0chem-graphite", 30, 1.0,
-      ],
-
-      bo: [
-        "loveclab-item0misc-chemistry-tech-point-t1", 1, 1.0,
       ],
     },
 

@@ -23,9 +23,9 @@
       nmMod: "projreind", nmChara: "shirone",
       fracX: 0.5, isDark: false,
     })
-    .setUselessSelections([
-      "projreind", "camp-atm002", "1a",
-      "projreind", "camp-atm002", "1b",
+    .setUselessSelections(4, [
+      "projreind", "camp-atm002", "a",
+      "projreind", "camp-atm002", "b",
     ])
     .setText("projreind", "camp-atm002", 5).setSpeaker("projreind", "shirone").setChara({
       nmMod: "projreind", nmChara: "shirone",
@@ -36,17 +36,17 @@
       nmMod: "projreind", nmChara: "shirone",
       fracX: 0.5, isDark: false,
     })
-    .setUselessSelections([
-      "projreind", "camp-atm002", "2a",
-      "projreind", "camp-atm002", "2b",
+    .setUselessSelections(6, [
+      "projreind", "camp-atm002", "a",
+      "projreind", "camp-atm002", "b",
     ])
     .setText("projreind", "camp-atm002", 7).setSpeaker("projreind", "shirone").setChara({
       nmMod: "projreind", nmChara: "shirone",
       fracX: 0.5, isDark: false,
       anim: "shake",
     })
-    .setUselessSelections([
-      "projreind", "camp-atm002", "3a",
+    .setUselessSelections(7, [
+      "projreind", "camp-atm002", "a",
     ])
     .setText("projreind", "camp-atm002", 8).setSpeaker("projreind", "shirone").setChara({
       nmMod: "projreind", nmChara: "shirone",
@@ -61,9 +61,9 @@
       nmMod: "projreind", nmChara: "shirone",
       fracX: 0.5, isDark: false,
     })
-    .setUselessSelections([
-      "projreind", "camp-atm002", "4a",
-      "projreind", "camp-atm002", "4b",
+    .setUselessSelections(10, [
+      "projreind", "camp-atm002", "a",
+      "projreind", "camp-atm002", "b",
     ])
     .setText("projreind", "camp-atm002", 11).setSpeaker("projreind", "shirone").setChara({
       nmMod: "projreind", nmChara: "shirone",

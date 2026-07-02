@@ -1,0 +1,18 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: dbct0tech-advanced-logistics
+    objectives: []
+    requirements: [
+      loveclab-item0chem-graphite/6000
+      loveclab-item0chem-cupronickel/1000
+      loveclab-item0chem-stainless-steel/750
+      loveclab-item0misc-engineering-tech-point-t1/50
+      loveclab-item0misc-engineering-tech-point-t2/20
+    ]
+  }

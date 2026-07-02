@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.3.26063001",
-    "loveclab", "101.3.26063001",
+    "lovec", "101.3.26070201",
+    "loveclab", "101.3.26070201",
   ])) return;
 
 
@@ -127,6 +127,7 @@
     if(!Vars.headless && fetchSetting("misc-enable-window")) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-bliq0aux-fluid-unloader",
         "projreind-bliq0aux-fluid-overflow-valve",
         "projreind-eff0stor-remote-core-relay",
         "projreind-min0drl-primitive-burner-drill",

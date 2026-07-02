@@ -44,11 +44,26 @@
   );
 
 
+  const dbct0tech_advancedLogistics = extendBase(
+    TEMPLATE, "dbct0tech-advanced-logistics",
+  );
+
+
+  const dbct0tech_coreLogistics = extendBase(
+    TEMPLATE, "dbct0tech-core-logistics",
+  );
+
+
   /* <---------- dbct0tech (fluid) ----------> */
 
 
   const dbct0tech_pressurization = extendBase(
     TEMPLATE, "dbct0tech-pressurization",
+  );
+
+
+  const dbct0tech_advancedFluidTransportation = extendBase(
+    TEMPLATE, "dbct0tech-advanced-fluid-transportation",
   );
 
 
