@@ -5,14 +5,14 @@
 */
 
 
-  # type: LiquidRouter
+  # type: LiquidBridge
   category: liquid
   requirements: [
-    loveclab-item0chem-graphite/30
-    loveclab-item0chem-tin-bronze/30
-    loveclab-item0chem-steel/20
+    loveclab-item0bio-timber/30
+    loveclab-item0chem-lead/15
+    loveclab-item0chem-graphite/10
   ]
-  buildCostMultiplier: 2.5
+  buildCostMultiplier: 4.5
 
 
 /*
@@ -23,10 +23,10 @@
 
 
   research: {
-    parent: bliq0stor-bronze-liquid-router
+    parent: bliq0cond-wooden-gas-pipe
     objectives: []
   }
-  researchCostMultiplier: 0.4
+  researchCostMultiplier: 0.2
 
 
 /*
@@ -36,13 +36,13 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
-  size: 2
+  scaledHealth: 40.0
+  armor: 0.0
+  size: 1
   hasItems: false
   itemCapacity: 20
   hasLiquids: true
-  liquidCapacity: 1200.0
+  liquidCapacity: 10.0
   hasPower: false
 
 
@@ -53,7 +53,7 @@
 */
 
 
-  envDisabled: 16
+  envDisabled: 22
 
 
 /*
@@ -63,5 +63,23 @@
 */
 
 
-  squareSprite: false
-  liquidPadding: 1.5
+  squareSprite: true
+  fadeIn: false
+  moveArrows: true
+  pulse: false
+  arrowSpacing: 6.0
+  arrowOffset: 2.0
+  arrowPeriod: 0.4
+  arrowTimeScl: 6.0
+  bridgeWidth: 8.0
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  transportTime: 5.0
+  range: 4

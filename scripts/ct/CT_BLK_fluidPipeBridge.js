@@ -21,6 +21,11 @@
   /* <---------- bliq0brd ----------> */
 
 
+  const bliq0brd_woodenFluidPipeBridge = extendBlock(
+    TEMPLATE, "bliq0brd-wooden-fluid-pipe-bridge",
+  );
+
+
   const bliq0brd_bronzeFluidPipeBridge = extendBlock(
     TEMPLATE, "bliq0brd-bronze-fluid-pipe-bridge",
     TEMPLATE[0].build({

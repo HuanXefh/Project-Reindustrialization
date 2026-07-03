@@ -32,6 +32,14 @@
   );
 
 
+  const bliq0stor_woodenBarrel = extendBlock(
+    TEMPLATE, "bliq0stor-wooden-barrel",
+    TEMPLATE[0].build({
+      fldType: "liquid",
+    }),
+  );
+
+
   const bliq0stor_steelLiquidTank = extendBlock(
     TEMPLATE, "bliq0stor-steel-liquid-tank",
     TEMPLATE[0].build({

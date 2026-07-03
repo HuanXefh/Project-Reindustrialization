@@ -9,8 +9,9 @@
   category: effect
   requirements: [
     loveclab-item0bio-timber/40
-    loveclab-item0chem-lead/25
-    loveclab-item0chem-brass/25
+    loveclab-item0chem-lead/30
+    loveclab-item0chem-brass/30
+    loveclab-item0chem-cast-iron/15
   ]
   buildCostMultiplier: 1.5
 

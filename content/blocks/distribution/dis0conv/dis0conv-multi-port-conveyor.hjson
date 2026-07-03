@@ -8,10 +8,10 @@
   # type: StackConveyor
   category: distribution
   requirements: [
-    loveclab-item0bio-timber/7
-    loveclab-item0chem-graphite/5
-    loveclab-item0chem-leaded-tin-bronze/3
-    loveclab-item0chem-steel/2
+    loveclab-item0bio-timber/8
+    loveclab-item0chem-graphite/6
+    loveclab-item0chem-leaded-tin-bronze/4
+    loveclab-item0chem-steel/3
   ]
   buildCostMultiplier: 5.0
 
@@ -54,7 +54,7 @@
 */
 
 
-  envDisabled: 22
+  envDisabled: 20
 
 
 /*

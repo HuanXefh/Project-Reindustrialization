@@ -5,15 +5,12 @@
 */
 
 
-  # type: Duct
+  # type: Conveyor
   category: distribution
   requirements: [
-    loveclab-item0bio-timber/4
-    loveclab-item0buil-tempered-glass/2
-    loveclab-item0chem-graphite/3
-    loveclab-item0chem-cupronickel/2
+    loveclab-item0bio-timber/2
   ]
-  buildCostMultiplier: 0.2
+  buildCostMultiplier: 6.0
 
 
 /*
@@ -24,10 +21,10 @@
 
 
   research: {
-    parent: dis0conv-multi-port-conveyor
+    parent: dis0aux-item-junction
     objectives: []
   }
-  buildCostMultiplier: 15.0
+  researchCostMultiplier: 3.5
 
 
 /*
@@ -37,11 +34,11 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
+  scaledHealth: 40.0
+  armor: 0.0
   size: 1
   hasItems: true
-  itemCapacity: 1
+  itemCapacity: 3
   hasLiquids: false
   liquidCapacity: 5.0
   hasPower: false
@@ -54,7 +51,8 @@
 */
 
 
-  envDisabled: 16
+  envRequired: 1
+  envDisabled: 22
 
 
 /*
@@ -64,7 +62,7 @@
 */
 
 
-  speed: 5.0
-  armored: false
+  speed: 0.007
+  displayedSpeed: 1.0
   junctionReplacement: dis0aux-item-junction
   bridgeReplacement: dis0brd-conveyor-bridge

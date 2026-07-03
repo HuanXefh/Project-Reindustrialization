@@ -5,15 +5,13 @@
 */
 
 
-  # type: Duct
-  category: distribution
+  # type: LiquidRouter
+  category: liquid
   requirements: [
-    loveclab-item0bio-timber/4
-    loveclab-item0buil-tempered-glass/2
-    loveclab-item0chem-graphite/3
-    loveclab-item0chem-cupronickel/2
+    loveclab-item0bio-timber/120
+    loveclab-item0chem-copper/25
   ]
-  buildCostMultiplier: 0.2
+  buildCostMultiplier: 1.0
 
 
 /*
@@ -24,10 +22,10 @@
 
 
   research: {
-    parent: dis0conv-multi-port-conveyor
+    parent: bliq0brd-wooden-fluid-pipe-bridge
     objectives: []
   }
-  buildCostMultiplier: 15.0
+  researchCostMultiplier: 0.085
 
 
 /*
@@ -37,13 +35,13 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
-  size: 1
-  hasItems: true
-  itemCapacity: 1
-  hasLiquids: false
-  liquidCapacity: 5.0
+  scaledHealth: 40.0
+  armor: 0.0
+  size: 2
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: true
+  liquidCapacity: 450.0
   hasPower: false
 
 
@@ -54,17 +52,15 @@
 */
 
 
-  envDisabled: 16
+  envDisabled: 22
 
 
 /*
   ========================================
-  Section: Specific
+  Section: Visual
   ========================================
 */
 
 
-  speed: 5.0
-  armored: false
-  junctionReplacement: dis0aux-item-junction
-  bridgeReplacement: dis0brd-conveyor-bridge
+  squareSprite: false
+  liquidPadding: 1.5

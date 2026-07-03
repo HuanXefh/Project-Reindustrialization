@@ -8,8 +8,8 @@
   # type: ArmoredConveyor
   category: distribution
   requirements: [
-    loveclab-item0bio-timber/2
-    loveclab-item0chem-brass/1
+    loveclab-item0bio-timber/3
+    loveclab-item0chem-brass/2
     loveclab-item0chem-steel/1
   ]
   buildCostMultiplier: 4.0
@@ -23,7 +23,7 @@
 
 
   research: {
-    parent: dis0aux-item-junction
+    parent: dis0conv-wooden-conveyor
     objectives: []
   }
   buildCostMultiplier: 5.0
@@ -54,7 +54,7 @@
 
 
   envRequired: 1
-  envDisabled: 22
+  envDisabled: 20
 
 
 /*

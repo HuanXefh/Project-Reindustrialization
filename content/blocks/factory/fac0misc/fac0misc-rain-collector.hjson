@@ -8,11 +8,11 @@
   # type: GenericCrafter
   category: crafting
   requirements: [
-    loveclab-item0bio-timber/35
-    loveclab-item0chem-graphite/15
-    loveclab-item0chem-cast-iron/15
+    loveclab-item0bio-timber/40
+    loveclab-item0chem-graphite/25
+    loveclab-item0chem-cast-iron/20
   ]
-  buildCostMultiplier: 4.0
+  buildCostMultiplier: 3.0
 
 
 /*
@@ -23,7 +23,7 @@
 
 
   research: {
-    parent: bliq0stor-steel-liquid-tank
+    parent: bliq0stor-wooden-barrel
     objectives: []
   }
   researchCostMultiplier: 0.45

@@ -23,6 +23,11 @@
   /* <---------- dis0conv ----------> */
 
 
+  const dis0conv_woodenConveyor = extendBlock(
+    TEMPLATE, "dis0conv-wooden-conveyor",
+  );
+
+
   const dis0conv_primitiveConveyor = extendBlock(
     TEMPLATE_A, "dis0conv-primitive-conveyor",
   );

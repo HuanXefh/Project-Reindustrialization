@@ -150,6 +150,10 @@ const db = {
         "projreind-bliq0cond-wooden-liquid-pipe",
         "projreind-bliq0cond-wooden-gas-pipe",
 
+        "projreind-bliq0brd-wooden-fluid-pipe-bridge",
+
+        "projreind-bliq0stor-wooden-barrel",
+
       ],
 
 
@@ -237,6 +241,7 @@ const db = {
     exposed: [
 
       "projreind-dis0conv-primitive-conveyor",
+      "projreind-dis0conv-wooden-conveyor",
       "projreind-dis0conv-standard-conveyor",
       "projreind-dis0conv-multi-port-conveyor",
 
@@ -256,6 +261,8 @@ const db = {
     cloggable: [
 
       "projreind-bliq0cond-wooden-liquid-pipe",
+
+      "projreind-bliq0brd-wooden-fluid-pipe-bridge",
 
     ],
 

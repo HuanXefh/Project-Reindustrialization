@@ -8,9 +8,9 @@
   # type: ArmoredConveyor
   category: distribution
   requirements: [
-    loveclab-item0chem-copper/1
+    loveclab-item0chem-copper/2
   ]
-  buildCostMultiplier: 5.0
+  buildCostMultiplier: 6.0
 
 
 /*
@@ -52,7 +52,7 @@
 
 
   envRequired: 1
-  envDisabled: 22
+  envDisabled: 20
 
 
 /*
