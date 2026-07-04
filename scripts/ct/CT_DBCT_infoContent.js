@@ -24,6 +24,6 @@
   const dbct0info_atm001 = extendBase(
     TEMPLATE, "dbct0info-atm001",
     TEMPLATE.build({
-      nmInfo: "camp-atm001",
+      nameInfo: "camp-atm001",
     }),
   );

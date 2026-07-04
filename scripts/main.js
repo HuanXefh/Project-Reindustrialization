@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.3.26070301",
-    "loveclab", "101.3.26070201",
+    "lovec", "101.3.26070404",
+    "loveclab", "101.3.26070401",
   ])) return;
 
 
@@ -219,8 +219,8 @@
         const cellUpdate = cont.table(Styles.none, tb => {
           tb.pane(pnTb => {
             MDL_table.__margin(pnTb);
-            Object._it(data, (verStr, nmCts) => {
-              pnTb.button(verStr, () => fetchDialog("ctsRow").ex_show(verStr, nmCts)).center().size(300.0, 50.0).row();
+            Object._it(data, (verStr, nameCts) => {
+              pnTb.button(verStr, () => fetchDialog("ctsRow").ex_show(verStr, nameCts)).center().size(300.0, 50.0).row();
               MDL_table.__break(pnTb, 1);
             });
           }).grow();

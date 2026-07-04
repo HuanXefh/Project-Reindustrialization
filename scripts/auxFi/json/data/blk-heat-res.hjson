@@ -1,26 +1,26 @@
 /* <---------- pow0heat ----------> */
 
-projreind-pow0heat-combustion-heater: 1800.0
+projreind-pow0heat-combustion-heater: 1850.0
 projreind-pow0heat-resistance-heater: 750.0
 
 /* <---------- fac0furn ----------> */
 
-projreind-fac0furn-kiln: 1600.0
-projreind-fac0furn-primitive-smelter: 1600.0
-projreind-fac0furn-bloomery: 1800.0
-projreind-fac0furn-bricked-blast-furnace: 2000.0
-projreind-fac0furn-primitive-crucible: 1800.0
-projreind-fac0furn-primitive-sintering-furnace: 1800.0
-projreind-fac0furn-primitive-coke-oven: 1600.0
-projreind-fac0furn-coke-oven-battery: 1800.0
-projreind-fac0furn-tube-furnace: 1800.0
+projreind-fac0furn-kiln: 1650.0
+projreind-fac0furn-primitive-smelter: 1650.0
+projreind-fac0furn-bloomery: 1850.0
+projreind-fac0furn-bricked-blast-furnace: 2050.0
+projreind-fac0furn-primitive-crucible: 1850.0
+projreind-fac0furn-primitive-sintering-furnace: 1850.0
+projreind-fac0furn-primitive-coke-oven: 1650.0
+projreind-fac0furn-coke-oven-battery: 1850.0
+projreind-fac0furn-tube-furnace: 1850.0
 
 /* <---------- fac0heat ----------> */
 
-projreind-fac0heat-melt-cooling-chamber: 1800.0
+projreind-fac0heat-melt-cooling-chamber: 1850.0
 
 /* <---------- fac0proc ----------> */
 
 projreind-fac0proc-briquette-press: 750.0
-projreind-fac0proc-primitive-caster: 1800.0
-projreind-fac0proc-primitive-forge: 1800.0
+projreind-fac0proc-primitive-caster: 1850.0
+projreind-fac0proc-primitive-forge: 1850.0
