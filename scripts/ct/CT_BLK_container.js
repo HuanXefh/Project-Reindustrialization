@@ -49,6 +49,6 @@
   const eff0stor_remoteCoreRelay = extendBlock(
     TEMPLATE_B, "eff0stor-remote-core-relay",
     TEMPLATE_B[0].build({
-      coreSendCooldown: 450.0,
+      itmSendCooldown: 750.0,
     }),
   );
