@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.3.26070404",
-    "loveclab", "101.3.26070401",
+    "lovec", "101.3.26070601",
+    "loveclab", "101.3.26070601",
   ])) return;
 
 
