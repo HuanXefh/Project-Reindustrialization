@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.3.26070601",
-    "loveclab", "101.3.26070601",
+    "lovec", "101.4",
+    "loveclab", "101.4",
   ])) return;
 
 
@@ -48,6 +48,7 @@
 
 
   require("projreind/ct/CT_BLK_heatConductor");
+  require("projreind/ct/CT_BLK_heatProducer");
   require("projreind/ct/CT_BLK_heatSource");
   require("projreind/ct/CT_BLK_boiler");
 
@@ -127,6 +128,8 @@
     if(!Vars.headless && fetchSetting("misc-enable-window")) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-pow0heat-resistance-heater",
+        "projreind-pow0heat-combustion-heater",
         "projreind-bliq0aux-fluid-unloader",
         "projreind-bliq0aux-fluid-overflow-valve",
         "projreind-eff0stor-remote-core-relay",
@@ -150,7 +153,7 @@
         "projreind-camp-atm002-lantern-cave",
         "projreind-eff0li-bonfire",
         "projreind-pow0boil-primitive-boiler",
-        "projreind-pow0turb-primitive-steam-turbine",
+        "projreind-pow0tor-primitive-steam-turbine",
         "projreind-dis0mdr-standard-mass-driver",
         "projreind-log0aux-resource-display-panel",
         "projreind-pow0heat-heat-source",

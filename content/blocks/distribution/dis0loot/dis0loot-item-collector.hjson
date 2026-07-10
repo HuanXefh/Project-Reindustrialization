@@ -65,8 +65,6 @@
 
 
   squareSprite: false
-  ambientSound: beamParallax
-  ambientSoundVolume: 0.7
 
 
 /*

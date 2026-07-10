@@ -63,13 +63,25 @@
   );
 
 
-  /* <---------- pow0turb ----------> */
+  /* <---------- pow0tor ----------> */
 
 
-  const pow0turb_primitiveSteamTurbine = extendBlock(
-    TEMPLATE, "pow0turb-primitive-steam-turbine",
+  const pow0tor_primitiveSteamTurbine = extendBlock(
+    TEMPLATE, "pow0tor-primitive-steam-turbine",
   );
-  setConsumer(pow0turb_primitiveSteamTurbine, conss => [
+  setDrawer(pow0tor_primitiveSteamTurbine, drawers => [
+    drawers,
+    fetchDrawer("DrawEffect", {
+      eff: TP_effect._gasEmission({
+        size: 14.0,
+        rad: 50.0,
+        color: "d0d0d0",
+        scl: 1.5,
+      }),
+      effP: 0.03,
+    }),
+  ]),
+  setConsumer(pow0tor_primitiveSteamTurbine, conss => [
     conss,
     fetchConsumer("ConsumeLiquidEfficiencyMap", {
       amt: 0.25,

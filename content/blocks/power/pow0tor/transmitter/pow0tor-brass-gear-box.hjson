@@ -66,3 +66,4 @@
   squareSprite: false
   ambientSound: se-amb-cogwheel
   ambientSoundVolume: 0.1
+  placeSound: se-place-metal

@@ -8,10 +8,10 @@
   # type: Wall
   category: power
   requirements: [
-    loveclab-item0chem-brass/30
-    loveclab-item0chem-steel/10
+    loveclab-item0chem-graphite/5
+    loveclab-item0chem-cast-iron/7
   ]
-  buildCostMultiplier: 3.0
+  buildCostMultiplier: 8.0
 
 
 /*
@@ -22,10 +22,10 @@
 
 
   research: {
-    parent: pow0tor-brass-cogwheel
+    parent: pow0heat-copper-heat-conductor-plate
     objectives: []
   }
-  researchCostMultiplier: 0.5
+  researchCostMultiplier: 1.5
 
 
 /*
@@ -37,7 +37,7 @@
 
   scaledHealth: 60.0
   armor: 12.0
-  size: 3
+  size: 1
   hasItems: false
   itemCapacity: 20
   hasLiquids: false
@@ -52,7 +52,7 @@
 */
 
 
-  envDisabled: 16
+  envDisabled: 20
 
 
 /*
@@ -62,7 +62,5 @@
 */
 
 
-  squareSprite: false
-  customShadow: true
-  ambientSound: se-amb-cogwheel
-  ambientSoundVolume: 0.3
+  squareSprite: true
+  placeSound: se-place-metal

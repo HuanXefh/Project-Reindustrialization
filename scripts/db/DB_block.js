@@ -247,7 +247,6 @@ const db = {
 
       "projreind-dis0brd-primitive-conveyor-bridge",
 
-      "projreind-dis0aux-item-junction",
       "projreind-dis0aux-item-incinerator",
 
       "projreind-eff0stor-crate",

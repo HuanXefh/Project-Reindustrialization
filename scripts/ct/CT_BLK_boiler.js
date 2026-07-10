@@ -29,6 +29,7 @@
       exploShake: 6.0,
       exploFldTg: "loveclab-gas0int-steam-mp",
       presProd: 0.06666667,
+      tempReq: 100.0,
       tempExtMtp: 0.25,
       heatA: 0.5,
     }),

@@ -1,0 +1,167 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: GenericCrafter
+  category: power
+  requirements: [
+    loveclab-item0chem-brass/90
+    loveclab-item0chem-tin-bronze/80
+    loveclab-item0chem-cast-iron/50
+    loveclab-item0chem-steel/30
+  ]
+  buildCostMultiplier: 1.5
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: pow0tor-manual-crank
+    objectives: []
+  }
+  researchCostMultiplier: 0.25
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 50.0
+  armor: 6.0
+  size: 3
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: true
+  liquidCapacity: 5.0
+  hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envDisabled: 20
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawRegion
+        suffix: "-bottom"
+      }
+
+
+      {
+        type: DrawBlurSpin
+        suffix: "-rotator"
+        rotateSpeed: 1.5
+        blurThresh: 0.5
+      }
+
+
+      {
+        type: DrawPistons
+        suffix: "-piston"
+        x: 0
+        y: 0
+        sides: 1
+        sinMag: 2.5
+        sinScl: 5.0
+        sinOffset: 0.0
+        sideOffset: 0.0
+        lenOffset: -1.0
+        horiOffset: 0.0
+        angleOffset: 90.0
+      }
+
+
+      {
+        type: DrawPistons
+        suffix: "-piston1"
+        x: 0
+        y: 0
+        sides: 1
+        sinMag: 3.2
+        sinScl: 2.5
+        sinOffset: 12.0
+        sideOffset: 0.0
+        lenOffset: -1.0
+        horiOffset: 0.0
+        angleOffset: 90.0
+      }
+
+
+      {
+        type: DrawPistons
+        suffix: "-piston2"
+        x: 0
+        y: 0
+        sides: 1
+        sinMag: 3.2
+        sinScl: 2.5
+        sinOffset: 21.0
+        sideOffset: 0.0
+        lenOffset: -1.0
+        horiOffset: 0.0
+        angleOffset: 90.0
+      }
+
+
+      {
+        type: DrawDefault
+      }
+
+
+    ]
+  }
+  ambientSound: se-amb-turbine-piston
+  ambientSoundVolume: 0.4
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  ignoreLiquidFullness: true
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  craftTime: 300.0
+  outputLiquids: [
+    loveclab-gas0misc-steam/0.25
+    loveclab-aux0aux-torque/0.5
+  ]

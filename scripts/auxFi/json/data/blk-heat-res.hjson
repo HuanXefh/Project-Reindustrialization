@@ -1,8 +1,3 @@
-/* <---------- pow0heat ----------> */
-
-projreind-pow0heat-combustion-heater: 1850.0
-projreind-pow0heat-resistance-heater: 750.0
-
 /* <---------- fac0furn ----------> */
 
 projreind-fac0furn-kiln: 1650.0
