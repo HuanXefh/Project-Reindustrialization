@@ -229,8 +229,19 @@
           }).grow();
           tb.row();
 
+          let clickCount = 0, lastClickTime = 0.0;
           let textGlbInd = 0;
           tb.button(new TextureRegionDrawable(Core.atlas.find("projreind-earlan")), Styles.clearNonei, 64.0, () => {
+            if(Time.globalTime - lastClickTime < 30.0) {
+              if(clickCount >= 10) {
+                winWelcome.close();
+              };
+              clickCount++;
+            } else {
+              clickCount = 0;
+            };
+            lastClickTime = Time.globalTime;
+
             let textEnd = false;
             let textInd = ++textGlbInd;
             MDL_ui._d_chara(0.0, "lovec", "earlan", () => textEnd || textInd < textGlbInd, 0.5, false, "fade-in");

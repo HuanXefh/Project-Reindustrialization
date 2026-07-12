@@ -69,7 +69,7 @@
   const pow0tor_primitiveSteamTurbine = extendBlock(
     TEMPLATE, "pow0tor-primitive-steam-turbine",
   );
-  setDrawer(pow0tor_primitiveSteamTurbine, drawers => [
+  /*setDrawer(pow0tor_primitiveSteamTurbine, drawers => [
     drawers,
     fetchDrawer("DrawEffect", {
       eff: TP_effect._gasEmission({
@@ -91,4 +91,4 @@
         "loveclab-gas0int-steam-lp", 0.5,
       ],
     }),
-  ]);
+  ]);*/
