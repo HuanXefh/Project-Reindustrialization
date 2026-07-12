@@ -69,7 +69,7 @@
   const pow0tor_primitiveSteamTurbine = extendBlock(
     TEMPLATE, "pow0tor-primitive-steam-turbine",
   );
-  /*setDrawer(pow0tor_primitiveSteamTurbine, drawers => [
+  setDrawer(pow0tor_primitiveSteamTurbine, drawers => [
     drawers,
     fetchDrawer("DrawEffect", {
       eff: TP_effect._gasEmission({
@@ -80,7 +80,7 @@
       }),
       effP: 0.03,
     }),
-  ]),*/
+  ]),
   setConsumer(pow0tor_primitiveSteamTurbine, conss => [
     conss,
     fetchConsumer("ConsumeLiquidEfficiencyMap", {
