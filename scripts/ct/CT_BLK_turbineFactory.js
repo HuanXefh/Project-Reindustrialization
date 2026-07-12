@@ -80,7 +80,7 @@
       }),
       effP: 0.03,
     }),
-  ]),
+  ]),*/
   setConsumer(pow0tor_primitiveSteamTurbine, conss => [
     conss,
     fetchConsumer("ConsumeLiquidEfficiencyMap", {
@@ -91,4 +91,4 @@
         "loveclab-gas0int-steam-lp", 0.5,
       ],
     }),
-  ]);*/
+  ]);
