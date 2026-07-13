@@ -30,10 +30,14 @@ Mod features:
 
 
 Required mods:
+
 - Lovecraftian Library
 - Lovecraftian Laboratory
 
+
+
 Optional mods:
+
 - TooManyItems
 
 
@@ -47,4 +51,4 @@ Do not download the mod and its dependencies directly in mod browser, download t
 Do not download this mod only, the game will try downloading denpendencies which may be test versions and cause crash!
 '''
 
-version: 101.4.26071201
+version: 101.4.26071301

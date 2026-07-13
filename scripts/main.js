@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.4",
-    "loveclab", "101.4",
+    "lovec", "101.4.26071301",
+    "loveclab", "101.4.26071301",
   ])) return;
 
 
@@ -114,12 +114,16 @@
       };
 
       if(Mathf.chance(0.2)) {
-        let tmpSeq = Vars.ui.database.getChildren();
-        tmpSeq.get(tmpSeq.size - 1).button("@info.projreind-info-dont-click-me.name", () => Core.app.openURI(
-          global.lovecUtil.prop.locale === "zh_CN" ?
-          "https://www.bilibili.com/video/BV1GJ411x7h7" :
-          "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-        )).size(210.0, 64.0);
+        MDL_util.addDatabaseButton(
+          MDL_bundle._info("projreind", "dont-click-me"),
+          () => {
+            Core.app.openURI(
+              global.lovecUtil.prop.locale === "zh_CN" ?
+                "https://www.bilibili.com/video/BV1GJ411x7h7" :
+                "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            );
+          },
+        );
       };
     };
 
@@ -234,7 +238,10 @@
           tb.button(new TextureRegionDrawable(Core.atlas.find("projreind-earlan")), Styles.clearNonei, 64.0, () => {
             if(Time.globalTime - lastClickTime < 30.0) {
               if(clickCount >= 10) {
+                Sounds.wind3.play();
                 winWelcome.close();
+                MDL_ui.clearDialFlow();
+                return;
               };
               clickCount++;
             } else {

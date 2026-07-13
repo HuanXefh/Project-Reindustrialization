@@ -1,0 +1,17 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: fac0misc-laboratory
+    objectives: []
+    requirements: [
+      loveclab-item0chem-graphite/1500
+      loveclab-item0chem-steel/500
+      loveclab-item0misc-engineering-tech-point-t1/10
+      loveclab-item0misc-chemistry-tech-point-t1/10
+    ]
+  }

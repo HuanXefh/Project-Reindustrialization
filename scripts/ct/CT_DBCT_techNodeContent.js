@@ -116,3 +116,11 @@
   const dbct0tech_pollutionControl = extendBase(
     TEMPLATE, "dbct0tech-pollution-control",
   );
+
+
+  /* <---------- dbct0tech (recipe) ----------> */
+
+
+  const dbct0tech_alloySteelMakingI = extendBase(
+    TEMPLATE, "dbct0tech-alloy-steel-making-i",
+  );

@@ -116,7 +116,7 @@ const rc = {
       icon: "loveclab-item0chem-ferromanganese",
       category: "steelmaking",
       lockedBy: [
-        "loveclab-item0chem-steel",
+        "projreind-dbct0tech-alloy-steel-making-i",
       ],
       timeScl: 3.0,
       tempReq: 1600.0,
@@ -141,7 +141,7 @@ const rc = {
       icon: "loveclab-item0chem-mangalloy",
       category: "steelmaking",
       lockedBy: [
-        "loveclab-item0chem-steel",
+        "projreind-dbct0tech-alloy-steel-making-i",
       ],
       timeScl: 3.0,
       tempReq: 1600.0,
