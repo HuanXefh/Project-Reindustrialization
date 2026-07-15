@@ -98,6 +98,22 @@
   );
 
 
+  const dis0aux_primitiveCoreUnloader = extendBlock(
+    TEMPLATE_DB, "dis0aux-primitive-core-unloader",
+    TEMPLATE_DB[0].build({
+      forceUseDrawer: true,
+    }),
+  );
+  setDrawer(dis0aux_primitiveCoreUnloader, drawers => [
+    new DrawRegion(),
+    new DrawSideRegion(),
+    fetchDrawer("DrawColorRegion", {
+      suffix: "-center",
+      colorGetterTup: [b => b.unloadItem == null ? null : b.unloadItem.color],
+    }),
+  ]);
+
+
   const dis0aux_remoteCoreUnloader = extendBlock(
     TEMPLATE_DB, "dis0aux-remote-core-unloader",
   );

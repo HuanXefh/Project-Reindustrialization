@@ -124,3 +124,18 @@
   const dbct0tech_alloySteelMakingI = extendBase(
     TEMPLATE, "dbct0tech-alloy-steel-making-i",
   );
+
+
+  const dbct0tech_latexProcessing = extendBase(
+    TEMPLATE, "dbct0tech-latex-processing",
+  );
+
+
+  const dbct0tech_semicokeProcessing = extendBase(
+    TEMPLATE, "dbct0tech-semicoke-processing",
+  );
+
+
+  const dbct0tech_glassware = extendBase(
+    TEMPLATE, "dbct0tech-glassware",
+  );

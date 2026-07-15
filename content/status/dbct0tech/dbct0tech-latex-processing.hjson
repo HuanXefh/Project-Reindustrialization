@@ -1,0 +1,17 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: dbct0tech-alloy-steel-making-i
+    objectives: []
+    requirements: [
+      loveclab-item0bio-timber/2500
+      loveclab-item0ore-crude-sulfur/500
+      loveclab-item0misc-engineering-tech-point-t1/10
+      loveclab-item0misc-chemistry-tech-point-t1/10
+    ]
+  }

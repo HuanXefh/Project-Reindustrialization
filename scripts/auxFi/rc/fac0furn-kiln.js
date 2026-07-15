@@ -17,7 +17,7 @@ const rc = {
       icon: "loveclab-item0int-raw-rubber",
       category: "misc",
       lockedBy: [
-        "loveclab-item0chem-mangalloy",
+        "projreind-dbct0tech-latex-processing",
       ],
       tempReq: 80.0,
       tempAllowed: 350.0,
@@ -39,7 +39,7 @@ const rc = {
       tint: Pal.remove,
       category: "misc",
       lockedBy: [
-        "loveclab-item0chem-mangalloy",
+        "projreind-dbct0tech-latex-processing",
       ],
       tempReq: 160.0,
       tempAllowed: 350.0,
@@ -61,7 +61,7 @@ const rc = {
       icon: "loveclab-item0chem-rubber",
       category: "misc",
       lockedBy: [
-        "loveclab-item0chem-mangalloy",
+        "projreind-dbct0tech-latex-processing",
       ],
       tempReq: 160.0,
       tempAllowed: 350.0,
@@ -83,6 +83,9 @@ const rc = {
     "MISC: glass", {
       icon: "loveclab-item0buil-glass",
       category: "misc",
+      lockedBy: [
+        "projreind-dbct0tech-glassware",
+      ],
       tempReq: 1500.0,
 
       bi: [
@@ -102,6 +105,9 @@ const rc = {
     "MISC: tempered glass", {
       icon: "loveclab-item0buil-tempered-glass",
       category: "misc",
+      lockedBy: [
+        "projreind-dbct0tech-glassware",
+      ],
       tempReq: 650.0,
       tempAllowed: 800.0,
 

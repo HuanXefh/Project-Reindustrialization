@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.4.26071301",
-    "loveclab", "101.4.26071301",
+    "lovec", "101.4.26071501",
+    "loveclab", "101.4.26071501",
   ])) return;
 
 
@@ -200,7 +200,7 @@
         };
         tipCap--;
 
-        // <TABLE>: text
+        // `TABLE`: text
         cont.table(Styles.none, tb => {
           tb.pane(pnTb => {
             pnTb.left();
@@ -217,12 +217,12 @@
           });
         }).growX().growY();
 
-        // <TABLE>: splitor
+        // `TABLE`: splitor
         cont.table(Styles.none, tb => {
           MDL_table.__barV(tb, Pal.accent, null, 8.0);
         }).marginLeft(50.0).marginRight(50.0).growY();
 
-        // <TABLE>: updates
+        // `TABLE`: updates
         const cellUpdate = cont.table(Styles.none, tb => {
           tb.pane(pnTb => {
             MDL_table.__margin(pnTb);
@@ -268,15 +268,15 @@
           this.cont.clear();
           this.buttons.clear();
 
-          // <TABLE>: info
+          // `TABLE`: info
           MDL_table.__break(this.cont);
           MDL_table._d_note(this.cont, MDL_bundle._info("projreind", "dial-credits", true));
 
-          // <TABLE>: bar
+          // `TABLE`: bar
           MDL_table.__break(this.cont);
           MDL_table.__bar(this.cont, null, MDL_ui._uiW());
 
-          // <TABLE>: content
+          // `TABLE`: content
           MDL_table.__break(this.cont);
           this.cont.pane(pnTb => {
             MDL_table.__margin(pnTb);
@@ -320,7 +320,7 @@
             )).left().row();
           }).width(MDL_ui._uiW()).row();
 
-          // <TABLE>: buttons
+          // `TABLE`: buttons
           MDL_table.__break(this.cont);
           MDL_table.__btnClose(this.buttons, this);
 

@@ -18,6 +18,7 @@ const db = {
         "projreind-min0drl-survivor-drill", 1.5,
         "projreind-min0scan-portable-ore-scanner", 4.0,
 
+        "projreind-dis0aux-primitive-core-unloader", 0.25,
         "projreind-dis0aux-remote-core-unloader", 1.5,
         "projreind-eff0stor-remote-core-relay", 3.5,
 

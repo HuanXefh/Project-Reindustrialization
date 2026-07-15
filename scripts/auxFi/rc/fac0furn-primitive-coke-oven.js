@@ -63,6 +63,9 @@ const rc = {
     "COKING: semicoke; FROM: peat", {
       icon: "loveclab-item0chem-peat",
       category: "coking",
+      lockedBy: [
+        "projreind-dbct0tech-semicoke-processing",
+      ],
       tempReq: 900.0,
 
       bi: [
@@ -81,6 +84,9 @@ const rc = {
     "COKING: semicoke; FROM: lignite", {
       icon: "loveclab-item0chem-lignite",
       category: "coking",
+      lockedBy: [
+        "projreind-dbct0tech-semicoke-processing",
+      ],
       tempReq: 900.0,
 
       bi: [
