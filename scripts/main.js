@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.4.26071501",
-    "loveclab", "101.4.26071501",
+    "lovec", "101.4.26072201",
+    "loveclab", "101.4.26072201",
   ])) return;
 
 
@@ -54,10 +54,6 @@
 
 
   require("projreind/ct/CT_BLK_baseFactory");
-  // Not time for this now
-  /*runWithDependency("projreind", "multi-block-lib", () => {
-    require("projreind/ct/CT_BLK_multiBlockLibRecipeFactory");
-  });*/
   require("projreind/ct/CT_BLK_turbineFactory");
 
 
@@ -107,9 +103,7 @@
 
     // Why are you here?
     if(!Vars.headless) {
-      let date = new Date();
-
-      if(date.getMonth() === 3 && date.getDate() === 1) {
+      if(PARAM.SECRET_APRIL) {
         Musics.menu = fetchMusic("noizisfun");
       };
 
