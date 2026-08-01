@@ -24,10 +24,10 @@
 
 
   research: {
-    parent: min0harv-forest-harvester
+    parent: fac0bio-moss-cultivator
     objectives: []
   }
-  researchCostMultiplier: 0.2
+  researchCostMultiplier: 0.35
 
 
 /*

@@ -55,6 +55,7 @@ const db = {
       "projreind-min0harv-forest-harvester", "emerald-tide",
       "projreind-min0harv-mycelial-harvester", "emerald-tide",
       "projreind-min0harv-algae-harvester", "emerald-tide",
+      "projreind-fac0bio-moss-cultivator", "emerald-tide",
 
       "projreind-min0drl-primitive-burner-drill", "rim-builder",
       "projreind-dis0aux-remote-core-unloader", "rim-builder",

@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.4.26072201",
-    "loveclab", "101.4.26072201",
+    "lovec", "101.4.26080101",
+    "loveclab", "101.4.26080101",
   ])) return;
 
 
@@ -98,7 +98,7 @@
 
 
 
-  MDL_event._c_onLoad(() => {
+  MDL_event.onLoad(() => {
 
 
     // Why are you here?
@@ -109,7 +109,7 @@
 
       if(Mathf.chance(0.2)) {
         MDL_util.addDatabaseButton(
-          MDL_bundle._info("projreind", "dont-click-me"),
+          MDL_bundle.getInfo("projreind", "dont-click-me"),
           () => {
             Core.app.openURI(
               global.lovecUtil.prop.locale === "zh_CN" ?
@@ -126,6 +126,7 @@
     if(!Vars.headless && fetchSetting("misc-enable-window")) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-fac0bio-moss-cultivator",
         "projreind-pow0heat-resistance-heater",
         "projreind-pow0heat-combustion-heater",
         "projreind-bliq0aux-fluid-unloader",
@@ -187,7 +188,7 @@
 
 
 
-      const winWelcome = new CLS_window(MDL_bundle._info("projreind", "dial-welcome"), cont => {
+      const winWelcome = new CLS_window(MDL_bundle.getInfo("projreind", "dial-welcome"), cont => {
         let tipCap = 0;
         while(Core.bundle.has("dial.projreind-tip-" + tipCap)) {
           tipCap++;
@@ -198,31 +199,31 @@
         cont.table(Styles.none, tb => {
           tb.pane(pnTb => {
             pnTb.left();
-            MDL_table.__margin(pnTb);
+            MDL_table.margin(pnTb);
             pnTb.image(Core.atlas.find("projreind-logo")).left().width(468.0).height(120.0).row();
-            MDL_table.__break(pnTb, 3);
-            MDL_table.__wrapLine(pnTb, MDL_bundle._info("projreind", "dial-welcome", true), Align.left, 1);
+            MDL_table.br(pnTb, 3);
+            MDL_table.wrapLine(pnTb, MDL_bundle.getInfo("projreind", "dial-welcome", true), Align.left, 1);
           });
-          MDL_table.__break(tb);
+          MDL_table.br(tb);
           tb.table(Styles.none, tb1 => {
-            MDL_table.__btn(tb1, "@close", () => winWelcome.close());
-            MDL_table.__btn(tb1, MDL_bundle._info("projreind", "dial-credits"), () => dialCredits.ex_show());
-            MDL_table.__btn(tb1, "Repo", () => Core.app.openURI("https://github.com/HuanXefh/Project-Reindustrialization"));
+            MDL_table.btn(tb1, "@close", () => winWelcome.close());
+            MDL_table.btn(tb1, MDL_bundle.getInfo("projreind", "dial-credits"), () => dialCredits.ex_show());
+            MDL_table.btn(tb1, "Repo", () => Core.app.openURI("https://github.com/HuanXefh/Project-Reindustrialization"));
           });
         }).growX().growY();
 
         // `TABLE`: splitor
         cont.table(Styles.none, tb => {
-          MDL_table.__barV(tb, Pal.accent, null, 8.0);
+          MDL_table.barV(tb, Pal.accent, null, 8.0);
         }).marginLeft(50.0).marginRight(50.0).growY();
 
         // `TABLE`: updates
         const cellUpdate = cont.table(Styles.none, tb => {
           tb.pane(pnTb => {
-            MDL_table.__margin(pnTb);
+            MDL_table.margin(pnTb);
             Object._it(data, (verStr, nameCts) => {
               pnTb.button(verStr, () => fetchDialog("ctsRow").ex_show(verStr, nameCts)).center().size(300.0, 50.0).row();
-              MDL_table.__break(pnTb, 1);
+              MDL_table.br(pnTb, 1);
             });
           }).grow();
           tb.row();
@@ -245,17 +246,17 @@
 
             let textEnd = false;
             let textInd = ++textGlbInd;
-            MDL_ui._d_chara(0.0, "lovec", "earlan", () => textEnd || textInd < textGlbInd, 0.5, false, "fade-in");
-            MDL_ui._d_text(0.0, ["projreind", "tip", tipCap.randInt()], ["lovec", "earlan"], () => {textEnd = true; MDL_ui.clearDialFlow()}, null, () => textInd < textGlbInd);
+            MDL_ui.createChara(0.0, "lovec", "earlan", () => textEnd || textInd < textGlbInd, 0.5, false, "fade-in");
+            MDL_ui.createText(0.0, ["projreind", "tip", tipCap.randInt()], ["lovec", "earlan"], () => {textEnd = true; MDL_ui.clearDialFlow()}, null, () => textInd < textGlbInd);
           }).right().padTop(32.0);
         }).grow();
       });
-      winWelcome.setSizeRange(null, MDL_ui._screenW(), null, MDL_ui._screenH() * 0.8);
+      winWelcome.setSizeRange(null, MDL_ui.getScreenW(), null, MDL_ui.getScreenH() * 0.8);
 
 
 
 
-      const dialCredits = extend(BaseDialog, MDL_bundle._info("projreind", "dial-credits"), {
+      const dialCredits = extend(BaseDialog, MDL_bundle.getInfo("projreind", "dial-credits"), {
 
 
         ex_show() {
@@ -263,17 +264,17 @@
           this.buttons.clear();
 
           // `TABLE`: info
-          MDL_table.__break(this.cont);
-          MDL_table._d_note(this.cont, MDL_bundle._info("projreind", "dial-credits", true));
+          MDL_table.br(this.cont);
+          MDL_table.setNote(this.cont, MDL_bundle.getInfo("projreind", "dial-credits", true));
 
           // `TABLE`: bar
-          MDL_table.__break(this.cont);
-          MDL_table.__bar(this.cont, null, MDL_ui._uiW());
+          MDL_table.br(this.cont);
+          MDL_table.bar(this.cont, null, MDL_ui.getUiW());
 
           // `TABLE`: content
-          MDL_table.__break(this.cont);
+          MDL_table.br(this.cont);
           this.cont.pane(pnTb => {
-            MDL_table.__margin(pnTb);
+            MDL_table.margin(pnTb);
             pnTb.add(String.multiline(
               "Ideas:",
               "  > MaboroshiX",
@@ -312,11 +313,11 @@
               "  [green][Book][]",
               "  > [accent]Encyclopedia of Materials: Science and Technology[]",
             )).left().row();
-          }).width(MDL_ui._uiW()).row();
+          }).width(MDL_ui.getUiW()).row();
 
           // `TABLE`: buttons
-          MDL_table.__break(this.cont);
-          MDL_table.__btnClose(this.buttons, this);
+          MDL_table.br(this.cont);
+          MDL_table.btnClose(this.buttons, this);
 
           this.show();
         },

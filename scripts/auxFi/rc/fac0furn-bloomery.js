@@ -88,7 +88,7 @@ const rc = {
       icon: "loveclab-item0was-scrap-steel",
       category: "steelmaking",
       lockedBy: [
-        "loveclab-item0chem-mangalloy",
+        "projreind-dbct0tech-alloy-steel-making-i",
       ],
       timeScl: 3.0,
       tempReq: 1400.0,

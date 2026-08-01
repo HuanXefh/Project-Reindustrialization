@@ -5,7 +5,7 @@
 */
 
 
-  if(!Vars.headless) MDL_event._c_onLoad(() => {
+  if(!Vars.headless) MDL_event.onLoad(() => {
 
 
     /* <------------------------------ gimmick ------------------------------ */

@@ -8,11 +8,13 @@
   # type: GenericCrafter
   category: crafting
   requirements: [
-    loveclab-item0chem-copper/45
-    loveclab-item0buil-brick-magnesia/30
-    loveclab-item0buil-brick-mullite/30
+    loveclab-item0chem-graphite/40
+    loveclab-item0buil-glass/30
+    loveclab-item0chem-tin-bronze/20
+    loveclab-item0chem-cast-iron/30
+    loveclab-item0chem-steel/20
   ]
-  buildCostMultiplier: 3.0
+  buildCostMultiplier: 1.5
 
 
 /*
@@ -23,10 +25,10 @@
 
 
   research: {
-    parent: fac0heat-primitive-heat-exchanger
+    parent: min0harv-forest-harvester
     objectives: []
   }
-  researchCostMultiplier: 0.35
+  researchCostMultiplier: 0.5
 
 
 /*
@@ -36,13 +38,13 @@
 */
 
 
-  scaledHealth: 50.0
-  armor: 6.0
+  scaledHealth: 60.0
+  armor: 12.0
   size: 2
   hasItems: true
-  itemCapacity: 30
+  itemCapacity: 50
   hasLiquids: true
-  liquidCapacity: 10.0
+  liquidCapacity: 20.0
   hasPower: true
 
 
@@ -53,8 +55,8 @@
 */
 
 
-  envRequired: 129
-  envDisabled: 22
+  envRequired: 1
+  envDisabled: 16
 
 
 /*
@@ -77,45 +79,47 @@
 
 
       {
-        type: DrawCrucibleFlame
-        alpha: 0.1
-        particles: 30
-        particleLife: 50.0
-        particleRad: 6.0
-        particleSize: 2.5
-        fadeMargin: 0.35
-        rotateScl: 4.0
-        flameColor: "ffc999"
-        flameRad: 0.0
-        flameRadiusScl: 6.0
-        flameRadiusMag: 0.0
-        midColor: "ffc999"
-        circleSpace: 0.0
-        circleStroke: 0.0
+        type: DrawCultivator
+        plantColor: "566354"
+        plantColorLight: "c8e3c0"
+        bottomColor: "566354"
+        bubbles: 4
+        spread: 5.0
+        radius: 2.0
+        strokeMin: 0.2
+        timeScl: 60.0
+        recurrence: 2.0
+      }
+
+
+      {
+        type: DrawPistons
+        suffix: "-piston"
+        sides: 1
+        sinMag: -8.8
+        sinScl: 20.0
+        sinOffset: 0.0
+        sideOffset: 0.0
+        lenOffset: -1.0
+        horiOffset: 0.0
+        angleOffset: 0.0
+      }
+
+
+      {
+        type: DrawDefault
       }
 
 
       {
         type: DrawRegion
-      }
-
-
-      {
-        type: DrawSideRegion
-      }
-
-
-      {
-        type: DrawGlowRegion
-        rotate: true
-        color: "ff3838"
-        suffix: "-glow"
+        suffix: "-pipe"
       }
 
 
     ]
   }
-  ambientSound: se-amb-furnace
+  ambientSound: se-amb-hum
   ambientSoundVolume: 0.2
 
 
@@ -126,9 +130,7 @@
 */
 
 
-  rotate: true
   ignoreLiquidFullness: false
-  dumpExtraLiquid: false
 
 
 /*
@@ -138,7 +140,17 @@
 */
 
 
-  craftTime: 300.0
+  craftTime: 2400.0
   consumes: {
-    power: 0.25
+    power: 0.5
+    items: [
+      loveclab-item0buil-fine-aggregate/5
+    ]
+    liquids: [
+      loveclab-liq0ore-water/0.1
+      loveclab-gas0chem-carbon-dioxide/0.025
+    ]
   }
+  outputItems: [
+    loveclab-item0bio-moss/20
+  ]
