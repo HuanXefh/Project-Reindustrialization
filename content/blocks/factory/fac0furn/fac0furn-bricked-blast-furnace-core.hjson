@@ -9,6 +9,7 @@
   category: crafting
   requirements: [
     loveclab-item0chem-copper/100
+    loveclab-item0chem-graphite/120
     loveclab-item0chem-cast-iron/70
     loveclab-item0buil-brick-mullite/100
     loveclab-item0buil-brick-magnesia/120

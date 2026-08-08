@@ -11,6 +11,7 @@
     requirements: [
       loveclab-item0chem-copper/4000
       loveclab-item0chem-graphite/2000
+      loveclab-item0buil-brick-clay/2000
       loveclab-item0misc-engineering-tech-point-t1/40
     ]
   }

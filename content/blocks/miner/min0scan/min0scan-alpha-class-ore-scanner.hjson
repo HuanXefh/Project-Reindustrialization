@@ -8,11 +8,12 @@
   # type: GenericCrafter
   category: production
   requirements: [
-    loveclab-item0chem-lead/30
+    loveclab-item0bio-timber/70
     loveclab-item0chem-graphite/20
-    loveclab-item0chem-brass/30
+    loveclab-item0chem-brass/40
+    loveclab-item0chem-leaded-tin-bronze/20
   ]
-  buildCostMultiplier: 3.0
+  buildCostMultiplier: 2.0
 
 
 /*
@@ -23,7 +24,7 @@
 
 
   research: {
-    parent: dbct0tech-advanced-mining
+    parent: min0drl-pangolin-class-wall-drill
     objectives: []
   }
   researchCostMultiplier: 0.2

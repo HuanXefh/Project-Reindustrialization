@@ -25,10 +25,7 @@
   const eff0li_bonfire = extendBlock(
     TEMPLATE_A, "eff0li-bonfire",
     TEMPLATE_A[0].build({
-      allowedFuels: DB_item.db["group"]["fuel"]["biotic"].cpy().pushAll([
-        "loveclab-item0bio-charcoal",
-      ]),
-      fuelConsMtp: 0.4,
+      fuelConsMtp: 0.15,
       heatWarmupRate: 0.0008,
       maxLightTemp: 800.0,
       lightRad: 136.0,

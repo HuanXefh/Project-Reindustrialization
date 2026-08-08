@@ -53,6 +53,7 @@ const rc = {
 
       bo: [
         "loveclab-item0chem-copper", 270, 0.4,
+        "loveclab-item0was-slag", 135, 0.5,
       ],
     },
 

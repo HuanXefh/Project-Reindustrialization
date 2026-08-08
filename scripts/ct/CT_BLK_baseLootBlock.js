@@ -27,7 +27,7 @@
     TEMPLATE, "dis0loot-item-hopper",
     TEMPLATE[0].build({
       lootCallCooldown: 5.0 * 60.0,
-      lootCallAmt: 15,
+      lootCallAmt: 20,
     }),
   );
 

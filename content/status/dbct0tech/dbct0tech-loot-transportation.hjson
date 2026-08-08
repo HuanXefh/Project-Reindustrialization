@@ -9,8 +9,10 @@
     parent: dis0loot-item-hopper
     objectives: []
     requirements: [
+      loveclab-item0bio-timber/5000
       loveclab-item0chem-graphite/3000
       loveclab-item0chem-brass/1500
+      loveclab-item0chem-cast-iron/750
       loveclab-item0misc-engineering-tech-point-t1/20
     ]
   }

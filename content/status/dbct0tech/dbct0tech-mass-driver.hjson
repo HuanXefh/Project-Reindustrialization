@@ -10,6 +10,7 @@
     objectives: []
     requirements: [
       loveclab-item0chem-brass/1000
+      loveclab-item0chem-cast-iron/1000
       loveclab-item0ore-magnetite/3000
       loveclab-item0misc-engineering-tech-point-t1/40
     ]

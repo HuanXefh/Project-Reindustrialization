@@ -11,6 +11,7 @@
     requirements: [
       loveclab-item0chem-lead/4000
       loveclab-item0chem-tin-bronze/1000
+      loveclab-item0chem-steel/500
       loveclab-item0misc-engineering-tech-point-t1/20
     ]
   }

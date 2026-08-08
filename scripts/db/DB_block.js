@@ -95,6 +95,8 @@ const db = {
 
       "projreind-fac0proc-biomass-crusher", "crusher",
 
+      "projreind-fac0bio-moss-cultivator", "cultivator",
+
       "projreind-fac0heat-hot-air-dryer", "dryer",
       "projreind-fac0heat-primitive-freeze-dryer", "dryer",
 

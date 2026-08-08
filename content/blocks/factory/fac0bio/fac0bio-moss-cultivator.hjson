@@ -144,7 +144,7 @@
   consumes: {
     power: 0.5
     items: [
-      loveclab-item0buil-fine-aggregate/5
+      loveclab-item0buil-coarse-aggregate/5
     ]
     liquids: [
       loveclab-liq0ore-water/0.1

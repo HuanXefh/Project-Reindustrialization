@@ -23,7 +23,7 @@
 
 
   research: {
-    parent: min0scan-alpha-class-ore-scanner
+    parent: dbct0tech-advanced-mining
     objectives: []
   }
   researchCostMultiplier: 0.3
