@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.4.26080801",
-    "loveclab", "101.4.26080801",
+    "lovec", "101.4.26081201",
+    "loveclab", "101.4.26081201",
   ])) return;
 
 
@@ -24,6 +24,7 @@
 
   require("projreind/ct/CT_BLK_conveyor");
   require("projreind/ct/CT_BLK_duct");
+  require("projreind/ct/CT_BLK_itemArm");
   require("projreind/ct/CT_BLK_conveyorBridge");
   require("projreind/ct/CT_BLK_baseItemGate");
   require("projreind/ct/CT_BLK_incinerator");
@@ -126,6 +127,7 @@
     if(!Vars.headless && fetchSetting("misc-enable-window")) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-dis0arm-primitive-item-arm",
         "projreind-fac0bio-moss-cultivator",
         "projreind-pow0heat-resistance-heater",
         "projreind-pow0heat-combustion-heater",

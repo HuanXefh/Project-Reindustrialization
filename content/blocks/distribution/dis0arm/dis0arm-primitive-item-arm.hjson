@@ -5,14 +5,14 @@
 */
 
 
-  # type: DuctRouter
+  # type: Wall
   category: distribution
   requirements: [
-    loveclab-item0bio-timber/35
-    loveclab-item0chem-copper/25
-    loveclab-item0chem-graphite/10
+    loveclab-item0bio-timber/25
+    loveclab-item0chem-tin-bronze/15
+    loveclab-item0chem-cast-iron/5
   ]
-  buildCostMultiplier: 3.0
+  buildCostMultiplier: 2.0
 
 
 /*
@@ -23,10 +23,10 @@
 
 
   research: {
-    parent: dis0aux-primitive-unloader
+    parent: dis0conv-wooden-conveyor
     objectives: []
   }
-  researchCostMultiplier: 0.4
+  researchCostMultiplier: 1.0
 
 
 /*
@@ -36,11 +36,11 @@
 */
 
 
-  scaledHealth: 40.0
-  armor: 0.0
+  scaledHealth: 50.0
+  armor: 6.0
   size: 1
-  hasItems: true
-  itemCapacity: 1
+  hasItems: false
+  itemCapacity: 20
   hasLiquids: false
   liquidCapacity: 5.0
   hasPower: false
@@ -53,7 +53,7 @@
 */
 
 
-  envDisabled: 20
+  envDisabled: 16
 
 
 /*
@@ -64,14 +64,3 @@
 
 
   squareSprite: false
-
-
-/*
-  ========================================
-  Section: Specific
-  ========================================
-*/
-
-
-  configurable: false
-  speed: 20.0

@@ -62,7 +62,7 @@
 */
 
 
-  speed: 0.007
-  displayedSpeed: 1.0
+  speed: 0.01
+  displayedSpeed: 1.5
   junctionReplacement: dis0aux-item-junction
   bridgeReplacement: dis0brd-conveyor-bridge

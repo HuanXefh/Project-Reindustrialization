@@ -8,11 +8,11 @@
   # type: Unloader
   category: distribution
   requirements: [
-    loveclab-item0bio-timber/50
-    loveclab-item0chem-graphite/30
+    loveclab-item0bio-timber/100
+    loveclab-item0chem-graphite/40
     loveclab-item0chem-brass/30
   ]
-  buildCostMultiplier: 2.0
+  buildCostMultiplier: 1.2
 
 
 /*
@@ -53,7 +53,7 @@
 */
 
 
-  envDisabled: 16
+  envDisabled: 20
 
 
 /*
@@ -73,4 +73,4 @@
 */
 
 
-  speed: 40.0
+  speed: 30.0
