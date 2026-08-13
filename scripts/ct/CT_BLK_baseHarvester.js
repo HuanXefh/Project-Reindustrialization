@@ -46,7 +46,7 @@
     TEMPLATE_B[0].build({
       attrR: 7,
       attrMode: AttrModes.BLOCK,
-      updateEff: EFF.harvesterParticle,
+      updateEff: EFF.particleHarvester,
       updateEffP: 0.02,
     }),
   );
@@ -57,7 +57,7 @@
     TEMPLATE_B[0].build({
       attrR: 5,
       attrMode: AttrModes.BLOCK,
-      updateEff: EFF.harvesterParticle,
+      updateEff: EFF.particleHarvester,
       updateEffP: 0.02,
     }),
   );
@@ -69,7 +69,7 @@
       attrR: 6,
       attrMode: AttrModes.BLOCK,
       isWaterborne: true,
-      updateEff: EFF.harvesterParticle,
+      updateEff: EFF.particleHarvester,
       updateEffP: 0.02,
     }),
   );

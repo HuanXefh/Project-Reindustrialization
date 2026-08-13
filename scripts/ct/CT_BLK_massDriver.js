@@ -28,7 +28,7 @@
       bulDmg: 150.0,
       bulW: 4.0,
       bulH: 6.0,
-      shootEff: EFF.massDriverSmog,
+      shootEff: EFF.smogMassDriver,
       smokeEff: Fx.shootSmallSmoke,
     }),
   );
@@ -41,7 +41,7 @@
       bulDmg: 450.0,
       bulW: 8.0,
       bulH: 11.0,
-      shootEff: EFF.massDriverSmogLarge,
+      shootEff: EFF.smogMassDriverLarge,
       smokeEff: Fx.shootBigSmoke,
     }),
   );

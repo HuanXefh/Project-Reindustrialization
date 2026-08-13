@@ -67,8 +67,8 @@
       ],
       rcMdl: "fac0furn-kiln",
       rcSourceMod: "projreind",
-      craftEff: EFF.furnaceSmog,
-      updateEff: EFF.furnaceCrack,
+      craftEff: EFF.smogFurnace,
+      updateEff: EFF.crackFurnace,
       updateEffP: 0.01,
     }),
   );
@@ -81,8 +81,8 @@
       rcMdl: "fac0furn-primitive-smelter",
       rcSourceMod: "projreind",
       disableDump: true,
-      craftEff: EFF.furnaceSmog,
-      updateEff: EFF.furnaceCrack,
+      craftEff: EFF.smogFurnace,
+      updateEff: EFF.crackFurnace,
       updateEffP: 0.01,
     }),
   );
@@ -96,8 +96,8 @@
       fuelLvlMtp: 1.4,
       rcMdl: "fac0furn-bloomery",
       rcSourceMod: "projreind",
-      craftEff: EFF.furnaceSmog,
-      updateEff: EFF.furnaceCrack,
+      craftEff: EFF.smogFurnace,
+      updateEff: EFF.crackFurnace,
       updateEffP: 0.01,
     }),
   );
@@ -111,8 +111,8 @@
       fuelLvlMtp: 1.3,
       rcMdl: "fac0furn-bricked-blast-furnace",
       rcSourceMod: "projreind",
-      craftEff: EFF.furnaceSmogLarge,
-      updateEff: EFF.furnaceCrackLarge,
+      craftEff: EFF.smogFurnaceLarge,
+      updateEff: EFF.crackFurnaceLarge,
       updateEffP: 0.01,
     }),
   );
@@ -126,8 +126,8 @@
       heatWarmupRate: 0.0002,
       rcMdl: "fac0furn-primitive-crucible",
       rcSourceMod: "projreind",
-      craftEff: EFF.furnaceSmog,
-      updateEff: EFF.furnaceCrack,
+      craftEff: EFF.smogFurnace,
+      updateEff: EFF.crackFurnace,
       updateEffP: 0.01,
     }),
   );
@@ -143,8 +143,8 @@
       rcMdl: "fac0furn-primitive-sintering-furnace",
       rcSourceMod: "projreind",
       useAutoSelection: true,
-      craftEff: EFF.furnaceSmog,
-      updateEff: EFF.furnaceCrack,
+      craftEff: EFF.smogFurnace,
+      updateEff: EFF.crackFurnace,
       updateEffP: 0.01,
     }),
   );
@@ -158,8 +158,8 @@
       rcMdl: "fac0furn-primitive-coke-oven",
       rcSourceMod: "projreind",
       useAutoSelection: true,
-      craftEff: EFF.furnaceSmog,
-      updateEff: EFF.furnaceCrack,
+      craftEff: EFF.smogFurnace,
+      updateEff: EFF.crackFurnace,
       updateEffP: 0.01,
     }),
   );
@@ -175,8 +175,8 @@
       rcMdl: "fac0furn-coke-oven-battery",
       rcSourceMod: "projreind",
       useAutoSelection: true,
-      craftEff: EFF.furnaceSmogLarge,
-      updateEff: EFF.furnaceCrackLarge,
+      craftEff: EFF.smogFurnaceLarge,
+      updateEff: EFF.crackFurnaceLarge,
       updateEffP: 0.02,
     }),
   );
@@ -343,7 +343,7 @@
     TEMPLATE_A[0].build({
       rcMdl: "fac0proc-core-crafter",
       rcSourceMod: "projreind",
-      craftEff: EFF.craftCrack,
+      craftEff: EFF.crackCraft,
     }),
   );
 
@@ -353,7 +353,7 @@
     TEMPLATE[0].build({
       ters: ["sand"],
       terMode: "disable",
-      updateEff: EFF.sawmillCrack,
+      updateEff: EFF.crackSawmill,
       updateEffP: 0.02,
     }),
   );
@@ -366,7 +366,7 @@
       rcSourceMod: "projreind",
       ters: ["sand"],
       terMode: "disable",
-      updateEff: EFF.sawmillCrack,
+      updateEff: EFF.crackSawmill,
       updateEffP: 0.02,
     }),
   );

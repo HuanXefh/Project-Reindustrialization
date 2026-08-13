@@ -8,16 +8,16 @@
   # type: StorageBlock
   category: effect
   requirements: [
-    loveclab-item0bio-timber/200
-    loveclab-item0chem-cupronickel/100
-    loveclab-item0chem-graphite/150
-    loveclab-item0buil-glass/120
-    loveclab-item0chem-stainless-steel/80
-    loveclab-item0buil-coarse-aggregate/120
-    loveclab-item0buil-fine-aggregate/120
-    loveclab-item0buil-cement/100
+    loveclab-item0bio-timber/400
+    loveclab-item0chem-cupronickel/200
+    loveclab-item0chem-graphite/300
+    loveclab-item0buil-glass/200
+    loveclab-item0chem-stainless-steel/100
+    loveclab-item0buil-coarse-aggregate/250
+    loveclab-item0buil-fine-aggregate/250
+    loveclab-item0buil-cement/250
   ]
-  buildCostMultiplier: 0.7
+  buildCostMultiplier: 0.25
 
 
 /*
@@ -31,7 +31,7 @@
     parent: dis0aux-remote-core-unloader
     objectives: []
   }
-  researchCostMultiplier: 0.2
+  researchCostMultiplier: 0.1
 
 
 /*

@@ -29,8 +29,8 @@
     TEMPLATE, "min0drl-survivor-drill",
     TEMPLATE[0].build({
       durabCap: 2.0 * 60.0 * 60.0,
-      drillEff: EFF.drillPulsePack[3],
-      updateEff: EFF.drillCrack,
+      drillEff: EFF.pulseDrillPack[3],
+      updateEff: EFF.crackDrill,
       updateEffP: 0.01,
     }),
   );
@@ -44,10 +44,10 @@
       depthTierMtp: 0.75,
       maxDepthLvl: 0,
       drillItmDur: 120.0,
-      drillEff: TP_effect._gasEmission({
+      drillEff: TP_effect.gasEmission({
         scl: 3.0,
       }),
-      updateEff: EFF.drillCrack,
+      updateEff: EFF.crackDrill,
       updateEffP: 0.01,
       consEff: Fx.ballfire,
     }),
@@ -72,8 +72,8 @@
   const min0drl_progressClassDrill = extendBlock(
     TEMPLATE, "min0drl-progress-class-drill",
     TEMPLATE[0].build({
-      drillEff: EFF.heatSmog,
-      updateEff: EFF.drillCrack,
+      drillEff: EFF.smogHeat,
+      updateEff: EFF.crackDrill,
       updateEffP: 0.01,
     }),
   );
@@ -86,7 +86,7 @@
       depthTierMtp: 0.5,
       maxDepthLvl: 1,
       drillAmtMtp: 2.0,
-      drillEff: TP_effect._impactDrillCraft({
+      drillEff: TP_effect.impactDrillCraft({
         blkSize: 2,
         rad: 6.0 * Vars.tilesize,
       }),
@@ -105,8 +105,8 @@
       ),
       itmWhitelist: DB_item.db["group"]["sand"],
       noSandOutput: false,
-      drillEff: EFF.heatSmog,
-      updateEff: EFF.drillCrack,
+      drillEff: EFF.smogHeat,
+      updateEff: EFF.crackDrill,
       updateEffP: 0.01,
     }),
   );

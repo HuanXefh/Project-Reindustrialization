@@ -36,7 +36,7 @@
     drawers,
     fetchDrawer("DrawFire"),
     fetchDrawer("DrawEffect", {
-      eff: EFF.fireExplodeSmog,
+      eff: EFF.smogFireExplo,
       effP: 0.4,
     }),
   ]);

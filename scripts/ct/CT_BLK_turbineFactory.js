@@ -40,7 +40,7 @@
   setDrawer(pow0tor_waterwheel, drawers => [
     drawers,
     fetchDrawer("DrawEffect", {
-      eff: TP_effect._circleWave({
+      eff: TP_effect.waveCircle({
         size_f: 2.0,
         rad: 10.0,
         scl: 3.5,
@@ -72,7 +72,7 @@
   setDrawer(pow0tor_primitiveSteamTurbine, drawers => [
     drawers,
     fetchDrawer("DrawEffect", {
-      eff: TP_effect._gasEmission({
+      eff: TP_effect.gasEmission({
         size: 14.0,
         rad: 50.0,
         color: "d0d0d0",

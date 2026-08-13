@@ -24,8 +24,8 @@
   const dis0aux_itemIncinerator = extendBlock(
     TEMPLATE, "dis0aux-item-incinerator",
     TEMPLATE[0].build({
-      craftEff: EFF.furnaceSmog,
-      updateEff: EFF.furnaceCrack,
+      craftEff: EFF.smogFurnace,
+      updateEff: EFF.crackFurnace,
       updateEffP: 0.02,
     }),
   );
