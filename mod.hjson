@@ -5,7 +5,7 @@ subtitle: "v102: Hot Furnace"
 
 author: MaboroshiX
 repo: HuanXefh/Project-Reindustrialization
-minGameVersion: 159
+minGameVersion: 160
 dependencies: [
   lovec
   loveclab
@@ -46,4 +46,4 @@ Do not directly download the mod and its dependencies in mod browser, download t
 Do not download this mod only, the game will try downloading denpendencies which may be test versions and cause crash!
 '''
 
-version: 101.4.26081301
+version: 101.4.26081401
