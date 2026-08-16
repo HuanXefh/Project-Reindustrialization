@@ -33,10 +33,10 @@
   );
   setDrawer(eff0stor_stackingArea, drawers => [
     drawers,
-    fetchDrawer("DrawItemPile", {
-      itmGetterTup: [b => b.items.first()],
-      amtGetterTup: [b => b.block.itemCapacity * 0.325],
-      rad: 10.0,
+    extendSafe(LCDrawItemPile, {
+      radius: 10.0,
+      itemF: func(b => b.items.first()),
+      amount: 30,
     }),
   ]);
 

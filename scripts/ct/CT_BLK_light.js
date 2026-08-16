@@ -34,9 +34,8 @@
   );
   setDrawer(eff0li_bonfire, drawers => [
     drawers,
-    fetchDrawer("DrawFire"),
-    fetchDrawer("DrawEffect", {
-      eff: EFF.smogFireExplo,
+    extendSafe(LCDrawEffect, {
+      effect: EFF.smogFireExplo,
       effP: 0.4,
     }),
   ]);

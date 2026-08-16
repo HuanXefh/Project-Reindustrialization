@@ -39,21 +39,21 @@
   );
   setDrawer(pow0tor_waterwheel, drawers => [
     drawers,
-    fetchDrawer("DrawEffect", {
-      eff: TP_effect.waveCircle({
+    extendSafe(LCDrawEffect, {
+      effect: TP_effect.waveCircle({
         size_f: 2.0,
         rad: 10.0,
         scl: 3.5,
+        z: VAR.layer.effFlr - 0.01,
       }),
-      effP: 0.01,
-      rad: 8.0,
-      colorGetterTup: [(b, x, y) => {
+      effectChance: 0.01,
+      radius: 8.0,
+      colorF: func3((b, x, y) => {
         let ot = Vars.world.tileWorld(x, y);
         return ot == null || !ot.floor().isLiquid ?
           Color.clear :
           Tmp.c1.set(ot.getFloorColor()).mul(1.5);
-      }],
-      z: VAR.layer.effFlr - 0.01,
+      }),
     }),
   ]);
 
@@ -71,14 +71,14 @@
   );
   setDrawer(pow0tor_primitiveSteamTurbine, drawers => [
     drawers,
-    fetchDrawer("DrawEffect", {
-      eff: TP_effect.gasEmission({
+    extendSafe(LCDrawEffect, {
+      effect: TP_effect.gasEmission({
         size: 14.0,
         rad: 50.0,
         color: "d0d0d0",
         scl: 1.5,
       }),
-      effP: 0.03,
+      effectChance: 0.03,
     }),
   ]),
   setConsumer(pow0tor_primitiveSteamTurbine, conss => [

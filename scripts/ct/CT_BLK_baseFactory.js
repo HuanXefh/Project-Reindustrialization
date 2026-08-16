@@ -322,17 +322,6 @@
       rcSourceMod: "projreind",
     }),
   );
-  setDrawer(fac0mix_mechanicalMixingCauldron, drawers => [
-    drawers[0],
-    fetchDrawer("DrawMixedLiquid"),
-    fetchDrawer("DrawRipple", {
-      rad: 5.0,
-      size: 2.0,
-      noLiqCheck: true,
-    }),
-    drawers[1],
-    drawers[2],
-  ]);
 
 
   /* <---------- fac0proc ----------> */
@@ -433,18 +422,6 @@
       useAutoSelection: true,
     }),
   );
-  setDrawer(fac0sep_oreWasher, drawers => [
-    drawers[0],
-    fetchDrawer("DrawMixedLiquid"),
-    fetchDrawer("DrawRipple", {
-      rad: 4.5,
-      size: 2.5,
-      scl: 40.0,
-      recur: 3.0
-    }),
-    drawers[1],
-    drawers[2],
-  ]);
 
 
   const fac0sep_hydrocyclone = extendBlock(
@@ -496,10 +473,6 @@
       terMode: "disable",
     }),
   );
-  setDrawer(fac0misc_rainCollector, drawers => [
-    drawers,
-    fetchDrawer("DrawMixedLiquid"),
-  ]);
 
 
   const fac0misc_pollutionDetectionCenter = extendBlock(

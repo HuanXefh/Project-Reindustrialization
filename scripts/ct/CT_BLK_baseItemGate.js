@@ -43,9 +43,9 @@
   );
   setDrawer(dis0aux_router, drawers => [
     drawers,
-    fetchDrawer("DrawContent", {
-      ctGetterTup: [b => b.delegee.lastRs],
+    extendSafe(LCDrawContent, {
       regScl: 0.5,
+      contentF: func(b => b.delegee.lastRs),
     }),
   ]);
 
@@ -107,9 +107,9 @@
   setDrawer(dis0aux_primitiveCoreUnloader, drawers => [
     new DrawRegion(),
     new DrawSideRegion(),
-    fetchDrawer("DrawColorRegion", {
+    extendSafe(LCDrawColorRegion, {
       suffix: "-center",
-      colorGetterTup: [b => b.unloadItem == null ? null : b.unloadItem.color],
+      colorF: func(b => b.unloadItem == null ? Color.clear : b.unloadItem.color),
     }),
   ]);
 

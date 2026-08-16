@@ -78,6 +78,19 @@
 
 
       {
+        type: LCDrawMixedLiquid
+      }
+
+
+      {
+        type: LCDrawRipple
+        radius: 5.0
+        size: 2.0
+        hasNoLiqCheck: true
+      }
+
+
+      {
         type: DrawRegion
         suffix: "-rotator"
         spinSprite: true

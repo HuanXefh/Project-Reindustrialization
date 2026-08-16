@@ -36,11 +36,11 @@
   );
   setDrawer(pow0boil_primitiveBoiler, drawers => [
     drawers,
-    fetchDrawer("DrawEffect", {
-      eff: TP_effect.gasEmission({
+    extendSafe(LCDrawEffect, {
+      effect: TP_effect.gasEmission({
         color: "d0d0d0",
         scl: 1.8,
       }),
-      effP: 0.03,
+      effectChance: 0.03,
     }),
   ]);

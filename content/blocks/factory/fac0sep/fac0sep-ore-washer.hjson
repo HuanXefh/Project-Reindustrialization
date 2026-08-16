@@ -78,6 +78,20 @@
 
 
       {
+        type: LCDrawMixedLiquid
+      }
+
+
+      {
+        type: LCDrawRipple
+        radius: 4.5
+        size: 2.5
+        scl: 40.0
+        recur: 3.0
+      }
+
+
+      {
         type: DrawPistons
         suffix: "-piston"
         sides: 1
