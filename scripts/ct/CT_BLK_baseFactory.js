@@ -478,8 +478,8 @@
   const fac0misc_pollutionDetectionCenter = extendBlock(
     TEMPLATE_B, "fac0misc-pollution-detection-center",
     TEMPLATE_B[0].build({
-      infoGetterTup: [function(b) {
+      infoF: func(function(b) {
         return "${1}: ${2} ${3}".format(MDL_bundle.getTerm("lovec", "pollution"), Strings.fixed(MDL_pollution.getGlbPol(), 2), fetchStatUnit("lovec", "polunits").localized());
-      }],
+      }),
     }),
   );

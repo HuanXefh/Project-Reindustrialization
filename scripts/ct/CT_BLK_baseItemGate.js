@@ -68,7 +68,7 @@
   const dis0aux_intermediateFilterGate = extendBlock(
     TEMPLATE_B, "dis0aux-intermediate-filter-gate",
     TEMPLATE_B[0].build({
-      filterScrTup: [(b, b_f, itm) => MDL_cond._isIntermediate(itm)],
+      filterScr: boolf3(function(b, b_f, itm) {return MDL_cond.isIntermediate(itm)}),
       hideSelection: true,
     }),
   );
@@ -77,7 +77,7 @@
   const dis0aux_wasteFilterGate = extendBlock(
     TEMPLATE_B, "dis0aux-waste-filter-gate",
     TEMPLATE_B[0].build({
-      filterScrTup: [(b, b_f, itm) => MDL_cond._isWaste(itm)],
+      filterScr: boolf3(function(b, b_f, itm) {return MDL_cond.isWaste(itm)}),
       hideSelection: true,
     }),
   );
