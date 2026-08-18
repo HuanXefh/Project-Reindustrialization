@@ -6,10 +6,19 @@ const rc = {
 
   base: {
 
-    baseAux: [
-      "loveclab-aux0aux-pressure", 0.05,
-      "loveclab-aux0aux-heat-exchange", 0.01666667,
+
+    baseCi: [
+      "loveclab-gas0misc-air", 0.2,
     ],
+    baseAux: [
+      "loveclab-aux0aux-pressure", 0.03333333,
+    ],
+
+
+    baseCo: [
+      "loveclab-gas0misc-air", 0.0,
+    ],
+
 
   },
 
@@ -21,7 +30,7 @@ const rc = {
 
 
 TP_recipeGen._g_condenser.run(rc, {
-  amt: 2,
+  amt: 4,
   time: 2.0 * 60.0,
 });
 

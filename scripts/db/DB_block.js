@@ -277,6 +277,7 @@ const db = {
       "projreind-pow0trans-copper-cable",
       "projreind-pow0trans-tin-cable",
       "projreind-pow0trans-copper-wire-relay",
+      "projreind-pow0trans-copper-wire-distributor",
       "projreind-pow0trans-copper-wire-node",
       "projreind-pow0trans-copper-wire-remote-node",
 

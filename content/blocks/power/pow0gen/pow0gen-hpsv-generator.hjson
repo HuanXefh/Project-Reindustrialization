@@ -14,7 +14,7 @@
     loveclab-item0chem-cast-iron/40
     loveclab-item0ore-magnetite/80
   ]
-  buildCostMultiplier: 0.9
+  buildCostMultiplier: 1.2
 
 
 /*
@@ -165,4 +165,4 @@
     ]
   }
   powerProduction: 13.33333333
-  outputLiquid: loveclab-gas0misc-steam/0.5
+  outputLiquid: loveclab-gas0misc-steam/1.0

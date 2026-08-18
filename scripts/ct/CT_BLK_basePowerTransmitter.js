@@ -60,13 +60,23 @@
   );
 
 
+  const pow0trans_copperWireDistributor = extendBlock(
+    TEMPLATE, "pow0trans-copper-wire-distributor",
+    TEMPLATE[0].build({
+      wireMat: "copper",
+      wireTouchDmg: 20.0,
+      maxPowProdAllowed: 5000.0 / 60.0,
+    }),
+  );
+
+
   const pow0trans_copperWireNode = extendBlock(
     TEMPLATE_A, "pow0trans-copper-wire-node",
     TEMPLATE_A[0].build({
       wireMat: "copper",
       wireTouchDmg: 20.0,
       linkMode: "cons",
-      minRadFrac: 0.35,
+      minRadFrac: 0.2,
       maxPowProdAllowed: 5000.0 / 60.0,
     }),
   );
@@ -78,7 +88,7 @@
       wireMat: "copper",
       wireTouchDmg: 30.0,
       linkMode: "remote-node",
-      minRadFrac: 0.7,
+      minRadFrac: 0.65,
       maxPowProdAllowed: 5000.0 / 60.0,
     }),
   );

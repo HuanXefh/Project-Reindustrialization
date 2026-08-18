@@ -40,7 +40,7 @@
   armor: 6.0
   size: 2
   hasItems: true
-  itemCapacity: 40
+  itemCapacity: 90
   hasLiquids: false
   liquidCapacity: 5.0
   hasPower: true
@@ -126,7 +126,7 @@
 */
 
 
-  craftTime: 800.0
+  craftTime: 600.0
   consumes: {
     power: 1.0
   }

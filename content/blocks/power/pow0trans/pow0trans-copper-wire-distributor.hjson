@@ -5,15 +5,14 @@
 */
 
 
-  # type: GenericCrafter
-  category: crafting
+  # type: BeamNode
+  category: power
   requirements: [
-    loveclab-item0chem-copper/80
-    loveclab-item0chem-tin-bronze/40
-    loveclab-item0chem-cast-iron/40
-    loveclab-item0chem-steel/25
+    loveclab-item0bio-timber/20
+    loveclab-item0chem-copper/10
+    loveclab-item0chem-cast-iron/5
   ]
-  buildCostMultiplier: 1.5
+  buildCostMultiplier: 6.0
 
 
 /*
@@ -24,10 +23,10 @@
 
 
   research: {
-    parent: fac0heat-primitive-heat-exchanger
+    parent: pow0trans-copper-wire-relay
     objectives: []
   }
-  researchCostMultiplier: 0.3
+  researchCostMultiplier: 0.4
 
 
 /*
@@ -37,12 +36,12 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
-  size: 2
+  scaledHealth: 40.0
+  armor: 0.0
+  size: 1
   hasItems: false
   itemCapacity: 20
-  hasLiquids: true
+  hasLiquids: false
   liquidCapacity: 5.0
   hasPower: true
 
@@ -54,7 +53,8 @@
 */
 
 
-  envDisabled: 20
+  envDisabled: 22
+  fogRadius: 1
 
 
 /*
@@ -65,26 +65,7 @@
 
 
   squareSprite: false
-  drawer: {
-    type: DrawMulti
-    drawers: [
-
-
-      {
-        type: DrawDefault
-      }
-
-
-      {
-        type: DrawRegion
-        suffix: "-pipe"
-      }
-
-
-    ]
-  }
-  ambientSound: se-amb-hum
-  ambientSoundVolume: 0.2
+  laserWidth: 1.0
 
 
 /*
@@ -94,8 +75,7 @@
 */
 
 
-  ignoreLiquidFullness: false
-  dumpExtraLiquid: false
+  range: 4
 
 
 /*
@@ -105,7 +85,6 @@
 */
 
 
-  craftTime: 120.0
   consumes: {
-    power: 0.41666667
+    power: 0.1
   }
