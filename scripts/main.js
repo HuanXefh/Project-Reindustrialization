@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.4.26081701",
-    "loveclab", "101.4.26081701",
+    "lovec", "101.4.26081801",
+    "loveclab", "101.4.26081801",
   ])) return;
 
 
@@ -223,7 +223,7 @@
         const cellUpdate = cont.table(Styles.none, tb => {
           tb.pane(pnTb => {
             MDL_table.margin(pnTb);
-            Object._it(data, (verStr, nameCts) => {
+            Object.eachPair(data, (verStr, nameCts) => {
               pnTb.button(verStr, () => fetchDialog("ctsRow").ex_show(verStr, nameCts)).center().size(300.0, 50.0).row();
               MDL_table.br(pnTb, 1);
             });

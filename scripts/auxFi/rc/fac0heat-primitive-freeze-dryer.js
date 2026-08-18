@@ -6,7 +6,7 @@ const rc = {
 
   base: {
 
-    baseCi: [
+    baseAux: [
       "loveclab-aux0aux-vacuum", 0.03333333,
     ],
 

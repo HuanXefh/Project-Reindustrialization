@@ -30,6 +30,19 @@
       exploEff: EFF.explosion,
     }),
   );
+  setDrawer(pow0gen_ventGenerator, drawers => [
+    drawers,
+    extendSafe(LCDrawEffect, {
+      effect: TP_effect.gasEmission({
+        color: "889cbf",
+        size: 10.0,
+        rad: 44.0,
+        scl: 1.3,
+        noWhiteSmog: true,
+      }),
+      effectChance: 0.05,
+    }),
+  ]);
 
 
   const pow0gen_hpsvGenerator = extendBlock(
@@ -40,6 +53,19 @@
       exploEff: EFF.explosion,
     }),
   );
+  setDrawer(pow0gen_hpsvGenerator, drawers => [
+    drawers,
+    extendSafe(LCDrawEffect, {
+      effect: TP_effect.gasEmission({
+        color: "889cbf",
+        size: 12.0,
+        rad: 54.0,
+        scl: 1.4,
+        noWhiteSmog: true,
+      }),
+      effectChance: 0.05,
+    }),
+  ]);
 
 
   const pow0gen_lodestoneGenerator = extendBlock(
