@@ -40,3 +40,14 @@
       itmDrawOff: 16.5,
     }),
   );
+
+
+  const dis0arm_heavyItemArm = extendBlock(
+    TEMPLATE, "dis0arm-heavy-item-arm",
+    TEMPLATE[0].build({
+      moveTime: 36.0,
+      pickCooldown: 528.0,
+      moveStackAmt: 25,
+      itmDrawOff: 9.5,
+    }),
+  );

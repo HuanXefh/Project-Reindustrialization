@@ -9,6 +9,14 @@ projreind-min0drl-scavenger-class-deposit-drill: 15.0
 projreind-min0drl-boulder-class-impact-drill: 4.0
 projreind-min0drl-topaz-class-sand-miner: 12.0
 
+/* <---------- dis0aux ----------> */
+
+projreind-dis0aux-item-incinerator: 4.0
+
+/* <---------- bliq0aux ----------> */
+
+projreind-bliq0aux-tail-gas-burner: 4.0
+
 /* <---------- pow0heat ----------> */
 
 projreind-pow0heat-combustion-heater: 6.0

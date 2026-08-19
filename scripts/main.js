@@ -38,6 +38,15 @@
   };
 
 
+  if([
+    "科技树全解锁",
+    "research-unlockker",
+    "unlock-tech-tree-mod",
+  ].some(name => fetchMod(name) != null)) {
+    Events.run(ClientLoadEvent, () => Vars.ui.showErrorMessage(MDL_bundle.getInfo("projreind", "tech-tree-cheat-warn")));
+  };
+
+
   /* <---------- import ----------> */
 
 
@@ -54,7 +63,6 @@
   require("projreind/ct/CT_BLK_itemArm");
   require("projreind/ct/CT_BLK_conveyorBridge");
   require("projreind/ct/CT_BLK_baseItemGate");
-  require("projreind/ct/CT_BLK_incinerator");
   require("projreind/ct/CT_BLK_massDriver");
   require("projreind/ct/CT_BLK_container");
   require("projreind/ct/CT_BLK_baseLootBlock");
@@ -66,6 +74,9 @@
   require("projreind/ct/CT_BLK_fluidPipeBridge");
   require("projreind/ct/CT_BLK_baseFluidDistributor");
   require("projreind/ct/CT_BLK_fluidRouter");
+
+
+  require("projreind/ct/CT_BLK_incinerator");
 
 
   require("projreind/ct/CT_BLK_basePowerTransmitter");
@@ -154,6 +165,7 @@
     if(!Vars.headless && fetchSetting("misc-enable-window")) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-bliq0aux-tail-gas-burner",
         "projreind-dis0arm-primitive-item-arm",
         "projreind-fac0bio-moss-cultivator",
         "projreind-pow0heat-resistance-heater",

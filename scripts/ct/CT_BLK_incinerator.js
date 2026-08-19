@@ -29,3 +29,18 @@
       updateEffP: 0.02,
     }),
   );
+
+
+  /* <---------- bliq0aux ----------> */
+
+
+  const bliq0aux_tailGasBurner = extendBlock(
+    TEMPLATE, "bliq0aux-tail-gas-burner",
+    TEMPLATE[0].build({
+      hasExploIncineration: false,
+      liqTgFilter: func(function(liq) {
+        return liq.flammability > 0.0;
+      }),
+      fldType: "gas",
+    }),
+  );

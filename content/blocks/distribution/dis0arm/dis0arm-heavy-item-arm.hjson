@@ -8,11 +8,13 @@
   # type: Wall
   category: distribution
   requirements: [
-    loveclab-item0bio-timber/25
-    loveclab-item0chem-brass/15
-    loveclab-item0chem-cast-iron/5
+    loveclab-item0bio-timber/80
+    loveclab-item0chem-brass/40
+    loveclab-item0chem-cast-iron/30
+    loveclab-item0chem-steel/30
+    loveclab-item0int0conc-magnetite/60
   ]
-  buildCostMultiplier: 2.0
+  buildCostMultiplier: 0.75
 
 
 /*
@@ -23,10 +25,10 @@
 
 
   research: {
-    parent: dis0conv-wooden-conveyor
+    parent: dis0arm-primitive-long-item-arm
     objectives: []
   }
-  researchCostMultiplier: 1.0
+  researchCostMultiplier: 0.25
 
 
 /*
@@ -36,14 +38,14 @@
 */
 
 
-  scaledHealth: 50.0
-  armor: 6.0
+  scaledHealth: 60.0
+  armor: 12.0
   size: 1
   hasItems: false
   itemCapacity: 20
   hasLiquids: false
   liquidCapacity: 5.0
-  hasPower: false
+  hasPower: true
 
 
 /*
@@ -64,3 +66,15 @@
 
 
   squareSprite: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  consumes: {
+    power: 0.20833333
+  }
