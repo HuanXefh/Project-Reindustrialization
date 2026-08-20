@@ -77,6 +77,7 @@ const db = {
       "projreind-fac0furn-primitive-crucible", "alloy-furnace",
 
       "projreind-fac0proc-core-crafter", "assembler",
+      "projreind-fac0proc-mechanical-assembler", "assembler",
 
       "projreind-pow0boil-primitive-boiler", "boiler",
 

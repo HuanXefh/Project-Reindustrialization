@@ -46,4 +46,4 @@ Do not directly download the mod and its dependencies in mod browser, download t
 Do not download this mod only, the game will try downloading denpendencies which may be test versions and cause crash!
 '''
 
-version: 101.4.26081902
+version: 101.4.26082001

@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.4.26081901",
-    "loveclab", "101.4.26081901",
+    "lovec", "101.4.26082001",
+    "loveclab", "101.4.26082001",
   ])) {
     let mod1 = fetchMod("lovec");
     let mod2 = fetchMod("projreind");
@@ -43,7 +43,7 @@
     "research-unlockker",
     "unlock-tech-tree-mod",
   ].some(name => fetchMod(name) != null)) {
-    Events.run(ClientLoadEvent, () => Vars.ui.showErrorMessage(MDL_bundle.getInfo("projreind", "tech-tree-cheat-warn")));
+    Events.run(ClientLoadEvent, () => Vars.ui.showStartupInfo(MDL_bundle.getInfo("projreind", "tech-tree-cheat-warn")));
   };
 
 
@@ -165,6 +165,7 @@
     if(!Vars.headless && fetchSetting("misc-enable-window")) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-fac0proc-mechanical-assembler",
         "projreind-bliq0aux-tail-gas-burner",
         "projreind-dis0arm-primitive-item-arm",
         "projreind-fac0bio-moss-cultivator",
@@ -350,6 +351,7 @@
               "  > [accent]Asthosus[] - HJSON introduction.",
               "  > [accent]Fictional Octo System[] - Underground ore ideas.",
               "  > [accent]Meepscellaneous Concepts[] - Pseudo-3D ideas.",
+              "  > [accent]MultiBlockLib - Multi-block structure ideas",
               "  > [accent]MultiCrafter Lib[] - Multi-crafter ideas.",
               "  > [accent]Sapphirium[] - JavaScript introduction.",
               "  > [accent]TooManyItems[] - Less suffering from complexity.",

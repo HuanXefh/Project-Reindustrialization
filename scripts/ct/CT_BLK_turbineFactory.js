@@ -47,7 +47,7 @@
         z: VAR.layer.effFlr - 0.01,
       }),
       effectChance: 0.01,
-      radius: 8.0,
+      spread: 8.0,
       colorF: func3((b, x, y) => {
         let ot = Vars.world.tileWorld(x, y);
         return ot == null || !ot.floor().isLiquid ?

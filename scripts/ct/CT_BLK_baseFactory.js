@@ -17,6 +17,7 @@
   const TEMPLATE_AE = require("lovec/temp/blk/BLK_chemicalReactor");
   const TEMPLATE_B = require("lovec/temp/blk/BLK_infoFactory");
   const TEMPLATE_C = require("lovec/temp/blk/BLK_rainCollector");
+  const TEMPLATE_D = require("lovec/temp/blk/BLK_multiBlockRecipeFactory");
 
 
 /*
@@ -333,6 +334,15 @@
       rcMdl: "fac0proc-core-crafter",
       rcSourceMod: "projreind",
       craftEff: EFF.crackCraft,
+    }),
+  );
+
+
+  const fac0proc_mechanicalAssembler = extendBlock(
+    TEMPLATE_D, "fac0proc-mechanical-assembler",
+    TEMPLATE_D[0].build({
+      rcMdl: "fac0proc-mechanical-assembler",
+      rcSourceMod: "projreind",
     }),
   );
 

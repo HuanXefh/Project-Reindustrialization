@@ -5,15 +5,16 @@
 */
 
 
-  # type: GenericCrafter
-  category: power
+  # type: MultiBlockCrafter
+  category: crafting
   requirements: [
-    loveclab-item0chem-brass/90
+    loveclab-item0chem-lead/120
+    loveclab-item0chem-brass/80
     loveclab-item0chem-tin-bronze/80
-    loveclab-item0chem-cast-iron/50
-    loveclab-item0chem-steel/30
+    loveclab-item0chem-steel/60
+    loveclab-item0int0conc-magnetite/100
   ]
-  buildCostMultiplier: 1.5
+  buildCostMultiplier: 0.6
 
 
 /*
@@ -24,10 +25,10 @@
 
 
   research: {
-    parent: pow0tor-manual-crank
+    parent: dbct0tech-utility-crafting
     objectives: []
   }
-  researchCostMultiplier: 0.25
+  researchCostMultiplier: 0.1
 
 
 /*
@@ -37,14 +38,15 @@
 */
 
 
-  scaledHealth: 50.0
-  armor: 6.0
+  scaledHealth: 60.0
+  armor: 12.0
   size: 3
-  hasItems: false
-  itemCapacity: 20
+  hasItems: true
+  itemCapacity: 80
   hasLiquids: true
-  liquidCapacity: 5.0
+  liquidCapacity: 10.0
   hasPower: false
+  linkValues: [2, -1, 1, 2, 0, 1, 2, 1, 1]
 
 
 /*
@@ -54,7 +56,8 @@
 */
 
 
-  envDisabled: 20
+  envRequired: 0
+  envDisabled: 16
 
 
 /*
@@ -71,25 +74,42 @@
 
 
       {
-        type: DrawRegion
+        type: LCDrawMultiBlockSymmetricRegion
         suffix: "-bottom"
       }
 
 
       {
-        type: DrawBlurSpin
+        type: LCDrawMultiBlockRotator
         suffix: "-rotator"
-        rotateSpeed: 1.5
-        blurThresh: 0.5
+        isSymmetric: true
+        offX: 12.75
+        offY: 1.5
+        speed: -3.0
       }
 
 
       {
-        type: DrawPistons
+        type: LCDrawMultiBlockRotator
+        suffix: "-rotator"
+        isSymmetric: true
+        offX: 15.75
+        offY: 7.75
+        speed: -3.0
+      }
+
+
+      {
+        type: LCDrawMultiBlockSymmetricRegion
+      }
+
+
+      {
+        type: LCDrawMultiBlockSymmetricPistons
         suffix: "-piston"
         sides: 1
-        sinMag: 2.5
-        sinScl: 5.0
+        sinMag: 5.0
+        sinScl: 3.0
         sinOffset: 0.0
         sideOffset: 0.0
         lenOffset: -1.0
@@ -99,12 +119,12 @@
 
 
       {
-        type: DrawPistons
+        type: LCDrawMultiBlockSymmetricPistons
         suffix: "-piston1"
         sides: 1
-        sinMag: 3.2
-        sinScl: 2.5
-        sinOffset: 12.0
+        sinMag: 5.0
+        sinScl: 3.0
+        sinOffset: 3.0
         sideOffset: 0.0
         lenOffset: -1.0
         horiOffset: 0.0
@@ -113,28 +133,22 @@
 
 
       {
-        type: DrawPistons
-        suffix: "-piston2"
-        sides: 1
-        sinMag: 3.2
-        sinScl: 2.5
-        sinOffset: 21.0
-        sideOffset: 0.0
-        lenOffset: -1.0
-        horiOffset: 0.0
-        angleOffset: 90.0
+        type: LCDrawMultiBlockSymmetricRegion
+        suffix: "-pipe"
       }
 
 
       {
-        type: DrawDefault
+        type: LCDrawMultiBlockFade
+        suffix: "-fade"
+        isSymmetric: true
       }
 
 
     ]
   }
-  ambientSound: se-amb-turbine-piston
-  ambientSoundVolume: 0.4
+  ambientSound: se-amb-hum-computer
+  ambientSoundVolume: 0.3
 
 
 /*
@@ -144,7 +158,7 @@
 */
 
 
-  ignoreLiquidFullness: true
+  ignoreLiquidFullness: false
 
 
 /*
@@ -155,7 +169,3 @@
 
 
   craftTime: 300.0
-  outputLiquids: [
-    loveclab-gas0misc-steam/0.25
-    loveclab-aux0aux-torque/0.5
-  ]

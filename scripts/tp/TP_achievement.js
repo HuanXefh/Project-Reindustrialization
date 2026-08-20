@@ -138,7 +138,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0ore-native-copper")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-copper") this.complete();
+        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-copper") this.complete();
       },
     );
 
@@ -148,7 +148,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-tin-bronze")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-tin-bronze") this.complete();
+        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-tin-bronze") this.complete();
       },
     );
 
@@ -158,7 +158,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-steel")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-steel") this.complete();
+        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-steel") this.complete();
       },
     );
 
@@ -168,7 +168,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0misc-generic-tech-point-t1")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(Vars.state.isCampaign() && itm.name === "loveclab-item0misc-generic-tech-point-t1") this.complete();
+        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0misc-generic-tech-point-t1") this.complete();
       },
     );
 
@@ -178,7 +178,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-mangalloy")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-mangalloy") this.complete();
+        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-mangalloy") this.complete();
       },
     );
 
@@ -188,7 +188,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-coke")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-coke") this.complete();
+        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-coke") this.complete();
       },
     );
 
@@ -217,7 +217,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-rubber")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-rubber") this.complete();
+        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-rubber") this.complete();
       },
     );
 
@@ -227,7 +227,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-asbestos-wool")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-asbestos-wool") this.complete();
+        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-asbestos-wool") this.complete();
       },
     );
 
@@ -237,7 +237,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0buil-cement")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(Vars.state.isCampaign() && itm.name === "loveclab-item0buil-cement") this.complete();
+        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0buil-cement") this.complete();
       },
     );
 
@@ -247,7 +247,7 @@
       new TextureRegionDrawable(Core.atlas.find("projreind-fac0furn-bricked-blast-furnace-full")),
       TRIGGER.constructionComplete,
       function(b) {
-        if(Vars.state.isCampaign() && b.block.name === "projreind-fac0furn-bricked-blast-furnace") this.complete();
+        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && b.block.name === "projreind-fac0furn-bricked-blast-furnace") this.complete();
       },
     );
 
@@ -257,7 +257,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-stainless-steel")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-stainless-steel") this.complete();
+        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-stainless-steel") this.complete();
       },
     );
 
@@ -267,7 +267,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-cupronickel")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(Vars.state.isCampaign() && itm.name === "loveclab-item0chem-cupronickel") this.complete();
+        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-cupronickel") this.complete();
       },
     );
 
