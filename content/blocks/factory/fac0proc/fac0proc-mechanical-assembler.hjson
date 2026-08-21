@@ -95,7 +95,8 @@
         isSymmetric: true
         offX: 15.75
         offY: 7.75
-        speed: -3.0
+        angle: 8.5
+        speed: 3.0
       }
 
 
@@ -142,13 +143,33 @@
         type: LCDrawMultiBlockFade
         suffix: "-fade"
         isSymmetric: true
+        scale: 6.0
+        progressOffset: 0.0
+      }
+
+
+      {
+        type: LCDrawMultiBlockFade
+        suffix: "-fade1"
+        isSymmetric: true
+        scale: 6.0
+        progressOffset: 8.0
+      }
+
+
+      {
+        type: LCDrawMultiBlockFade
+        suffix: "-fade2"
+        isSymmetric: true
+        scale: 6.0
+        progressOffset: 16.0
       }
 
 
     ]
   }
   ambientSound: se-amb-hum-computer
-  ambientSoundVolume: 0.3
+  ambientSoundVolume: 0.35
 
 
 /*

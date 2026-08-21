@@ -1,0 +1,180 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: MultiBlockCrafter
+  category: production
+  requirements: [
+    loveclab-item0chem-lead/70
+    loveclab-item0chem-brass/30
+    loveclab-item0chem-tin-bronze/40
+    loveclab-item0chem-steel/30
+    loveclab-item0int0conc-magnetite/60
+  ]
+  buildCostMultiplier: 0.65
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: dbct0tech-harvester
+    objectives: []
+  }
+  researchCostMultiplier: 0.25
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 60.0
+  armor: 12.0
+  size: 1
+  hasItems: true
+  itemCapacity: 40
+  hasLiquids: true
+  liquidCapacity: 10.0
+  hasPower: true
+  linkValues: [1, 0, 1, 2, 0, 1, 2, 1, 1, 2, 2, 1, 1, 2, 1, 0, 2, 1, 0, 1, 1]
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envRequired: 1
+  envDisabled: 20
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawDefault
+      }
+
+
+      {
+        type: LCDrawRotator
+        suffix: "-rotator"
+        offX: 4.25
+        offY: 8.0
+        speed: -18.0
+        spinSprite: false
+      }
+
+
+      {
+        type: LCDrawRotator
+        suffix: "-rotator"
+        offX: 11.75
+        offY: 8.0
+        speed: -18.0
+        spinSprite: false
+      }
+
+
+      {
+        type: LCDrawRotator
+        suffix: "-rotator"
+        offX: 8.0
+        offY: 4.25
+        speed: -18.0
+        spinSprite: false
+      }
+
+
+      {
+        type: LCDrawRotator
+        suffix: "-rotator"
+        offX: 8.0
+        offY: 11.75
+        speed: -18.0
+        spinSprite: false
+      }
+
+
+      {
+        type: DrawRegion
+        suffix: "-top"
+      }
+
+
+      {
+        type: LCDrawFade
+        suffix: "-fade"
+        scale: 9.0
+        progressOffset: 0.0
+      }
+
+
+      {
+        type: LCDrawFade
+        suffix: "-fade1"
+        scale: 9.0
+        progressOffset: 20.0
+      }
+
+
+      {
+        type: LCDrawFade
+        suffix: "-fade2"
+        scale: 9.0
+        progressOffset: 40.0
+      }
+
+
+    ]
+  }
+  ambientSound: loopCutter
+  ambientSoundVolume: 0.5
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+  ignoreLiquidFullness: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  craftTime: 480.0
+  consumes: {
+    power: 1.33333333
+  }
+  outputItems: [
+    loveclab-item0bio-log/12
+  ]

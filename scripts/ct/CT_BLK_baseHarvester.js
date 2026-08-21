@@ -10,7 +10,9 @@
 
   const TEMPLATE = require("lovec/temp/blk/BLK_wallHarvester");
   const TEMPLATE_A = require("lovec/temp/blk/BLK_dynamicWallHarvester");
+  // TODO: AA for range dynamic
   const TEMPLATE_B = require("lovec/temp/blk/BLK_rangeHarvester");
+  const TEMPLATE_C = require("lovec/temp/blk/BLK_holeAttributeFactory");
 
 
 /*
@@ -48,6 +50,19 @@
       attrMode: AttrModes.BLOCK,
       updateEff: EFF.particleHarvester,
       updateEffP: 0.02,
+    }),
+  );
+
+
+  const min0harv_chomperMk2 = extendBlock(
+    TEMPLATE_C, "min0harv-chomper-mk2",
+    TEMPLATE_C[0].build({
+      tempTags: ["non-fac"],
+      holeOffPon: new Point2(1, 1),
+      holeSize: 1,
+      attribute: TP_attr.attr0blk_hardTree,
+      holeUpdateEff: Fx.mineWallSmall,
+      holeUpdateEffP: 0.1,
     }),
   );
 

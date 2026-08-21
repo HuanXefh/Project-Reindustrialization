@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.4.26082001",
-    "loveclab", "101.4.26082001",
+    "lovec", "101.4.26082101",
+    "loveclab", "101.4.26082101",
   ])) {
     let mod1 = fetchMod("lovec");
     let mod2 = fetchMod("projreind");
@@ -165,6 +165,7 @@
     if(!Vars.headless && fetchSetting("misc-enable-window")) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-min0harv-chomper-mk2",
         "projreind-fac0proc-mechanical-assembler",
         "projreind-bliq0aux-tail-gas-burner",
         "projreind-dis0arm-primitive-item-arm",
