@@ -35,7 +35,7 @@
     TEMPLATE_A, "eff0proj-bay-class-repairer",
     TEMPLATE_A[0].build({
       bHealAmt: 10.0,
-      bHealPerc: 0.125,
+      bHealPerc: 0.0625,
       unitHealAmt: 25.0,
       unitHealPerc: 0.025,
     }),

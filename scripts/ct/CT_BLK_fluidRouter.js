@@ -9,6 +9,7 @@
 
 
   const TEMPLATE = require("lovec/temp/blk/BLK_fluidRouter");
+  const TEMPLATE_A = require("lovec/temp/blk/BLK_multiBlockFluidRouter");
 
 
 /*
@@ -43,6 +44,14 @@
   const bliq0stor_steelLiquidTank = extendBlock(
     TEMPLATE, "bliq0stor-steel-liquid-tank",
     TEMPLATE[0].build({
+      fldType: "liquid",
+    }),
+  );
+
+
+  const bliq0stor_concreteReservoir = extendBlock(
+    TEMPLATE_A, "bliq0stor-concrete-reservoir",
+    TEMPLATE_A[0].build({
       fldType: "liquid",
     }),
   );

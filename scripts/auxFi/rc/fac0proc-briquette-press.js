@@ -32,6 +32,7 @@ const rc = {
         [
           "loveclab-item0chem-coal", 30, 0.5,
           "loveclab-item0int0dust-raw-coal", 45, 0.5,
+          "loveclab-item0int-biomass-powder-dried", 30, 0.5,
         ], -1.0, -1.0,
         [
           "loveclab-item0ore-clay", 40, 0.5,

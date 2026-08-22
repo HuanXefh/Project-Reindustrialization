@@ -1,0 +1,100 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: MultiBlockLiquidRouter
+  category: liquid
+  requirements: [
+    loveclab-item0chem-graphite/50
+    loveclab-item0chem-steel/30
+    loveclab-item0buil-cement/100
+    loveclab-item0buil-coarse-aggregate/150
+    loveclab-item0buil-fine-aggregate/120
+  ]
+  buildCostMultiplier: 0.7
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: bliq0stor-steel-liquid-tank
+    objectives: []
+  }
+  researchCostMultiplier: 0.2
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 80.0
+  armor: 24.0
+  size: 2
+  hasItems: true
+  itemCapacity: 20
+  hasLiquids: true
+  liquidCapacity: 7200.0
+  hasPower: false
+  linkValues: [2, 0, 1, 2, 1, 1]
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: LCDrawMultiBlockSymmetricRegion
+        suffix: "-bottom"
+      }
+
+
+      {
+        type: LCDrawMultiBlockLiquidTile
+        isSymmetric: true
+        padding: 1.5
+      }
+
+
+      {
+        type: LCDrawMultiBlockSymmetricRegion
+      }
+
+
+      {
+        type: LCDrawMultiBlockSymmetricRegion
+        suffix: "-pipe"
+      }
+
+
+    ]
+  }
