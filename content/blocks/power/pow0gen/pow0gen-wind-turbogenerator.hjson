@@ -1,0 +1,177 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+  # type: ConsumeGenerator
+  category: power
+  requirements: [
+    loveclab-item0chem-copper/80
+    loveclab-item0chem-tin-bronze/60
+    loveclab-item0chem-cast-iron/40
+    loveclab-item0ore-magnetite/200
+  ]
+  buildCostMultiplier: 0.3
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+  research: {
+    parent: pow0gen-lodestone-generator
+    objectives: []
+  }
+  researchCostMultiplier: 0.35
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+  scaledHealth: 50.0
+  armor: 6.0
+  size: 2
+  hasItems: false
+  itemCapacity: 20
+  hasLiquids: false
+  liquidCapacity: 5.0
+  hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+  envDisabled: 22
+  fogRadius: 3
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+  squareSprite: false
+  drawer: {
+    type: DrawMulti
+    drawers: [
+
+
+      {
+        type: DrawDefault
+      }
+
+
+      {
+        type: DrawRegion
+        suffix: "-top-shade"
+      }
+
+
+      {
+        type: LCDrawRotator
+        suffix: "-rotator-shadow"
+        offX: -6.0
+        offY: -6.0
+        z: 71.23
+        angle: 0.0
+        speed: 3.5
+        sides: 1
+        spinSprite: false
+      }
+
+
+      {
+        type: LCDrawRotator
+        suffix: "-rotator-shadow"
+        offX: -6.0
+        offY: -6.0
+        z: 71.2301
+        angle: 120.0
+        speed: 3.5
+        sides: 1
+        spinSprite: false
+      }
+
+
+      {
+        type: LCDrawRotator
+        suffix: "-rotator-shadow"
+        offX: -6.0
+        offY: -6.0
+        z: 71.2302
+        angle: 240.0
+        speed: 3.5
+        sides: 1
+        spinSprite: false
+      }
+
+
+      {
+        type: LCDrawRotator
+        suffix: "-rotator"
+        z: 71.24
+        angle: 0.0
+        speed: 3.5
+        sides: 1
+        spinSprite: false
+      }
+
+
+      {
+        type: LCDrawRotator
+        suffix: "-rotator"
+        z: 71.2401
+        angle: 120.0
+        speed: 3.5
+        sides: 1
+        spinSprite: false
+      }
+
+
+      {
+        type: LCDrawRotator
+        suffix: "-rotator"
+        z: 71.2402
+        angle: 240.0
+        speed: 3.5
+        sides: 1
+        spinSprite: false
+      }
+
+
+      {
+        type: DrawRegion
+        suffix: "-top"
+        layer: 71.2403
+      }
+
+
+    ]
+  }
+  ambientSound: se-amb-hum
+  ambientSoundVolume: 0.05
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+  powerProduction: 1.25

@@ -8,13 +8,13 @@
   # type: MultiBlockLiquidRouter
   category: liquid
   requirements: [
-    loveclab-item0chem-graphite/50
-    loveclab-item0chem-steel/30
-    loveclab-item0buil-cement/100
-    loveclab-item0buil-coarse-aggregate/150
-    loveclab-item0buil-fine-aggregate/120
+    loveclab-item0chem-graphite/150
+    loveclab-item0chem-steel/75
+    loveclab-item0buil-cement/180
+    loveclab-item0buil-coarse-aggregate/200
+    loveclab-item0buil-fine-aggregate/180
   ]
-  buildCostMultiplier: 0.7
+  buildCostMultiplier: 0.5
 
 
 /*
@@ -28,7 +28,7 @@
     parent: bliq0stor-steel-liquid-tank
     objectives: []
   }
-  researchCostMultiplier: 0.2
+  researchCostMultiplier: 0.15
 
 
 /*

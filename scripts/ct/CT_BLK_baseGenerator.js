@@ -10,6 +10,7 @@
 
   const TEMPLATE = require("lovec/temp/blk/BLK_consumeGenerator");
   const TEMPLATE_A = require("lovec/temp/blk/BLK_ventGenerator");
+  const TEMPLATE_B = require("lovec/temp/blk/BLK_windGenerator");
 
 
 /*
@@ -74,5 +75,16 @@
       overwriteExploParam: false,
       genEff: EFF.particlePower,
       genEffP: 0.02,
+    }),
+  );
+
+
+  const pow0gen_windTurbogenerator = extendBlock(
+    TEMPLATE_B, "pow0gen-wind-turbogenerator",
+    TEMPLATE_B[0].build({
+      bladeTouchRad: 26.0,
+      bladeTouchDmg: 120.0,
+      bladeTouchSelfDmg: 70.0,
+      placeRestrictR: 7,
     }),
   );
