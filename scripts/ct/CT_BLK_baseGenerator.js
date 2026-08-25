@@ -83,8 +83,10 @@
     TEMPLATE_B, "pow0gen-wind-turbogenerator",
     TEMPLATE_B[0].build({
       bladeTouchRad: 26.0,
-      bladeTouchDmg: 120.0,
+      bladeTouchDmg: 200.0,
       bladeTouchSelfDmg: 70.0,
       placeRestrictR: 7,
+      genWarmupRate: 0.004,
+      bladeVisualSpd: 3.5,
     }),
   );

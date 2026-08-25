@@ -106,8 +106,9 @@
 
 
       {
-        type: LCDrawMultiBlockSymmetricPistons
+        type: LCDrawMultiBlockPistons
         suffix: "-piston"
+        isSymmetric: true
         sides: 1
         sinMag: 5.0
         sinScl: 3.0
@@ -120,8 +121,9 @@
 
 
       {
-        type: LCDrawMultiBlockSymmetricPistons
+        type: LCDrawMultiBlockPistons
         suffix: "-piston1"
+        isSymmetric: true
         sides: 1
         sinMag: 5.0
         sinScl: 3.0

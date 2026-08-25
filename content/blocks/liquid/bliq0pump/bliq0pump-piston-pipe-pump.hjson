@@ -5,15 +5,17 @@
 */
 
 
-  # type: GenericCrafter
+  # type: MultiBlockCrafter
   category: liquid
   requirements: [
-    loveclab-item0chem-lead/20
-    loveclab-item0chem-graphite/35
-    loveclab-item0chem-tin-bronze/20
+    loveclab-item0chem-graphite/50
+    loveclab-item0chem-brass/30
+    loveclab-item0chem-tin-bronze/50
     loveclab-item0chem-cast-iron/40
+    loveclab-item0chem-steel/20
+    loveclab-item0ore-magnetite/60
   ]
-  buildCostMultiplier: 1.8
+  buildCostMultiplier: 0.8
 
 
 /*
@@ -27,7 +29,7 @@
     parent: dbct0tech-pressurization
     objectives: []
   }
-  researchCostMultiplier: 0.55
+  researchCostMultiplier: 0.5
 
 
 /*
@@ -39,11 +41,11 @@
 
   scaledHealth: 60.0
   armor: 12.0
-  size: 2
-  hasItems: false
+  size: 1
+  hasItems: true
   itemCapacity: 20
   hasLiquids: true
-  liquidCapacity: 5.0
+  liquidCapacity: 10.0
   hasPower: true
 
 
@@ -71,27 +73,43 @@
 
 
       {
-        type: DrawDefault
+        type: DrawRegion
+        suffix: "-bottom"
+        buildingRotate: true
       }
 
 
       {
-        type: DrawLiquidRegion
-        drawLiquid: loveclab-liq0ore-water
-        suffix: "-liquid"
+        type: LCDrawMultiBlockPistons
+        suffix: "-piston"
+        sides: 1
+        sinMag: 2.2
+        sinScl: 3.5
+        sinOffset: 0.0
+        sideOffset: 0.0
+        lenOffset: -1.0
+        horiOffset: 0.0
+        angleOffset: 0.0
       }
 
 
       {
-        type: DrawFade
-        suffix: "-fade"
+        type: LCDrawMixedLiquid
+        rotate: true
+        alpha: 0.7
+      }
+
+
+      {
+        type: LCDrawFourSideRegions
+        suffix: ""
       }
 
 
     ]
   }
-  ambientSound: se-amb-piston-pump
-  ambientSoundVolume: 0.2
+  ambientSound: se-amb-hum
+  ambientSoundVolume: 0.15
 
 
 /*
@@ -111,10 +129,7 @@
 */
 
 
-  craftTime: 180.0
+  craftTime: 60.0
   consumes: {
-    power: 1.66666667
-    liquids: [
-      loveclab-liq0ore-water/0.1
-    ]
+    power: 1.0
   }

@@ -6,8 +6,9 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.4.26082202",
-    "loveclab", "101.4.26082202",
+    "lovec", "101.4.26082501",
+    "loveclab", "101.4.26082501",
+    "fcell", "102",
   ])) {
     let mod1 = fetchMod("lovec");
     let mod2 = fetchMod("projreind");
@@ -77,6 +78,7 @@
 
 
   require("projreind/ct/CT_BLK_incinerator");
+  require("projreind/ct/CT_BLK_fluidPackager");
 
 
   require("projreind/ct/CT_BLK_basePowerTransmitter");
@@ -165,6 +167,8 @@
     if(!Vars.headless && fetchSetting("misc-enable-window")) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-bliq0pump-piston-pipe-pump",
+        "projreind-bliq0aux-fluid-packager",
         "projreind-pow0gen-wind-turbogenerator",
         "projreind-bliq0stor-concrete-reservoir",
         "projreind-min0harv-chomper-mk2",
