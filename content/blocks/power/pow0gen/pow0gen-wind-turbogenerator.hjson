@@ -8,12 +8,13 @@
   # type: ConsumeGenerator
   category: power
   requirements: [
-    loveclab-item0chem-copper/80
-    loveclab-item0chem-tin-bronze/60
-    loveclab-item0chem-cast-iron/40
+    loveclab-item0chem-copper/100
+    loveclab-item0chem-tin-bronze/70
+    loveclab-item0chem-cast-iron/50
+    loveclab-item0chem-steel/30
     loveclab-item0ore-magnetite/200
   ]
-  buildCostMultiplier: 0.55
+  buildCostMultiplier: 0.45
 
 
 /*

@@ -133,12 +133,17 @@
     /* <------------------------------ production ------------------------------ */
 
 
+    function checkItm(b, itm, itmName) {
+      return !Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === itmName;
+    };
+
+
     new CLS_achievement(
       "projreind", "ingot-mining-is-gone",
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0ore-native-copper")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-copper") this.complete();
+        if(checkItm(b, itm, "loveclab-item0chem-copper")) this.complete();
       },
     );
 
@@ -148,7 +153,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-tin-bronze")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-tin-bronze") this.complete();
+        if(checkItm(b, itm, "loveclab-item0chem-tin-bronze")) this.complete();
       },
     );
 
@@ -158,7 +163,24 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-steel")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-steel") this.complete();
+        if(checkItm(b, itm, "loveclab-item0chem-steel")) this.complete();
+      },
+    );
+
+
+    new CLS_achievement(
+      "projreind", "the-factory-is-growing",
+      new TextureRegionDrawable(Core.atlas.find("projreind-dis0arm-primitive-item-arm-ui")),
+      TRIGGER.contentUnlock,
+      function(ct) {
+        if(
+          !Vars.net.client() && Vars.state.isCampaign()
+            && fetchContent("projreind-dis0arm-primitive-item-arm").unlocked
+            && fetchContent("projreind-dis0arm-primitive-long-item-arm").unlocked
+            && fetchContent("projreind-dis0arm-heavy-item-arm").unlocked
+        ) {
+          this.complete();
+        };
       },
     );
 
@@ -168,7 +190,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0misc-generic-tech-point-t1")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0misc-generic-tech-point-t1") this.complete();
+        if(checkItm(b, itm, "loveclab-item0misc-generic-tech-point-t1")) this.complete();
       },
     );
 
@@ -178,7 +200,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-mangalloy")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-mangalloy") this.complete();
+        if(checkItm(b, itm, "loveclab-item0chem-mangalloy")) this.complete();
       },
     );
 
@@ -188,7 +210,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-coke")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-coke") this.complete();
+        if(checkItm(b, itm, "loveclab-item0chem-coke")) this.complete();
       },
     );
 
@@ -199,7 +221,7 @@
       TRIGGER.contentUnlock,
       function(ct) {
         if(
-          Vars.state.isCampaign()
+          !Vars.net.client() && Vars.state.isCampaign()
             && fetchContent("loveclab-item0buil-brick-clay").unlocked
             && fetchContent("loveclab-item0buil-brick-magnesia").unlocked
             && fetchContent("loveclab-item0buil-brick-mullite").unlocked
@@ -217,7 +239,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-rubber")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-rubber") this.complete();
+        if(checkItm(b, itm, "loveclab-item0chem-rubber")) this.complete();
       },
     );
 
@@ -227,7 +249,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-asbestos-wool")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-asbestos-wool") this.complete();
+        if(checkItm(b, itm, "loveclab-item0chem-asbestos-wool")) this.complete();
       },
     );
 
@@ -237,7 +259,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0buil-cement")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0buil-cement") this.complete();
+        if(checkItm(b, itm, "loveclab-item0chem-cement")) this.complete();
       },
     );
 
@@ -257,7 +279,7 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-stainless-steel")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-stainless-steel") this.complete();
+        if(checkItm(b, itm, "loveclab-item0chem-stainless-steel")) this.complete();
       },
     );
 
@@ -267,7 +289,27 @@
       new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-cupronickel")),
       TRIGGER.itemProduce,
       function(b, itm, amt) {
-        if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && itm.name === "loveclab-item0chem-cupronickel") this.complete();
+        if(checkItm(b, itm, "loveclab-item0chem-cupronickel")) this.complete();
+      },
+    );
+
+
+    new CLS_achievement(
+      "projreind", "seasoning-of-life",
+      new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-sodium-chloride")),
+      TRIGGER.itemProduce,
+      function(b, itm, amt) {
+        if(checkItm(b, itm, "loveclab-item0chem-sodium-chloride")) this.complete();
+      },
+    );
+
+
+    new CLS_achievement(
+      "projreind", "prelude-to-war",
+      new TextureRegionDrawable(Core.atlas.find("loveclab-item0misc-black-powder")),
+      TRIGGER.itemProduce,
+      function(b, itm, amt) {
+        if(checkItm(b, itm, "loveclab-item0misc-black-powder")) this.complete();
       },
     );
 

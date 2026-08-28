@@ -19,11 +19,11 @@ Relevant links:
 
 Project Reindustrialization (ProjReind) is a Mindustry JavaScript mod without tower defense. Instead, the mod brings realistic and hardcore production, together with multi-crafters equipped with a hell amount of recipes for Greg's Tech enjoyers.
 
-The mod is still in early stage despite being developed for years.
+ProjReind is still in early stage despite being developed for years.
 
 <img width="400" alt="Preview 1" style="padding: 8px;" src="document/doc-preview-1.1.jpg"> <img width="400" alt="Preview 1" style="padding: 8px;" src="document/doc-preview-1.2.jpg">
 
-ProjReind is the improved version of [Reindustrialization](https://github.com/HuanXefh/Reindustrialization) with codes and contents refined. The mod requires [Lovecraftian Library](https://github.com/HuanXefh/Lovecraftian-Library-Java) and [Lovecraftian Laboratory](https://github.com/HuanXefh/Lovecraftian-Laboratory).
+ProjReind is the improved version of [Reindustrialization](https://github.com/HuanXefh/Reindustrialization) with codes and contents refined. **The mod requires [Lovecraftian Library](https://github.com/HuanXefh/Lovecraftian-Library-Java), [Lovecraftian Laboratory](https://github.com/HuanXefh/Lovecraftian-Laboratory) and [Fluid Cells](https://github.com/HuanXefh/Fluid-Cells).**
 
 Mod features:
 

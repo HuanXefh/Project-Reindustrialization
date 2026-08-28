@@ -66,6 +66,7 @@
       blockedFuels: [
         "loveclab-item0chem-sulfur"
       ],
+      heatWarmupRate: 0.0003,
       rcMdl: "fac0furn-kiln",
       rcSourceMod: "projreind",
       craftEff: EFF.smogFurnace,
@@ -79,6 +80,7 @@
     TEMPLATE_AA, "fac0furn-primitive-smelter",
     TEMPLATE_AA[0].build({
       fuelConsMtp: 0.25,
+      heatWarmupRate: 0.001,
       rcMdl: "fac0furn-primitive-smelter",
       rcSourceMod: "projreind",
       disableDump: true,
@@ -95,6 +97,7 @@
       blockedFuels: DB_item.db["group"]["fuel"]["biotic"],
       fuelConsMtp: 0.75,
       fuelLvlMtp: 1.4,
+      heatWarmupRate: 0.0002,
       rcMdl: "fac0furn-bloomery",
       rcSourceMod: "projreind",
       craftEff: EFF.smogFurnace,
@@ -110,6 +113,7 @@
       blockedFuels: DB_item.db["group"]["fuel"]["biotic"],
       fuelConsMtp: 1.25,
       fuelLvlMtp: 1.3,
+      heatWarmupRate: 0.0001,
       rcMdl: "fac0furn-bricked-blast-furnace",
       rcSourceMod: "projreind",
       craftEff: EFF.smogFurnaceLarge,

@@ -119,6 +119,7 @@ const db = {
 
       "projreind-bliq0pump-piston-pressure-pump", "pressure-pump",
       "projreind-bliq0pump-piston-vacuum-pump", "pressure-pump",
+      "projreind-bliq0pump-piston-pipe-pump", "pressure-pump",
 
       "projreind-fac0mill-mechanical-mill", "pulverizer",
       "projreind-fac0mill-ball-mill", "pulverizer",

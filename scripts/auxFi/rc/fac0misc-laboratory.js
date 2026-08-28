@@ -113,7 +113,7 @@ const rc = {
 
       bi: [
         "loveclab-item0misc-generic-tech-point-t2", 1, 1.0,
-        "loveclab-item0chem-stainless-steel", 30, 1.0,
+        "loveclab-item0chem-stainless-steel", 10, 1.0,
         "loveclab-item0chem-talcum-powder", 60, 1.0,
       ],
 
