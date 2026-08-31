@@ -43,7 +43,7 @@
   hasItems: false
   itemCapacity: 20
   hasLiquids: true
-  liquidCapacity: 5.0
+  liquidCapacity: 30.0
   hasPower: true
 
 

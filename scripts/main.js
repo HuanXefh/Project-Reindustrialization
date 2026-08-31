@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.4.26082801",
-    "loveclab", "101.4.26082801",
+    "lovec", "101.4.26083101",
+    "loveclab", "101.4.26083101",
     "fcell", "102",
   ])) {
     let mod1 = fetchMod("lovec");
@@ -257,7 +257,7 @@
           tb.table(Styles.none, tb1 => {
             MDL_table.btn(tb1, "@close", () => winWelcome.close());
             MDL_table.btn(tb1, MDL_bundle.getInfo("projreind", "dial-credits"), () => dialCredits.ex_show());
-            MDL_table.btn(tb1, "Repo", () => Core.app.openURI("https://github.com/HuanXefh/Project-Reindustrialization"));
+            MDL_table.btn(tb1, MDL_bundle.getInfo("projreind", "dial-repo"), () => Core.app.openURI("https://github.com/HuanXefh/Project-Reindustrialization"));
           });
         }).growX().growY();
 
@@ -334,7 +334,7 @@
               "",
               "Spriting:",
               "  > MaboroshiX",
-              "  > Starshine - Sprite support.",
+              "  > Starshine - Sprite support for legacy version.",
               "",
               "Map Making:",
               "  > MaboroshiX",
@@ -358,7 +358,7 @@
               "  > [accent]Asthosus[] - HJSON introduction.",
               "  > [accent]Fictional Octo System[] - Underground ore ideas.",
               "  > [accent]Meepscellaneous Concepts[] - Pseudo-3D ideas.",
-              "  > [accent]MultiBlockLib - Multi-block structure ideas",
+              "  > [accent]MultiBlockLib[] - Multi-block structure ideas.",
               "  > [accent]MultiCrafter Lib[] - Multi-crafter ideas.",
               "  > [accent]Sapphirium[] - JavaScript introduction.",
               "  > [accent]TooManyItems[] - Less suffering from complexity.",
