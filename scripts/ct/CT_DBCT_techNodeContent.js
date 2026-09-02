@@ -31,6 +31,11 @@
   );
 
 
+  const dbct0tech_farming = extendBase(
+    TEMPLATE, "dbct0tech-farming",
+  );
+
+
   /* <---------- dbct0tech (item) ----------> */
 
 

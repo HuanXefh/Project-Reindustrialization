@@ -12,8 +12,9 @@
     loveclab-item0chem-graphite/50
     loveclab-item0chem-brass/40
     loveclab-item0chem-cast-iron/40
+    loveclab-item0chem-steel/20
   ]
-  buildCostMultiplier: 0.8
+  buildCostMultiplier: 0.75
 
 
 /*

@@ -6,8 +6,8 @@
 
 
   if(!checkVersion("projreind", [
-    "lovec", "101.4.26083101",
-    "loveclab", "101.4.26083101",
+    "lovec", "101.4.26090201",
+    "loveclab", "101.4.26090201",
     "fcell", "102",
   ])) {
     let mod1 = fetchMod("lovec");
@@ -57,6 +57,7 @@
   require("projreind/ct/CT_BLK_baseDrill");
   require("projreind/ct/CT_BLK_oreScanner");
   require("projreind/ct/CT_BLK_baseHarvester");
+  require("projreind/ct/CT_BLK_crop");
 
 
   require("projreind/ct/CT_BLK_conveyor");
@@ -167,6 +168,7 @@
     if(!Vars.headless && fetchSetting("misc-enable-window")) {
       const data = {};
       data["v102: Hot Furnace"] = [
+        "projreind-min0crop-aerth-sisal",
         "projreind-bliq0pump-piston-pipe-pump",
         "projreind-bliq0aux-fluid-packager",
         "projreind-pow0gen-wind-turbogenerator",

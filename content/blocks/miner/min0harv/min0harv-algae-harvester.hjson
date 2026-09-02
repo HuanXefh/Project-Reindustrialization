@@ -24,7 +24,7 @@
 
 
   research: {
-    parent: fac0bio-moss-cultivator
+    parent: min0harv-mycelial-harvester
     objectives: []
   }
   researchCostMultiplier: 0.35

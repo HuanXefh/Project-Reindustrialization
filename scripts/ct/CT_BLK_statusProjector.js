@@ -24,7 +24,7 @@
   const eff0proj_hasteProjector = extendBlock(
     TEMPLATE, "eff0proj-haste-projector",
     TEMPLATE[0].build({
-      staTg: "loveclab-sta-haste",
+      staTarget: "loveclab-sta-haste",
       staDur: 15.0 * 60.0,
       filterScr: boolf2(function(b, ounit) {
         if(ounit.team !== b.team) return false;

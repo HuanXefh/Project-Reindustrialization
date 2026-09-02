@@ -27,7 +27,7 @@
       exploRad: 48.0,
       exploDmg: 1200.0,
       exploShake: 6.0,
-      exploFldTg: "loveclab-gas0int-steam-mp",
+      exploFldTarget: "loveclab-gas0int-steam-mp",
       presProd: 0.06666667,
       tempReq: 100.0,
       tempExtMtp: 0.25,

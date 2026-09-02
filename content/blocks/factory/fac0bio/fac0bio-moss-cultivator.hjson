@@ -9,7 +9,6 @@
   category: crafting
   requirements: [
     loveclab-item0chem-graphite/40
-    loveclab-item0buil-glass/30
     loveclab-item0chem-tin-bronze/20
     loveclab-item0chem-cast-iron/30
     loveclab-item0chem-steel/20
@@ -25,7 +24,7 @@
 
 
   research: {
-    parent: min0harv-forest-harvester
+    parent: min0harv-tree-tap
     objectives: []
   }
   researchCostMultiplier: 0.5

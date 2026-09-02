@@ -14,7 +14,7 @@ const rc = {
 
 
 TP_recipeGen._g_auxTemp.run(rc, {
-  tg: "loveclab-aux0aux-tube-furnace",
+  target: "loveclab-aux0aux-tube-furnace",
   maxTemp: 1800.0,
 });
 TP_recipeGen._g_heaterGas.run(rc, {
