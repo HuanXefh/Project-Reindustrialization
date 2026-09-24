@@ -5,12 +5,12 @@
 */
 
 
-  # type: MessageBlock
-  category: logic
-  requirements: [
-    loveclab-item0chem-copper/5
-  ]
-  buildCostMultiplier: 10.0
+    # type: MessageBlock
+    category: logic
+    requirements: [
+        loveclab-item0chem-copper/5
+    ]
+    buildCostMultiplier: 10.0
 
 
 /*
@@ -20,11 +20,11 @@
 */
 
 
-  research: {
-    parent: log0aux-directional-switch
-    objectives: []
-  }
-  researchCostMultiplier: 0.35
+    research: {
+        parent: log0aux-directional-switch
+        objectives: []
+    }
+    researchCostMultiplier: 0.35
 
 
 /*
@@ -34,14 +34,14 @@
 */
 
 
-  scaledHealth: 40.0
-  armor: 0.0
-  size: 1
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 1
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -51,7 +51,7 @@
 */
 
 
-  envDisabled: 16
+    envDisabled: 16
 
 
 /*
@@ -61,4 +61,4 @@
 */
 
 
-  squareSprite: false
+    squareSprite: false

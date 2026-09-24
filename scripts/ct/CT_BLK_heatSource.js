@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/blk/BLK_heatSource");
+    const BLK_B_heatSource = require("lovec/temp/blk/BLK_heatSource");
 
 
 /*
@@ -18,9 +15,9 @@
 */
 
 
-  /* <---------- pow0heat ----------> */
+    /* <------------------------------ pow0heat ------------------------------> */
 
 
-  const pow0heat_heatSource = extendBlock(
-    TEMPLATE, "pow0heat-heat-source",
-  );
+    const pow0heat_heatSource = extendBlock(
+        BLK_B_heatSource, "pow0heat-heat-source",
+    );

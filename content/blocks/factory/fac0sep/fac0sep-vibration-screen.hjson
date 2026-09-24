@@ -5,13 +5,13 @@
 */
 
 
-  # type: GenericCrafter
-  category: crafting
-  requirements: [
-    loveclab-item0chem-copper/25
-    loveclab-item0chem-tin-bronze/10
-  ]
-  buildCostMultiplier: 4.0
+    # type: GenericCrafter
+    category: crafting
+    requirements: [
+        loveclab-item0chem-copper/25
+        loveclab-item0chem-tin-bronze/10
+    ]
+    buildCostMultiplier: 4.0
 
 
 /*
@@ -21,11 +21,11 @@
 */
 
 
-  research: {
-    parent: dbct0tech-ore-selection
-    objectives: []
-  }
-  researchCostMultiplier: 0.15
+    research: {
+        parent: dbct0tech-ore-selection
+        objectives: []
+    }
+    researchCostMultiplier: 0.15
 
 
 /*
@@ -35,14 +35,14 @@
 */
 
 
-  scaledHealth: 40.0
-  armor: 0.0
-  size: 2
-  hasItems: true
-  itemCapacity: 10
-  hasLiquids: true
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 2
+    hasItems: true
+    itemCapacity: 10
+    hasLiquids: true
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -52,8 +52,8 @@
 */
 
 
-  envRequired: 1
-  envDisabled: 22
+    envRequired: 1
+    envDisabled: 22
 
 
 /*
@@ -63,29 +63,29 @@
 */
 
 
-  squareSprite: false
-  drawer: {
-    type: DrawMulti
-    drawers: [
+    squareSprite: false
+    drawer: {
+        type: DrawMulti
+        drawers: [
 
 
-      {
-        type: DrawDefault
-      }
+            {
+                type: DrawDefault
+            }
 
 
-      {
-        type: DrawFrames
-        frames: 4
-        interval: 7.5
-        sine: false
-      }
+            {
+                type: DrawFrames
+                frames: 4
+                interval: 7.5
+                sine: false
+            }
 
 
-    ]
-  }
-  ambientSound: se-amb-hum
-  ambientSoundVolume: 0.2
+        ]
+    }
+    ambientSound: se-amb-hum
+    ambientSoundVolume: 0.2
 
 
 /*
@@ -95,7 +95,7 @@
 */
 
 
-  ignoreLiquidFullness: false
+    ignoreLiquidFullness: false
 
 
 /*
@@ -105,7 +105,7 @@
 */
 
 
-  craftTime: 300.0
-  consumes: {
-    power: 0.66666667
-  }
+    craftTime: 300.0
+    consumes: {
+        power: 0.66666667
+    }

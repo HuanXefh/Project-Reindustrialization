@@ -5,11 +5,11 @@
 */
 
 
-  research: {
-    parent: camp-atm001-sector-beta
-    objectives: []
-    requirements: [
-      loveclab-item0chem-brass/100
-      loveclab-item0chem-tin-bronze/100
-    ]
-  }
+    research: {
+        parent: camp-atm001-sector-beta
+        objectives: []
+        requirements: [
+            loveclab-item0chem-brass/100
+            loveclab-item0chem-tin-bronze/100
+        ]
+    }

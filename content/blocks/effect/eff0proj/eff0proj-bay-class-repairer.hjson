@@ -5,16 +5,16 @@
 */
 
 
-  # type: MendProjector
-  category: effect
-  requirements: [
-    loveclab-item0bio-timber/70
-    loveclab-item0chem-brass/40
-    loveclab-item0chem-tin-bronze/40
-    loveclab-item0chem-cast-iron/40
-    loveclab-item0chem-steel/30
-  ]
-  buildCostMultiplier: 2.2
+    # type: MendProjector
+    category: effect
+    requirements: [
+        loveclab-item0bio-timber/70
+        loveclab-item0chem-brass/40
+        loveclab-item0chem-tin-bronze/40
+        loveclab-item0chem-cast-iron/40
+        loveclab-item0chem-steel/30
+    ]
+    buildCostMultiplier: 2.2
 
 
 /*
@@ -24,11 +24,11 @@
 */
 
 
-  research: {
-    parent: eff0proj-local-repairer
-    objectives: []
-  }
-  researchCostMultiplier: 0.2
+    research: {
+        parent: eff0proj-local-repairer
+        objectives: []
+    }
+    researchCostMultiplier: 0.2
 
 
 /*
@@ -38,14 +38,14 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
-  size: 3
-  hasItems: true
-  itemCapacity: 10
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 3
+    hasItems: true
+    itemCapacity: 10
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -55,7 +55,7 @@
 */
 
 
-  envDisabled: 16
+    envDisabled: 16
 
 
 /*
@@ -65,11 +65,11 @@
 */
 
 
-  squareSprite: false
-  baseColor: "84f491"
-  phaseColor: "84f491"
-  ambientSound: se-amb-regen
-  ambientSoundVolume: 0.3
+    squareSprite: false
+    baseColor: "84f491"
+    phaseColor: "84f491"
+    ambientSound: se-amb-regen
+    ambientSoundVolume: 0.3
 
 
 /*
@@ -79,10 +79,10 @@
 */
 
 
-  range: 104.0
-  reload: 120.0
-  phaseBoost: 6.25
-  phaseRangeBoost: 0.0
+    range: 104.0
+    reload: 120.0
+    phaseBoost: 6.25
+    phaseRangeBoost: 0.0
 
 
 /*
@@ -92,14 +92,14 @@
 */
 
 
-  useTime: 240.0
-  consumes: {
-    power: 1.83333333
-    items: {
-      items: [
-        loveclab-item0chem-solder/1
-      ]
-      optional: true
-      booster: true
+    useTime: 240.0
+    consumes: {
+        power: 1.83333333
+        items: {
+            items: [
+                loveclab-item0chem-solder/1
+            ]
+            optional: true
+            booster: true
+        }
     }
-  }

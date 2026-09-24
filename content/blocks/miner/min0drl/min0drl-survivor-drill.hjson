@@ -5,13 +5,13 @@
 */
 
 
-  # type: Drill
-  category: production
-  requirements: [
-    loveclab-item0chem-copper/150
-    loveclab-item0chem-lead/100
-  ]
-  buildCostMultiplier: 2.5
+    # type: Drill
+    category: production
+    requirements: [
+        loveclab-item0chem-copper/150
+        loveclab-item0chem-lead/100
+    ]
+    buildCostMultiplier: 2.5
 
 
 /*
@@ -21,11 +21,11 @@
 */
 
 
-  alwaysUnlocked: true
-  research: {
-    parent: loveclab-eff0core-ash
-    objectives: []
-  }
+    alwaysUnlocked: true
+    research: {
+        parent: loveclab-eff0core-ash
+        objectives: []
+    }
 
 
 /*
@@ -35,14 +35,14 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
-  size: 3
-  hasItems: true
-  itemCapacity: 10
-  hasLiquids: true
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 3
+    hasItems: true
+    itemCapacity: 10
+    hasLiquids: true
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -52,9 +52,9 @@
 */
 
 
-  envRequired: 1
-  envDisabled: 16
-  fogRadius: 4
+    envRequired: 1
+    envDisabled: 16
+    fogRadius: 4
 
 
 /*
@@ -64,11 +64,11 @@
 */
 
 
-  squareSprite: false
-  ambientSound: se-amb-drill
-  ambientSoundVolume: 0.2
-  drawRim: false
-  rotateSpeed: 3.0
+    squareSprite: false
+    ambientSound: se-amb-drill
+    ambientSoundVolume: 0.2
+    drawRim: false
+    rotateSpeed: 3.0
 
 
 /*
@@ -78,8 +78,8 @@
 */
 
 
-  tier: 6
-  hardnessDrillMultiplier: 25.0
+    tier: 6
+    hardnessDrillMultiplier: 25.0
 
 
 /*
@@ -89,13 +89,13 @@
 */
 
 
-  drillTime: 720.0
-  liquidBoostIntensity: 1.29099445
-  consumes: {
-    liquid: {
-      liquid: loveclab-liq0ore-water
-      amount: 0.1
-      optional: true
-      booster: true
+    drillTime: 720.0
+    liquidBoostIntensity: 1.29099445
+    consumes: {
+        liquid: {
+            liquid: loveclab-liq0ore-water
+            amount: 0.1
+            optional: true
+            booster: true
+        }
     }
-  }

@@ -1,4 +1,4 @@
-/* <---------- fac0furn ----------> */
+/* <------------------------------ fac0furn ------------------------------> */
 
 projreind-fac0furn-kiln: 1650.0
 projreind-fac0furn-primitive-smelter: 1650.0
@@ -10,11 +10,11 @@ projreind-fac0furn-primitive-coke-oven: 1650.0
 projreind-fac0furn-coke-oven-battery: 1850.0
 projreind-fac0furn-tube-furnace: 1850.0
 
-/* <---------- fac0heat ----------> */
+/* <------------------------------ fac0heat ------------------------------> */
 
 projreind-fac0heat-melt-cooling-chamber: 1850.0
 
-/* <---------- fac0proc ----------> */
+/* <------------------------------ fac0proc ------------------------------> */
 
 projreind-fac0proc-briquette-press: 750.0
 projreind-fac0proc-primitive-caster: 1850.0

@@ -5,12 +5,12 @@
 */
 
 
-  # type: ArmoredConveyor
-  category: distribution
-  requirements: [
-    loveclab-item0chem-copper/2
-  ]
-  buildCostMultiplier: 6.0
+    # type: ArmoredConveyor
+    category: distribution
+    requirements: [
+        loveclab-item0chem-copper/2
+    ]
+    buildCostMultiplier: 6.0
 
 
 /*
@@ -20,11 +20,11 @@
 */
 
 
-  alwaysUnlocked: true
-  research: {
-    parent: min0drl-survivor-drill
-    objectives: []
-  }
+    alwaysUnlocked: true
+    research: {
+        parent: min0drl-survivor-drill
+        objectives: []
+    }
 
 
 /*
@@ -34,14 +34,14 @@
 */
 
 
-  scaledHealth: 40.0
-  armor: 0.0
-  size: 1
-  hasItems: true
-  itemCapacity: 3
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 1
+    hasItems: true
+    itemCapacity: 3
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -51,8 +51,8 @@
 */
 
 
-  envRequired: 1
-  envDisabled: 20
+    envRequired: 1
+    envDisabled: 20
 
 
 /*
@@ -62,7 +62,7 @@
 */
 
 
-  speed: 0.028
-  displayedSpeed: 4.0
-  junctionReplacement: dis0aux-item-junction
-  bridgeReplacement: dis0brd-conveyor-bridge
+    speed: 0.028
+    displayedSpeed: 4.0
+    junctionReplacement: dis0aux-item-junction
+    bridgeReplacement: dis0brd-conveyor-bridge

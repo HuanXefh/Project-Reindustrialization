@@ -5,16 +5,16 @@
 */
 
 
-  # type: Wall
-  category: distribution
-  requirements: [
-    loveclab-item0bio-timber/80
-    loveclab-item0chem-brass/40
-    loveclab-item0chem-cast-iron/30
-    loveclab-item0chem-steel/30
-    loveclab-item0int0conc-magnetite/60
-  ]
-  buildCostMultiplier: 0.75
+    # type: Wall
+    category: distribution
+    requirements: [
+        loveclab-item0bio-timber/80
+        loveclab-item0chem-brass/40
+        loveclab-item0chem-cast-iron/30
+        loveclab-item0chem-steel/30
+        loveclab-item0int0conc-magnetite/60
+    ]
+    buildCostMultiplier: 0.75
 
 
 /*
@@ -24,11 +24,11 @@
 */
 
 
-  research: {
-    parent: dis0arm-primitive-long-item-arm
-    objectives: []
-  }
-  researchCostMultiplier: 0.25
+    research: {
+        parent: dis0arm-primitive-long-item-arm
+        objectives: []
+    }
+    researchCostMultiplier: 0.25
 
 
 /*
@@ -38,14 +38,14 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
-  size: 1
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 1
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -55,7 +55,7 @@
 */
 
 
-  envDisabled: 16
+    envDisabled: 16
 
 
 /*
@@ -65,7 +65,7 @@
 */
 
 
-  squareSprite: false
+    squareSprite: false
 
 
 /*
@@ -75,6 +75,6 @@
 */
 
 
-  consumes: {
-    power: 0.20833333
-  }
+    consumes: {
+        power: 0.20833333
+    }

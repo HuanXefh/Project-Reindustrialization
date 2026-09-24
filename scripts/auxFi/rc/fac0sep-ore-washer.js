@@ -1,36 +1,38 @@
 const rc = {
 
 
-  // craftTime: 2s
+    // craftTime: 2s
 
 
-  base: {
-
-    baseCi: [
-      "loveclab-liq0ore-water", 0.1,
-      "loveclab-gas0misc-air", 0.05,
-      "loveclab-liq0was-waste-water", 0.0,
-    ],
-
-    baseCo: [
-      "loveclab-liq0was-waste-water", 0.1,
-      "loveclab-liq0ore-water", 0.0,
-      "loveclab-gas0misc-air", 0.0,
-    ],
-
-  },
+    base: {
 
 
-  recipe: [],
+        baseCi: [
+            "loveclab-liq0ore-water", 0.1,
+            "loveclab-gas0misc-air", 0.05,
+            "loveclab-liq0was-waste-water", 0.0,
+        ],
+
+        baseCo: [
+            "loveclab-liq0was-waste-water", 0.1,
+            "loveclab-liq0ore-water", 0.0,
+            "loveclab-gas0misc-air", 0.0,
+        ],
+
+
+    },
+
+
+    recipe: [],
 
 
 };
 
 
-TP_recipeGen._g_purifier.run(rc, {
-  tier: 0,
-  amt: 4,
-  pI: 0.5,
+runRecipeGeneration(rc, "lovec", "purifier", {
+    amt: 4,
+    pI: 0.5,
+    tier: 0,
 });
 
 

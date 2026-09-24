@@ -1,9 +1,9 @@
-/* <---------- bliq0cond ----------> */
+/* <------------------------------ bliq0cond ------------------------------> */
 
 projreind-bliq0cond-cast-iron-liquid-pipe: 24.0
 projreind-bliq0cond-cast-iron-gas-pipe: 24.0
 
-/* <---------- bliq0aux ----------> */
+/* <------------------------------ bliq0aux ------------------------------> */
 
 projreind-bliq0aux-fluid-overflow-valve: 24.0
 projreind-bliq0aux-pressure-router: 24.0

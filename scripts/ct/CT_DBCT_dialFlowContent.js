@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/sta/DBCT_dialFlowContent");
+    const DBCT_dialFlowContent = require("lovec/temp/sta/DBCT_dialFlowContent");
 
 
 /*
@@ -18,12 +15,12 @@
 */
 
 
-  /* <---------- dbct0dial ----------> */
+    /* <------------------------------ dbct0dial ------------------------------> */
 
 
-  const dbct0dial_atm002 = extendBase(
-    TEMPLATE, "dbct0dial-atm002",
-    TEMPLATE.build({
-      nameDialFlow: "projreind-camp-atm002",
-    }),
-  );
+    const dbct0dial_atm002 = extendBase(
+        DBCT_dialFlowContent, "dbct0dial-atm002",
+        DBCT_dialFlowContent.build({
+            nameDialFlow: "projreind-camp-atm002",
+        }),
+    );

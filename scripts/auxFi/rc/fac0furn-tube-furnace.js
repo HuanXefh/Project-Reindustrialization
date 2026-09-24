@@ -1,25 +1,25 @@
 const rc = {
 
 
-  // craftTime: 4s
+    // craftTime: 4s
 
 
-  base: {},
+    base: {},
 
 
-  recipe: [],
+    recipe: [],
 
 
 };
 
 
-TP_recipeGen._g_auxTemp.run(rc, {
-  target: "loveclab-aux0aux-tube-furnace",
-  maxTemp: 1800.0,
+runRecipeGeneration(rc, "lovec", "auxTemp", {
+    target: "loveclab-aux0aux-tube-furnace",
+    maxTemp: 1800.0,
 });
-TP_recipeGen._g_heaterGas.run(rc, {
-  amt: 4,
-  time: 4.0 * 60.0,
+runRecipeGeneration(rc, "lovec", "heaterGas", {
+    amt: 4,
+    time: 4.0 * 60.0,
 });
 
 

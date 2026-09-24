@@ -5,13 +5,13 @@
 */
 
 
-  # type: GenericCrafter
-  category: crafting
-  requirements: [
-    loveclab-item0chem-leaded-tin-bronze/25
-    loveclab-item0chem-steel/15
-  ]
-  buildCostMultiplier: 4.0
+    # type: GenericCrafter
+    category: crafting
+    requirements: [
+        loveclab-item0chem-leaded-tin-bronze/40
+        loveclab-item0chem-steel/20
+    ]
+    buildCostMultiplier: 3.0
 
 
 /*
@@ -21,11 +21,11 @@
 */
 
 
-  research: {
-    parent: fac0proc-core-crafter
-    objectives: []
-  }
-  researchCostMultiplier: 0.25
+    research: {
+        parent: fac0proc-core-crafter
+        objectives: []
+    }
+    researchCostMultiplier: 0.25
 
 
 /*
@@ -35,14 +35,14 @@
 */
 
 
-  scaledHealth: 50.0
-  armor: 6.0
-  size: 2
-  hasItems: true
-  itemCapacity: 30
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 50.0
+    armor: 6.0
+    size: 2
+    hasItems: true
+    itemCapacity: 30
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -52,8 +52,8 @@
 */
 
 
-  envRequired: 1
-  envDisabled: 22
+    envRequired: 1
+    envDisabled: 22
 
 
 /*
@@ -63,29 +63,29 @@
 */
 
 
-  squareSprite: false
-  drawer: {
-    type: DrawMulti
-    drawers: [
+    squareSprite: false
+    drawer: {
+        type: DrawMulti
+        drawers: [
 
 
-      {
-        type: DrawDefault
-      }
+            {
+                type: DrawDefault
+            }
 
 
-      {
-        type: DrawFrames
-        frames: 10
-        interval: 7.5
-        sine: false
-      }
+            {
+                type: DrawFrames
+                frames: 10
+                interval: 7.5
+                sine: false
+            }
 
 
-    ]
-  }
-  ambientSound: se-amb-hum
-  ambientSoundVolume: 0.2
+        ]
+    }
+    ambientSound: se-amb-hum
+    ambientSoundVolume: 0.2
 
 
 /*
@@ -95,7 +95,7 @@
 */
 
 
-  ignoreLiquidFullness: false
+    ignoreLiquidFullness: false
 
 
 /*
@@ -105,7 +105,7 @@
 */
 
 
-  craftTime: 360.0
-  consumes: {
-    power: 0.33333333
-  }
+    craftTime: 360.0
+    consumes: {
+        power: 0.33333333
+    }

@@ -5,14 +5,14 @@
 */
 
 
-  # type: GenericCrafter
-  category: power
-  requirements: [
-    loveclab-item0chem-copper/80
-    loveclab-item0chem-graphite/50
-    loveclab-item0chem-cast-iron/30
-  ]
-  buildCostMultiplier: 1.8
+    # type: GenericCrafter
+    category: power
+    requirements: [
+        loveclab-item0chem-copper/80
+        loveclab-item0chem-graphite/50
+        loveclab-item0chem-cast-iron/30
+    ]
+    buildCostMultiplier: 1.8
 
 
 /*
@@ -22,11 +22,11 @@
 */
 
 
-  research: {
-    parent: pow0heat-combustion-heater
-    objectives: []
-  }
-  researchCostMultiplier: 0.2
+    research: {
+        parent: pow0heat-combustion-heater
+        objectives: []
+    }
+    researchCostMultiplier: 0.2
 
 
 /*
@@ -36,14 +36,14 @@
 */
 
 
-  scaledHealth: 50.0
-  armor: 6.0
-  size: 2
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 50.0
+    armor: 6.0
+    size: 2
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -53,8 +53,8 @@
 */
 
 
-  envRequired: 0
-  envDisabled: 22
+    envRequired: 0
+    envDisabled: 22
 
 
 /*
@@ -64,55 +64,55 @@
 */
 
 
-  squareSprite: false
-  drawer: {
-    type: DrawMulti
-    drawers: [
+    squareSprite: false
+    drawer: {
+        type: DrawMulti
+        drawers: [
 
 
-      {
-        type: DrawRegion
-        suffix: "-bottom"
-      }
+            {
+                type: DrawRegion
+                suffix: "-bottom"
+            }
 
 
-      {
-        type: DrawFlame
-        flameColor: "ffc999"
-        flameRadius: 2.5
-        flameRadiusIn: 1.5
-        flameRadiusScl: 5.0
-        flameRadiusMag: 2.0
-        flameRadiusInMag: 1.0
-        lightRadius: 48.0
-        lightAlpha: 0.65
-        lightSinScl: 16.0
-        lightSinMag: 6.0
-      }
+            {
+                type: DrawFlame
+                flameColor: "ffc999"
+                flameRadius: 2.5
+                flameRadiusIn: 1.5
+                flameRadiusScl: 5.0
+                flameRadiusMag: 2.0
+                flameRadiusInMag: 1.0
+                lightRadius: 48.0
+                lightAlpha: 0.65
+                lightSinScl: 16.0
+                lightSinMag: 6.0
+            }
 
 
-      {
-        type: DrawRegion
-      }
+            {
+                type: DrawRegion
+            }
 
 
-      {
-        type: DrawSideRegion
-      }
+            {
+                type: DrawSideRegion
+            }
 
 
-      {
-        type: DrawGlowRegion
-        rotate: true
-        color: "ff3838"
-        suffix: "-glow"
-      }
+            {
+                type: DrawGlowRegion
+                rotate: true
+                color: "ff3838"
+                suffix: "-glow"
+            }
 
 
-    ]
-  }
-  ambientSound: se-amb-hum
-  ambientSoundVolume: 0.2
+        ]
+    }
+    ambientSound: se-amb-hum
+    ambientSoundVolume: 0.2
 
 
 /*
@@ -122,8 +122,8 @@
 */
 
 
-  rotate: true
-  ignoreLiquidFullness: false
+    rotate: true
+    ignoreLiquidFullness: false
 
 
 /*
@@ -133,4 +133,4 @@
 */
 
 
-  craftTime: 300.0
+    craftTime: 300.0

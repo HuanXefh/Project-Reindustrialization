@@ -5,13 +5,13 @@
 */
 
 
-  # type: Router
-  category: distribution
-  requirements: [
-    loveclab-item0bio-timber/25
-    loveclab-item0chem-copper/15
-  ]
-  buildCostMultiplier: 5.0
+    # type: Router
+    category: distribution
+    requirements: [
+        loveclab-item0bio-timber/25
+        loveclab-item0chem-copper/15
+    ]
+    buildCostMultiplier: 5.0
 
 
 /*
@@ -21,11 +21,11 @@
 */
 
 
-  research: {
-    parent: dis0conv-primitive-conveyor
-    objectives: []
-  }
-  researchCostMultiplier: 0.1
+    research: {
+        parent: dis0conv-primitive-conveyor
+        objectives: []
+    }
+    researchCostMultiplier: 0.1
 
 
 /*
@@ -35,14 +35,14 @@
 */
 
 
-  scaledHealth: 40.0
-  armor: 0.0
-  size: 1
-  hasItems: true
-  itemCapacity: 0
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 1
+    hasItems: true
+    itemCapacity: 0
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -52,7 +52,7 @@
 */
 
 
-  envDisabled: 16
+    envDisabled: 16
 
 
 /*
@@ -62,7 +62,7 @@
 */
 
 
-  squareSprite: true
+    squareSprite: true
 
 
 /*
@@ -72,6 +72,6 @@
 */
 
 
-  capacity: 2
-  speed: 13.0
-  displayedSpeed: 9.0
+    capacity: 2
+    speed: 13.0
+    displayedSpeed: 9.0

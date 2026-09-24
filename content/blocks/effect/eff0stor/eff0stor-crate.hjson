@@ -5,13 +5,14 @@
 */
 
 
-  # type: StorageBlock
-  category: effect
-  requirements: [
-    loveclab-item0bio-timber/120
-    loveclab-item0chem-copper/25
-  ]
-  buildCostMultiplier: 5.0
+    # type: StorageBlock
+    category: effect
+    requirements: [
+        loveclab-item0bio-timber/250
+        loveclab-item0chem-copper/100
+        loveclab-item0chem-graphite/75
+    ]
+    buildCostMultiplier: 1.25
 
 
 /*
@@ -21,11 +22,11 @@
 */
 
 
-  research: {
-    parent: eff0stor-stacking-area
-    objectives: []
-  }
-  researchCostMultiplier: 0.075
+    research: {
+        parent: eff0stor-stacking-area
+        objectives: []
+    }
+    researchCostMultiplier: 0.075
 
 
 /*
@@ -35,14 +36,14 @@
 */
 
 
-  scaledHealth: 50.0
-  armor: 6.0
-  size: 2
-  hasItems: true
-  itemCapacity: 200
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 50.0
+    armor: 6.0
+    size: 2
+    hasItems: true
+    itemCapacity: 200
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -52,7 +53,7 @@
 */
 
 
-  envDisabled: 22
+    envDisabled: 22
 
 
 /*
@@ -62,7 +63,7 @@
 */
 
 
-  squareSprite: true
+    squareSprite: true
 
 
 /*
@@ -72,4 +73,4 @@
 */
 
 
-  coreMerge: true
+    coreMerge: true

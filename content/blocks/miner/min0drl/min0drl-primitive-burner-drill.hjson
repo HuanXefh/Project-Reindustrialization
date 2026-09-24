@@ -5,13 +5,13 @@
 */
 
 
-  # type: Drill
-  category: production
-  requirements: [
-    loveclab-item0chem-copper/40
-    loveclab-item0ore-clay/80
-  ]
-  buildCostMultiplier: 2.0
+    # type: Drill
+    category: production
+    requirements: [
+        loveclab-item0chem-copper/40
+        loveclab-item0ore-clay/80
+    ]
+    buildCostMultiplier: 2.0
 
 
 /*
@@ -21,11 +21,11 @@
 */
 
 
-  research: {
-    parent: min0drl-survivor-drill
-    objectives: []
-  }
-  researchCostMultiplier: 0.05
+    research: {
+        parent: min0drl-survivor-drill
+        objectives: []
+    }
+    researchCostMultiplier: 0.05
 
 
 /*
@@ -35,14 +35,14 @@
 */
 
 
-  scaledHealth: 40.0
-  armor: 0.0
-  size: 3
-  hasItems: true
-  itemCapacity: 10
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 3
+    hasItems: true
+    itemCapacity: 10
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -52,9 +52,9 @@
 */
 
 
-  envRequired: 129
-  envDisabled: 20
-  fogRadius: 4
+    envRequired: 129
+    envDisabled: 20
+    fogRadius: 4
 
 
 /*
@@ -64,12 +64,12 @@
 */
 
 
-  squareSprite: false
-  ambientSound: se-amb-drill
-  ambientSoundVolume: 0.3
-  drawMineItem: false
-  drawRim: false
-  rotateSpeed: 4.0
+    squareSprite: false
+    ambientSound: se-amb-drill
+    ambientSoundVolume: 0.3
+    drawMineItem: false
+    drawRim: false
+    rotateSpeed: 4.0
 
 
 /*
@@ -79,8 +79,8 @@
 */
 
 
-  tier: 4
-  hardnessDrillMultiplier: 10.0
+    tier: 4
+    hardnessDrillMultiplier: 10.0
 
 
 /*
@@ -90,5 +90,5 @@
 */
 
 
-  drillTime: 360.0
-  liquidBoostIntensity: 1.0
+    drillTime: 360.0
+    liquidBoostIntensity: 1.0

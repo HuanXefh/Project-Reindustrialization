@@ -5,11 +5,8 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/blk/BLK_fluidRouter");
-  const TEMPLATE_A = require("lovec/temp/blk/BLK_multiBlockFluidRouter");
+    const BLK_B_fluidRouter = require("lovec/temp/blk/BLK_fluidRouter");
+    const BLK_B_multiBlockFluidRouter = require("lovec/temp/blk/BLK_multiBlockFluidRouter");
 
 
 /*
@@ -19,50 +16,50 @@
 */
 
 
-  /* <---------- bliq0stor ----------> */
+    /* <------------------------------ bliq0stor ------------------------------> */
 
 
-  /* liquid */
+    /* liquid */
 
 
-  const bliq0stor_bronzeLiquidRouter = extendBlock(
-    TEMPLATE, "bliq0stor-bronze-liquid-router",
-    TEMPLATE[0].build({
-      fldType: "liquid",
-    }),
-  );
+    const bliq0stor_bronzeLiquidRouter = extendBlock(
+        BLK_B_fluidRouter, "bliq0stor-bronze-liquid-router",
+        BLK_B_fluidRouter[0].build({
+            fldType: "liquid",
+        }),
+    );
 
 
-  const bliq0stor_woodenBarrel = extendBlock(
-    TEMPLATE, "bliq0stor-wooden-barrel",
-    TEMPLATE[0].build({
-      fldType: "liquid",
-    }),
-  );
+    const bliq0stor_woodenBarrel = extendBlock(
+        BLK_B_fluidRouter, "bliq0stor-wooden-barrel",
+        BLK_B_fluidRouter[0].build({
+            fldType: "liquid",
+        }),
+    );
 
 
-  const bliq0stor_steelLiquidTank = extendBlock(
-    TEMPLATE, "bliq0stor-steel-liquid-tank",
-    TEMPLATE[0].build({
-      fldType: "liquid",
-    }),
-  );
+    const bliq0stor_steelLiquidTank = extendBlock(
+        BLK_B_fluidRouter, "bliq0stor-steel-liquid-tank",
+        BLK_B_fluidRouter[0].build({
+            fldType: "liquid",
+        }),
+    );
 
 
-  const bliq0stor_concreteReservoir = extendBlock(
-    TEMPLATE_A, "bliq0stor-concrete-reservoir",
-    TEMPLATE_A[0].build({
-      fldType: "liquid",
-    }),
-  );
+    const bliq0stor_concreteReservoir = extendBlock(
+        BLK_B_multiBlockFluidRouter, "bliq0stor-concrete-reservoir",
+        BLK_B_multiBlockFluidRouter[0].build({
+            fldType: "liquid",
+        }),
+    );
 
 
-  /* gas */
+    /* gas */
 
 
-  const bliq0stor_steelGasCylinder = extendBlock(
-    TEMPLATE, "bliq0stor-steel-gas-cylinder",
-    TEMPLATE[0].build({
-      fldType: "gas",
-    }),
-  );
+    const bliq0stor_steelGasCylinder = extendBlock(
+        BLK_B_fluidRouter, "bliq0stor-steel-gas-cylinder",
+        BLK_B_fluidRouter[0].build({
+            fldType: "gas",
+        }),
+    );

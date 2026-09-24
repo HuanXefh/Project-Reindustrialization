@@ -1,33 +1,33 @@
 const rc = {
 
 
-  // craftTime: 3s
+    // craftTime: 3s
 
 
-  base: {
+    base: {
 
 
-    baseAux: [
-      "loveclab-aux0aux-torque", 0.075,
-    ],
+        baseAux: [
+            "loveclab-aux0aux-torque", 0.075,
+        ],
 
 
-  },
+    },
 
 
-  recipe: [],
+    recipe: [],
 
 
 };
 
 
-TP_recipeGen._g_pulverizer.run(rc, {
-  amtI: 3,
-  pI: 0.5,
-  amtO: 3,
-  pO: 0.5,
-  maxHardness: 5,
-  abrasionFactor: 1.2,
+runRecipeGeneration(rc, "lovec", "pulverizer", {
+    amtI: 3,
+    pI: 0.5,
+    amtO: 3,
+    pO: 0.5,
+    maxHardness: 5,
+    abrasionFactor: 1.2,
 });
 
 

@@ -1,23 +1,23 @@
 const rc = {
 
 
-  // craftTime: 20s
+    // craftTime: 20s
 
 
-  base: {},
+    base: {},
 
 
-  recipe: [],
+    recipe: [],
 
 
 };
 
 
-TP_recipeGen._g_caster.run(rc, {
-  amt: 10,
-  payAmt: 1,
-  maxTemp: 1800.0,
-  sizeCap: 2,
+runRecipeGeneration(rc, "lovec", "caster", {
+    amt: 10,
+    payAmt: 1,
+    sizeCap: 2,
+    maxTemp: 1800.0,
 });
 
 

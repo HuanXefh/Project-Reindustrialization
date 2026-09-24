@@ -5,19 +5,19 @@
 */
 
 
-  # type: StorageBlock
-  category: effect
-  requirements: [
-    loveclab-item0bio-timber/400
-    loveclab-item0chem-cupronickel/200
-    loveclab-item0chem-graphite/300
-    loveclab-item0buil-glass/200
-    loveclab-item0chem-stainless-steel/100
-    loveclab-item0buil-coarse-aggregate/250
-    loveclab-item0buil-fine-aggregate/250
-    loveclab-item0buil-cement/250
-  ]
-  buildCostMultiplier: 0.25
+    # type: StorageBlock
+    category: effect
+    requirements: [
+        loveclab-item0bio-timber/400
+        loveclab-item0chem-cupronickel/200
+        loveclab-item0chem-graphite/300
+        loveclab-item0buil-glass/200
+        loveclab-item0chem-stainless-steel/100
+        loveclab-item0buil-coarse-aggregate/250
+        loveclab-item0buil-fine-aggregate/250
+        loveclab-item0buil-cement/250
+    ]
+    buildCostMultiplier: 0.25
 
 
 /*
@@ -27,11 +27,11 @@
 */
 
 
-  research: {
-    parent: dis0aux-remote-core-unloader
-    objectives: []
-  }
-  researchCostMultiplier: 0.1
+    research: {
+        parent: dis0aux-remote-core-unloader
+        objectives: []
+    }
+    researchCostMultiplier: 0.1
 
 
 /*
@@ -41,14 +41,14 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
-  size: 3
-  hasItems: true
-  itemCapacity: 500
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 3
+    hasItems: true
+    itemCapacity: 500
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -58,7 +58,7 @@
 */
 
 
-  envDisabled: 16
+    envDisabled: 16
 
 
 /*
@@ -68,7 +68,7 @@
 */
 
 
-  squareSprite: false
+    squareSprite: false
 
 
 /*
@@ -78,7 +78,7 @@
 */
 
 
-  coreMerge: false
+    coreMerge: false
 
 
 /*
@@ -88,6 +88,6 @@
 */
 
 
-  consumes: {
-    power: 4.16666667
-  }
+    consumes: {
+        power: 4.16666667
+    }

@@ -5,12 +5,12 @@
 */
 
 
-  # type: Wall
-  category: production
-  requirements: [
-    loveclab-item0bio-aerth-sisal/30
-  ]
-  buildCostMultiplier: 3.0
+    # type: Wall
+    category: production
+    requirements: [
+        loveclab-item0bio-aerth-sisal/50
+    ]
+    buildCostMultiplier: 3.0
 
 
 /*
@@ -20,11 +20,11 @@
 */
 
 
-  research: {
-    parent: dbct0tech-farming
-    objectives: []
-  }
-  researchCostMultiplier: 0.1
+    research: {
+        parent: dbct0tech-farming
+        objectives: []
+    }
+    researchCostMultiplier: 0.05
 
 
 /*
@@ -34,14 +34,14 @@
 */
 
 
-  scaledHealth: 20.0
-  armor: 0.0
-  size: 1
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 20.0
+    armor: 0.0
+    size: 1
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -51,8 +51,8 @@
 */
 
 
-  envRequired: 129
-  envDisabled: 22
+    envRequired: 129
+    envDisabled: 22
 
 
 /*
@@ -62,4 +62,4 @@
 */
 
 
-  squareSprite: false
+    squareSprite: false

@@ -5,14 +5,14 @@
 */
 
 
-  # type: PowerNode
-  category: power
-  requirements: [
-    loveclab-item0chem-lead/40
-    loveclab-item0chem-brass/20
-    loveclab-item0chem-tin-bronze/30
-  ]
-  buildCostMultiplier: 3.0
+    # type: PowerNode
+    category: power
+    requirements: [
+        loveclab-item0chem-lead/50
+        loveclab-item0chem-brass/25
+        loveclab-item0chem-tin-bronze/40
+    ]
+    buildCostMultiplier: 2.75
 
 
 /*
@@ -22,11 +22,11 @@
 */
 
 
-  research: {
-    parent: pow0trans-copper-wire-relay
-    objectives: []
-  }
-  researchCostMultiplier: 0.3
+    research: {
+        parent: pow0trans-copper-wire-relay
+        objectives: []
+    }
+    researchCostMultiplier: 0.3
 
 
 /*
@@ -36,14 +36,14 @@
 */
 
 
-  scaledHealth: 40.0
-  armor: 0.0
-  size: 1
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 1
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -53,8 +53,8 @@
 */
 
 
-  envDisabled: 20
-  fogRadius: 1
+    envDisabled: 20
+    fogRadius: 1
 
 
 /*
@@ -64,9 +64,9 @@
 */
 
 
-  squareSprite: false
-  drawRange: true
-  laserScale: 1.0
+    squareSprite: false
+    drawRange: true
+    laserScale: 1.0
 
 
 /*
@@ -76,8 +76,8 @@
 */
 
 
-  laserRange: 12
-  maxNodes: 5
+    laserRange: 12
+    maxNodes: 5
 
 
 /*
@@ -87,6 +87,6 @@
 */
 
 
-  consumes: {
-    power: 0.66666667
-  }
+    consumes: {
+        power: 0.66666667
+    }

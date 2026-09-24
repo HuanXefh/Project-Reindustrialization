@@ -5,12 +5,12 @@
 */
 
 
-  # type: Conduit
-  category: liquid
-  requirements: [
-    loveclab-item0chem-tin-bronze/2
-  ]
-  buildCostMultiplier: 5.0
+    # type: Conduit
+    category: liquid
+    requirements: [
+        loveclab-item0chem-tin-bronze/2
+    ]
+    buildCostMultiplier: 5.0
 
 
 /*
@@ -20,11 +20,11 @@
 */
 
 
-  research: {
-    parent: bliq0cond-wooden-gas-pipe
-    objectives: []
-  }
-  researchCostMultiplier: 1.75
+    research: {
+        parent: bliq0cond-wooden-gas-pipe
+        objectives: []
+    }
+    researchCostMultiplier: 1.75
 
 
 /*
@@ -34,14 +34,14 @@
 */
 
 
-  scaledHealth: 50.0
-  armor: 6.0
-  size: 1
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: true
-  liquidCapacity: 15.0
-  hasPower: true
+    scaledHealth: 50.0
+    armor: 6.0
+    size: 1
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: true
+    liquidCapacity: 15.0
+    hasPower: true
 
 
 /*
@@ -51,7 +51,7 @@
 */
 
 
-  envDisabled: 16
+    envDisabled: 16
 
 
 /*
@@ -61,8 +61,8 @@
 */
 
 
-  botColor: "916a59"
-  padCorners: true
+    botColor: "916a59"
+    padCorners: true
 
 
 /*
@@ -72,6 +72,6 @@
 */
 
 
-  leaks: true
-  junctionReplacement: bliq0aux-fluid-junction
-  bridgeReplacement: bliq0brd-bronze-fluid-pipe-bridge
+    leaks: true
+    junctionReplacement: bliq0aux-fluid-junction
+    bridgeReplacement: bliq0brd-bronze-fluid-pipe-bridge

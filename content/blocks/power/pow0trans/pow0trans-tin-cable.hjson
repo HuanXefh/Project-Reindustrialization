@@ -5,12 +5,12 @@
 */
 
 
-  # type: ArmoredConveyor
-  category: power
-  requirements: [
-    loveclab-item0chem-tin/5
-  ]
-  buildCostMultiplier: 5.0
+    # type: ArmoredConveyor
+    category: power
+    requirements: [
+        loveclab-item0chem-tin/5
+    ]
+    buildCostMultiplier: 5.0
 
 
 /*
@@ -20,11 +20,11 @@
 */
 
 
-  research: {
-    parent: dbct0tech-advanced-power-transmission
-    objectives: []
-  }
-  researchCostMultiplier: 1.2
+    research: {
+        parent: dbct0tech-advanced-power-transmission
+        objectives: []
+    }
+    researchCostMultiplier: 1.2
 
 
 /*
@@ -34,14 +34,14 @@
 */
 
 
-  scaledHealth: 30.0
-  armor: 0.0
-  size: 1
-  hasItems: true
-  itemCapacity: 0
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 30.0
+    armor: 0.0
+    size: 1
+    hasItems: true
+    itemCapacity: 0
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -51,8 +51,8 @@
 */
 
 
-  envDisabled: 20
-  fogRadius: 1
+    envDisabled: 20
+    fogRadius: 1
 
 
 /*
@@ -62,6 +62,6 @@
 */
 
 
-  consumes: {
-    power: 0.0375
-  }
+    consumes: {
+        power: 0.0375
+    }

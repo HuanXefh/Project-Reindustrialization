@@ -5,12 +5,12 @@
 */
 
 
-  # type: Wall
-  category: defense
-  requirements: [
-    loveclab-item0bio-timber/30
-  ]
-  buildCostMultiplier: 4.0
+    # type: Wall
+    category: defense
+    requirements: [
+        loveclab-item0bio-timber/30
+    ]
+    buildCostMultiplier: 4.0
 
 
 /*
@@ -20,11 +20,11 @@
 */
 
 
-  research: {
-    parent: eff0stor-stacking-area
-    objectives: []
-  }
-  researchCostMultiplier: 0.4
+    research: {
+        parent: eff0stor-stacking-area
+        objectives: []
+    }
+    researchCostMultiplier: 0.4
 
 
 /*
@@ -34,14 +34,14 @@
 */
 
 
-  scaledHealth: 240.0
-  armor: 0.0
-  size: 2
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 240.0
+    armor: 0.0
+    size: 2
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -51,7 +51,7 @@
 */
 
 
-  envDisabled: 22
+    envDisabled: 22
 
 
 /*
@@ -61,5 +61,5 @@
 */
 
 
-  squareSprite: true
-  placeSound: se-place-wood
+    squareSprite: true
+    placeSound: se-place-wood

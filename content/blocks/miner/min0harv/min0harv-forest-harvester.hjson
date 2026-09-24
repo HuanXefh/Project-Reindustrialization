@@ -5,16 +5,16 @@
 */
 
 
-  # type: AttributeCrafter
-  category: production
-  requirements: [
-    loveclab-item0bio-timber/120
-    loveclab-item0chem-brass/60
-    loveclab-item0chem-tin-bronze/60
-    loveclab-item0chem-steel/45
-    loveclab-item0int0conc-magnetite/80
-  ]
-  buildCostMultiplier: 1.0
+    # type: AttributeCrafter
+    category: production
+    requirements: [
+        loveclab-item0bio-timber/120
+        loveclab-item0chem-brass/60
+        loveclab-item0chem-tin-bronze/60
+        loveclab-item0chem-steel/45
+        loveclab-item0int0conc-magnetite/80
+    ]
+    buildCostMultiplier: 1.0
 
 
 /*
@@ -24,11 +24,11 @@
 */
 
 
-  research: {
-    parent: min0harv-chomper-mk2
-    objectives: []
-  }
-  researchCostMultiplier: 0.4
+    research: {
+        parent: min0harv-chomper-mk2
+        objectives: []
+    }
+    researchCostMultiplier: 0.4
 
 
 /*
@@ -38,14 +38,14 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
-  size: 3
-  hasItems: true
-  itemCapacity: 20
-  hasLiquids: true
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 3
+    hasItems: true
+    itemCapacity: 20
+    hasLiquids: true
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -55,8 +55,8 @@
 */
 
 
-  envRequired: 1
-  envDisabled: 20
+    envRequired: 1
+    envDisabled: 20
 
 
 /*
@@ -66,41 +66,41 @@
 */
 
 
-  squareSprite: false
-  drawer: {
-    type: DrawMulti
-    drawers: [
+    squareSprite: false
+    drawer: {
+        type: DrawMulti
+        drawers: [
 
 
-      {
-        type: DrawRegion
-      }
+            {
+                type: DrawRegion
+            }
 
 
-      {
-        type: DrawFlame
-        flameColor: "ffc999"
-        flameRadius: 0.0
-        flameRadiusIn: 0.0
-        flameRadiusScl: 0.0
-        flameRadiusMag: 0.0
-        flameRadiusInMag: 0.0
-        lightRadius: 16.0
-        lightAlpha: 0.65
-        lightSinScl: 16.0
-        lightSinMag: 6.0
-      }
+            {
+                type: DrawFlame
+                flameColor: "ffc999"
+                flameRadius: 0.0
+                flameRadiusIn: 0.0
+                flameRadiusScl: 0.0
+                flameRadiusMag: 0.0
+                flameRadiusInMag: 0.0
+                lightRadius: 16.0
+                lightAlpha: 0.65
+                lightSinScl: 16.0
+                lightSinMag: 6.0
+            }
 
 
-      {
-        type: DrawSideRegion
-      }
+            {
+                type: DrawSideRegion
+            }
 
 
-    ]
-  }
-  ambientSound: se-amb-hum
-  ambientSoundVolume: 0.3
+        ]
+    }
+    ambientSound: se-amb-hum
+    ambientSoundVolume: 0.3
 
 
 /*
@@ -110,8 +110,8 @@
 */
 
 
-  rotate: true
-  ignoreLiquidFullness: false
+    rotate: true
+    ignoreLiquidFullness: false
 
 
 /*
@@ -121,17 +121,17 @@
 */
 
 
-  attribute: lovec-attr0blk-tree
-  craftTime: 180.0
-  consumes: {
-    power: 2.0
-    liquids: [
-      loveclab-liq0ore-water/0.05
+    attribute: lovec-attr0blk-tree
+    craftTime: 180.0
+    consumes: {
+        power: 2.0
+        liquids: [
+            loveclab-liq0ore-water/0.05
+        ]
+    }
+    outputItems: [
+        loveclab-item0bio-log/1
     ]
-  }
-  outputItems: [
-    loveclab-item0bio-log/1
-  ]
-  outputLiquids: [
-    loveclab-liq0was-waste-water/0.05
-  ]
+    outputLiquids: [
+        loveclab-liq0was-waste-water/0.05
+    ]

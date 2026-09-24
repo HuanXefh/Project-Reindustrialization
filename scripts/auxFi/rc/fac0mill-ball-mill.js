@@ -1,42 +1,42 @@
 const rc = {
 
 
-  // craftTime: 6s
+    // craftTime: 6s
 
 
-  base: {
+    base: {
 
 
-    baseOpt: [
-      "loveclab-item0cons-cast-iron-ball", 1, 0.2, 1.0,
-      "loveclab-item0cons-mangalloy-ball", 1, 0.05, 1.0,
-    ],
-    baseReqOpt: true,
+        baseOpt: [
+            "loveclab-item0cons-cast-iron-ball", 1, 0.2, 1.0,
+            "loveclab-item0cons-mangalloy-ball", 1, 0.05, 1.0,
+        ],
+        baseReqOpt: true,
 
 
-  },
+    },
 
 
-  recipe: [],
+    recipe: [],
 
 
 };
 
 
-TP_recipeGen._g_mixer.run(rc, {
-  isBallMill: true,
-  amt: 12,
-  pO: 0.5,
-  maxHardness: 7,
-  abrasionFactor: 1.0,
+runRecipeGeneration(rc, "lovec", "mixer", {
+    amt: 12,
+    pO: 0.5,
+    maxHardness: 7,
+    abrasionFactor: 1.0,
+    isBallMill: true,
 });
-TP_recipeGen._g_pulverizer.run(rc, {
-  amtI: 18,
-  pI: 0.5,
-  amtO: 18,
-  pO: 0.5,
-  maxHardness: 7,
-  abrasionFactor: 1.0,
+runRecipeGeneration(rc, "lovec", "pulverizer", {
+    amtI: 18,
+    pI: 0.5,
+    amtO: 18,
+    pO: 0.5,
+    maxHardness: 7,
+    abrasionFactor: 1.0,
 });
 
 

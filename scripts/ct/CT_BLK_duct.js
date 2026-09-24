@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/blk/BLK_duct");
+    const BLK_B_duct = require("lovec/temp/blk/BLK_duct");
 
 
 /*
@@ -18,9 +15,9 @@
 */
 
 
-  /* <---------- dis0conv ----------> */
+    /* <------------------------------ dis0conv ------------------------------> */
 
 
-  const dis0conv_standardDuct = extendBlock(
-    TEMPLATE, "dis0conv-standard-duct",
-  );
+    const dis0conv_standardDuct = extendBlock(
+        BLK_B_duct, "dis0conv-standard-duct",
+    );

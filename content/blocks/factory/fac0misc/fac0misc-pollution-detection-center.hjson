@@ -5,8 +5,8 @@
 */
 
 
-  # type: GenericCrafter
-  category: crafting
+    # type: GenericCrafter
+    category: crafting
 
 
 /*
@@ -16,14 +16,14 @@
 */
 
 
-  scaledHealth: 80.0
-  armor: 12.0
-  size: 4
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: true
-  liquidCapacity: 30.0
-  hasPower: true
+    scaledHealth: 80.0
+    armor: 12.0
+    size: 4
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: true
+    liquidCapacity: 30.0
+    hasPower: true
 
 
 /*
@@ -33,8 +33,8 @@
 */
 
 
-  envRequired: 129
-  envDisabled: 22
+    envRequired: 129
+    envDisabled: 22
 
 
 /*
@@ -44,41 +44,41 @@
 */
 
 
-  squareSprite: false
-  drawer: {
-    type: DrawMulti
-    drawers: [
+    squareSprite: false
+    drawer: {
+        type: DrawMulti
+        drawers: [
 
 
-      {
-        type: DrawRegion
-        suffix: "-bottom"
-      }
+            {
+                type: DrawRegion
+                suffix: "-bottom"
+            }
 
 
-      {
-        type: DrawLiquidTile
-        drawLiquid: loveclab-liq0ore-water
-        padding: 1.25
-      }
+            {
+                type: DrawLiquidTile
+                drawLiquid: loveclab-liq0ore-water
+                padding: 1.25
+            }
 
 
-      {
-        type: DrawDefault
-      }
+            {
+                type: DrawDefault
+            }
 
 
-      {
-        type: DrawLiquidRegion
-        drawLiquid: loveclab-gas0misc-air
-        suffix: "-liquid"
-      }
+            {
+                type: DrawLiquidRegion
+                drawLiquid: loveclab-gas0misc-air
+                suffix: "-liquid"
+            }
 
 
-    ]
-  }
-  ambientSound: se-amb-hum-computer
-  ambientSoundVolume: 0.4
+        ]
+    }
+    ambientSound: se-amb-hum-computer
+    ambientSoundVolume: 0.4
 
 
 /*
@@ -88,7 +88,7 @@
 */
 
 
-  ignoreLiquidFullness: true
+    ignoreLiquidFullness: true
 
 
 /*
@@ -98,14 +98,14 @@
 */
 
 
-  craftTime: 300.0
-  consumes: {
-    power: 1.83333333
-    liquids: [
-      loveclab-liq0ore-water/0.25
-      loveclab-gas0misc-air/0.4
+    craftTime: 300.0
+    consumes: {
+        power: 1.83333333
+        liquids: [
+            loveclab-liq0ore-water/0.25
+            loveclab-gas0misc-air/0.4
+        ]
+    }
+    outputLiquids: [
+        loveclab-aux0aux-pollution-detection/0.08333333
     ]
-  }
-  outputLiquids: [
-    loveclab-aux0aux-pollution-detection/0.08333333
-  ]

@@ -5,17 +5,17 @@
 */
 
 
-  # type: MassDriver
-  category: distribution
-  requirements: [
-    loveclab-item0bio-timber/50
-    loveclab-item0chem-lead/30
-    loveclab-item0chem-graphite/30
-    loveclab-item0chem-tin-bronze/20
-    loveclab-item0chem-cast-iron/20
-    loveclab-item0ore-magnetite/80
-  ]
-  buildCostMultiplier: 0.8
+    # type: MassDriver
+    category: distribution
+    requirements: [
+        loveclab-item0bio-timber/100
+        loveclab-item0chem-lead/60
+        loveclab-item0chem-graphite/60
+        loveclab-item0chem-tin-bronze/40
+        loveclab-item0chem-cast-iron/40
+        loveclab-item0ore-magnetite/120
+    ]
+    buildCostMultiplier: 0.5
 
 
 /*
@@ -25,11 +25,11 @@
 */
 
 
-  research: {
-    parent: dbct0tech-mass-driver
-    objectives: []
-  }
-  researchCostMultiplier: 0.3
+    research: {
+        parent: dbct0tech-mass-driver
+        objectives: []
+    }
+    researchCostMultiplier: 0.3
 
 
 /*
@@ -39,14 +39,14 @@
 */
 
 
-  scaledHealth: 50.0
-  armor: 6.0
-  size: 1
-  hasItems: true
-  itemCapacity: 40
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 50.0
+    armor: 6.0
+    size: 1
+    hasItems: true
+    itemCapacity: 40
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -56,8 +56,8 @@
 */
 
 
-  envDisabled: 20
-  fogRadius: 1
+    envDisabled: 20
+    fogRadius: 1
 
 
 /*
@@ -67,11 +67,11 @@
 */
 
 
-  squareSprite: false
-  knockback: 1.5
-  translation: 2.0
-  shake: 1.5
-  shootSound: se-shot-mass-driver1
+    squareSprite: false
+    knockback: 1.5
+    translation: 2.0
+    shake: 1.5
+    shootSound: se-shot-mass-driver1
 
 
 /*
@@ -81,10 +81,10 @@
 */
 
 
-  range: 116.0
-  rotateSpeed: 1.5
-  bulletSpeed: 8.0
-  bulletLifetime: 14.5
+    range: 116.0
+    rotateSpeed: 1.5
+    bulletSpeed: 8.0
+    bulletLifetime: 14.5
 
 
 /*
@@ -94,8 +94,8 @@
 */
 
 
-  minDistribute: 30
-  reload: 266.66666667
-  consumes: {
-    power: 0.66666667
-  }
+    minDistribute: 30
+    reload: 266.66666667
+    consumes: {
+        power: 0.66666667
+    }

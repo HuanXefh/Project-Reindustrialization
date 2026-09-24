@@ -5,156 +5,156 @@
 */
 
 
-  /* <------------------------------ campaign ------------------------------ */
+    /* <------------------------------ campaign ------------------------------> */
 
 
-  newDialogFlow(
-    "projreind-camp-atm002",
-    new CLS_dialogFlowBuilder()
-    .setText("projreind", "camp-atm002", 0)
-    .setText("projreind", "camp-atm002", 1)
-    .setText("projreind", "camp-atm002", 2)
-    .setText("projreind", "camp-atm002", 3).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-      anim: "fade-in",
-    })
-    .setText("projreind", "camp-atm002", 4).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-    })
-    .setUselessSelections(4, [
-      "projreind", "camp-atm002", "a",
-      "projreind", "camp-atm002", "b",
-    ])
-    .setText("projreind", "camp-atm002", 5).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-      anim: "jump",
-    })
-    .setText("projreind", "camp-atm002", 6).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-    })
-    .setUselessSelections(6, [
-      "projreind", "camp-atm002", "a",
-      "projreind", "camp-atm002", "b",
-    ])
-    .setText("projreind", "camp-atm002", 7).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-      anim: "shake",
-    })
-    .setUselessSelections(7, [
-      "projreind", "camp-atm002", "a",
-    ])
-    .setText("projreind", "camp-atm002", 8).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-      anim: "jump-violent",
-    })
-    .setText("projreind", "camp-atm002", 9).setSpeaker("projreind", "expe").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: true,
-    })
-    .setText("projreind", "camp-atm002", 10).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-    })
-    .setUselessSelections(10, [
-      "projreind", "camp-atm002", "a",
-      "projreind", "camp-atm002", "b",
-    ])
-    .setText("projreind", "camp-atm002", 11).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-    })
-    .setText("projreind", "camp-atm002", 12).setSpeaker("projreind", "expe").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: true,
-    })
-    .setText("projreind", "camp-atm002", 13).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-      anim: "jump",
-    })
-    .setText("projreind", "camp-atm002", 14).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-    })
-    .setText("projreind", "camp-atm002", 15).setSpeaker("projreind", "expe").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: true,
-    })
-    .setText("projreind", "camp-atm002", 16).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-      anim: "shake",
-    })
-    .setText("projreind", "camp-atm002", 17).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-      anim: "jump",
-    })
-    .setText("projreind", "camp-atm002", 18).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-    })
-    .setText("projreind", "camp-atm002", 19).setSpeaker("projreind", "expe").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: true,
-    })
-    .setText("projreind", "camp-atm002", 20).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-      anim: "shake",
-    })
-    .setText("projreind", "camp-atm002", 21).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-    })
-    .setText("projreind", "camp-atm002", 22).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-    })
-    .setText("projreind", "camp-atm002", 23).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-      anim: "jump",
-    })
-    .setText("projreind", "camp-atm002", 24).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-    })
-    .setText("projreind", "camp-atm002", 25).setSpeaker("projreind", "expe").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: true,
-    })
-    .setText("projreind", "camp-atm002", 26).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-      anim: "shake",
-    })
-    .setText("projreind", "camp-atm002", 27).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-    })
-    .setText("projreind", "camp-atm002", 28).setSpeaker("projreind", "shirone").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-    })
-    .setText("projreind", "camp-atm002", 29).setSpeaker("projreind", "expe").setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: true,
-    })
-    .setText("projreind", "camp-atm002", 30).setChara({
-      nameMod: "projreind", nameChara: "shirone",
-      fracX: 0.5, isDark: false,
-      anim: "fade-out",
-    })
-    .setText("projreind", "camp-atm002", 31)
-    .setText("projreind", "camp-atm002", 32)
-    .setText("projreind", "camp-atm002", 33)
-    .setText("projreind", "camp-atm002", 34)
-    .build(),
-  );
+    newDialogFlow(
+        "projreind-camp-atm002",
+        new CLS_dialogFlowBuilder()
+        .setText("projreind", "camp-atm002", 0)
+        .setText("projreind", "camp-atm002", 1)
+        .setText("projreind", "camp-atm002", 2)
+        .setText("projreind", "camp-atm002", 3).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+            anim: "fade-in",
+        })
+        .setText("projreind", "camp-atm002", 4).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+        })
+        .setUselessSelections(4, [
+            "projreind", "camp-atm002", "a",
+            "projreind", "camp-atm002", "b",
+        ])
+        .setText("projreind", "camp-atm002", 5).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+            anim: "jump",
+        })
+        .setText("projreind", "camp-atm002", 6).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+        })
+        .setUselessSelections(6, [
+            "projreind", "camp-atm002", "a",
+            "projreind", "camp-atm002", "b",
+        ])
+        .setText("projreind", "camp-atm002", 7).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+            anim: "shake",
+        })
+        .setUselessSelections(7, [
+            "projreind", "camp-atm002", "a",
+        ])
+        .setText("projreind", "camp-atm002", 8).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+            anim: "jump-violent",
+        })
+        .setText("projreind", "camp-atm002", 9).setSpeaker("projreind", "expe").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: true,
+        })
+        .setText("projreind", "camp-atm002", 10).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+        })
+        .setUselessSelections(10, [
+            "projreind", "camp-atm002", "a",
+            "projreind", "camp-atm002", "b",
+        ])
+        .setText("projreind", "camp-atm002", 11).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+        })
+        .setText("projreind", "camp-atm002", 12).setSpeaker("projreind", "expe").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: true,
+        })
+        .setText("projreind", "camp-atm002", 13).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+            anim: "jump",
+        })
+        .setText("projreind", "camp-atm002", 14).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+        })
+        .setText("projreind", "camp-atm002", 15).setSpeaker("projreind", "expe").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: true,
+        })
+        .setText("projreind", "camp-atm002", 16).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+            anim: "shake",
+        })
+        .setText("projreind", "camp-atm002", 17).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+            anim: "jump",
+        })
+        .setText("projreind", "camp-atm002", 18).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+        })
+        .setText("projreind", "camp-atm002", 19).setSpeaker("projreind", "expe").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: true,
+        })
+        .setText("projreind", "camp-atm002", 20).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+            anim: "shake",
+        })
+        .setText("projreind", "camp-atm002", 21).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+        })
+        .setText("projreind", "camp-atm002", 22).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+        })
+        .setText("projreind", "camp-atm002", 23).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+            anim: "jump",
+        })
+        .setText("projreind", "camp-atm002", 24).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+        })
+        .setText("projreind", "camp-atm002", 25).setSpeaker("projreind", "expe").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: true,
+        })
+        .setText("projreind", "camp-atm002", 26).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+            anim: "shake",
+        })
+        .setText("projreind", "camp-atm002", 27).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+        })
+        .setText("projreind", "camp-atm002", 28).setSpeaker("projreind", "shirone").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+        })
+        .setText("projreind", "camp-atm002", 29).setSpeaker("projreind", "expe").setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: true,
+        })
+        .setText("projreind", "camp-atm002", 30).setChara({
+            nameMod: "projreind", nameChara: "shirone",
+            fracX: 0.5, isDark: false,
+            anim: "fade-out",
+        })
+        .setText("projreind", "camp-atm002", 31)
+        .setText("projreind", "camp-atm002", 32)
+        .setText("projreind", "camp-atm002", 33)
+        .setText("projreind", "camp-atm002", 34)
+        .build(),
+    );

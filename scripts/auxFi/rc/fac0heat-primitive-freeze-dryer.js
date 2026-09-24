@@ -1,27 +1,29 @@
 const rc = {
 
 
-  // craftTime: 5s
+    // craftTime: 5s
 
 
-  base: {
-
-    baseAux: [
-      "loveclab-aux0aux-vacuum", 0.03333333,
-    ],
-
-  },
+    base: {
 
 
-  recipe: [],
+        baseAux: [
+            "loveclab-aux0aux-vacuum", 0.03333333,
+        ],
+
+
+    },
+
+
+    recipe: [],
 
 
 };
 
 
-TP_recipeGen._g_dryerFreeze.run(rc, {
-  amt: 5,
-  time: 5.0 * 60.0,
+runRecipeGeneration(rc, "lovec", "dryerFreeze", {
+    amt: 5,
+    time: 5.0 * 60.0,
 });
 
 

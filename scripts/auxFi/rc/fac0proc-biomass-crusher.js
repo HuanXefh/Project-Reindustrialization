@@ -1,23 +1,23 @@
 const rc = {
 
 
-  // craftTime: 4s
+    // craftTime: 4s
 
 
-  base: {},
+    base: {},
 
 
-  recipe: [],
+    recipe: [],
 
 
 };
 
 
-TP_recipeGen._g_crusherBiomass.run(rc, {
-  amtI: 4,
-  pI: 0.5,
-  amtO: 4,
-  pO: 0.5,
+runRecipeGeneration(rc, "lovec", "crusherBiomass", {
+    amtI: 4,
+    pI: 0.5,
+    amtO: 4,
+    pO: 0.5,
 });
 
 

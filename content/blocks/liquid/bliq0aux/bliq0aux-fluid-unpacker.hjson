@@ -5,16 +5,16 @@
 */
 
 
-  # type: GenericCrafter
-  category: liquid
-  requirements: [
-    loveclab-item0bio-timber/200
-    loveclab-item0buil-glass/160
-    loveclab-item0chem-tin-bronze/160
-    loveclab-item0chem-cupronickel/75
-    loveclab-item0chem-stainless-steel/75
-  ]
-  buildCostMultiplier: 0.3
+    # type: GenericCrafter
+    category: liquid
+    requirements: [
+        loveclab-item0bio-timber/200
+        loveclab-item0buil-glass/160
+        loveclab-item0chem-tin-bronze/160
+        loveclab-item0chem-cupronickel/75
+        loveclab-item0chem-stainless-steel/75
+    ]
+    buildCostMultiplier: 0.3
 
 
 /*
@@ -24,11 +24,11 @@
 */
 
 
-  research: {
-    parent: bliq0aux-fluid-packager
-    objectives: []
-  }
-  researchCostMultiplier: 0.25
+    research: {
+        parent: bliq0aux-fluid-packager
+        objectives: []
+    }
+    researchCostMultiplier: 0.25
 
 
 /*
@@ -38,14 +38,14 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
-  size: 3
-  hasItems: true
-  itemCapacity: 10
-  hasLiquids: true
-  liquidCapacity: 60.0
-  hasPower: true
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 3
+    hasItems: true
+    itemCapacity: 10
+    hasLiquids: true
+    liquidCapacity: 60.0
+    hasPower: true
 
 
 /*
@@ -55,7 +55,7 @@
 */
 
 
-  envDisabled: 16
+    envDisabled: 16
 
 
 /*
@@ -65,68 +65,68 @@
 */
 
 
-  squareSprite: false
-  drawer: {
-    type: DrawMulti
-    drawers: [
+    squareSprite: false
+    drawer: {
+        type: DrawMulti
+        drawers: [
 
 
-      {
-        type: DrawRegion
-        suffix: "-bottom"
-      }
+            {
+                type: DrawRegion
+                suffix: "-bottom"
+            }
 
 
-      {
-        type: LCDrawMixedLiquid
-      }
+            {
+                type: LCDrawMixedLiquid
+            }
 
 
-      {
-        type: LCDrawRipple
-        radius: 4.5
-        size: 2.5
-        scl: 40.0
-        recur: 3.0
-        hasNoLiqCheck: true
-      }
+            {
+                type: LCDrawRipple
+                radius: 4.5
+                size: 2.5
+                scl: 40.0
+                recur: 3.0
+                hasNoLiqCheck: true
+            }
 
 
-      {
-        type: DrawPistons
-        suffix: "-piston"
-        sides: 1
-        sinMag: -6.8
-        sinScl: 20.0
-        sinOffset: 0.0
-        sideOffset: 0.0
-        lenOffset: -1.0
-        horiOffset: 0.0
-        angleOffset: 0.0
-      }
+            {
+                type: DrawPistons
+                suffix: "-piston"
+                sides: 1
+                sinMag: -6.8
+                sinScl: 20.0
+                sinOffset: 0.0
+                sideOffset: 0.0
+                lenOffset: -1.0
+                horiOffset: 0.0
+                angleOffset: 0.0
+            }
 
 
-      {
-        type: DrawRegion
-        suffix: "-shade"
-      }
+            {
+                type: DrawRegion
+                suffix: "-shade"
+            }
 
 
-      {
-        type: DrawDefault
-      }
+            {
+                type: DrawDefault
+            }
 
 
-      {
-        type: DrawFade
-        suffix: "-fade"
-      }
+            {
+                type: DrawFade
+                suffix: "-fade"
+            }
 
 
-    ]
-  }
-  ambientSound: se-amb-hum
-  ambientSoundVolume: 0.2
+        ]
+    }
+    ambientSound: se-amb-hum
+    ambientSoundVolume: 0.2
 
 
 /*
@@ -136,7 +136,7 @@
 */
 
 
-  ignoreLiquidFullness: false
+    ignoreLiquidFullness: false
 
 
 /*
@@ -146,7 +146,7 @@
 */
 
 
-  craftTime: 120.0
-  consumes: {
-    power: 0.66666667
-  }
+    craftTime: 120.0
+    consumes: {
+        power: 0.66666667
+    }

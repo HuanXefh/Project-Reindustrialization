@@ -5,16 +5,18 @@
 */
 
 
-  # type: ThermalGenerator
-  category: power
-  requirements: [
-    loveclab-item0chem-lead/80
-    loveclab-item0chem-graphite/50
-    loveclab-item0chem-tin-bronze/50
-    loveclab-item0chem-cast-iron/40
-    loveclab-item0ore-magnetite/80
-  ]
-  buildCostMultiplier: 1.2
+    # type: ThermalGenerator
+    category: power
+    requirements: [
+        loveclab-item0chem-lead/120
+        loveclab-item0chem-graphite/80
+        loveclab-item0chem-brass/60
+        loveclab-item0chem-tin-bronze/60
+        loveclab-item0chem-leaded-tin-bronze/40
+        loveclab-item0chem-cast-iron/80
+        loveclab-item0ore-magnetite/80
+    ]
+    buildCostMultiplier: 0.6
 
 
 /*
@@ -24,11 +26,11 @@
 */
 
 
-  research: {
-    parent: pow0gen-vent-generator
-    objectives: []
-  }
-  researchCostMultiplier: 0.2
+    research: {
+        parent: pow0gen-vent-generator
+        objectives: []
+    }
+    researchCostMultiplier: 0.2
 
 
 /*
@@ -38,14 +40,14 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
-  size: 3
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: true
-  liquidCapacity: 90.0
-  hasPower: true
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 3
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: true
+    liquidCapacity: 90.0
+    hasPower: true
 
 
 /*
@@ -55,8 +57,8 @@
 */
 
 
-  envDisabled: 20
-  fogRadius: 5
+    envDisabled: 20
+    fogRadius: 5
 
 
 /*
@@ -66,65 +68,65 @@
 */
 
 
-  squareSprite: false
-  drawer: {
-    type: DrawMulti
-    drawers: [
+    squareSprite: false
+    drawer: {
+        type: DrawMulti
+        drawers: [
 
 
-      {
-        type: DrawRegion
-        suffix: "-bottom"
-      }
+            {
+                type: DrawRegion
+                suffix: "-bottom"
+            }
 
 
-      {
-        type: DrawParticles
-        color: "cce4ff"
-        alpha: 0.2
-        particles: 12
-        particleLife: 45.0
-        particleRad: 6.0
-        particleSize: 0.1
-        rotateScl: 8.0
-        reverse: true
-      }
+            {
+                type: DrawParticles
+                color: "cce4ff"
+                alpha: 0.2
+                particles: 12
+                particleLife: 45.0
+                particleRad: 6.0
+                particleSize: 0.1
+                rotateScl: 8.0
+                reverse: true
+            }
 
 
-      {
-        type: DrawRegion
-        suffix: "-rotator"
-        spinSprite: true
-        rotateSpeed: 11.0
-      }
+            {
+                type: DrawRegion
+                suffix: "-rotator"
+                spinSprite: true
+                rotateSpeed: 11.0
+            }
 
 
-      {
-        type: DrawLiquidTile
-        drawLiquid: loveclab-gas0misc-steam
-        padding: 1.25
-      }
+            {
+                type: DrawLiquidTile
+                drawLiquid: loveclab-gas0misc-steam
+                padding: 1.25
+            }
 
 
-      {
-        type: DrawDefault
-      }
+            {
+                type: DrawDefault
+            }
 
 
-      {
-        type: DrawGlowRegion
-        color: "ffffff"
-        suffix: "-glow"
-        alpha: 0.6
-        glowScale: 5.0
-        glowIntensity: 0.6
-      }
+            {
+                type: DrawGlowRegion
+                color: "ffffff"
+                suffix: "-glow"
+                alpha: 0.6
+                glowScale: 5.0
+                glowIntensity: 0.6
+            }
 
 
-    ]
-  }
-  ambientSound: se-amb-turbine
-  ambientSoundVolume: 0.3
+        ]
+    }
+    ambientSound: se-amb-turbine
+    ambientSoundVolume: 0.3
 
 
 /*
@@ -134,7 +136,7 @@
 */
 
 
-  group: liquids
+    group: liquids
 
 
 /*
@@ -144,11 +146,11 @@
 */
 
 
-  explosionShake: 8.0
-  explosionShakeDuration: 6.0
-  explodeSound: se-shot-explosion
-  explosionMinWarmup: 0.5
-  explosionPuddleLiquid: loveclab-liq0ore-water
+    explosionShake: 8.0
+    explosionShakeDuration: 6.0
+    explodeSound: se-shot-explosion
+    explosionMinWarmup: 0.5
+    explosionPuddleLiquid: loveclab-liq0ore-water
 
 
 /*
@@ -158,11 +160,11 @@
 */
 
 
-  attribute: lovec-attr0vent-steam
-  consumes: {
-    liquids: [
-      loveclab-aux0aux-pressure/0.08333333
-    ]
-  }
-  powerProduction: 13.33333333
-  outputLiquid: loveclab-gas0misc-steam/1.0
+    attribute: lovec-attr0vent-steam
+    consumes: {
+        liquids: [
+            loveclab-aux0aux-pressure/0.08333333
+        ]
+    }
+    powerProduction: 10.0
+    outputLiquid: loveclab-gas0int-steam-lp/0.5

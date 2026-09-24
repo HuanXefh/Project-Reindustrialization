@@ -5,12 +5,9 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/blk/BLK_lootHopper");
-  const TEMPLATE_A = require("lovec/temp/blk/BLK_lootPullerHopper");
-  const TEMPLATE_B = require("lovec/temp/blk/BLK_lootFilter");
+    const BLK_B_lootHopper = require("lovec/temp/blk/BLK_lootHopper");
+    const BLK_B_lootPullerHopper = require("lovec/temp/blk/BLK_lootPullerHopper");
+    const BLK_B_lootFilter = require("lovec/temp/blk/BLK_lootFilter");
 
 
 /*
@@ -20,32 +17,32 @@
 */
 
 
-  /* <---------- dis0loot ----------> */
+    /* <------------------------------ dis0loot ------------------------------> */
 
 
-  const dis0loot_itemHopper = extendBlock(
-    TEMPLATE, "dis0loot-item-hopper",
-    TEMPLATE[0].build({
-      lootCallCooldown: 5.0 * 60.0,
-      lootCallAmt: 20,
-    }),
-  );
+    const dis0loot_itemHopper = extendBlock(
+        BLK_B_lootHopper, "dis0loot-item-hopper",
+        BLK_B_lootHopper[0].build({
+            lootCallCooldown: 5.0 * 60.0,
+            lootCallAmt: 20,
+        }),
+    );
 
 
-  const dis0loot_itemCollector = extendBlock(
-    TEMPLATE_A, "dis0loot-item-collector",
-    TEMPLATE_A[0].build({
-      pullRad: 13 * 8.0,
-      lootCallCooldown: 3.0 * 60.0,
-      lootCallAmt: 18,
-    }),
-  );
+    const dis0loot_itemCollector = extendBlock(
+        BLK_B_lootPullerHopper, "dis0loot-item-collector",
+        BLK_B_lootPullerHopper[0].build({
+            pullRad: 13 * 8.0,
+            lootCallCooldown: 3.0 * 60.0,
+            lootCallAmt: 18,
+        }),
+    );
 
 
-  const dis0loot_itemPicker = extendBlock(
-    TEMPLATE_B, "dis0loot-item-picker",
-    TEMPLATE_B[0].build({
-      lootCallCooldown: 5.0 * 60.0,
-      lootCallAmt: 30,
-    }),
-  );
+    const dis0loot_itemPicker = extendBlock(
+        BLK_B_lootFilter, "dis0loot-item-picker",
+        BLK_B_lootFilter[0].build({
+            lootCallCooldown: 5.0 * 60.0,
+            lootCallAmt: 30,
+        }),
+    );

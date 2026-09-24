@@ -5,10 +5,10 @@
 */
 
 
-  research: {
-    parent: fac0bio-moss-cultivator
-    objectives: []
-    requirements: [
-      loveclab-item0misc-agriculture-tech-point-t2/30
-    ]
-  }
+    research: {
+        parent: fac0bio-moss-cultivator
+        objectives: []
+        requirements: [
+            loveclab-item0misc-agriculture-tech-point-t2/30
+        ]
+    }

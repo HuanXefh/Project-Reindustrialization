@@ -5,16 +5,16 @@
 */
 
 
-  # type: DirectionalUnloader
-  category: distribution
-  requirements: [
-    loveclab-item0bio-timber/80
-    loveclab-item0chem-graphite/60
-    loveclab-item0buil-glass/50
-    loveclab-item0chem-cupronickel/30
-    loveclab-item0chem-stainless-steel/20
-  ]
-  buildCostMultiplier: 0.7
+    # type: DirectionalUnloader
+    category: distribution
+    requirements: [
+        loveclab-item0bio-timber/80
+        loveclab-item0chem-graphite/60
+        loveclab-item0buil-glass/50
+        loveclab-item0chem-cupronickel/30
+        loveclab-item0chem-stainless-steel/20
+    ]
+    buildCostMultiplier: 0.7
 
 
 /*
@@ -24,11 +24,11 @@
 */
 
 
-  research: {
-    parent: dbct0tech-core-logistics
-    objectives: []
-  }
-  researchCostMultiplier: 0.4
+    research: {
+        parent: dbct0tech-core-logistics
+        objectives: []
+    }
+    researchCostMultiplier: 0.4
 
 
 /*
@@ -38,14 +38,14 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
-  size: 1
-  hasItems: true
-  itemCapacity: 0
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 1
+    hasItems: true
+    itemCapacity: 0
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -55,7 +55,7 @@
 */
 
 
-  envDisabled: 20
+    envDisabled: 20
 
 
 /*
@@ -65,7 +65,7 @@
 */
 
 
-  squareSprite: false
+    squareSprite: false
 
 
 /*
@@ -75,8 +75,8 @@
 */
 
 
-  speed: 6.66666667
-  allowCoreUnload: true
+    speed: 6.66666667
+    allowCoreUnload: true
 
 
 /*
@@ -86,6 +86,6 @@
 */
 
 
-  consumes: {
-    power: 1.5
-  }
+    consumes: {
+        power: 1.5
+    }

@@ -1,51 +1,53 @@
 const rc = {
 
 
-  // craftTime: 2s
+    // craftTime: 2s
 
 
-  base: {},
+    base: {},
 
 
-  recipe: [
+    recipe: [
 
 
-    /* <---------- aux ----------> */
+        /* <---------- aux ----------> */
 
 
-    "AUX: dust recycling", {
-      icon: "loveclab-aux0aux-dust-recycling",
-      category: "aux",
+        "AUX: dust recycling",
+        {
+            icon: "loveclab-aux0aux-dust-recycling",
+            category: "aux",
 
-      ci: [
-        "loveclab-aux0aux-dust-recycling", 0.0,
-      ],
+            ci: [
+                "loveclab-aux0aux-dust-recycling", 0.0,
+            ],
 
-      co: [
-        "loveclab-aux0aux-dust-recycling", 0.01666667,
-      ],
-    },
-
-
-    /* <---------- misc ----------> */
+            co: [
+                "loveclab-aux0aux-dust-recycling", 0.01666667,
+            ],
+        },
 
 
-    "MISC: sand", {
-      icon: "loveclab-item0ore-sand",
-      category: "misc",
-      ignoreItemFullness: true,
-
-      ci: [
-        "loveclab-gas0misc-air", 0.1,
-      ],
-
-      bo: [
-        "loveclab-item0ore-sand", 1, 0.125,
-      ],
-    },
+        /* <---------- misc ----------> */
 
 
-  ],
+        "MISC: sand",
+        {
+            icon: "loveclab-item0ore-sand",
+            category: "misc",
+            ignoreItemFullness: true,
+
+            ci: [
+                "loveclab-gas0misc-air", 0.1,
+            ],
+
+            bo: [
+                "loveclab-item0ore-sand", 1, 0.125,
+            ],
+        },
+
+
+    ],
 
 
 };

@@ -1,66 +1,68 @@
 const rc = {
 
 
-  // craftTime: 1s
+    // craftTime: 1s
 
 
-  base: {},
+    base: {},
 
 
-  recipe: [
+    recipe: [
 
 
-    /* <---------- aux ----------> */
+        /* <---------- aux ----------> */
 
 
-    "AUX: heat exchange; FROM: air", {
-      icon: "loveclab-gas0misc-air",
-      category: "aux",
+        "AUX: heat exchange; FROM: air",
+        {
+            icon: "loveclab-gas0misc-air",
+            category: "aux",
 
-      ci: [
-        "loveclab-gas0misc-air", 0.2,
-      ],
-      aux: [
-        "loveclab-aux0aux-pressure", 0.03333333,
-        "loveclab-aux0aux-heat-exchange", 0.0,
-      ],
+            ci: [
+                "loveclab-gas0misc-air", 0.2,
+            ],
+            aux: [
+                "loveclab-aux0aux-pressure", 0.03333333,
+                "loveclab-aux0aux-heat-exchange", 0.0,
+            ],
 
-      co: [
-        "loveclab-aux0aux-heat-exchange", 0.01666667,
-        "loveclab-gas0misc-air", 0.0,
-      ],
-    },
-
-
-    "AUX: heat exchange; FROM: water", {
-      icon: "loveclab-liq0ore-water",
-      category: "aux",
-
-      ci: [
-        "loveclab-liq0ore-water", 0.1,
-      ],
-      aux: [
-        "loveclab-aux0aux-heat-exchange", 0.0,
-      ],
-
-      co: [
-        "loveclab-aux0aux-heat-exchange", 0.01666667,
-        "loveclab-gas0misc-steam", 0.1,
-        "loveclab-liq0ore-water", 0.0,
-      ],
-    },
+            co: [
+                "loveclab-aux0aux-heat-exchange", 0.01666667,
+                "loveclab-gas0misc-air", 0.0,
+            ],
+        },
 
 
-  ],
+        "AUX: heat exchange; FROM: water",
+        {
+            icon: "loveclab-liq0ore-water",
+            category: "aux",
+
+            ci: [
+                "loveclab-liq0ore-water", 0.1,
+            ],
+            aux: [
+                "loveclab-aux0aux-heat-exchange", 0.0,
+            ],
+
+            co: [
+                "loveclab-aux0aux-heat-exchange", 0.01666667,
+                "loveclab-gas0misc-steam", 0.1,
+                "loveclab-liq0ore-water", 0.0,
+            ],
+        },
+
+
+    ],
 
 
 };
 
 
-TP_recipeGen._g_heaterExchange.run(rc, {
-  amt: 1,
-  heatOScl: 2.0,
-  time: 60.0,
+runRecipeGeneration(rc, "lovec", "heaterExchange", {
+    amt: 1,
+    heatOScl: 2.0,
+    time: 60.0,
 });
 
 

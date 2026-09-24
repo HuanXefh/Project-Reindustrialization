@@ -5,14 +5,14 @@
 */
 
 
-  # type: StorageBlock
-  category: distribution
-  requirements: [
-    loveclab-item0bio-timber/80
-    loveclab-item0chem-brass/60
-    loveclab-item0chem-cast-iron/50
-  ]
-  buildCostMultiplier: 1.5
+    # type: StorageBlock
+    category: distribution
+    requirements: [
+        loveclab-item0bio-timber/80
+        loveclab-item0chem-brass/60
+        loveclab-item0chem-cast-iron/50
+    ]
+    buildCostMultiplier: 1.5
 
 
 /*
@@ -22,11 +22,11 @@
 */
 
 
-  research: {
-    parent: dbct0tech-loot-transportation
-    objectives: []
-  }
-  researchCostMultiplier: 0.4
+    research: {
+        parent: dbct0tech-loot-transportation
+        objectives: []
+    }
+    researchCostMultiplier: 0.4
 
 
 /*
@@ -36,14 +36,14 @@
 */
 
 
-  scaledHealth: 80.0
-  armor: 12.0
-  size: 3
-  hasItems: true
-  itemCapacity: 80
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 80.0
+    armor: 12.0
+    size: 3
+    hasItems: true
+    itemCapacity: 80
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -53,8 +53,8 @@
 */
 
 
-  envRequired: 1
-  envDisabled: 22
+    envRequired: 1
+    envDisabled: 22
 
 
 /*
@@ -64,17 +64,7 @@
 */
 
 
-  squareSprite: false
-
-
-/*
-  ========================================
-  Section: Specific
-  ========================================
-*/
-
-
-  coreMerge: false
+    squareSprite: false
 
 
 /*
@@ -84,6 +74,6 @@
 */
 
 
-  consumes: {
-    power: 1.25
-  }
+    consumes: {
+        power: 1.25
+    }

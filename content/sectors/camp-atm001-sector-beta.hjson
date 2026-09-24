@@ -5,11 +5,11 @@
 */
 
 
-  alwaysUnlocked: true
-  research: {
-    parent: loveclab-eff0core-ash
-    objectives: []
-  }
+    alwaysUnlocked: true
+    research: {
+        parent: loveclab-eff0core-ash
+        objectives: []
+    }
 
 
 /*
@@ -19,9 +19,9 @@
 */
 
 
-  planet: loveclab-pla0ter-anthimyst
-  sector: 0
-  difficulty: 1
+    planet: loveclab-pla0ter-anthimyst
+    sector: 0
+    difficulty: 1
 
 
 /*
@@ -31,10 +31,10 @@
 */
 
 
-  captureWave: 2
-  overrideLaunchDefaults: true
-  allowLaunchSchematics: false
-  allowLaunchLoadout: false
+    captureWave: 2
+    overrideLaunchDefaults: true
+    allowLaunchSchematics: false
+    allowLaunchLoadout: false
 
 
 /*
@@ -44,4 +44,4 @@
 */
 
 
-  addStartingItems: true
+    addStartingItems: true

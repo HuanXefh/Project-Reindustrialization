@@ -5,16 +5,16 @@
 */
 
 
-  # type: MassDriver
-  category: distribution
-  requirements: [
-    loveclab-item0bio-timber/160
-    loveclab-item0chem-tin-bronze/120
-    loveclab-item0chem-cast-iron/120
-    loveclab-item0chem-mangalloy/75
-    loveclab-item0int0conc-magnetite/120
-  ]
-  buildCostMultiplier: 0.8
+    # type: MassDriver
+    category: distribution
+    requirements: [
+        loveclab-item0bio-timber/300
+        loveclab-item0chem-tin-bronze/200
+        loveclab-item0chem-cast-iron/200
+        loveclab-item0chem-mangalloy/120
+        loveclab-item0int0conc-magnetite/300
+    ]
+    buildCostMultiplier: 0.6
 
 
 /*
@@ -24,11 +24,11 @@
 */
 
 
-  research: {
-    parent: dis0mdr-local-mass-driver
-    objectives: []
-  }
-  researchCostMultiplier: 0.2
+    research: {
+        parent: dis0mdr-local-mass-driver
+        objectives: []
+    }
+    researchCostMultiplier: 0.2
 
 
 /*
@@ -38,14 +38,14 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
-  size: 2
-  hasItems: true
-  itemCapacity: 120
-  hasLiquids: true
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 2
+    hasItems: true
+    itemCapacity: 120
+    hasLiquids: true
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -55,8 +55,8 @@
 */
 
 
-  envDisabled: 20
-  fogRadius: 4
+    envDisabled: 20
+    fogRadius: 4
 
 
 /*
@@ -66,11 +66,11 @@
 */
 
 
-  squareSprite: false
-  knockback: 2.5
-  translation: 3.5
-  shake: 4.0
-  shootSound: se-shot-mass-driver
+    squareSprite: false
+    knockback: 2.5
+    translation: 3.5
+    shake: 4.0
+    shootSound: se-shot-mass-driver
 
 
 /*
@@ -80,10 +80,10 @@
 */
 
 
-  range: 800.0
-  rotateSpeed: 0.5
-  bulletSpeed: 8.0
-  bulletLifetime: 100.0
+    range: 800.0
+    rotateSpeed: 0.5
+    bulletSpeed: 8.0
+    bulletLifetime: 100.0
 
 
 /*
@@ -93,11 +93,11 @@
 */
 
 
-  minDistribute: 45
-  reload: 300.0
-  consumes: {
-    power: 2.33333333
-    liquids: [
-      loveclab-liq0ore-water/0.15
-    ]
-  }
+    minDistribute: 45
+    reload: 300.0
+    consumes: {
+        power: 2.33333333
+        liquids: [
+            loveclab-liq0ore-water/0.15
+        ]
+    }

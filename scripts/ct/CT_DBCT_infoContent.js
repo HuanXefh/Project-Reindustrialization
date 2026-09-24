@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/sta/DBCT_infoContent");
+    const DBCT_infoContent = require("lovec/temp/sta/DBCT_infoContent");
 
 
 /*
@@ -18,12 +15,12 @@
 */
 
 
-  /* <---------- dbct0info ----------> */
+    /* <------------------------------ dbct0info ------------------------------> */
 
 
-  const dbct0info_atm001 = extendBase(
-    TEMPLATE, "dbct0info-atm001",
-    TEMPLATE.build({
-      nameInfo: "camp-atm001",
-    }),
-  );
+    const dbct0info_atm001 = extendBase(
+        DBCT_infoContent, "dbct0info-atm001",
+        DBCT_infoContent.build({
+            nameInfo: "camp-atm001",
+        }),
+    );

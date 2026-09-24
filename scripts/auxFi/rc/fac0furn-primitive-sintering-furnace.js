@@ -1,40 +1,40 @@
 const rc = {
 
 
-  // craftTime: 20s
+    // craftTime: 20s
 
 
-  base: {
+    base: {
 
 
-    baseAux: [
-      "loveclab-aux0aux-heat-exchange", 0.01666667,
-    ],
+        baseAux: [
+            "loveclab-aux0aux-heat-exchange", 0.01666667,
+        ],
 
 
-  },
+    },
 
 
-  recipe: [],
+    recipe: [],
 
 
 };
 
 
-TP_recipeGen._g_roastingFurnace.run(rc, {
-  amtI: 20,
-  pI: 0.5,
-  amtO: 10,
-  time: 20.0 * 60.0,
-  maxTemp: 1800.0,
-  maxFlam: 0.0,
+runRecipeGeneration(rc, "lovec", "roastingFurnace", {
+    amtI: 20,
+    pI: 0.5,
+    amtO: 10,
+    time: 20.0 * 60.0,
+    maxTemp: 1800.0,
+    maxFlam: 0.0,
 });
-TP_recipeGen._g_sinteringFurnace.run(rc, {
-  amtI: 20,
-  pI: 0.5,
-  amtO: 10,
-  maxTemp: 1800.0,
-  maxFlam: 0.0,
+runRecipeGeneration(rc, "lovec", "sinteringFurnace", {
+    amtI: 20,
+    pI: 0.5,
+    amtO: 10,
+    maxTemp: 1800.0,
+    maxFlam: 0.0,
 });
 
 

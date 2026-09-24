@@ -5,16 +5,16 @@
 */
 
 
-  # type: BurstDrill
-  category: production
-  requirements: [
-    loveclab-item0bio-timber/40
-    loveclab-item0chem-lead/65
-    loveclab-item0chem-graphite/30
-    loveclab-item0chem-brass/40
-    loveclab-item0chem-leaded-tin-bronze/30
-  ]
-  buildCostMultiplier: 1.5
+    # type: BurstDrill
+    category: production
+    requirements: [
+        loveclab-item0bio-timber/40
+        loveclab-item0chem-lead/65
+        loveclab-item0chem-graphite/30
+        loveclab-item0chem-brass/40
+        loveclab-item0chem-leaded-tin-bronze/30
+    ]
+    buildCostMultiplier: 1.5
 
 
 /*
@@ -24,11 +24,11 @@
 */
 
 
-  research: {
-    parent: min0scan-alpha-class-ore-scanner
-    objectives: []
-  }
-  researchCostMultiplier: 0.35
+    research: {
+        parent: min0scan-alpha-class-ore-scanner
+        objectives: []
+    }
+    researchCostMultiplier: 0.35
 
 
 /*
@@ -38,14 +38,14 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
-  size: 2
-  hasItems: true
-  itemCapacity: 25
-  hasLiquids: true
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 2
+    hasItems: true
+    itemCapacity: 25
+    hasLiquids: true
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -55,9 +55,9 @@
 */
 
 
-  envRequired: 1
-  envDisabled: 20
-  fogRadius: 4
+    envRequired: 1
+    envDisabled: 20
+    fogRadius: 4
 
 
 /*
@@ -67,15 +67,15 @@
 */
 
 
-  squareSprite: false
-  shake: 1.0
-  invertedTime: 90.0
-  arrowSpacing: 1.5
-  arrowOffset: 0.0
-  arrows: 4
-  drillSound: se-craft-impact-drill
-  drillSoundVolume: 0.5
-  drillSoundPitchRand: 0.1
+    squareSprite: false
+    shake: 1.0
+    invertedTime: 90.0
+    arrowSpacing: 1.5
+    arrowOffset: 0.0
+    arrows: 4
+    drillSound: se-craft-impact-drill
+    drillSoundVolume: 0.5
+    drillSoundPitchRand: 0.1
 
 
 /*
@@ -85,7 +85,7 @@
 */
 
 
-  tier: 8
+    tier: 8
 
 
 /*
@@ -95,17 +95,17 @@
 */
 
 
-  drillTime: 384.0
-  liquidBoostIntensity: 1.6
-  consumes: {
-    power: 1.25
-    liquid: {
-      liquid: loveclab-aux0aux-vacuum
-      amount: 0.08333333
-      optional: true
-      booster: true
+    drillTime: 384.0
+    liquidBoostIntensity: 1.6
+    consumes: {
+        power: 1.25
+        liquid: {
+            liquid: loveclab-aux0aux-vacuum
+            amount: 0.08333333
+            optional: true
+            booster: true
+        }
+        liquids: [
+            loveclab-liq0ore-water/0.25
+        ]
     }
-    liquids: [
-      loveclab-liq0ore-water/0.25
-    ]
-  }

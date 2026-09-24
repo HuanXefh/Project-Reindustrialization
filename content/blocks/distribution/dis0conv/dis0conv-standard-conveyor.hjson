@@ -5,14 +5,14 @@
 */
 
 
-  # type: ArmoredConveyor
-  category: distribution
-  requirements: [
-    loveclab-item0bio-timber/3
-    loveclab-item0chem-brass/2
-    loveclab-item0chem-steel/1
-  ]
-  buildCostMultiplier: 4.0
+    # type: ArmoredConveyor
+    category: distribution
+    requirements: [
+        loveclab-item0bio-timber/3
+        loveclab-item0chem-brass/2
+        loveclab-item0chem-steel/1
+    ]
+    buildCostMultiplier: 4.0
 
 
 /*
@@ -22,11 +22,11 @@
 */
 
 
-  research: {
-    parent: dis0conv-wooden-conveyor
-    objectives: []
-  }
-  buildCostMultiplier: 5.0
+    research: {
+        parent: dis0conv-wooden-conveyor
+        objectives: []
+    }
+    buildCostMultiplier: 5.0
 
 
 /*
@@ -36,14 +36,14 @@
 */
 
 
-  scaledHealth: 50.0
-  armor: 6.0
-  size: 1
-  hasItems: true
-  itemCapacity: 3
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 50.0
+    armor: 6.0
+    size: 1
+    hasItems: true
+    itemCapacity: 3
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -53,8 +53,8 @@
 */
 
 
-  envRequired: 1
-  envDisabled: 20
+    envRequired: 1
+    envDisabled: 20
 
 
 /*
@@ -64,7 +64,7 @@
 */
 
 
-  speed: 0.067
-  displayedSpeed: 9.0
-  junctionReplacement: dis0aux-item-junction
-  bridgeReplacement: dis0brd-conveyor-bridge
+    speed: 0.067
+    displayedSpeed: 9.0
+    junctionReplacement: dis0aux-item-junction
+    bridgeReplacement: dis0brd-conveyor-bridge

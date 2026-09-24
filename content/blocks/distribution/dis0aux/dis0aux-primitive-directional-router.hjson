@@ -5,14 +5,14 @@
 */
 
 
-  # type: DuctRouter
-  category: distribution
-  requirements: [
-    loveclab-item0bio-timber/35
-    loveclab-item0chem-copper/25
-    loveclab-item0chem-graphite/10
-  ]
-  buildCostMultiplier: 3.0
+    # type: DuctRouter
+    category: distribution
+    requirements: [
+        loveclab-item0bio-timber/35
+        loveclab-item0chem-copper/25
+        loveclab-item0chem-graphite/10
+    ]
+    buildCostMultiplier: 3.0
 
 
 /*
@@ -22,11 +22,11 @@
 */
 
 
-  research: {
-    parent: dis0aux-primitive-unloader
-    objectives: []
-  }
-  researchCostMultiplier: 0.4
+    research: {
+        parent: dis0aux-primitive-unloader
+        objectives: []
+    }
+    researchCostMultiplier: 0.4
 
 
 /*
@@ -36,14 +36,14 @@
 */
 
 
-  scaledHealth: 40.0
-  armor: 0.0
-  size: 1
-  hasItems: true
-  itemCapacity: 1
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 1
+    hasItems: true
+    itemCapacity: 1
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -53,7 +53,7 @@
 */
 
 
-  envDisabled: 20
+    envDisabled: 20
 
 
 /*
@@ -63,7 +63,7 @@
 */
 
 
-  squareSprite: false
+    squareSprite: false
 
 
 /*
@@ -73,5 +73,5 @@
 */
 
 
-  configurable: false
-  speed: 20.0
+    configurable: false
+    speed: 20.0

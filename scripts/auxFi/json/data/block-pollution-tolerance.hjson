@@ -1,7 +1,15 @@
-/* <---------- min0harv ----------> */
+/* <------------------------------ min0harv ------------------------------> */
 
 projreind-min0harv-lumberjack: 1000.0
 projreind-min0harv-forest-harvester: 1000.0
 projreind-min0harv-mycelial-harvester: 1500.0
 projreind-min0harv-tree-tap: 600.0
 projreind-min0harv-algae-harvester: 600.0
+
+/* <------------------------------ min0crop ------------------------------> */
+
+projreind-min0crop-aerth-sisal: 750.0
+
+/* <------------------------------ fac0bio ------------------------------> */
+
+projreind-fac0bio-moss-cultivator: 2000.0

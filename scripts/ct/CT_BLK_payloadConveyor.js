@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/blk/BLK_payloadConveyor");
+    const BLK_B_payloadConveyor = require("lovec/temp/blk/BLK_payloadConveyor");
 
 
 /*
@@ -18,9 +15,9 @@
 */
 
 
-  /* <---------- pay0conv ----------> */
+    /* <------------------------------ pay0conv ------------------------------> */
 
 
-  const pay0conv_payloadExpressWay = extendBlock(
-    TEMPLATE, "pay0conv-payload-express-way",
-  );
+    const pay0conv_payloadExpressWay = extendBlock(
+        BLK_B_payloadConveyor, "pay0conv-payload-express-way",
+    );

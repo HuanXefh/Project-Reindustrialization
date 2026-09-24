@@ -5,14 +5,14 @@
 */
 
 
-  # type: AttributeCrafter
-  category: production
-  requirements: [
-    loveclab-item0bio-timber/20
-    loveclab-item0chem-copper/30
-    loveclab-item0chem-graphite/20
-  ]
-  buildCostMultiplier: 4.0
+    # type: AttributeCrafter
+    category: production
+    requirements: [
+        loveclab-item0bio-timber/20
+        loveclab-item0chem-copper/30
+        loveclab-item0chem-graphite/20
+    ]
+    buildCostMultiplier: 4.0
 
 
 /*
@@ -22,11 +22,11 @@
 */
 
 
-  research: {
-    parent: dbct0tech-harvester
-    objectives: []
-  }
-  researchCostMultiplier: 0.3
+    research: {
+        parent: dbct0tech-harvester
+        objectives: []
+    }
+    researchCostMultiplier: 0.3
 
 
 /*
@@ -36,14 +36,14 @@
 */
 
 
-  scaledHealth: 50.0
-  armor: 6.0
-  size: 2
-  hasItems: true
-  itemCapacity: 10
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 50.0
+    armor: 6.0
+    size: 2
+    hasItems: true
+    itemCapacity: 10
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -53,7 +53,7 @@
 */
 
 
-  envDisabled: 16
+    envDisabled: 16
 
 
 /*
@@ -63,41 +63,41 @@
 */
 
 
-  squareSprite: false
-  drawer: {
-    type: DrawMulti
-    drawers: [
+    squareSprite: false
+    drawer: {
+        type: DrawMulti
+        drawers: [
 
 
-      {
-        type: DrawRegion
-      }
+            {
+                type: DrawRegion
+            }
 
 
-      {
-        type: DrawFlame
-        flameColor: "ffc999"
-        flameRadius: 0.0
-        flameRadiusIn: 0.0
-        flameRadiusScl: 0.0
-        flameRadiusMag: 0.0
-        flameRadiusInMag: 0.0
-        lightRadius: 16.0
-        lightAlpha: 0.65
-        lightSinScl: 16.0
-        lightSinMag: 6.0
-      }
+            {
+                type: DrawFlame
+                flameColor: "ffc999"
+                flameRadius: 0.0
+                flameRadiusIn: 0.0
+                flameRadiusScl: 0.0
+                flameRadiusMag: 0.0
+                flameRadiusInMag: 0.0
+                lightRadius: 16.0
+                lightAlpha: 0.65
+                lightSinScl: 16.0
+                lightSinMag: 6.0
+            }
 
 
-      {
-        type: DrawSideRegion
-      }
+            {
+                type: DrawSideRegion
+            }
 
 
-    ]
-  }
-  ambientSound: se-amb-hum
-  ambientSoundVolume: 0.2
+        ]
+    }
+    ambientSound: se-amb-hum
+    ambientSoundVolume: 0.2
 
 
 /*
@@ -107,8 +107,8 @@
 */
 
 
-  rotate: true
-  ignoreLiquidFullness: false
+    rotate: true
+    ignoreLiquidFullness: false
 
 
 /*
@@ -118,11 +118,11 @@
 */
 
 
-  attribute: lovec-attr0blk-fungi
-  craftTime: 750.0
-  consumes: {
-    power: 0.33333333
-  }
-  outputItems: [
-    loveclab-item0bio-hypha-rod/1
-  ]
+    attribute: lovec-attr0blk-fungi
+    craftTime: 750.0
+    consumes: {
+        power: 0.33333333
+    }
+    outputItems: [
+        loveclab-item0bio-hypha-rod/1
+    ]

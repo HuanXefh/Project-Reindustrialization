@@ -1,37 +1,37 @@
 const rc = {
 
 
-  // craftTime: 2s
+    // craftTime: 2s
 
 
-  base: {
+    base: {
 
 
-    baseCi: [
-      "loveclab-gas0misc-air", 0.2,
-    ],
-    baseAux: [
-      "loveclab-aux0aux-pressure", 0.03333333,
-    ],
+        baseCi: [
+            "loveclab-gas0misc-air", 0.2,
+        ],
+        baseAux: [
+            "loveclab-aux0aux-pressure", 0.03333333,
+        ],
 
 
-    baseCo: [
-      "loveclab-gas0misc-air", 0.0,
-    ],
+        baseCo: [
+            "loveclab-gas0misc-air", 0.0,
+        ],
 
 
-  },
+    },
 
 
-  recipe: [],
+    recipe: [],
 
 
 };
 
 
-TP_recipeGen._g_condenser.run(rc, {
-  amt: 4,
-  time: 2.0 * 60.0,
+runRecipeGeneration(rc, "lovec", "condenser", {
+    amt: 4,
+    time: 2.0 * 60.0,
 });
 
 

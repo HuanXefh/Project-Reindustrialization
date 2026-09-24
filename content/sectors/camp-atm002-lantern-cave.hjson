@@ -5,14 +5,14 @@
 */
 
 
-  research: {
-    parent: camp-atm001-sector-beta
-    objectives: []
-    requirements: [
-      loveclab-item0chem-brass/300
-      loveclab-item0chem-tin-bronze/300
-    ]
-  }
+    research: {
+        parent: camp-atm001-sector-beta
+        objectives: []
+        requirements: [
+            loveclab-item0chem-brass/300
+            loveclab-item0chem-tin-bronze/300
+        ]
+    }
 
 
 /*
@@ -22,9 +22,9 @@
 */
 
 
-  planet: loveclab-pla0ter-anthimyst
-  sector: 96
-  difficulty: 1
+    planet: loveclab-pla0ter-anthimyst
+    sector: 96
+    difficulty: 1
 
 
 /*
@@ -34,10 +34,10 @@
 */
 
 
-  captureWave: 2
-  overrideLaunchDefaults: false
-  allowLaunchSchematics: true
-  allowLaunchLoadout: true
+    captureWave: 2
+    overrideLaunchDefaults: false
+    allowLaunchSchematics: true
+    allowLaunchLoadout: true
 
 
 /*
@@ -47,4 +47,4 @@
 */
 
 
-  noLighting: true
+    noLighting: true

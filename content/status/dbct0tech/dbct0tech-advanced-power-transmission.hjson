@@ -5,12 +5,12 @@
 */
 
 
-  research: {
-    parent: pow0trans-copper-wire-node
-    objectives: []
-    requirements: [
-      loveclab-item0chem-copper/6000
-      loveclab-item0chem-lead/3000
-      loveclab-item0misc-engineering-tech-point-t1/60
-    ]
-  }
+    research: {
+        parent: pow0trans-copper-wire-node
+        objectives: []
+        requirements: [
+            loveclab-item0chem-copper/6000
+            loveclab-item0chem-lead/3000
+            loveclab-item0misc-engineering-tech-point-t1/60
+        ]
+    }

@@ -5,12 +5,12 @@
 */
 
 
-  # type: Wall
-  category: defense
-  requirements: [
-    loveclab-item0was-scrap-steel/30
-  ]
-  buildCostMultiplier: 6.0
+    # type: Wall
+    category: defense
+    requirements: [
+        loveclab-item0was-scrap-steel/30
+    ]
+    buildCostMultiplier: 6.0
 
 
 /*
@@ -20,11 +20,11 @@
 */
 
 
-  research: {
-    parent: def0wall-wooden-barricade
-    objectives: []
-  }
-  researchCostMultiplier: 0.4
+    research: {
+      parent: def0wall-wooden-barricade
+      objectives: []
+    }
+    researchCostMultiplier: 0.4
 
 
 /*
@@ -34,14 +34,14 @@
 */
 
 
-  scaledHealth: 400.0
-  armor: 0.0
-  size: 2
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 400.0
+    armor: 0.0
+    size: 2
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -51,7 +51,7 @@
 */
 
 
-  envDisabled: 16
+    envDisabled: 16
 
 
 /*
@@ -61,5 +61,5 @@
 */
 
 
-  squareSprite: true
-  placeSound: se-place-metal
+    squareSprite: true
+    placeSound: se-place-metal

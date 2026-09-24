@@ -5,15 +5,15 @@
 */
 
 
-  # type: StackConveyor
-  category: distribution
-  requirements: [
-    loveclab-item0bio-timber/8
-    loveclab-item0chem-graphite/6
-    loveclab-item0chem-leaded-tin-bronze/4
-    loveclab-item0chem-steel/3
-  ]
-  buildCostMultiplier: 5.0
+    # type: StackConveyor
+    category: distribution
+    requirements: [
+        loveclab-item0bio-timber/8
+        loveclab-item0chem-graphite/6
+        loveclab-item0chem-leaded-tin-bronze/4
+        loveclab-item0chem-steel/3
+    ]
+    buildCostMultiplier: 5.0
 
 
 /*
@@ -23,11 +23,11 @@
 */
 
 
-  research: {
-    parent: dis0conv-standard-conveyor
-    objectives: []
-  }
-  buildCostMultiplier: 3.5
+    research: {
+        parent: dis0conv-standard-conveyor
+        objectives: []
+    }
+    buildCostMultiplier: 3.5
 
 
 /*
@@ -37,14 +37,14 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
-  size: 1
-  hasItems: true
-  itemCapacity: 50
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 1
+    hasItems: true
+    itemCapacity: 50
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -54,7 +54,7 @@
 */
 
 
-  envDisabled: 20
+    envDisabled: 20
 
 
 /*
@@ -64,8 +64,8 @@
 */
 
 
-  glowColor: "cfe3f2"
-  glowAlpha: 0.8
+    glowColor: "cfe3f2"
+    glowAlpha: 0.8
 
 
 /*
@@ -75,9 +75,9 @@
 */
 
 
-  baseEfficiency: 0.0
-  speed: 0.025
-  recharge: 5.0
+    baseEfficiency: 0.0
+    speed: 0.025
+    recharge: 5.0
 
 
 /*
@@ -87,6 +87,6 @@
 */
 
 
-  consumes: {
-    power: 0.05416667
-  }
+    consumes: {
+        power: 0.05416667
+    }

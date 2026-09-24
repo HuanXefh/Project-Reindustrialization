@@ -5,8 +5,8 @@
 */
 
 
-  # type: Wall
-  category: power
+    # type: Wall
+    category: power
 
 
 /*
@@ -16,14 +16,14 @@
 */
 
 
-  scaledHealth: 40.0
-  armor: 0.0
-  size: 1
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: false
-  liquidCapacity: 5.0
-  hasPower: false
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 1
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
 
 
 /*
@@ -33,4 +33,4 @@
 */
 
 
-  squareSprite: true
+    squareSprite: true

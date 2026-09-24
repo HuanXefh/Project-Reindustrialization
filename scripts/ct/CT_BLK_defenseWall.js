@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/blk/BLK_defenseWall");
+    const BLK_B_defenseWall = require("lovec/temp/blk/BLK_defenseWall");
 
 
 /*
@@ -18,19 +15,19 @@
 */
 
 
-  /* <---------- pay0mat ----------> */
+    /* <------------------------------ def0wall ------------------------------> */
 
 
-  const def0wall_woodenBarricade = extendBlock(
-    TEMPLATE, "def0wall-wooden-barricade",
-  );
+    const def0wall_woodenBarricade = extendBlock(
+        BLK_B_defenseWall, "def0wall-wooden-barricade",
+    );
 
 
-  const def0wall_scrapSteelBarricade = extendBlock(
-    TEMPLATE, "def0wall-scrap-steel-barricade",
-  );
+    const def0wall_scrapSteelBarricade = extendBlock(
+        BLK_B_defenseWall, "def0wall-scrap-steel-barricade",
+    );
 
 
-  const def0wall_concreteBarricade = extendBlock(
-    TEMPLATE, "def0wall-concrete-barricade",
-  );
+    const def0wall_concreteBarricade = extendBlock(
+        BLK_B_defenseWall, "def0wall-concrete-barricade",
+    );

@@ -5,16 +5,16 @@
 */
 
 
-  # type: GenericCrafter
-  category: crafting
-  requirements: [
-    loveclab-item0chem-copper/80
-    loveclab-item0chem-graphite/50
-    loveclab-item0chem-steel/30
-    loveclab-item0buil-brick-mullite/30
-    loveclab-item0buil-brick-high-alumina/30
-  ]
-  buildCostMultiplier: 1.4
+    # type: GenericCrafter
+    category: crafting
+    requirements: [
+        loveclab-item0chem-copper/80
+        loveclab-item0chem-graphite/50
+        loveclab-item0chem-steel/30
+        loveclab-item0buil-brick-mullite/30
+        loveclab-item0buil-brick-high-alumina/30
+    ]
+    buildCostMultiplier: 1.4
 
 
 /*
@@ -24,11 +24,11 @@
 */
 
 
-  research: {
-    parent: dbct0tech-advanced-furnace
-    objectives: []
-  }
-  researchCostMultiplier: 0.25
+    research: {
+        parent: dbct0tech-advanced-furnace
+        objectives: []
+    }
+    researchCostMultiplier: 0.25
 
 
 /*
@@ -38,14 +38,14 @@
 */
 
 
-  scaledHealth: 60.0
-  armor: 12.0
-  size: 2
-  hasItems: false
-  itemCapacity: 20
-  hasLiquids: true
-  liquidCapacity: 5.0
-  hasPower: true
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 2
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: true
+    liquidCapacity: 5.0
+    hasPower: true
 
 
 /*
@@ -55,8 +55,8 @@
 */
 
 
-  envRequired: 0
-  envDisabled: 16
+    envRequired: 0
+    envDisabled: 16
 
 
 /*
@@ -66,27 +66,27 @@
 */
 
 
-  squareSprite: false
-  drawer: {
-    type: DrawMulti
-    drawers: [
+    squareSprite: false
+    drawer: {
+        type: DrawMulti
+        drawers: [
 
 
-      {
-        type: DrawDefault
-      }
+            {
+                type: DrawDefault
+            }
 
 
-      {
-        type: DrawFade
-        suffix: "-fade"
-      }
+            {
+                type: DrawFade
+                suffix: "-fade"
+            }
 
 
-    ]
-  }
-  ambientSound: se-amb-furnace
-  ambientSoundVolume: 0.2
+        ]
+    }
+    ambientSound: se-amb-furnace
+    ambientSoundVolume: 0.2
 
 
 /*
@@ -96,7 +96,7 @@
 */
 
 
-  ignoreLiquidFullness: false
+    ignoreLiquidFullness: false
 
 
 /*
@@ -106,4 +106,4 @@
 */
 
 
-  craftTime: 240.0
+    craftTime: 240.0

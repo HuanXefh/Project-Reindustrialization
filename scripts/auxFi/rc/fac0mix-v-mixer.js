@@ -1,21 +1,21 @@
 const rc = {
 
 
-  // craftTime: 6s
+    // craftTime: 6s
 
 
-  base: {},
+    base: {},
 
 
-  recipe: [],
+    recipe: [],
 
 
 };
 
 
-TP_recipeGen._g_mixer.run(rc, {
-  amt: 6,
-  pO: 0.5,
+runRecipeGeneration(rc, "lovec", "mixer", {
+    amt: 6,
+    pO: 0.5,
 });
 
 

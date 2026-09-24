@@ -1,52 +1,53 @@
 const rc = {
 
 
-  // craftTime: 10s
+    // craftTime: 10s
 
 
-  base: {},
+    base: {},
 
 
-  recipe: [
+    recipe: [
 
 
-    /* <---------- misc ----------> */
+        /* <---------- misc ----------> */
 
 
-    "MISC: timber", {
-      icon: "loveclab-item0bio-timber",
-      category: "misc",
-      lockedBy: [
-        "loveclab-item0buil-brick-brick-clay",
-      ],
+        "MISC: timber",
+        {
+            icon: "loveclab-item0bio-timber",
+            category: "misc",
+            lockedBy: [
+                "loveclab-item0buil-brick-brick-clay",
+            ],
 
-      bi: [
-        "loveclab-item0bio-log", 10, 1.0,
-      ],
+            bi: [
+                "loveclab-item0bio-log", 10, 1.0,
+            ],
 
-      bo: [
-        "loveclab-item0bio-timber", 5, 1.0,
-      ],
-      failP: 0.1,
-      fo: [],
-    },
+            bo: [
+                "loveclab-item0bio-timber", 5, 1.0,
+            ],
+            failP: 0.1,
+            fo: [],
+        },
 
 
-  ],
+    ],
 
 
 };
 
 
-TP_recipeGen._g_assembler.run(rc, {
-  objF: obj => obj.failP = 0.2,
-  mode: "electrode",
-  amt: 1,
+runRecipeGeneration(rc, "lovec", "assembler", {
+    objF: obj => obj.failP = 0.2,
+    amt: 1,
+    mode: "electrode",
 });
-TP_recipeGen._g_assembler.run(rc, {
-  objF: obj => obj.failP = 0.2,
-  mode: "membrane",
-  amt: 1,
+runRecipeGeneration(rc, "lovec", "assembler", {
+    objF: obj => obj.failP = 0.2,
+    amt: 1,
+    mode: "membrane",
 });
 
 

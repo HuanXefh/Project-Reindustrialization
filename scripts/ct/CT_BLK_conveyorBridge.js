@@ -5,10 +5,7 @@
 */
 
 
-  /* <---------- import ----------> */
-
-
-  const TEMPLATE = require("lovec/temp/blk/BLK_conveyorBridge");
+    const BLK_B_conveyorBridge = require("lovec/temp/blk/BLK_conveyorBridge");
 
 
 /*
@@ -18,9 +15,9 @@
 */
 
 
-  /* <---------- dis0brd ----------> */
+    /* <------------------------------ dis0brd ------------------------------> */
 
 
-  const dis0brd_conveyorBridge = extendBlock(
-    TEMPLATE, "dis0brd-conveyor-bridge",
-  );
+    const dis0brd_conveyorBridge = extendBlock(
+        BLK_B_conveyorBridge, "dis0brd-conveyor-bridge",
+    );
