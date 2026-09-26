@@ -1,0 +1,65 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+    # type: Wall
+    category: defense
+    requirements: [
+        loveclab-item0was-scrap-steel/30
+    ]
+    buildCostMultiplier: 6.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+      parent: projreind-def0wall-wooden-barricade
+      objectives: []
+    }
+    researchCostMultiplier: 0.4
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    scaledHealth: 400.0
+    armor: 0.0
+    size: 2
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+    envDisabled: 16
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+    squareSprite: true
+    placeSound: se-place-metal

@@ -1,0 +1,94 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+    # type: Drill
+    category: production
+    requirements: [
+        loveclab-item0chem-copper/40
+        loveclab-item0ore-clay/80
+    ]
+    buildCostMultiplier: 2.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-min0drl-survivor-drill
+        objectives: []
+    }
+    researchCostMultiplier: 0.05
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 3
+    hasItems: true
+    itemCapacity: 10
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+    envRequired: 129
+    envDisabled: 20
+    fogRadius: 4
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+    squareSprite: false
+    ambientSound: se-amb-drill
+    ambientSoundVolume: 0.3
+    drawMineItem: false
+    drawRim: false
+    rotateSpeed: 4.0
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+    tier: 4
+    hardnessDrillMultiplier: 10.0
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+    drillTime: 360.0
+    liquidBoostIntensity: 1.0

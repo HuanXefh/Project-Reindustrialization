@@ -1,0 +1,80 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+    # type: Wall
+    category: distribution
+    requirements: [
+        loveclab-item0bio-timber/80
+        loveclab-item0chem-brass/40
+        loveclab-item0chem-cast-iron/30
+        loveclab-item0chem-steel/30
+        loveclab-item0int0conc-magnetite/60
+    ]
+    buildCostMultiplier: 0.75
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-dis0arm-primitive-long-item-arm
+        objectives: []
+    }
+    researchCostMultiplier: 0.25
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 1
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+    envDisabled: 16
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+    squareSprite: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+    consumes: {
+        power: 0.20833333
+    }

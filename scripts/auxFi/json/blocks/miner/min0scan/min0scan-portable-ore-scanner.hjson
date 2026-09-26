@@ -1,0 +1,123 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+    # type: GenericCrafter
+    category: production
+    requirements: [
+        loveclab-item0chem-graphite/50
+        loveclab-item0chem-brass/30
+        loveclab-item0chem-steel/20
+    ]
+    buildCostMultiplier: 1.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-dbct0tech-advanced-mining
+        objectives: []
+    }
+    researchCostMultiplier: 0.3
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 1
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+    envDisabled: 16
+    fogRadius: 3
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+    squareSprite: false
+    drawer: {
+        type: DrawMulti
+        drawers: [
+
+
+            {
+                type: DrawDefault
+            }
+
+
+            {
+                type: DrawFlame
+                flameColor: "ffc999"
+                flameRadius: 0.0
+                flameRadiusIn: 0.0
+                flameRadiusScl: 0.0
+                flameRadiusMag: 0.0
+                flameRadiusInMag: 0.0
+                lightRadius: 48.0
+                lightAlpha: 0.65
+                lightSinScl: 16.0
+                lightSinMag: 6.0
+            }
+
+
+            {
+                type: DrawGlowRegion
+                color: "ff3838"
+                suffix: "-glow"
+            }
+
+
+        ]
+    }
+    ambientSound: se-amb-hum
+    ambientSoundVolume: 0.1
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+    ignoreLiquidFullness: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+    craftTime: 90.0

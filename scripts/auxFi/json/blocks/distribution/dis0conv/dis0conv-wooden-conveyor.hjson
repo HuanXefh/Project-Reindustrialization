@@ -1,0 +1,68 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+    # type: Conveyor
+    category: distribution
+    requirements: [
+        loveclab-item0bio-timber/2
+    ]
+    buildCostMultiplier: 6.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-dis0aux-item-junction
+        objectives: []
+    }
+    researchCostMultiplier: 3.5
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 1
+    hasItems: true
+    itemCapacity: 3
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+    envRequired: 1
+    envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+    speed: 0.01
+    displayedSpeed: 1.5
+    junctionReplacement: projreind-dis0aux-item-junction
+    bridgeReplacement: projreind-dis0brd-conveyor-bridge

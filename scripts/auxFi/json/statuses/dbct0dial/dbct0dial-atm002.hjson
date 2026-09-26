@@ -1,0 +1,13 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-camp-atm002-lantern-cave
+        requirements: [
+            item-locked/1
+        ]
+    }

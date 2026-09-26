@@ -1,0 +1,70 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+    # type: Duct
+    category: distribution
+    requirements: [
+        loveclab-item0bio-timber/4
+        loveclab-item0buil-tempered-glass/2
+        loveclab-item0chem-graphite/3
+        loveclab-item0chem-cupronickel/2
+    ]
+    buildCostMultiplier: 0.2
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-dis0conv-multi-port-conveyor
+        objectives: []
+    }
+    buildCostMultiplier: 15.0
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 1
+    hasItems: true
+    itemCapacity: 1
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+    envDisabled: 16
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+    speed: 5.0
+    armored: false
+    junctionReplacement: projreind-dis0aux-item-junction
+    bridgeReplacement: projreind-dis0brd-conveyor-bridge

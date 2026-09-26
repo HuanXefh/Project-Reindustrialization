@@ -1,0 +1,68 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+    # type: ArmoredConveyor
+    category: distribution
+    requirements: [
+        loveclab-item0chem-copper/2
+    ]
+    buildCostMultiplier: 6.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    alwaysUnlocked: true
+    research: {
+        parent: projreind-min0drl-survivor-drill
+        objectives: []
+    }
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 1
+    hasItems: true
+    itemCapacity: 3
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+    envRequired: 1
+    envDisabled: 20
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+    speed: 0.028
+    displayedSpeed: 4.0
+    junctionReplacement: projreind-dis0aux-item-junction
+    bridgeReplacement: projreind-dis0brd-conveyor-bridge

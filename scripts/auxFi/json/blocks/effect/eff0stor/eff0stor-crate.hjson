@@ -1,0 +1,76 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+    # type: StorageBlock
+    category: effect
+    requirements: [
+        loveclab-item0bio-timber/250
+        loveclab-item0chem-copper/100
+        loveclab-item0chem-graphite/75
+    ]
+    buildCostMultiplier: 1.25
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-eff0stor-stacking-area
+        objectives: []
+    }
+    researchCostMultiplier: 0.075
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    scaledHealth: 50.0
+    armor: 6.0
+    size: 2
+    hasItems: true
+    itemCapacity: 200
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+    envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+    squareSprite: true
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+    coreMerge: true

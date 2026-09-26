@@ -1,0 +1,101 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+    # type: MassDriver
+    category: distribution
+    requirements: [
+        loveclab-item0bio-timber/100
+        loveclab-item0chem-lead/60
+        loveclab-item0chem-graphite/60
+        loveclab-item0chem-tin-bronze/40
+        loveclab-item0chem-cast-iron/40
+        loveclab-item0ore-magnetite/120
+    ]
+    buildCostMultiplier: 0.5
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-dbct0tech-mass-driver
+        objectives: []
+    }
+    researchCostMultiplier: 0.3
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    scaledHealth: 50.0
+    armor: 6.0
+    size: 1
+    hasItems: true
+    itemCapacity: 40
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+    envDisabled: 20
+    fogRadius: 1
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+    squareSprite: false
+    knockback: 1.5
+    translation: 2.0
+    shake: 1.5
+    shootSound: se-shot-mass-driver1
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+    range: 116.0
+    rotateSpeed: 1.5
+    bulletSpeed: 8.0
+    bulletLifetime: 14.5
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+    minDistribute: 30
+    reload: 266.66666667
+    consumes: {
+        power: 0.66666667
+    }

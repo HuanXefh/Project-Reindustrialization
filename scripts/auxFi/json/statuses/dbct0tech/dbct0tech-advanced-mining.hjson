@@ -1,0 +1,18 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-min0drl-progress-class-drill
+        objectives: []
+        requirements: [
+            loveclab-item0chem-copper/2000
+            loveclab-item0chem-lead/2000
+            loveclab-item0chem-cast-iron/1000
+            loveclab-item0chem-steel/500
+            loveclab-item0misc-engineering-tech-point-t1/20
+        ]
+    }

@@ -1,0 +1,66 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+    # type: LiquidRouter
+    category: liquid
+    requirements: [
+        loveclab-item0bio-timber/120
+        loveclab-item0chem-copper/25
+    ]
+    buildCostMultiplier: 1.0
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-bliq0brd-wooden-fluid-pipe-bridge
+        objectives: []
+    }
+    researchCostMultiplier: 0.085
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    scaledHealth: 40.0
+    armor: 0.0
+    size: 2
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: true
+    liquidCapacity: 450.0
+    hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+    envDisabled: 22
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+    squareSprite: false
+    liquidPadding: 1.5

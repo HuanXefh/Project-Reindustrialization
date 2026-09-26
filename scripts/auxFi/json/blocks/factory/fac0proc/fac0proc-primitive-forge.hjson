@@ -1,0 +1,115 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+    # type: GenericCrafter
+    category: crafting
+    requirements: [
+        loveclab-item0chem-copper/20
+        loveclab-item0chem-graphite/30
+        loveclab-item0chem-leaded-tin-bronze/30
+        loveclab-item0chem-cast-iron/20
+        loveclab-item0buil-brick-clay/40
+        loveclab-item0buil-brick-magnesia/40
+    ]
+    buildCostMultiplier: 1.5
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-fac0proc-primitive-caster
+        objectives: []
+    }
+    researchCostMultiplier: 0.35
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 2
+    hasItems: true
+    itemCapacity: 80
+    hasLiquids: true
+    liquidCapacity: 5.0
+    hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+    envRequired: 1
+    envDisabled: 16
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+    squareSprite: false
+    drawer: {
+        type: DrawMulti
+        drawers: [
+
+
+            {
+                type: DrawDefault
+            }
+
+
+            {
+                type: DrawFrames
+                frames: 19
+                interval: 7.5
+                sine: false
+            }
+
+
+        ]
+    }
+    ambientSound: se-amb-forge
+    ambientSoundVolume: 0.2
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+    ignoreLiquidFullness: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+    craftTime: 1200.0
+    consumes: {
+        power: 0.75
+    }
