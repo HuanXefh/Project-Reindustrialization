@@ -47,7 +47,7 @@
             effectChance: 0.01,
             spread: 8.0,
             colorF: func3((b, x, y) => {
-                let ot = Vars.world.tileWorld(x, y);
+                let ot = GLB_var.world.tileWorld(x, y);
                 return ot == null || !ot.floor().isLiquid ?
                     Color.clear :
                     Tmp.c1.set(ot.getFloorColor()).mul(1.5);

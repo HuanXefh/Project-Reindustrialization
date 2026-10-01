@@ -88,5 +88,5 @@
 
     useTime: 60.0
     consumes: {
-        power: 0.41666667
+        power: 1.33333333
     }
