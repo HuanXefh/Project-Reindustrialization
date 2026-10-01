@@ -42,7 +42,7 @@
                 size_f: 2.0,
                 rad: 10.0,
                 scl: 3.5,
-                z: VAR.layer.effFlr - 0.01,
+                z: GLB_var.layer.effFlr - 0.01,
             }),
             effectChance: 0.01,
             spread: 8.0,
@@ -61,7 +61,7 @@
     );
 
 
-    /* <---------- pow0tor ----------> */
+    /* <------------------------------ pow0tor ------------------------------> */
 
 
     const pow0tor_primitiveSteamTurbine = extendBlock(

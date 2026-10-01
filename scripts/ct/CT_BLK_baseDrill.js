@@ -26,8 +26,8 @@
         BLK_B_groundDrill, "min0drl-survivor-drill",
         BLK_B_groundDrill[0].build({
             durabCap: 2.0 * 60.0 * 60.0,
-            drillEff: EFF.pulseDrillPack[3],
-            updateEff: EFF.crackDrill,
+            drillEff: GLB_eff.pulseDrillPack[3],
+            updateEff: GLB_eff.crackDrill,
             updateEffP: 0.01,
         }),
     );
@@ -44,7 +44,7 @@
             drillEff: TP_effect.gasEmission({
                 scl: 3.0,
             }),
-            updateEff: EFF.crackDrill,
+            updateEff: GLB_eff.crackDrill,
             updateEffP: 0.01,
             consEff: Fx.ballfire,
         }),
@@ -69,8 +69,8 @@
     const min0drl_progressClassDrill = extendBlock(
         BLK_B_groundDrill, "min0drl-progress-class-drill",
         BLK_B_groundDrill[0].build({
-            drillEff: EFF.smogHeat,
-            updateEff: EFF.crackDrill,
+            drillEff: GLB_eff.smogHeat,
+            updateEff: GLB_eff.crackDrill,
             updateEffP: 0.01,
         }),
     );
@@ -102,8 +102,8 @@
             ),
             itemWhitelist: DB_item.db["group"]["sand"],
             noSandOutput: false,
-            drillEff: EFF.smogHeat,
-            updateEff: EFF.crackDrill,
+            drillEff: GLB_eff.smogHeat,
+            updateEff: GLB_eff.crackDrill,
             updateEffP: 0.01,
         }),
     );

@@ -26,11 +26,11 @@
                 {
                     dur: 14400.0,
                     static: true,
-                    z: VAR.layer.cropSeed,
+                    z: GLB_var.layer.cropSeed,
                 },
                 {
                     dur: 14400.0,
-                    z: VAR.layer.cropLow,
+                    z: GLB_var.layer.cropLow,
                     scl: 0.5,
                     mag: 0.5,
                     wob: 0.5,
@@ -38,7 +38,7 @@
                 },
                 {
                     dur: 19200.0,
-                    z: VAR.layer.cropLow,
+                    z: GLB_var.layer.cropLow,
                     scl: 0.5,
                     mag: 0.5,
                     wob: 0.5,
@@ -51,7 +51,7 @@
                     p: 0.5,
                     rad: 7.0,
                     hidable: true,
-                    z: VAR.layer.cropTall,
+                    z: GLB_var.layer.cropTall,
                     offSha: -2.0,
                 },
             ],

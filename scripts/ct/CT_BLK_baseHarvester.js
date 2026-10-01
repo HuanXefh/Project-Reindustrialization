@@ -45,7 +45,7 @@
         BLK_B_rangeHarvester[0].build({
             attrR: 7,
             attrMode: AttrModes.BLOCK,
-            updateEff: EFF.particleHarvester,
+            updateEff: GLB_eff.particleHarvester,
             updateEffP: 0.02,
         }),
     );
@@ -69,7 +69,7 @@
         BLK_B_rangeHarvester[0].build({
             attrR: 5,
             attrMode: AttrModes.BLOCK,
-            updateEff: EFF.particleHarvester,
+            updateEff: GLB_eff.particleHarvester,
             updateEffP: 0.02,
         }),
     );
@@ -81,7 +81,7 @@
             attrR: 6,
             attrMode: AttrModes.BLOCK,
             isWaterborne: true,
-            updateEff: EFF.particleHarvester,
+            updateEff: GLB_eff.particleHarvester,
             updateEffP: 0.02,
         }),
     );

@@ -21,8 +21,8 @@
     const dis0aux_itemIncinerator = extendBlock(
         BLK_B_incinerator, "dis0aux-item-incinerator",
         BLK_B_incinerator[0].build({
-            craftEff: EFF.smogFurnace,
-            updateEff: EFF.crackFurnace,
+            craftEff: GLB_eff.smogFurnace,
+            updateEff: GLB_eff.crackFurnace,
             updateEffP: 0.02,
         }),
     );

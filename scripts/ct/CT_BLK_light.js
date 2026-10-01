@@ -32,7 +32,7 @@
     setDrawer(eff0li_bonfire, drawers => [
         drawers,
         extendSafe(LCDrawEffect, {
-            effect: EFF.smogFireExplo,
+            effect: GLB_eff.smogFireExplo,
             effP: 0.4,
         }),
     ]);

@@ -66,8 +66,8 @@
             heatWarmupRate: 0.0003,
             rcMdl: "fac0furn-kiln",
             rcSourceMod: "projreind",
-            craftEff: EFF.smogFurnace,
-            updateEff: EFF.crackFurnace,
+            craftEff: GLB_eff.smogFurnace,
+            updateEff: GLB_eff.crackFurnace,
             updateEffP: 0.01,
         }),
     );
@@ -81,8 +81,8 @@
             rcMdl: "fac0furn-primitive-smelter",
             rcSourceMod: "projreind",
             disableDump: true,
-            craftEff: EFF.smogFurnace,
-            updateEff: EFF.crackFurnace,
+            craftEff: GLB_eff.smogFurnace,
+            updateEff: GLB_eff.crackFurnace,
             updateEffP: 0.01,
         }),
     );
@@ -97,8 +97,8 @@
             heatWarmupRate: 0.0002,
             rcMdl: "fac0furn-bloomery",
             rcSourceMod: "projreind",
-            craftEff: EFF.smogFurnace,
-            updateEff: EFF.crackFurnace,
+            craftEff: GLB_eff.smogFurnace,
+            updateEff: GLB_eff.crackFurnace,
             updateEffP: 0.01,
         }),
     );
@@ -113,8 +113,8 @@
             heatWarmupRate: 0.0001,
             rcMdl: "fac0furn-bricked-blast-furnace",
             rcSourceMod: "projreind",
-            craftEff: EFF.smogFurnaceLarge,
-            updateEff: EFF.crackFurnaceLarge,
+            craftEff: GLB_eff.smogFurnaceLarge,
+            updateEff: GLB_eff.crackFurnaceLarge,
             updateEffP: 0.01,
         }),
     );
@@ -128,8 +128,8 @@
             heatWarmupRate: 0.0002,
             rcMdl: "fac0furn-primitive-crucible",
             rcSourceMod: "projreind",
-            craftEff: EFF.smogFurnace,
-            updateEff: EFF.crackFurnace,
+            craftEff: GLB_eff.smogFurnace,
+            updateEff: GLB_eff.crackFurnace,
             updateEffP: 0.01,
         }),
     );
@@ -145,8 +145,8 @@
             rcMdl: "fac0furn-primitive-sintering-furnace",
             rcSourceMod: "projreind",
             useAutoSelection: true,
-            craftEff: EFF.smogFurnace,
-            updateEff: EFF.crackFurnace,
+            craftEff: GLB_eff.smogFurnace,
+            updateEff: GLB_eff.crackFurnace,
             updateEffP: 0.01,
         }),
     );
@@ -160,8 +160,8 @@
             rcMdl: "fac0furn-primitive-coke-oven",
             rcSourceMod: "projreind",
             useAutoSelection: true,
-            craftEff: EFF.smogFurnace,
-            updateEff: EFF.crackFurnace,
+            craftEff: GLB_eff.smogFurnace,
+            updateEff: GLB_eff.crackFurnace,
             updateEffP: 0.01,
         }),
     );
@@ -177,8 +177,8 @@
             rcMdl: "fac0furn-coke-oven-battery",
             rcSourceMod: "projreind",
             useAutoSelection: true,
-            craftEff: EFF.smogFurnaceLarge,
-            updateEff: EFF.crackFurnaceLarge,
+            craftEff: GLB_eff.smogFurnaceLarge,
+            updateEff: GLB_eff.crackFurnaceLarge,
             updateEffP: 0.02,
         }),
     );
@@ -334,7 +334,7 @@
         BLK_B_recipeFactory[0].build({
             rcMdl: "fac0proc-core-crafter",
             rcSourceMod: "projreind",
-            craftEff: EFF.crackCraft,
+            craftEff: GLB_eff.crackCraft,
         }),
     );
 
@@ -353,7 +353,7 @@
         BLK_B_baseFactory[0].build({
             ters: ["sand", "salt"],
             terMode: "disable",
-            updateEff: EFF.crackSawmill,
+            updateEff: GLB_eff.crackSawmill,
             updateEffP: 0.02,
         }),
     );
@@ -366,7 +366,7 @@
             rcSourceMod: "projreind",
             ters: ["sand", "salt"],
             terMode: "disable",
-            updateEff: EFF.crackSawmill,
+            updateEff: GLB_eff.crackSawmill,
             updateEffP: 0.02,
         }),
     );
@@ -380,7 +380,7 @@
             useAutoSelection: true,
             ters: ["sand", "salt"],
             terMode: "disable",
-            updateEff: EFF.crackSawmill,
+            updateEff: GLB_eff.crackSawmill,
             updateEffP: 0.02,
         }),
     );

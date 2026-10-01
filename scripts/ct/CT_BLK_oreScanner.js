@@ -26,7 +26,7 @@
             scanTier: 2,
             craftSe: "se-craft-ore-scanner",
             scanRad: 4.0 * Vars.tilesize,
-            craftEff: EFF.pulseDrillPack[1],
+            craftEff: GLB_eff.pulseDrillPack[1],
         }),
     );
 
@@ -36,7 +36,7 @@
         BLK_B_oreScanner[0].build({
             craftSe: "se-craft-ore-scanner",
             scanRad: 7.0 * Vars.tilesize,
-            craftEff: EFF.pulseDrillPack[2],
+            craftEff: GLB_eff.pulseDrillPack[2],
             durabCap: 2.5 * 60.0 * 60.0,
         }),
     );

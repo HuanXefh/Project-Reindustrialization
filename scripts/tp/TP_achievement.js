@@ -14,7 +14,7 @@
         new CLS_achievement(
             "projreind", "trees-dont-talk",
             new TextureRegionDrawable(Core.atlas.find("loveclab-sta-hidden-well")),
-            TRIGGER.treeHide,
+            BOX_trigger.treeHide,
             function(unit) {
                 if(unit === Vars.player.unit()) this.complete();
             },
@@ -24,7 +24,7 @@
         new CLS_achievement(
             "projreind", "carried-on",
             new TextureRegionDrawable(Core.atlas.find("lovec-icon-take-loot")),
-            TRIGGER.lootTake,
+            BOX_trigger.lootTake,
             function(unit, item, amt) {
                 if(unit === Vars.player.unit()) this.complete();
             },
@@ -34,28 +34,28 @@
         new CLS_achievement(
             "projreind", "two-in-one",
             new TextureRegionDrawable(Core.atlas.find("projreind-dis0aux-filter-gate-full")),
-            TRIGGER.invertSelection,
+            BOX_trigger.invertSelection,
         );
 
 
         new CLS_achievement(
             "projreind", "wet-foot",
             new TextureRegionDrawable(Core.atlas.find("projreind-icon-big-wet-foot")),
-            TRIGGER.wetStepOnCable,
+            BOX_trigger.wetStepOnCable,
         );
 
 
         new CLS_achievement(
             "projreind", "master-of-wiring",
             new TextureRegionDrawable(Core.atlas.find("projreind-bliq0cond-steel-liquid-pipe-full")),
-            TRIGGER.poweredMetalPipe,
+            BOX_trigger.poweredMetalPipe,
         );
 
 
         new CLS_achievement(
             "projreind", "yakitori",
             new TextureRegionDrawable(Core.atlas.find("projreind-pow0trans-copper-wire-relay")),
-            TRIGGER.wireTouch,
+            BOX_trigger.wireTouch,
             function(b, unit) {
                 if(unit === Vars.player.unit()) this.complete();
             },
@@ -65,28 +65,28 @@
         new CLS_achievement(
             "projreind", "what-are-you-burning",
             new TextureRegionDrawable(Core.atlas.find("projreind-dis0aux-item-incinerator-full")),
-            TRIGGER.incineratorExplosion,
+            BOX_trigger.incineratorExplosion,
         );
 
 
         new CLS_achievement(
             "projreind", "no-smoking",
             new TextureRegionDrawable(Core.atlas.find("lovec-icon-fuel")),
-            TRIGGER.buildingFireExplosion,
+            BOX_trigger.buildingFireExplosion,
         );
 
 
         new CLS_achievement(
             "projreind", "the-ground-is-shaking",
             new TextureRegionDrawable(Core.atlas.find("projreind-min0drl-boulder-class-impact-drill-full")),
-            TRIGGER.impactWavePlayerDeath,
+            BOX_trigger.impactWavePlayerDeath,
         );
 
 
         new CLS_achievement(
             "projreind", "cyber-dizziness",
             new TextureRegionDrawable(Core.atlas.find("projreind-pow0tor-brass-cogwheel")),
-            TRIGGER.cogwheelUnitSpin,
+            BOX_trigger.cogwheelUnitSpin,
             function(b, unit) {
                 if(unit === Vars.player.unit()) this.complete();
             },
@@ -96,7 +96,7 @@
         new CLS_achievement(
             "projreind", "boiler-bomb",
             new TextureRegionDrawable(Core.atlas.find("projreind-pow0boil-primitive-boiler-full")),
-            TRIGGER.boilerExplosion,
+            BOX_trigger.boilerExplosion,
             function(b) {
                 if(Vars.state.isCampaign()) this.complete();
             },
@@ -106,7 +106,7 @@
         new CLS_achievement(
             "projreind", "physics-is-gone",
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0bio-log")),
-            TRIGGER.lootDrown,
+            BOX_trigger.lootDrown,
             function(loot) {
                 if(LCCheck.checkPosVisible(loot.x, loot.y, 8.0) && loot.item().name === "loveclab-item0bio-log") this.complete();
             },
@@ -116,7 +116,7 @@
         new CLS_achievement(
             "projreind", "milk-in-the-sewer",
             new TextureRegionDrawable(Core.atlas.find("deep-water")),
-            TRIGGER.lootDrown,
+            BOX_trigger.lootDrown,
             function(loot) {
                 if(LCCheck.checkPosVisible(loot.x, loot.y, 8.0) && loot.stack.amount >= 1000) this.complete();
             },
@@ -126,7 +126,7 @@
         new CLS_achievement(
             "projreind", "thats-not-remote",
             new TextureRegionDrawable(Core.atlas.find("projreind-dis0aux-remote-core-unloader-full")),
-            TRIGGER.remoteCoreUnloaderNearCore,
+            BOX_trigger.remoteCoreUnloaderNearCore,
         );
 
 
@@ -141,7 +141,7 @@
         new CLS_achievement(
             "projreind", "ingot-mining-is-gone",
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0ore-native-copper")),
-            TRIGGER.itemProduce,
+            BOX_trigger.itemProduce,
             function(b, item, amt) {
                 if(checkItem(b, item, "loveclab-item0chem-copper")) this.complete();
             },
@@ -151,7 +151,7 @@
         new CLS_achievement(
             "projreind", "bronze-age",
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-tin-bronze")),
-            TRIGGER.itemProduce,
+            BOX_trigger.itemProduce,
             function(b, item, amt) {
                 if(checkItem(b, item, "loveclab-item0chem-tin-bronze")) this.complete();
             },
@@ -161,7 +161,7 @@
         new CLS_achievement(
             "projreind", "acquire-hardware",
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-steel")),
-            TRIGGER.itemProduce,
+            BOX_trigger.itemProduce,
             function(b, item, amt) {
                 if(checkItem(b, item, "loveclab-item0chem-steel")) this.complete();
             },
@@ -171,7 +171,7 @@
         new CLS_achievement(
             "projreind", "the-factory-is-growing",
             new TextureRegionDrawable(Core.atlas.find("projreind-dis0arm-primitive-item-arm-ui")),
-            TRIGGER.contentUnlock,
+            BOX_trigger.contentUnlock,
             function(ct) {
                 if(
                     !Vars.net.client() && Vars.state.isCampaign()
@@ -188,7 +188,7 @@
         new CLS_achievement(
             "projreind", "science-power",
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0misc-generic-tech-point-t1")),
-            TRIGGER.itemProduce,
+            BOX_trigger.itemProduce,
             function(b, item, amt) {
                 if(checkItem(b, item, "loveclab-item0misc-generic-tech-point-t1")) this.complete();
             },
@@ -198,7 +198,7 @@
         new CLS_achievement(
             "projreind", "shock-resistant",
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-mangalloy")),
-            TRIGGER.itemProduce,
+            BOX_trigger.itemProduce,
             function(b, item, amt) {
                 if(checkItem(b, item, "loveclab-item0chem-mangalloy")) this.complete();
             },
@@ -208,7 +208,7 @@
         new CLS_achievement(
             "projreind", "better-than-anthracite",
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-coke")),
-            TRIGGER.itemProduce,
+            BOX_trigger.itemProduce,
             function(b, item, amt) {
                 if(checkItem(b, item, "loveclab-item0chem-coke")) this.complete();
             },
@@ -218,7 +218,7 @@
         new CLS_achievement(
             "projreind", "too-many-bricks",
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0buil-brick-silica")),
-            TRIGGER.contentUnlock,
+            BOX_trigger.contentUnlock,
             function(ct) {
                 if(
                     !Vars.net.client() && Vars.state.isCampaign()
@@ -237,7 +237,7 @@
         new CLS_achievement(
             "projreind", "insulator",
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-rubber")),
-            TRIGGER.itemProduce,
+            BOX_trigger.itemProduce,
             function(b, item, amt) {
                 if(checkItem(b, item, "loveclab-item0chem-rubber")) this.complete();
             },
@@ -247,7 +247,7 @@
         new CLS_achievement(
             "projreind", "no-lungs",
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-asbestos-wool")),
-            TRIGGER.itemProduce,
+            BOX_trigger.itemProduce,
             function(b, item, amt) {
                 if(checkItem(b, item, "loveclab-item0chem-asbestos-wool")) this.complete();
             },
@@ -257,7 +257,7 @@
         new CLS_achievement(
             "projreind", "concrete-wasteland",
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0buil-cement")),
-            TRIGGER.itemProduce,
+            BOX_trigger.itemProduce,
             function(b, item, amt) {
                 if(checkItem(b, item, "loveclab-item0chem-cement")) this.complete();
             },
@@ -267,7 +267,7 @@
         new CLS_achievement(
             "projreind", "my-little-kiln",
             new TextureRegionDrawable(Core.atlas.find("projreind-fac0furn-bricked-blast-furnace-full")),
-            TRIGGER.constructionComplete,
+            BOX_trigger.constructionComplete,
             function(b) {
                 if(!Vars.net.client() && Vars.state.isCampaign() && b.team === Vars.state.rules.defaultTeam && b.block.name === "projreind-fac0furn-bricked-blast-furnace") this.complete();
             },
@@ -277,7 +277,7 @@
         new CLS_achievement(
             "projreind", "you-gotta-wait",
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-stainless-steel")),
-            TRIGGER.itemProduce,
+            BOX_trigger.itemProduce,
             function(b, item, amt) {
                 if(checkItem(b, item, "loveclab-item0chem-stainless-steel")) this.complete();
             },
@@ -287,7 +287,7 @@
         new CLS_achievement(
             "projreind", "final-form-of-copper",
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-cupronickel")),
-            TRIGGER.itemProduce,
+            BOX_trigger.itemProduce,
             function(b, item, amt) {
                 if(checkItem(b, item, "loveclab-item0chem-cupronickel")) this.complete();
             },
@@ -297,7 +297,7 @@
         new CLS_achievement(
             "projreind", "seasoning-of-life",
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-sodium-chloride")),
-            TRIGGER.itemProduce,
+            BOX_trigger.itemProduce,
             function(b, item, amt) {
                 if(checkItem(b, item, "loveclab-item0chem-sodium-chloride")) this.complete();
             },
@@ -307,7 +307,7 @@
         new CLS_achievement(
             "projreind", "prelude-to-war",
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0misc-black-powder")),
-            TRIGGER.itemProduce,
+            BOX_trigger.itemProduce,
             function(b, item, amt) {
                 if(checkItem(b, item, "loveclab-item0misc-black-powder")) this.complete();
             },
@@ -320,7 +320,7 @@
         new CLS_achievement(
             "projreind", "fire-in-the-hole",
             new TextureRegionDrawable(Core.atlas.find("lovec-icon-fire-in-the-hole")),
-            TRIGGER.unitDestroy,
+            BOX_trigger.unitDestroy,
             function(unit) {
                 if(unit === Vars.player.unit() && Core.settings.getBool("lovec-misc-fire-in-the-hole", false)) this.complete();
             },
@@ -330,7 +330,7 @@
         new CLS_achievement(
             "projreind", "as-you-wish",
             new TextureRegionDrawable(Core.atlas.find("lovec-icon-ohno")),
-            TRIGGER.secretCodeCrash,
+            BOX_trigger.secretCodeCrash,
         );
 
 

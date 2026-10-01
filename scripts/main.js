@@ -6,8 +6,8 @@
 
 
     if(!checkVersion("projreind", [
-        "lovec", "101.4.26092601",
-        "loveclab", "101.4.26092601",
+        "lovec", "101.4.26100101",
+        "loveclab", "101.4.26100101",
         "fcell", "103",
     ])) {
         let mod1 = fetchMod("lovec");
@@ -141,7 +141,7 @@
 
         // Why are you here?
         if(!Vars.headless) {
-            if(PARAM.SECRET_APRIL) {
+            if(GLB_param.SECRET_APRIL) {
                 try {
                     Musics.menu = fetchMusic("noizisfun");
                 } catch(err) {

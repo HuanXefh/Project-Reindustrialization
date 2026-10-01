@@ -23,9 +23,9 @@
     const pow0gen_ventGenerator = extendBlock(
         BLK_B_ventGenerator, "pow0gen-vent-generator",
         BLK_B_ventGenerator[0].build({
-            genEff: EFF.particlePower,
+            genEff: GLB_eff.particlePower,
             genEffP: 0.02,
-            exploEff: EFF.explosion,
+            exploEff: GLB_eff.explosion,
         }),
     );
     setDrawer(pow0gen_ventGenerator, drawers => [
@@ -46,9 +46,9 @@
     const pow0gen_hpsvGenerator = extendBlock(
         BLK_B_ventGenerator, "pow0gen-hpsv-generator",
         BLK_B_ventGenerator[0].build({
-            genEff: EFF.particlePower,
+            genEff: GLB_eff.particlePower,
             genEffP: 0.04,
-            exploEff: EFF.explosion,
+            exploEff: GLB_eff.explosion,
         }),
     );
     setDrawer(pow0gen_hpsvGenerator, drawers => [
@@ -70,7 +70,7 @@
         BLK_B_consumeGenerator, "pow0gen-lodestone-generator",
         BLK_B_consumeGenerator[0].build({
             overwriteExploParam: false,
-            genEff: EFF.particlePower,
+            genEff: GLB_eff.particlePower,
             genEffP: 0.02,
         }),
     );
