@@ -6,28 +6,28 @@
 
 
     if(!checkVersion("projreind", [
-        "lovec", "101.4.26100102",
-        "loveclab", "101.4.26100101",
-        "fcell", "104",
+        "lovec", "101.4.26102301",
+        "loveclab", "101.4.26102301",
+        "fcell", "105",
     ])) {
         let mod1 = fetchMod("lovec");
         let mod2 = fetchMod("projreind");
         if(mod1.meta.version.match(/\./g).length === 1 && mod2.meta.version.match(/\./g).length === 2) {
             Events.run(ClientLoadEvent, () => Vars.ui.showErrorMessage(String.multiline(
                 "",
-                "Version mismatch detected!".color(Pal.remove),
+                "Version mismatch detected!".color(GLB_color.remove),
                 "",
                 "",
                 "Lovec: ${1}".format(mod1.meta.version).color(Color.gray),
                 "ProjReind: ${1}".format(mod2.meta.version).color(Color.gray),
                 "",
                 "",
-                "Do not download ProjReind and its dependencies from ${1} directly,".format("Mod Browser".color(Pal.remove)),
-                "or by any means of ${1} like quick update in ${2},".format("auto-download".color(Pal.remove), "Mods".color(Pal.accent)),
+                "Do not download ProjReind and its dependencies from ${1} directly,".format("Mod Browser".color(GLB_color.remove)),
+                "or by any means of ${1} like quick update in ${2},".format("auto-download".color(GLB_color.remove), "Mods".color(GLB_color.accent)),
                 "which searches latest version differently for Java mods and JSON/JavaScript mods!",
                 "",
                 "Delete local zip files of ProjReind and LovecLab,",
-                "then download latest version from ${1} or ${2} manually.".format("View Releases".color(Pal.accent), "GitHub repo".color(Pal.accent)),
+                "then download latest version from ${1} or ${2} manually.".format("View Releases".color(GLB_color.accent), "GitHub repo".color(GLB_color.accent)),
                 "",
                 "If the error persists, contact me on GitHub or Discord.",
                 "",
@@ -168,6 +168,9 @@
         if(!Vars.headless && fetchSetting("misc-enable-window")) {
             const data = {};
             data["v102: Hot Furnace"] = [
+                "projreind-fac0reac-primitive-electrolyzer",
+                "projreind-pay0conv-payload-router",
+                "projreind-bliq0aux-sinkhole",
                 "projreind-min0crop-aerth-sisal",
                 "projreind-bliq0pump-piston-pipe-pump",
                 "projreind-bliq0aux-fluid-packager",
@@ -265,7 +268,7 @@
 
                 // `TABLE`: splitter
                 cont.table(Styles.none, tb => {
-                    MDL_table.barV(tb, {color: Pal.accent, stroke: 8.0});
+                    MDL_table.barV(tb, {color: GLB_color.accent, stroke: 8.0});
                 }).marginLeft(50.0).marginRight(50.0).growY();
 
                 // `TABLE`: updates
@@ -273,7 +276,7 @@
                     tb.pane(pnTb => {
                         MDL_table.margin(pnTb);
                         Object.eachPair(data, (verStr, nameCts) => {
-                            pnTb.button(verStr, () => fetchDialog("ctsRow").ex_show(verStr, nameCts)).center().size(300.0, 50.0).row();
+                            pnTb.button(verStr, () => fetchDialog("ctsRow").self.ex_show(verStr, nameCts)).center().size(300.0, 50.0).row();
                             MDL_table.br(pnTb, 1);
                         });
                     }).grow();

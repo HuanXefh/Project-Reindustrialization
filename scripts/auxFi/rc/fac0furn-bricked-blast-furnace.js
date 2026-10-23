@@ -21,15 +21,16 @@ const rc = {
 };
 
 
-runRecipeGeneration(rc, "lovec", "reactorMelt", {
+runRecipeGeneration(rc, "lovec", "reactor", {
     amt: 240,
     time: 60.0 * 60.0,
-    maxTemp: 2000.0,
+    maxTemp: 2500.0,
+    mode: "melt",
 });
 runRecipeGeneration(rc, "lovec", "smelter", {
     amt: 240,
-    maxTemp: 2000.0,
-    isConcentrate: true,
+    maxTemp: 2500.0,
+    mode: "concentrate",
 });
 
 

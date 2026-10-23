@@ -16,6 +16,7 @@ const rc = {
 runRecipeGeneration(rc, "lovec", "mixer", {
     amt: 6,
     pO: 0.5,
+    mode: "dust",
 });
 
 

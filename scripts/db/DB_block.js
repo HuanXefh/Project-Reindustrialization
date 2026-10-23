@@ -79,6 +79,7 @@ const db = {
 
             "projreind-fac0proc-core-crafter", "assembler",
             "projreind-fac0proc-mechanical-assembler", "assembler",
+            "projreind-fac0proc-mechanical-weaver", "assembler",
 
             "projreind-pow0boil-primitive-boiler", "boiler",
 
@@ -101,6 +102,8 @@ const db = {
 
             "projreind-fac0heat-hot-air-dryer", "dryer",
             "projreind-fac0heat-primitive-freeze-dryer", "dryer",
+
+            "projreind-fac0reac-primitive-electrolyzer", "electrolyzer",
 
             "projreind-fac0proc-primitive-forge", "forge",
 
@@ -220,10 +223,9 @@ const db = {
 
                 "projreind-fac0heat-primitive-freeze-dryer",
 
+                "projreind-fac0reac-primitive-electrolyzer",
+
             ],
-
-
-            galvanized: [],
 
 
             stainless: [
@@ -233,7 +235,23 @@ const db = {
             ],
 
 
-            glass: [],
+            brineProof: [],
+
+
+            acidProof: [],
+
+
+            galvanized: [],
+
+
+            glass: [
+
+                "projreind-bliq0cond-glass-fluid-pipe",
+
+            ],
+
+
+            aluminum: [],
 
 
             cement: [
@@ -260,6 +278,7 @@ const db = {
 
             "projreind-dis0aux-item-incinerator",
 
+            "projreind-eff0stor-stacking-area",
             "projreind-eff0stor-crate",
 
             "projreind-dis0loot-item-hopper",
@@ -271,6 +290,7 @@ const db = {
         cloggable: [
 
             "projreind-bliq0cond-wooden-liquid-pipe",
+            "projreind-bliq0cond-glass-fluid-pipe",
 
             "projreind-bliq0brd-wooden-fluid-pipe-bridge",
 
@@ -290,7 +310,11 @@ const db = {
 
             "projreind-pow0heat-resistance-heater",
 
+            "projreind-pay0conv-payload-rail",
             "projreind-pay0conv-payload-express-way",
+            "projreind-pay0conv-payload-router",
+
+            "projreind-fac0reac-primitive-electrolyzer",
 
         ],
 

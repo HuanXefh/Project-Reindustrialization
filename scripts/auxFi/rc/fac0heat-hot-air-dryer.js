@@ -23,6 +23,7 @@ const rc = {
 
 runRecipeGeneration(rc, "lovec", "dryer", {
     amt: 5,
+    mode: "item",
 });
 
 

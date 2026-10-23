@@ -38,7 +38,7 @@
     armor: 0.0
     size: 2
     hasItems: true
-    itemCapacity: 5
+    itemCapacity: 20
     hasLiquids: false
     liquidCapacity: 5.0
     hasPower: false
@@ -51,8 +51,15 @@
 */
 
 
-    envRequired: 129
-    envDisabled: 22
+    envRequired: [
+        terrestrial
+        oxygen
+    ]
+    envDisabled: [
+        space
+        underwater
+        scorching
+    ]
     fogRadius: 7
 
 

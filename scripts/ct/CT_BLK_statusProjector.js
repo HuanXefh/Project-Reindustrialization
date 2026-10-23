@@ -25,8 +25,8 @@
             staDur: 15.0 * 60.0,
             filterScr: boolf2(function(b, ounit) {
                 if(ounit.team !== b.team) return false;
-                MDL_effect.line(b.x, b.y, null, ounit, Pal.accent);
-                MDL_effect.showAt(ounit.x, ounit.y, Fx.dynamicWave, ounit.hitSize * 1.5, Pal.accent);
+                MDL_effect.line(b.x, b.y, null, ounit, GLB_color.accent);
+                MDL_effect.showAt(ounit.x, ounit.y, Fx.dynamicWave, ounit.hitSize * 1.5, GLB_color.accent);
                 return true;
             }),
         }),

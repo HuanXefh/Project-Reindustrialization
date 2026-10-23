@@ -54,7 +54,8 @@
 */
 
 
-    envDisabled: 144
+    envRequired: oxygen
+    envDisabled: scorching
 
 
 /*

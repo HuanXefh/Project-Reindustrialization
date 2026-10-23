@@ -28,7 +28,7 @@ runRecipeGeneration(rc, "lovec", "mixer", {
     pO: 0.5,
     maxHardness: 7,
     abrasionFactor: 1.0,
-    isBallMill: true,
+    mode: "ballMill",
 });
 runRecipeGeneration(rc, "lovec", "pulverizer", {
     amtI: 18,
@@ -37,6 +37,7 @@ runRecipeGeneration(rc, "lovec", "pulverizer", {
     pO: 0.5,
     maxHardness: 7,
     abrasionFactor: 1.0,
+    mode: "main",
 });
 
 

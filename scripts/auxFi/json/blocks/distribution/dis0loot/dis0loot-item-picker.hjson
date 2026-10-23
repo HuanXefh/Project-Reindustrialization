@@ -54,8 +54,12 @@
 */
 
 
-    envRequired: 1
-    envDisabled: 22
+    envRequired: terrestrial
+    envDisabled: [
+        space
+        underwater
+        scorching
+    ]
 
 
 /*

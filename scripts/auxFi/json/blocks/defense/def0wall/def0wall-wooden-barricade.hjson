@@ -51,7 +51,10 @@
 */
 
 
-    envDisabled: 22
+    envDisabled: [
+        underwater
+        scorching
+    ]
 
 
 /*

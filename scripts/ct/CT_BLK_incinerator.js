@@ -31,11 +31,20 @@
     /* <------------------------------ bliq0aux ------------------------------> */
 
 
+    const bliq0aux_sinkhole = extendBlock(
+        BLK_B_incinerator, "bliq0aux-sinkhole",
+        BLK_B_incinerator[0].build({
+            hasExploIncineration: false,
+            fldType: "liquid",
+        }),
+    );
+
+
     const bliq0aux_tailGasBurner = extendBlock(
         BLK_B_incinerator, "bliq0aux-tail-gas-burner",
         BLK_B_incinerator[0].build({
             hasExploIncineration: false,
-            liqTargetFilter: func(function(liq) {
+            liqTargetFilter: boolf(function(liq) {
                 return liq.flammability > 0.0;
             }),
             fldType: "gas",

@@ -13,7 +13,7 @@ const rc = {
 };
 
 
-runRecipeGeneration(rc, "lovec", "alloyFurnace", {
+runRecipeGeneration(rc, "lovec", "mixer", {
     objF: obj => {
         switch(obj.icon) {
             case "loveclab-item0chem-leaded-tin-bronze" :
@@ -27,7 +27,8 @@ runRecipeGeneration(rc, "lovec", "alloyFurnace", {
     },
     amt: 60,
     pO: 0.5,
-    maxTemp: 1800.0,
+    maxTemp: 2000.0,
+    mode: "alloying",
 });
 
 

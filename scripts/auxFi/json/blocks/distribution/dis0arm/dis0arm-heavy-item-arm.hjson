@@ -8,9 +8,9 @@
     # type: Wall
     category: distribution
     requirements: [
-        loveclab-item0bio-timber/80
-        loveclab-item0chem-brass/40
-        loveclab-item0chem-cast-iron/30
+        loveclab-item0bio-timber/90
+        loveclab-item0chem-brass/50
+        loveclab-item0chem-cast-iron/40
         loveclab-item0chem-steel/30
         loveclab-item0int0conc-magnetite/60
     ]
@@ -55,7 +55,7 @@
 */
 
 
-    envDisabled: 16
+    envDisabled: scorching
 
 
 /*

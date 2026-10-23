@@ -52,8 +52,15 @@
 */
 
 
-    envRequired: 129
-    envDisabled: 20
+    envRequired: [
+        terrestrial
+        oxygen
+    ]
+    envDisabled: [
+        space
+        underwater
+        scorching
+    ]
     fogRadius: 4
 
 

@@ -49,8 +49,8 @@
     );
 
 
-    const bliq0aux_primitivePressureValve = extendBlock(
-        BLK_B_fluidPressureValve, "bliq0aux-primitive-pressure-valve",
+    const bliq0aux_reliefValve = extendBlock(
+        BLK_B_fluidPressureValve, "bliq0aux-relief-valve",
     );
 
 

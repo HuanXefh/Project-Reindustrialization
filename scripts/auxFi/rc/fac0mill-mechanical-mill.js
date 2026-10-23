@@ -28,6 +28,7 @@ runRecipeGeneration(rc, "lovec", "pulverizer", {
     pO: 0.5,
     maxHardness: 5,
     abrasionFactor: 1.2,
+    mode: "main",
 });
 
 

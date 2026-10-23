@@ -17,7 +17,7 @@ Relevant links:
 
 <br>
 
-Project Reindustrialization (ProjReind) is a Mindustry JavaScript mod without tower defense. Instead, the mod brings realistic and hardcore production, together with multi-crafters equipped with a hell amount of recipes for Greg's Tech enjoyers.
+Project Reindustrialization (ProjReind) is a Mindustry JavaScript mod without tower defense. Instead, the mod brings realistic and hardcore production along with multi-crafters equipped with a hell amount of recipes for Greg's Tech enjoyers.
 
 ProjReind is still in early stage despite being developed for years.
 
@@ -27,14 +27,16 @@ ProjReind is the improved version of [Reindustrialization](https://github.com/Hu
 
 Mod features:
 
-- Multi-crafters and a complex net of recipes based on real-life processes.
+- Multi-crafters and a complex net of recipes based off real-life processes.
 
 - Peaceful sectors (at most time) with mass production as the only objective.
 
-- Tech tree with style entirely distinct from vanilla Mindustry.
+- Tech tree entirely distinct in style from vanilla Mindustry and most mods.
 
-- Various mechanics including furnace temperature, corrosion and pollution.
+- Various mechanics including furnace temperature, pipe corrosion and pollution.
 
 - [TMI](https://github.com/EB-wilson/TooManyItems) support, which is recommended for better experience.
 
-**This single mod is only responsible for adding various blocks and the campaign maps.**
+**This single mod is only responsible for adding various blocks and the campaign maps.** If you're interested in the code, see the lib.
+
+See the credits in game!

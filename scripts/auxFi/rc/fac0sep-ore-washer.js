@@ -32,7 +32,7 @@ const rc = {
 runRecipeGeneration(rc, "lovec", "purifier", {
     amt: 4,
     pI: 0.5,
-    tier: 0,
+    mode: "wash",
 });
 
 

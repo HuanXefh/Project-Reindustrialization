@@ -24,8 +24,9 @@ const rc = {
 };
 
 
-runRecipeGeneration(rc, "lovec", "purifierMagnetic", {
+runRecipeGeneration(rc, "lovec", "purifier", {
     amt: 15,
+    mode: "magnetic"
 });
 
 

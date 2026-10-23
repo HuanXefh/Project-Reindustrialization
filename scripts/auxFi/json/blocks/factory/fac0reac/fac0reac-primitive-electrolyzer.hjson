@@ -1,0 +1,137 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+    # type: GenericCrafter
+    category: crafting
+    requirements: [
+        loveclab-item0chem-copper/70
+        loveclab-item0chem-graphite/50
+        loveclab-item0buil-glass/30
+        loveclab-item0chem-tin-bronze/60
+        loveclab-item0chem-cast-iron/40
+        loveclab-item0chem-steel/25
+    ]
+    buildCostMultiplier: 0.7
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-fac0mix-mechanical-mixing-cauldron
+        objectives: []
+    }
+    researchCostMultiplier: 0.3
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 2
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: true
+    liquidCapacity: 30.0
+    hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+    envDisabled: [
+        space
+        underwater
+        scorching
+    ]
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+    squareSprite: false
+    drawer: {
+        type: DrawMulti
+        drawers: [
+
+
+            {
+                type: DrawRegion
+                suffix: "-bottom"
+            }
+
+
+            {
+                type: LCDrawMixedLiquid
+            }
+
+
+            {
+                type: LCDrawRipple
+                radius: 4.5
+                size: 2.5
+                scl: 40.0
+                recur: 3.0
+            }
+
+
+            {
+                type: DrawDefault
+            }
+
+
+            {
+                type: DrawRegion
+                suffix: "-pipe"
+            }
+
+
+        ]
+    }
+    ambientSound: se-amb-hum
+    ambientSoundVolume: 0.2
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+    ignoreLiquidFullness: false
+    dumpExtraLiquid: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+    craftTime: 240.0
+    consumes: {
+        power: 10.0
+    }

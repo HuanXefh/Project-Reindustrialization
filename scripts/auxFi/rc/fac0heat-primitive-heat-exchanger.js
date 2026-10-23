@@ -59,10 +59,11 @@ const rc = {
 };
 
 
-runRecipeGeneration(rc, "lovec", "heaterExchange", {
+runRecipeGeneration(rc, "lovec", "heater", {
     amt: 1,
     heatOScl: 2.0,
     time: 60.0,
+    mode: "exchange",
 });
 
 

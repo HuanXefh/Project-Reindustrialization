@@ -69,7 +69,7 @@
     const pow0gen_lodestoneGenerator = extendBlock(
         BLK_B_consumeGenerator, "pow0gen-lodestone-generator",
         BLK_B_consumeGenerator[0].build({
-            overwriteExploParam: false,
+            setupExploParam: false,
             genEff: GLB_eff.particlePower,
             genEffP: 0.02,
         }),

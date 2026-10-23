@@ -141,3 +141,8 @@
     const dbct0tech_glassware = extendBase(
         DBCT_techNodeContent, "dbct0tech-glassware",
     );
+
+
+    const dbct0tech_activatedCarbon = extendBase(
+        DBCT_techNodeContent, "dbct0tech-activated-carbon",
+    );

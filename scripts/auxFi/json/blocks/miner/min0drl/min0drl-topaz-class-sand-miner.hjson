@@ -54,8 +54,11 @@
 */
 
 
-    envRequired: 1
-    envDisabled: 20
+    envRequired: terrestrial
+    envDisabled: [
+        space
+        scorching
+    ]
     fogRadius: 4
 
 

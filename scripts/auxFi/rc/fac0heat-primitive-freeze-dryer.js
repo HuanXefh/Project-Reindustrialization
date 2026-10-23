@@ -21,9 +21,10 @@ const rc = {
 };
 
 
-runRecipeGeneration(rc, "lovec", "dryerFreeze", {
+runRecipeGeneration(rc, "lovec", "dryer", {
     amt: 5,
     time: 5.0 * 60.0,
+    mode: "freeze",
 });
 
 

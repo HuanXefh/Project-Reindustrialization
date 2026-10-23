@@ -287,9 +287,9 @@ runRecipeGeneration(rc, "lovec", "sinteringFurnace", {
     amtI: 60,
     pI: 0.5,
     amtO: 30,
-    maxTemp: 1800.0,
+    maxTemp: 2000.0,
     maxFlam: 0.0,
-    isConcentrate: true,
+    mode: "concentrate",
 });
 runRecipeGeneration(rc, "lovec", "smelter", {
     objF: obj => {
@@ -304,7 +304,7 @@ runRecipeGeneration(rc, "lovec", "smelter", {
     },
     amt: 20,
     pI: 0.5,
-    isConcentrate: false,
+    mode: "main",
 });
 
 

@@ -29,9 +29,10 @@ const rc = {
 };
 
 
-runRecipeGeneration(rc, "lovec", "condenser", {
+runRecipeGeneration(rc, "lovec", "cooler", {
     amt: 4,
     time: 2.0 * 60.0,
+    mode: "condensation",
 });
 
 

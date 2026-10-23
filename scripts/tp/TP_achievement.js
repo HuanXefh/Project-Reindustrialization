@@ -259,7 +259,17 @@
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0buil-cement")),
             BOX_trigger.itemProduce,
             function(b, item, amt) {
-                if(checkItem(b, item, "loveclab-item0chem-cement")) this.complete();
+                if(checkItem(b, item, "loveclab-item0buil-cement")) this.complete();
+            },
+        );
+
+
+        new CLS_achievement(
+            "projreind", "summer-is-coming",
+            new TextureRegionDrawable(Core.atlas.find("loveclab-item0buil-refractory-cement")),
+            BOX_trigger.itemProduce,
+            function(b, item, amt) {
+                if(checkItem(b, item, "loveclab-item0buil-refractory-cement")) this.complete();
             },
         );
 
@@ -290,6 +300,36 @@
             BOX_trigger.itemProduce,
             function(b, item, amt) {
                 if(checkItem(b, item, "loveclab-item0chem-cupronickel")) this.complete();
+            },
+        );
+
+
+        new CLS_achievement(
+            "projreind", "pure-sand",
+            new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-silica-sand")),
+            BOX_trigger.itemProduce,
+            function(b, item, amt) {
+                if(checkItem(b, item, "loveclab-item0chem-silica-sand")) this.complete();
+            },
+        );
+
+
+        new CLS_achievement(
+            "projreind", "fragile-product",
+            new TextureRegionDrawable(Core.atlas.find("loveclab-item0buil-glass")),
+            BOX_trigger.itemProduce,
+            function(b, item, amt) {
+                if(checkItem(b, item, "loveclab-item0buil-glass")) this.complete();
+            },
+        );
+
+
+        new CLS_achievement(
+            "projreind", "chemistry-time",
+            new TextureRegionDrawable(Core.atlas.find("loveclab-item0chem-brine-proof-steel")),
+            BOX_trigger.itemProduce,
+            function(b, item, amt) {
+                if(checkItem(b, item, "loveclab-item0chem-brine-proof-steel")) this.complete();
             },
         );
 

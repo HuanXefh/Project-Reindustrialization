@@ -54,7 +54,7 @@
 */
 
 
-    envDisabled: 16
+    envDisabled: scorching
 
 
 /*
@@ -87,6 +87,7 @@
                 size: 2.5
                 scl: 40.0
                 recur: 3.0
+                hasNoLiqCheck: true
             }
 
 

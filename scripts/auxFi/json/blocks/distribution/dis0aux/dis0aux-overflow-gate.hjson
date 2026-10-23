@@ -52,7 +52,10 @@
 */
 
 
-    envDisabled: 20
+    envDisabled: [
+        space
+        scorching
+    ]
 
 
 /*

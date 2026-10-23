@@ -15,6 +15,7 @@ projreind-dis0aux-item-incinerator: 4.0
 
 /* <------------------------------ bliq0aux ------------------------------> */
 
+projreind-bliq0aux-sinkhole: 80.0
 projreind-bliq0aux-tail-gas-burner: 4.0
 
 /* <------------------------------ pow0heat ------------------------------> */

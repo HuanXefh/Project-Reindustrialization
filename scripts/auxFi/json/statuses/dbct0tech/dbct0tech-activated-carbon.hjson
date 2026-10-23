@@ -1,0 +1,16 @@
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-dbct0tech-molecular-sieve
+        objectives: []
+        requirements: [
+            loveclab-item0chem-coal/1500
+            fcell-cell-loveclab-gas0chem-nitrogen/500
+            loveclab-item0misc-chemistry-tech-point-t2/30
+        ]
+    }

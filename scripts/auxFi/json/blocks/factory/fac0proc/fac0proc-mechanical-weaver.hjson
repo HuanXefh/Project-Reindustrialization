@@ -1,0 +1,158 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+    # type: GenericCrafter
+    category: crafting
+    requirements: [
+        loveclab-item0chem-graphite/50
+        loveclab-item0chem-brass/100
+        loveclab-item0chem-tin-bronze/120
+        loveclab-item0chem-steel/60
+    ]
+    buildCostMultiplier: 0.85
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-fac0proc-plant-decorticator
+        objectives: []
+    }
+    researchCostMultiplier: 0.08
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    scaledHealth: 60.0
+    armor: 12.0
+    size: 3
+    hasItems: true
+    itemCapacity: 80
+    hasLiquids: true
+    liquidCapacity: 10.0
+    hasPower: false
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+    envRequired: terrestrial
+    envDisabled: [
+        scorching
+        underwater
+    ]
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+    squareSprite: false
+    drawer: {
+        type: DrawMulti
+        drawers: [
+
+
+            {
+                type: DrawRegion
+                suffix: "-bottom"
+            }
+
+
+            {
+                type: LCDrawRotator
+                suffix: "-rotator"
+                offX: 2.5
+                offY: 2.5
+                speed: -3.0
+            }
+
+
+            {
+                type: LCDrawRotator
+                suffix: "-rotator"
+                offX: -2.5
+                offY: -2.5
+                angle: 8.5
+                speed: 3.0
+            }
+
+
+            {
+                type: DrawPistons
+                suffix: "-piston-a"
+                sides: 1
+                sinMag: 3.5
+                sinScl: 4.0
+                sinOffset: 0.0
+                sideOffset: 0.0
+                lenOffset: -1.0
+                horiOffset: 0.0
+                angleOffset: 0.0
+            }
+
+
+            {
+                type: DrawPistons
+                suffix: "-piston-b"
+                sides: 1
+                sinMag: -3.0
+                sinScl: 4.0
+                sinOffset: 0.0
+                sideOffset: 0.0
+                lenOffset: -1.0
+                horiOffset: 0.0
+                angleOffset: 0.0
+            }
+
+
+            {
+                type: DrawDefault
+            }
+
+
+        ]
+    }
+    ambientSound: se-amb-hum
+    ambientSoundVolume: 0.3
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+    ignoreLiquidFullness: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+    craftTime: 600.0

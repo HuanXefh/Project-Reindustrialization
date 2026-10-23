@@ -1,0 +1,85 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+    # type: PayloadConveyor
+    category: units
+    requirements: [
+        loveclab-item0chem-graphite/5
+        loveclab-item0chem-brass/5
+        loveclab-item0chem-stainless-steel/3
+        loveclab-item0int0conc-magnetite/8
+    ]
+    buildCostMultiplier: 3.5
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-pay0conv-payload-express-way
+        objectives: []
+    }
+    researchCostMultiplier: 4.5
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    scaledHealth: 50.0
+    armor: 6.0
+    size: 1
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: false
+    liquidCapacity: 5.0
+    hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+    envDisabled: [
+        space
+        scorching
+    ]
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+    moveTime: 2.0
+    moveForce: 240.0
+    interp: linear
+    payloadLimit: 1.5
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+    consumes: {
+        power: 0.075
+    }

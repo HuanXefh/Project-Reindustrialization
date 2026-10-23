@@ -348,6 +348,15 @@
     );
 
 
+    const fac0proc_mechanicalWeaver = extendBlock(
+        BLK_B_recipeFactory, "fac0proc-mechanical-weaver",
+        BLK_B_recipeFactory[0].build({
+            rcMdl: "fac0proc-mechanical-weaver",
+            rcSourceMod: "projreind",
+        }),
+    );
+
+
     const fac0proc_sawmill = extendBlock(
         BLK_B_baseFactory, "fac0proc-sawmill",
         BLK_B_baseFactory[0].build({
@@ -423,6 +432,18 @@
             rcMdl: "fac0proc-primitive-forge",
             rcSourceMod: "projreind",
             payAmtCap: 4,
+        }),
+    );
+
+
+    /* <------------------------------ fac0reac ------------------------------> */
+
+
+    const fac0reac_primitiveElectrolyzer = extendBlock(
+        BLK_B_fluidRecipeFactory, "fac0reac-primitive-electrolyzer",
+        BLK_B_fluidRecipeFactory[0].build({
+            rcMdl: "fac0reac-primitive-electrolyzer",
+            rcSourceMod: "projreind",
         }),
     );
 

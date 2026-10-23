@@ -1,0 +1,139 @@
+/*
+  ========================================
+  Section: Meta
+  ========================================
+*/
+
+
+    # type: GenericCrafter
+    category: liquid
+    requirements: [
+        loveclab-item0chem-lead/240
+        loveclab-item0chem-graphite/120
+        loveclab-item0chem-tin-bronze/200
+        loveclab-item0chem-steel/60
+        loveclab-item0buil-coarse-aggregate/120
+        loveclab-item0buil-fine-aggregate/120
+        loveclab-item0buil-cement/90
+    ]
+    buildCostMultiplier: 0.5
+
+
+/*
+  ========================================
+  Section: Tech Tree
+  ========================================
+*/
+
+
+    research: {
+        parent: projreind-bliq0aux-tail-gas-burner
+        objectives: []
+    }
+    researchCostMultiplier: 0.1
+
+
+/*
+  ========================================
+  Section: Properties
+  ========================================
+*/
+
+
+    scaledHealth: 70.0
+    armor: 32.0
+    size: 4
+    hasItems: false
+    itemCapacity: 20
+    hasLiquids: true
+    liquidCapacity: 600.0
+    hasPower: true
+
+
+/*
+  ========================================
+  Section: Env
+  ========================================
+*/
+
+
+    envRequired: terrestrial
+    envDisabled: [
+        space
+        underwater
+        scorching
+    ]
+
+
+/*
+  ========================================
+  Section: Visual
+  ========================================
+*/
+
+
+    squareSprite: false
+    drawer: {
+        type: DrawMulti
+        drawers: [
+
+
+            {
+                type: DrawRegion
+                suffix: "-bottom"
+            }
+
+
+            {
+                type: LCDrawMixedLiquid
+            }
+
+
+            {
+                type: LCDrawRipple
+                radius: 6.0
+                size: 3.5
+            }
+
+
+            {
+                type: DrawDefault
+            }
+
+
+            {
+                type: DrawRegion
+                suffix: "-pipe"
+            }
+
+
+        ]
+    }
+    ambientSound: none
+    ambientSoundVolume: 0.5
+
+
+/*
+  ========================================
+  Section: Specific
+  ========================================
+*/
+
+
+    ignoreLiquidFullness: false
+
+
+/*
+  ========================================
+  Section: I/O
+  ========================================
+*/
+
+
+    craftTime: 300.0
+    consumes: {
+        power: 1.5
+        liquids: [
+            loveclab-aux0aux-pressure/0.08333333
+        ]
+    }

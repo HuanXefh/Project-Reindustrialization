@@ -18,6 +18,19 @@
     /* <------------------------------ pay0conv ------------------------------> */
 
 
+    const pay0conv_payloadRail = extendBlock(
+        BLK_B_payloadConveyor, "pay0conv-payload-rail",
+    );
+
+
     const pay0conv_payloadExpressWay = extendBlock(
         BLK_B_payloadConveyor, "pay0conv-payload-express-way",
+    );
+
+
+    const pay0conv_payloadRouter = extendBlock(
+        BLK_B_payloadConveyor, "pay0conv-payload-router",
+        BLK_B_payloadConveyor[0].build({
+            isRouter: true,
+        }),
     );

@@ -94,7 +94,7 @@
     const min0drl_topazClassSandMiner = extendBlock(
         BLK_B_terrainDynamicDrill, "min0drl-topaz-class-sand-miner",
         BLK_B_terrainDynamicDrill[0].build({
-            terItemMapMap: ObjectMap.of(
+            terOutputData: ObjectMap.of(
                 "loveclab-item0ore-sand", ObjectMap.of(
                     "bank", "loveclab-item0ore-sand-river",
                     "beach", "loveclab-item0ore-sand-sea",

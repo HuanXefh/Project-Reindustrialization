@@ -13,11 +13,12 @@ const rc = {
 };
 
 
-runRecipeGeneration(rc, "lovec", "caster", {
+runRecipeGeneration(rc, "lovec", "shaper", {
     amt: 10,
     payAmt: 1,
     sizeCap: 2,
-    maxTemp: 1800.0,
+    maxTemp: 2000.0,
+    mode: "casting",
 });
 
 

@@ -38,7 +38,7 @@ const rc = {
         "MISC: rubber (no talc)",
         {
             icon: "loveclab-item0chem-rubber",
-            tint: Pal.remove,
+            tint: GLB_color.remove,
             category: "misc",
             lockedBy: [
                 "projreind-dbct0tech-latex-processing",
@@ -136,17 +136,19 @@ const rc = {
 };
 
 
-runRecipeGeneration(rc, "lovec", "carbonizationFurnace", {
+runRecipeGeneration(rc, "lovec", "roastingFurnace", {
     objF: obj => obj.failP = obj.icon === "loveclab-item0bio-log" ? 0.1 : 0.05,
     amt: 10,
     time: 20.0 * 60.0,
-    maxTemp: 1600.0,
+    maxTemp: 1650.0,
+    mode: "carbonization",
 });
-runRecipeGeneration(rc, "lovec", "brickKiln", {
+runRecipeGeneration(rc, "lovec", "roastingFurnace", {
     objF: obj => obj.failP = 0.25,
     amtI: 10,
     amtO: 5,
-    maxTemp: 1600.0,
+    maxTemp: 1650.0,
+    mode: "brick",
 });
 
 

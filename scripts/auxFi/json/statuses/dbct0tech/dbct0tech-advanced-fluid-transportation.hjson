@@ -6,7 +6,7 @@
 
 
     research: {
-        parent: projreind-bliq0aux-primitive-pressure-valve
+        parent: projreind-bliq0aux-relief-valve
         objectives: []
         requirements: [
             loveclab-item0buil-glass/1000

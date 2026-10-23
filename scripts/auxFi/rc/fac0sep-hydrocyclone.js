@@ -31,7 +31,7 @@ const rc = {
 runRecipeGeneration(rc, "lovec", "purifier", {
     amt: 24,
     pI: 0.5,
-    tier: 1,
+    mode: "i",
 });
 
 

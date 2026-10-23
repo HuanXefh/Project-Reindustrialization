@@ -52,7 +52,10 @@
 */
 
 
-    envDisabled: 18
+    envDisabled: [
+        space
+        scorching
+    ]
     fogRadius: 1
 
 

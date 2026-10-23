@@ -27,9 +27,10 @@ const rc = {
 };
 
 
-runRecipeGeneration(rc, "lovec", "crusherDecortication", {
+runRecipeGeneration(rc, "lovec", "assembler", {
     amt: 3,
     pO: 0.5,
+    mode: "decortication",
 });
 
 

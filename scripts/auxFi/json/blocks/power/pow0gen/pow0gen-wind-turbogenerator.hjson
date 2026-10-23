@@ -55,7 +55,11 @@
 */
 
 
-    envDisabled: 22
+    envDisabled: [
+        space
+        underwater
+        scorching
+    ]
     fogRadius: 3
 
 

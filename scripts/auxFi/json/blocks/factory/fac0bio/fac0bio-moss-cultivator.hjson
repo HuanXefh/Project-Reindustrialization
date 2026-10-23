@@ -54,8 +54,8 @@
 */
 
 
-    envRequired: 1
-    envDisabled: 16
+    envRequired: terrestrial
+    envDisabled: scorching
 
 
 /*
