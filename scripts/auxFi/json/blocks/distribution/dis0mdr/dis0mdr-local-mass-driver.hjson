@@ -73,7 +73,7 @@
     squareSprite: false
     knockback: 1.5
     translation: 2.0
-    shake: 1.5
+    shake: 0.5
     shootSound: se-shot-mass-driver1
 
 

@@ -28,6 +28,7 @@
             bulParamObj: {
                 trailLen: 4,
                 trailW: 2.0,
+                offH: 4.0,
                 offSha: -8.0,
             },
             shootEff: GLB_eff.smogMassDriver,
@@ -46,6 +47,7 @@
             bulParamObj: {
                 trailLen: 10,
                 trailW: 3.5,
+                offH: 12.0,
                 offSha: -14.0,
             },
             shootEff: GLB_eff.smogMassDriverLarge,

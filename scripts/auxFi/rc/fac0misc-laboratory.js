@@ -84,8 +84,6 @@ const rc = {
 
             bi: [
                 "loveclab-item0misc-generic-tech-point-t1", 1, 1.0,
-                "loveclab-item0chem-lead", 30, 1.0,
-                "loveclab-item0chem-graphite", 30, 1.0,
             ],
 
             bo: [
