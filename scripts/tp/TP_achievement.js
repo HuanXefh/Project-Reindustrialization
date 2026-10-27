@@ -108,7 +108,7 @@
             new TextureRegionDrawable(Core.atlas.find("loveclab-item0bio-log")),
             BOX_trigger.lootDrown,
             function(loot) {
-                if(LCCheck.checkPosVisible(loot.x, loot.y, 8.0) && loot.item().name === "loveclab-item0bio-log") this.complete();
+                if(SLCCheck.checkPosVisible(loot.x, loot.y, 8.0) && loot.item().name === "loveclab-item0bio-log") this.complete();
             },
         );
 
@@ -118,7 +118,7 @@
             new TextureRegionDrawable(Core.atlas.find("deep-water")),
             BOX_trigger.lootDrown,
             function(loot) {
-                if(LCCheck.checkPosVisible(loot.x, loot.y, 8.0) && loot.stack.amount >= 1000) this.complete();
+                if(SLCCheck.checkPosVisible(loot.x, loot.y, 8.0) && loot.stack.amount >= 1000) this.complete();
             },
         );
 
