@@ -179,7 +179,7 @@ const rc = {
                 "loveclab-item0chem-brass",
                 "loveclab-item0chem-tin-bronze",
             ],
-            tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-hematite"),
+            tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-hematite"),
 
             bi: [
                 "loveclab-item0ore-hematite", 20, 0.5,
@@ -200,7 +200,7 @@ const rc = {
                 "loveclab-item0chem-brass",
                 "loveclab-item0chem-tin-bronze",
             ],
-            tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-limonite"),
+            tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-limonite"),
 
             bi: [
                 "loveclab-item0ore-limonite", 40, 0.5,
@@ -221,7 +221,7 @@ const rc = {
                 "loveclab-item0chem-brass",
                 "loveclab-item0chem-tin-bronze",
             ],
-            tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-magnetite"),
+            tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-magnetite"),
 
             bi: [
                 "loveclab-item0ore-magnetite", 20, 0.5,
@@ -242,7 +242,7 @@ const rc = {
                 "loveclab-item0chem-brass",
                 "loveclab-item0chem-tin-bronze",
             ],
-            tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-pyrite"),
+            tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-pyrite"),
 
             bi: [
                 "loveclab-item0ore-pyrite", 30, 0.5,
@@ -263,7 +263,7 @@ const rc = {
                 "loveclab-item0chem-brass",
                 "loveclab-item0chem-tin-bronze",
             ],
-            tempReq: LCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-pyrrhotite"),
+            tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-pyrrhotite"),
 
             bi: [
                 "loveclab-item0ore-pyrrhotite", 30, 0.5,
