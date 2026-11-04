@@ -7,6 +7,7 @@
 
     const BLK_B_wireRelay = require("lovec/temp/blk/BLK_wireRelay");
     const BLK_B_wireNode = require("lovec/temp/blk/BLK_wireNode");
+    const BLK_B_rangeWireRelay = require("lovec/temp/blk/BLK_rangeWireRelay");
     const BLK_B_cable = require("lovec/temp/blk/BLK_cable");
     const BLK_B_armoredCable = require("lovec/temp/blk/BLK_armoredCable");
     const BLK_B_auxiliaryCable = require("lovec/temp/blk/BLK_auxiliaryCable");
@@ -86,6 +87,15 @@
             wireTouchDmg: 30.0,
             linkMode: "remote-node",
             minRadFrac: 0.65,
+            maxPowProdAllowed: 5000.0 / 60.0,
+        }),
+    );
+
+
+    const pow0trans_copperWirePylon = extendBlock(
+        BLK_B_rangeWireRelay, "pow0trans-copper-wire-pylon",
+        BLK_B_rangeWireRelay[0].build({
+            blkR: 3,
             maxPowProdAllowed: 5000.0 / 60.0,
         }),
     );

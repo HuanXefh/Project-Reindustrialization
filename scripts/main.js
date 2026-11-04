@@ -6,8 +6,8 @@
 
 
     if(!checkVersion("projreind", [
-        "lovec", "101.5.26102901",
-        "loveclab", "101.5.26102901",
+        "lovec", "101.5.26110401",
+        "loveclab", "101.5.26110401",
         "fcell", "105",
     ])) {
         let mod1 = fetchMod("lovec");
@@ -168,6 +168,7 @@
         if(!Vars.headless && fetchSetting("misc-enable-window")) {
             const data = {};
             data["v102: Hot Furnace"] = [
+                "projreind-pow0trans-copper-wire-pylon",
                 "projreind-pay0conv-payload-router",
                 "projreind-bliq0aux-sinkhole",
                 "projreind-min0crop-aerth-sisal",
