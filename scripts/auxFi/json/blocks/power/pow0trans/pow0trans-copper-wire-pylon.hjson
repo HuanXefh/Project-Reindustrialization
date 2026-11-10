@@ -81,5 +81,5 @@
 
 
     consumes: {
-        power: 1.5
+        power: 1.66666667
     }

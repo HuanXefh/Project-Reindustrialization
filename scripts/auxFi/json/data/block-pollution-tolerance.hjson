@@ -2,6 +2,7 @@
 
 projreind-min0harv-lumberjack: 1000.0
 projreind-min0harv-forest-harvester: 1000.0
+projreind-min0harv-chomper-mk2: 1000.0
 projreind-min0harv-mycelial-harvester: 1500.0
 projreind-min0harv-tree-tap: 600.0
 projreind-min0harv-algae-harvester: 600.0
@@ -9,6 +10,10 @@ projreind-min0harv-algae-harvester: 600.0
 /* <------------------------------ min0crop ------------------------------> */
 
 projreind-min0crop-aerth-sisal: 750.0
+
+/* <------------------------------ fac0air ------------------------------> */
+
+projreind-fac0air-air-collector: 1000.0
 
 /* <------------------------------ fac0bio ------------------------------> */
 

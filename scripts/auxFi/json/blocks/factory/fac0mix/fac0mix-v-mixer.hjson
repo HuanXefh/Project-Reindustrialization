@@ -22,7 +22,7 @@
 
 
     research: {
-        parent: projreind-fac0proc-core-crafter
+        parent: projreind-fac0sep-cyclone-separator
         objectives: []
     }
     researchCostMultiplier: 0.25

@@ -28,8 +28,8 @@
             bulParamObj: {
                 trailLen: 4,
                 trailW: 2.0,
-                offH: 4.0,
-                offSha: -8.0,
+                offH: 2.5,
+                offSha: -6.0,
             },
             shootEff: GLB_eff.smogMassDriver,
             smokeEff: Fx.shootSmallSmoke,

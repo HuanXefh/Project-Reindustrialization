@@ -25,6 +25,7 @@
     const min0harv_lumberjack = extendBlock(
         BLK_B_wallHarvester, "min0harv-lumberjack",
         BLK_B_wallHarvester[0].build({
+            polExcessScl: 0.25,
             updateEff: Fx.mineWallSmall,
             updateEffP: 0.02,
         }),
@@ -36,6 +37,7 @@
         BLK_B_dynamicWallHarvester[0].build({
             attrRsArr: DB_item.db["map"]["attr"]["tree"],
             liqProdRate: 0.05,
+            polExcessScl: 0.25,
         }),
     );
 
@@ -45,6 +47,7 @@
         BLK_B_rangeHarvester[0].build({
             attrR: 7,
             attrMode: AttrModes.BLOCK,
+            polExcessScl: 0.25,
             updateEff: GLB_eff.particleHarvester,
             updateEffP: 0.02,
         }),
@@ -60,6 +63,7 @@
             attribute: TP_attr.attr0blk_hardTree,
             holeUpdateEff: Fx.mineWallSmall,
             holeUpdateEffP: 0.1,
+            polExcessScl: 0.25,
         }),
     );
 
@@ -69,6 +73,7 @@
         BLK_B_rangeHarvester[0].build({
             attrR: 5,
             attrMode: AttrModes.BLOCK,
+            polExcessScl: 0.5,
             updateEff: GLB_eff.particleHarvester,
             updateEffP: 0.02,
         }),
@@ -80,6 +85,7 @@
         BLK_B_rangeHarvester[0].build({
             attrR: 6,
             attrMode: AttrModes.BLOCK,
+            polExcessScl: 0.25,
             isWaterborne: true,
             updateEff: GLB_eff.particleHarvester,
             updateEffP: 0.02,

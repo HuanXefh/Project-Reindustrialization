@@ -32,6 +32,7 @@
         BLK_B_baseFactory[0].build({
             ters: ["sand", "salt"],
             terMode: "disable",
+            polExcessScl: 0.5,
         }),
     );
 
