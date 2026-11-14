@@ -16,15 +16,19 @@ const rc = {
             category: "aux",
 
             ci: [
-                "loveclab-gas0misc-air", 0.2,
+                "loveclab-gas0misc-air",
+                0.2,
             ],
             aux: [
-                "loveclab-aux0aux-melt-cooling", 0.0,
+                "loveclab-aux0aux-melt-cooling",
+                0.0,
             ],
 
             co: [
-                "loveclab-aux0aux-melt-cooling", 0.01666667,
-                "loveclab-gas0misc-air", 0.0,
+                "loveclab-aux0aux-melt-cooling",
+                0.01666667,
+                "loveclab-gas0misc-air",
+                0.0,
             ],
         },
 
@@ -35,16 +39,21 @@ const rc = {
             category: "aux",
 
             ci: [
-                "loveclab-liq0ore-water", 0.1,
+                "loveclab-liq0ore-water",
+                0.1,
             ],
             aux: [
-                "loveclab-aux0aux-melt-cooling", 0.0,
+                "loveclab-aux0aux-melt-cooling",
+                0.0,
             ],
 
             co: [
-                "loveclab-aux0aux-melt-cooling", 0.01666667,
-                "loveclab-gas0misc-steam", 0.1,
-                "loveclab-liq0ore-water", 0.0,
+                "loveclab-aux0aux-melt-cooling",
+                0.01666667,
+                "loveclab-gas0misc-steam",
+                0.1,
+                "loveclab-liq0ore-water",
+                0.0,
             ],
         },
 

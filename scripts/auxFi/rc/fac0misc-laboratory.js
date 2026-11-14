@@ -5,17 +5,15 @@ const rc = {
 
 
     base: {
-
-
         baseCi: [
-            "loveclab-liq0ore-water", 0.25,
+            "loveclab-liq0ore-water",
+            0.25,
         ],
 
         baseCo: [
-            "loveclab-liq0ore-water", 0.0,
+            "loveclab-liq0ore-water",
+            0.0,
         ],
-
-
     },
 
 
@@ -36,7 +34,8 @@ const rc = {
             timeScl: 0.5,
 
             bo: [
-                "loveclab-item0misc-generic-tech-point-t1", 1, 1.0,
+                "loveclab-item0misc-generic-tech-point-t1",
+                1, 1.0,
             ],
         },
 
@@ -47,12 +46,15 @@ const rc = {
             category: "misc",
 
             bi: [
-                "loveclab-item0misc-generic-tech-point-t1", 1, 1.0,
-                "loveclab-item0chem-cast-iron", 30, 1.0,
+                "loveclab-item0misc-generic-tech-point-t1",
+                1, 1.0,
+                "loveclab-item0chem-cast-iron",
+                0, 1.0,
             ],
 
             bo: [
-                "loveclab-item0misc-engineering-tech-point-t1", 1, 1.0,
+                "loveclab-item0misc-engineering-tech-point-t1",
+                1, 1.0,
             ],
         },
 
@@ -63,12 +65,15 @@ const rc = {
             category: "misc",
 
             bi: [
-                "loveclab-item0misc-generic-tech-point-t1", 1, 1.0,
-                "loveclab-item0chem-tin-bronze", 30, 1.0,
+                "loveclab-item0misc-generic-tech-point-t1",
+                1, 1.0,
+                "loveclab-item0chem-tin-bronze",
+                30, 1.0,
             ],
 
             bo: [
-                "loveclab-item0misc-chemistry-tech-point-t1", 1, 1.0,
+                "loveclab-item0misc-chemistry-tech-point-t1",
+                1, 1.0,
             ],
         },
 
@@ -83,11 +88,13 @@ const rc = {
             timeScl: 0.5,
 
             bi: [
-                "loveclab-item0misc-generic-tech-point-t1", 1, 1.0,
+                "loveclab-item0misc-generic-tech-point-t1",
+                1, 1.0,
             ],
 
             bo: [
-                "loveclab-item0misc-generic-tech-point-t2", 1, 1.0,
+                "loveclab-item0misc-generic-tech-point-t2",
+                1, 1.0,
             ],
         },
 
@@ -98,15 +105,19 @@ const rc = {
             category: "misc",
 
             bi: [
-                "loveclab-item0misc-generic-tech-point-t2", 1, 1.0,
-                "loveclab-item0chem-rubber", 30, 1.0,
+                "loveclab-item0misc-generic-tech-point-t2",
+                1, 1.0,
+                "loveclab-item0chem-rubber",
+                30, 1.0,
             ],
             payi: [
-                "projreind-pow0tor-brass-cogwheel", 4,
+                "projreind-pow0tor-brass-cogwheel",
+                4,
             ],
 
             bo: [
-                "loveclab-item0misc-engineering-tech-point-t2", 1, 1.0,
+                "loveclab-item0misc-engineering-tech-point-t2",
+                1, 1.0,
             ],
         },
 
@@ -118,13 +129,17 @@ const rc = {
             tooltip: "projreind-lab-chemistry-tech-point-t2",
 
             bi: [
-                "loveclab-item0misc-generic-tech-point-t2", 1, 1.0,
-                "loveclab-item0chem-stainless-steel", 10, 1.0,
-                "loveclab-item0chem-talcum-powder", 60, 1.0,
+                "loveclab-item0misc-generic-tech-point-t2",
+                1, 1.0,
+                "loveclab-item0chem-stainless-steel",
+                10, 1.0,
+                "loveclab-item0chem-talcum-powder",
+                60, 1.0,
             ],
 
             bo: [
-                "loveclab-item0misc-chemistry-tech-point-t2", 1, 1.0,
+                "loveclab-item0misc-chemistry-tech-point-t2",
+                1, 1.0,
             ],
         },
 
@@ -135,12 +150,15 @@ const rc = {
             category: "misc",
 
             bi: [
-                "loveclab-item0misc-generic-tech-point-t2", 1, 1.0,
-                "loveclab-item0bio-biomass-powder", 60, 1.0,
+                "loveclab-item0misc-generic-tech-point-t2",
+                1, 1.0,
+                "loveclab-item0bio-biomass-powder",
+                60, 1.0,
             ],
 
             bo: [
-                "loveclab-item0misc-agriculture-tech-point-t2", 1, 1.0,
+                "loveclab-item0misc-agriculture-tech-point-t2",
+                1, 1.0,
             ],
         },
 

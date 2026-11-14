@@ -5,16 +5,15 @@ const rc = {
 
 
     base: {
-
-
         baseCi: [
-            "loveclab-liq0ore-water", 0.1,
+            "loveclab-liq0ore-water",
+            0.1,
         ],
+
         baseCo: [
-            "loveclab-liq0was-waste-water", 0.1,
+            "loveclab-liq0was-waste-water",
+            0.1,
         ],
-
-
     },
 
 
@@ -31,14 +30,17 @@ const rc = {
             tempReq: 900.0,
 
             bi: [
-                "loveclab-item0chem-coal", 10, 1.0,
+                "loveclab-item0chem-coal",
+                10, 1.0,
             ],
 
-            co: [
-                "loveclab-gas0was-coke-oven-gas", 0.05,
-            ],
             bo: [
-                "loveclab-item0chem-coke", 10, 0.75,
+                "loveclab-item0chem-coke",
+                10, 0.75,
+            ],
+            co: [
+                "loveclab-gas0was-coke-oven-gas",
+                0.05,
             ],
         },
 
@@ -50,14 +52,17 @@ const rc = {
             tempReq: 900.0,
 
             bi: [
-                "loveclab-item0chem-anthracite", 10, 1.0,
+                "loveclab-item0chem-anthracite",
+                10, 1.0,
             ],
 
-            co: [
-                "loveclab-gas0was-coke-oven-gas", 0.05,
-            ],
             bo: [
-                "loveclab-item0chem-coke", 10, 1.0,
+                "loveclab-item0chem-coke",
+                10, 1.0,
+            ],
+            co: [
+                "loveclab-gas0was-coke-oven-gas",
+                0.05,
             ],
         },
 
@@ -72,14 +77,17 @@ const rc = {
             tempReq: 900.0,
 
             bi: [
-                "loveclab-item0chem-peat", 10, 1.0,
+                "loveclab-item0chem-peat",
+                10, 1.0,
             ],
 
-            co: [
-                "loveclab-gas0was-coke-oven-gas", 0.05,
-            ],
             bo: [
-                "loveclab-item0chem-semicoke", 10, 0.5,
+                "loveclab-item0chem-semicoke",
+                10, 0.5,
+            ],
+            co: [
+                "loveclab-gas0was-coke-oven-gas",
+                0.05,
             ],
         },
 
@@ -94,14 +102,17 @@ const rc = {
             tempReq: 900.0,
 
             bi: [
-                "loveclab-item0chem-lignite", 10, 1.0,
+                "loveclab-item0chem-lignite",
+                10, 1.0,
             ],
 
-            co: [
-                "loveclab-gas0was-coke-oven-gas", 0.05,
-            ],
             bo: [
-                "loveclab-item0chem-semicoke", 10, 0.75,
+                "loveclab-item0chem-semicoke",
+                10, 0.75,
+            ],
+            co: [
+                "loveclab-gas0was-coke-oven-gas",
+                0.05,
             ],
         },
 

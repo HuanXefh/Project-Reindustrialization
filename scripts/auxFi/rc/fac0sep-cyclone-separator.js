@@ -19,11 +19,13 @@ const rc = {
             category: "aux",
 
             ci: [
-                "loveclab-aux0aux-dust-recycling", 0.0,
+                "loveclab-aux0aux-dust-recycling",
+                0.0,
             ],
 
             co: [
-                "loveclab-aux0aux-dust-recycling", 0.01666667,
+                "loveclab-aux0aux-dust-recycling",
+                0.01666667,
             ],
         },
 
@@ -38,11 +40,13 @@ const rc = {
             ignoreItemFullness: true,
 
             ci: [
-                "loveclab-gas0misc-air", 0.1,
+                "loveclab-gas0misc-air",
+                0.1,
             ],
 
             bo: [
-                "loveclab-item0ore-sand", 1, 0.125,
+                "loveclab-item0ore-sand",
+                1, 0.125,
             ],
         },
 

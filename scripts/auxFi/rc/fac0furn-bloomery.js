@@ -28,11 +28,13 @@ const rc = {
             tempReq: 1600.0,
 
             bi: [
-                "GROUP: pig iron", 30, 1.0,
+                "GROUP: pig iron",
+                30, 1.0,
             ],
 
             bo: [
-                "loveclab-item0chem-cast-iron", 30, 0.66666667,
+                "loveclab-item0chem-cast-iron",
+                30, 0.66666667,
             ],
         },
 
@@ -46,15 +48,18 @@ const rc = {
             ],
             tempReq: 1200.0,
 
-            ci: [
-                "loveclab-gas0misc-air", 0.2,
-            ],
             bi: [
-                "GROUP: pig iron", 10, 1.0,
+                "GROUP: pig iron",
+                10, 1.0,
+            ],
+            ci: [
+                "loveclab-gas0misc-air",
+                0.2,
             ],
 
             bo: [
-                "loveclab-item0chem-wrought-iron", 10, 1.0,
+                "loveclab-item0chem-wrought-iron",
+                10, 1.0,
             ],
         },
 
@@ -71,18 +76,24 @@ const rc = {
             tempReq: 1600.0,
 
             bi: [
-                "loveclab-item0chem-wrought-iron", 30, 1.0,
-                "GROUP: carbon", 15, 1.0,
+                "loveclab-item0chem-wrought-iron",
+                30, 1.0,
+                "GROUP: carbon",
+                15, 1.0,
             ],
             reqOpt: true,
             opt: [
-                "loveclab-item0ore-limestone", 60, 0.5, 1.0,
-                "loveclab-item0chem-lime", 30, 0.5, 1.5,
+                "loveclab-item0ore-limestone",
+                60, 0.5, 1.0,
+                "loveclab-item0chem-lime",
+                30, 0.5, 1.5,
             ],
 
             bo: [
-                "loveclab-item0chem-steel", 30, 0.5,
-                "loveclab-item0was-slag", 30, 0.5,
+                "loveclab-item0chem-steel",
+                30, 0.5,
+                "loveclab-item0was-slag",
+                30, 0.5,
             ],
         },
 
@@ -98,17 +109,22 @@ const rc = {
             tempReq: 1400.0,
 
             bi: [
-                "loveclab-item0was-scrap-steel", 45, 1.0,
+                "loveclab-item0was-scrap-steel",
+                45, 1.0,
             ],
             reqOpt: true,
             opt: [
-                "loveclab-item0ore-limestone", 90, 0.5, 1.0,
-                "loveclab-item0chem-lime", 45, 0.5, 1.5,
+                "loveclab-item0ore-limestone",
+                90, 0.5, 1.0,
+                "loveclab-item0chem-lime",
+                45, 0.5, 1.5,
             ],
 
             bo: [
-                "loveclab-item0chem-steel", 30, 0.5,
-                "loveclab-item0was-slag", 30, 0.75,
+                "loveclab-item0chem-steel",
+                30, 0.5,
+                "loveclab-item0was-slag",
+                30, 0.75,
             ],
         },
 
@@ -127,17 +143,24 @@ const rc = {
             tempReq: 1600.0,
 
             bi: [
-                "GROUP: manganiferous", 30.0, 1.0,
-                "GROUP: ferrous", 30.0, 1.0,
+                "GROUP: manganiferous",
+                30.0, 1.0,
+                "GROUP: ferrous",
+                30.0, 1.0,
                 [
-                    "loveclab-item0chem-graphite", 15, 0.5,
-                    "GROUP: carbon", 15, 1.0,
-                ], -1.0, -1.0,
+                    "loveclab-item0chem-graphite",
+                    15, 0.5,
+                    "GROUP: carbon",
+                    15, 1.0,
+                ],
+                -1.0, -1.0,
             ],
 
             bo: [
-                "loveclab-item0chem-ferromanganese", 30, 0.5,
-                "loveclab-item0was-slag", 45, 0.5,
+                "loveclab-item0chem-ferromanganese",
+                30, 0.5,
+                "loveclab-item0was-slag",
+                45, 0.5,
             ],
         },
 
@@ -153,17 +176,22 @@ const rc = {
             tempReq: 1600.0,
 
             bi: [
-                "loveclab-item0chem-ferromanganese", 15, 1.0,
+                "loveclab-item0chem-ferromanganese",
+                15, 1.0,
             ],
             reqOpt: true,
             opt: [
-                "loveclab-item0ore-limestone", 90, 0.5, 1.0,
-                "loveclab-item0chem-lime", 45, 0.5, 1.5,
+                "loveclab-item0ore-limestone",
+                90, 0.5, 1.0,
+                "loveclab-item0chem-lime",
+                45, 0.5, 1.5,
             ],
 
             bo: [
-                "loveclab-item0chem-mangalloy", 30, 0.5,
-                "loveclab-item0was-slag", 30, 0.75,
+                "loveclab-item0chem-mangalloy",
+                30, 0.5,
+                "loveclab-item0was-slag",
+                30, 0.75,
             ],
         },
 
@@ -182,12 +210,15 @@ const rc = {
             tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-hematite"),
 
             bi: [
-                "loveclab-item0ore-hematite", 20, 0.5,
+                "loveclab-item0ore-hematite",
+                20, 0.5,
             ],
 
             bo: [
-                "loveclab-item0chem-pig-iron", 20, 0.5,
-                "loveclab-item0was-slag", 10, 0.5,
+                "loveclab-item0chem-pig-iron",
+                20, 0.5,
+                "loveclab-item0was-slag",
+                10, 0.5,
             ],
         },
 
@@ -203,12 +234,15 @@ const rc = {
             tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-limonite"),
 
             bi: [
-                "loveclab-item0ore-limonite", 40, 0.5,
+                "loveclab-item0ore-limonite",
+                40, 0.5,
             ],
 
             bo: [
-                "loveclab-item0chem-pig-iron", 20, 0.5,
-                "loveclab-item0was-slag", 15, 0.5,
+                "loveclab-item0chem-pig-iron",
+                20, 0.5,
+                "loveclab-item0was-slag",
+                15, 0.5,
             ],
         },
 
@@ -224,12 +258,15 @@ const rc = {
             tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-magnetite"),
 
             bi: [
-                "loveclab-item0ore-magnetite", 20, 0.5,
+                "loveclab-item0ore-magnetite",
+                20, 0.5,
             ],
 
             bo: [
-                "loveclab-item0chem-pig-iron", 20, 0.5,
-                "loveclab-item0was-slag", 10, 0.5,
+                "loveclab-item0chem-pig-iron",
+                20, 0.5,
+                "loveclab-item0was-slag",
+                10, 0.5,
             ],
         },
 
@@ -245,12 +282,15 @@ const rc = {
             tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-pyrite"),
 
             bi: [
-                "loveclab-item0ore-pyrite", 30, 0.5,
+                "loveclab-item0ore-pyrite",
+                30, 0.5,
             ],
 
             bo: [
-                "loveclab-item0chem-pig-iron", 20, 0.5,
-                "loveclab-item0was-slag", 15, 0.5,
+                "loveclab-item0chem-pig-iron",
+                20, 0.5,
+                "loveclab-item0was-slag",
+                15, 0.5,
             ],
         },
 
@@ -266,12 +306,15 @@ const rc = {
             tempReq: SLCDBFileHandler.read("item-sintering-temperature", "loveclab-item0ore-pyrrhotite"),
 
             bi: [
-                "loveclab-item0ore-pyrrhotite", 30, 0.5,
+                "loveclab-item0ore-pyrrhotite",
+                30, 0.5,
             ],
 
             bo: [
-                "loveclab-item0chem-pig-iron", 20, 0.5,
-                "loveclab-item0was-slag", 15, 0.5,
+                "loveclab-item0chem-pig-iron",
+                20, 0.5,
+                "loveclab-item0was-slag",
+                15, 0.5,
             ],
         },
 

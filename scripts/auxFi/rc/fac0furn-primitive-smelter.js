@@ -28,11 +28,13 @@ const rc = {
             tempReq: 900.0,
 
             bi: [
-                "loveclab-item0ore-crude-graphite", 270, 1.0,
+                "loveclab-item0ore-crude-graphite",
+                270, 1.0,
             ],
 
             bo: [
-                "loveclab-item0chem-graphite", 270, 0.4,
+                "loveclab-item0chem-graphite",
+                270, 0.4,
             ],
         },
 
@@ -50,12 +52,15 @@ const rc = {
             tempReq: 750.0,
 
             bi: [
-                "loveclab-item0ore-chalcopyrite", 270, 1.0,
+                "loveclab-item0ore-chalcopyrite",
+                270, 1.0,
             ],
 
             bo: [
-                "loveclab-item0chem-copper", 270, 0.4,
-                "loveclab-item0was-slag", 135, 0.5,
+                "loveclab-item0chem-copper",
+                270, 0.4,
+                "loveclab-item0was-slag",
+                135, 0.5,
             ],
         },
 
@@ -67,11 +72,13 @@ const rc = {
             tempReq: 160.0,
 
             bi: [
-                "loveclab-item0ore-malachite", 270, 1.0,
+                "loveclab-item0ore-malachite",
+                270, 1.0,
             ],
 
             bo: [
-                "loveclab-item0chem-copper", 270, 0.6,
+                "loveclab-item0chem-copper",
+                270, 0.6,
             ],
         },
 
@@ -86,11 +93,13 @@ const rc = {
             tempReq: 950.0,
 
             bi: [
-                "loveclab-item0ore-native-copper", 270, 1.0,
+                "loveclab-item0ore-native-copper",
+                270, 1.0,
             ],
 
             bo: [
-                "loveclab-item0chem-copper", 270, 0.8,
+                "loveclab-item0chem-copper",
+                270, 0.8,
             ],
         },
 
@@ -108,11 +117,13 @@ const rc = {
             tempReq: 1050.0,
 
             bi: [
-                "loveclab-item0ore-galena", 270, 1.0,
+                "loveclab-item0ore-galena",
+                270, 1.0,
             ],
 
             bo: [
-                "loveclab-item0chem-lead", 270, 0.6,
+                "loveclab-item0chem-lead",
+                270, 0.6,
             ],
         },
 
@@ -130,11 +141,13 @@ const rc = {
             tempReq: 1550.0,
 
             bi: [
-                "loveclab-item0ore-cassiterite", 270, 1.0,
+                "loveclab-item0ore-cassiterite",
+                270, 1.0,
             ],
 
             bo: [
-                "loveclab-item0chem-tin", 270, 0.6,
+                "loveclab-item0chem-tin",
+                270, 0.6,
             ],
         },
 
@@ -152,11 +165,13 @@ const rc = {
             tempReq: 370.0,
 
             bi: [
-                "loveclab-item0ore-sphalerite", 270, 1.0,
+                "loveclab-item0ore-sphalerite",
+                270, 1.0,
             ],
 
             bo: [
-                "loveclab-item0chem-zinc", 270, 0.6,
+                "loveclab-item0chem-zinc",
+                270, 0.6,
             ],
         },
 

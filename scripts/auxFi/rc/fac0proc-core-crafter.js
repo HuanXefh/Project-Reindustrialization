@@ -22,14 +22,15 @@ const rc = {
             ],
 
             bi: [
-                "loveclab-item0bio-log", 10, 1.0,
+                "loveclab-item0bio-log",
+                10, 1.0,
             ],
 
             bo: [
-                "loveclab-item0bio-timber", 5, 1.0,
+                "loveclab-item0bio-timber",
+                5, 1.0,
             ],
             failP: 0.1,
-            fo: [],
         },
 
 

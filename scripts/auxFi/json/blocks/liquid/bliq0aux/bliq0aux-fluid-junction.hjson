@@ -8,11 +8,11 @@
     # type: LiquidJunction
     category: liquid
     requirements: [
-        loveclab-item0chem-lead/30
-        loveclab-item0chem-graphite/15
-        loveclab-item0chem-tin-bronze/15
+        loveclab-item0chem-lead/60
+        loveclab-item0chem-graphite/60
+        loveclab-item0chem-tin-bronze/45
     ]
-    buildCostMultiplier: 5.0
+    buildCostMultiplier: 3.0
 
 
 /*
@@ -26,7 +26,7 @@
         parent: projreind-bliq0brd-bronze-fluid-pipe-bridge
         objectives: []
     }
-    researchCostMultiplier: 0.25
+    researchCostMultiplier: 0.15
 
 
 /*

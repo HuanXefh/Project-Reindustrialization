@@ -24,14 +24,15 @@ const rc = {
             tempAllowed: 350.0,
 
             ci: [
-                "loveclab-liq0bio-latex", 0.1,
+                "loveclab-liq0bio-latex",
+                0.1,
             ],
 
             bo: [
-                "loveclab-item0int-raw-rubber", 10, 0.5,
+                "loveclab-item0int-raw-rubber",
+                10, 0.5,
             ],
             failP: 0.05,
-            fo: [],
         },
 
 
@@ -47,39 +48,44 @@ const rc = {
             tempAllowed: 350.0,
 
             bi: [
-                "loveclab-item0int-raw-rubber", 5, 1.0,
-                "GROUP: sulfurous", 10, 1.0,
+                "loveclab-item0int-raw-rubber",
+                5, 1.0,
+                "GROUP: sulfurous",
+                10, 1.0,
             ],
 
             bo: [
-                "loveclab-item0chem-rubber", 10, 0.5,
+                "loveclab-item0chem-rubber",
+                10, 0.5,
             ],
             failP: 0.33333333,
-            fo: [],
         },
 
 
         "MISC: rubber",
         {
-          icon: "loveclab-item0chem-rubber",
-          category: "misc",
-          lockedBy: [
-              "projreind-dbct0tech-latex-processing",
-          ],
-          tempReq: 160.0,
-          tempAllowed: 350.0,
+            icon: "loveclab-item0chem-rubber",
+            category: "misc",
+            lockedBy: [
+                "projreind-dbct0tech-latex-processing",
+            ],
+            tempReq: 160.0,
+            tempAllowed: 350.0,
 
-          bi: [
-              "loveclab-item0int-raw-rubber", 5, 1.0,
-              "GROUP: sulfurous", 10, 1.0,
-              "loveclab-item0chem-talcum-powder", 5, 0.5,
-          ],
+            bi: [
+                "loveclab-item0int-raw-rubber",
+                5, 1.0,
+                "GROUP: sulfurous",
+                10, 1.0,
+                "loveclab-item0chem-talcum-powder",
+                5, 0.5,
+            ],
 
-          bo: [
-              "loveclab-item0chem-rubber", 10, 0.5,
-          ],
-          failP: 0.05,
-          fo: [],
+            bo: [
+                "loveclab-item0chem-rubber",
+                10, 0.5,
+            ],
+            failP: 0.05,
         },
 
 
@@ -93,14 +99,19 @@ const rc = {
             tempReq: 1500.0,
 
             bi: [
-                "GROUP: silica", 20, 1.0,
-                "GROUP: sodium carbonate", 20, 0.5,
-                "loveclab-item0int0chunks-limestone", 20, 1.0,
-                "loveclab-item0chem-tin", 10, 0.5,
+                "GROUP: silica",
+                20, 1.0,
+                "GROUP: sodium carbonate",
+                20, 0.5,
+                "loveclab-item0int0chunks-limestone",
+                20, 1.0,
+                "loveclab-item0chem-tin",
+                10, 0.5,
             ],
 
             bo: [
-                "loveclab-item0buil-glass", 20, 0.5,
+                "loveclab-item0buil-glass",
+                20, 0.5,
             ],
             failP: 0.33333333,
         },
@@ -116,15 +127,18 @@ const rc = {
             tempReq: 650.0,
             tempAllowed: 800.0,
 
-            ci: [
-                "loveclab-gas0misc-air", 0.2,
-            ],
             bi: [
-                "loveclab-item0buil-glass", 10, 1.0,
+                "loveclab-item0buil-glass",
+                10, 1.0,
+            ],
+            ci: [
+                "loveclab-gas0misc-air",
+                0.2,
             ],
 
             bo: [
-                "loveclab-item0buil-tempered-glass", 10, 1.0,
+                "loveclab-item0buil-tempered-glass",
+                10, 1.0,
             ],
             failP: 0.33333333,
         },

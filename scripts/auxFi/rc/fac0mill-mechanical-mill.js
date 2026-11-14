@@ -5,13 +5,10 @@ const rc = {
 
 
     base: {
-
-
         baseAux: [
-            "loveclab-aux0aux-torque", 0.075,
+            "loveclab-aux0aux-torque",
+            0.075,
         ],
-
-
     },
 
 

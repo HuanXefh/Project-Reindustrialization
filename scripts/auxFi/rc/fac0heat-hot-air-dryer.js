@@ -5,13 +5,10 @@ const rc = {
 
 
     base: {
-
-
         baseCi: [
-            "loveclab-gas0misc-air", 0.1,
+            "loveclab-gas0misc-air",
+            0.1,
         ],
-
-
     },
 
 

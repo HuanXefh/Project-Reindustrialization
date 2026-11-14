@@ -5,14 +5,12 @@ const rc = {
 
 
     base: {
-
-
         baseAux: [
-            "loveclab-aux0aux-torque", 0.03333333,
-            "loveclab-aux0aux-rpm", 0.16666667,
+            "loveclab-aux0aux-torque",
+            0.03333333,
+            "loveclab-aux0aux-rpm",
+            0.16666667,
         ],
-
-
     },
 
 
@@ -28,7 +26,8 @@ const rc = {
             category: "aux",
 
             co: [
-                "loveclab-aux0aux-liquid-mixing", 0.01666667,
+                "loveclab-aux0aux-liquid-mixing",
+                0.01666667,
             ],
         },
 

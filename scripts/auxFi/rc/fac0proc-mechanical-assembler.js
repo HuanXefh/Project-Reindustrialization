@@ -5,14 +5,12 @@ const rc = {
 
 
     base: {
-
-
         baseAux: [
-            "loveclab-aux0aux-torque", 0.06666667,
-            "loveclab-aux0aux-rpm", 0.16666667,
+            "loveclab-aux0aux-torque",
+            0.06666667,
+            "loveclab-aux0aux-rpm",
+            0.16666667,
         ],
-
-
     },
 
 
@@ -28,11 +26,13 @@ const rc = {
             category: "misc",
 
             bi: [
-                "loveclab-item0bio-timber", 10, 1.0,
+                "loveclab-item0bio-timber",
+                10, 1.0,
             ],
 
             payo: [
-                "loveclab-pay0mat-wooden-block", 1,
+                "loveclab-pay0mat-wooden-block",
+                1,
             ],
         },
 
@@ -43,11 +43,13 @@ const rc = {
             category: "misc",
 
             bi: [
-                "loveclab-item0chem-rubber", 10, 1.0,
+                "loveclab-item0chem-rubber",
+                10, 1.0,
             ],
 
             payo: [
-                "loveclab-pay0mat-rubber-block", 1,
+                "loveclab-pay0mat-rubber-block",
+                1,
             ],
         },
 

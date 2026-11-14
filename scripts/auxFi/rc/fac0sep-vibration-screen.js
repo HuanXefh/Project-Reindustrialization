@@ -19,7 +19,8 @@ const rc = {
             category: "aux",
 
             co: [
-                "loveclab-aux0aux-vibration-screen", 0.03333333,
+                "loveclab-aux0aux-vibration-screen",
+                0.03333333,
             ],
         },
 
@@ -32,18 +33,22 @@ const rc = {
             icon: "loveclab-item0chem-asbestos-wool",
             category: "misc",
 
-            ci: [
-                "loveclab-gas0misc-air", 0.1,
-            ],
             bi: [
-                "loveclab-item0int0dust-asbestos", 5, 0.5,
+                "loveclab-item0int0dust-asbestos",
+                5, 0.5,
+            ],
+            ci: [
+                "loveclab-gas0misc-air",
+                0.1,
             ],
             aux: [
-                "loveclab-aux0aux-dust-recycling", 0.01666667,
+                "loveclab-aux0aux-dust-recycling",
+                0.01666667,
             ],
 
             bo: [
-                "loveclab-item0chem-asbestos-wool", 5, 0.5,
+                "loveclab-item0chem-asbestos-wool",
+                5, 0.5,
             ],
         },
 
