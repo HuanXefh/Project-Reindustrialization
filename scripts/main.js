@@ -6,8 +6,8 @@
 
 
     if(!checkVersion("projreind", [
-        "lovec", "101.5.26111001",
-        "loveclab", "101.5.26111001",
+        "lovec", "101.5.26112301",
+        "loveclab", "101.5.26112301",
         "fcell", "105",
     ])) {
         let mod1 = fetchMod("lovec");
